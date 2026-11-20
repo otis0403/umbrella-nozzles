@@ -1,0 +1,33 @@
+{
+  "name": "inner225_g12_q3p2",
+  "height_mm": 288.0,
+  "width_mm": 225,
+  "span_mm": 225,
+  "transition_length_mm": 220,
+  "profile_kind": "ramp",
+  "gap_mm": 12.0,
+  "external": false,
+  "fine": false,
+  "feed_elbow_R_mm": 90,
+  "inlet_area_m2": 0.00203508357664503,
+  "outlet_slot_area_m2": 0.0026994506192982975,
+  "reach_mm": 0,
+  "inlet_normal": [
+    -1,
+    0,
+    0
+  ],
+  "body_height_mm": 25,
+  "lip_length_mm": 263.0,
+  "cells": 186416,
+  "nodes": 195264,
+  "minimum_tetra_volume_m3": 1.4140582652562881e-12,
+  "volume_m3": 0.00129189143396306,
+  "zones": {
+    "inlet": 976,
+    "interior": 550632,
+    "outlet": 976,
+    "housing": 15280
+  },
+  "geometry_revision": "20261114_open_ambient_v1"
+}

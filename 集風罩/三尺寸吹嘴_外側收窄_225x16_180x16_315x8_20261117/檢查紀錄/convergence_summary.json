@@ -1,0 +1,86 @@
+{
+  "control_g16_q3": {
+    "residuals": {
+      "continuity": 0.015278,
+      "Ux": 1.8031e-05,
+      "Uy": 3.4252e-05,
+      "Uz": 4.728e-05,
+      "k": 0.00097904,
+      "omega": 0.0008808
+    },
+    "last_total_pressure_change_pct": 0.026476958447969438,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.0009326825910476315,
+    "source_log": "candidate_fluent.log"
+  },
+  "candidate_g10_q3": {
+    "residuals": {
+      "continuity": 0.011418,
+      "Ux": 1.6806e-05,
+      "Uy": 3.1762e-05,
+      "Uz": 4.1651e-05,
+      "k": 0.00085106,
+      "omega": 0.0007748
+    },
+    "last_total_pressure_change_pct": 0.07478743410716543,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.00012497947715971462,
+    "source_log": "candidate_fluent.log"
+  },
+  "candidate_g8_q3": {
+    "residuals": {
+      "continuity": 0.010668,
+      "Ux": 1.7684e-05,
+      "Uy": 3.2782e-05,
+      "Uz": 4.3481e-05,
+      "k": 0.00086494,
+      "omega": 0.00077077
+    },
+    "last_total_pressure_change_pct": 0.1415366712971885,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.0007804535636383699,
+    "source_log": "candidate_fluent.log"
+  },
+  "network_narrow_Ps460_hose60": {
+    "residuals": {
+      "continuity": 0.00038606,
+      "Ux": 3.7762e-07,
+      "Uy": 3.7745e-07,
+      "Uz": 8.1535e-07,
+      "k": 3.4672e-05,
+      "omega": 6.7688e-05
+    },
+    "last_total_pressure_change_pct": 0.18254064393974856,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 3.828724639190571e-05,
+    "source_log": "network_fluent.log"
+  },
+  "network_narrow_Ps460_hose50": {
+    "residuals": {
+      "continuity": 0.00029578,
+      "Ux": 3.5718e-07,
+      "Uy": 3.5385e-07,
+      "Uz": 7.703e-07,
+      "k": 3.2284e-05,
+      "omega": 6.3174e-05
+    },
+    "last_total_pressure_change_pct": 0.08995370571805122,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 2.871714557157876e-05,
+    "source_log": "network_fluent.log"
+  },
+  "selected_g8_q2": {
+    "residuals": {
+      "continuity": 0.0011014,
+      "Ux": 1.4854e-05,
+      "Uy": 2.8698e-05,
+      "Uz": 3.3509e-05,
+      "k": 0.00071547,
+      "omega": 0.00061461
+    },
+    "last_total_pressure_change_pct": 0.2184524182942,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.0003415748458734613,
+    "source_log": "selected_curve_fluent.log"
+  }
+}

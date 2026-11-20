@@ -1,0 +1,119 @@
+[
+  {
+    "case": "ramp_w225_L220",
+    "cell_count": 186416,
+    "minimum_cell_volume_m3": 8.484349593546805e-12,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "f43ddf61bb30566e5e8478c5293ea62a7ed18d080830c062ca5c5641b62b3c1f",
+    "native_data_sha256": "36308817c26c28e031e98cd56c5e6d11a8ce28bc26182ba1006ced9643d0fff5"
+  },
+  {
+    "case": "ramp_w180_L180",
+    "cell_count": 169824,
+    "minimum_cell_volume_m3": 1.1532125637400594e-11,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "a7d394d7528cc5785155a54c3a7276957d7f24303c65c8b63e6d26f251b1cf85",
+    "native_data_sha256": "655ee561e2fc195ea1405901049f5d099a349ba8873d30abee49e56e6f52431a"
+  },
+  {
+    "case": "guide_w315_L320",
+    "cell_count": 242672,
+    "minimum_cell_volume_m3": 6.48358237108946e-12,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "91fea5ee97e4729cd4d40f7b301affd05b1b07bfb84957708bc24464d80fc2d5",
+    "native_data_sha256": "f09771b56baf8f76c342f738eeefa417c01ecf989893340ede79b0a301322199"
+  },
+  {
+    "case": "curve_w180_q1p2",
+    "cell_count": 169824,
+    "minimum_cell_volume_m3": 1.1532125637400594e-11,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "2bc2a4b6ae9404aac3ca5c48cd9b005267277dc06b17acfc89612cdff12b4aa1",
+    "native_data_sha256": "6a22428baacbfff4d0031d74b724dd5f632bb68e920df4658bd68f82d0a7ced0"
+  },
+  {
+    "case": "curve_w180_q2p4",
+    "cell_count": 169824,
+    "minimum_cell_volume_m3": 1.1532125637400594e-11,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "070694dd391294728576f27ce56b9c86214afe1512adfc58b9011593c6c8518d",
+    "native_data_sha256": "907ae0fe98df766d3bfc00d20a5029e3c97b16841c5280d00e2b7181f8ed7bdc"
+  },
+  {
+    "case": "curve_w180_q4p0",
+    "cell_count": 169824,
+    "minimum_cell_volume_m3": 1.1532125637400594e-11,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "2a94b45646ffaaa317016dec1e259f287acd86641c75724d1607c3491c0cf6f8",
+    "native_data_sha256": "75ffe87983ae3b013ed0fc890be2c6063aa115e9d4cf86684f2bbb0ad86d03e6"
+  },
+  {
+    "case": "curve_w225_q1p3",
+    "cell_count": 186416,
+    "minimum_cell_volume_m3": 8.484349593546805e-12,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "9dee24871b8cc3b2f27e4db84d1403882f81d7fc5723df4280987b89674f679a",
+    "native_data_sha256": "4f57b1a3e433a62cdbe9ffc7178fd5a7b8d3cfaa6c0c50a17a864425ab4bda0a"
+  },
+  {
+    "case": "curve_w225_q4p0",
+    "cell_count": 186416,
+    "minimum_cell_volume_m3": 8.484349593546805e-12,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "92202d7c2c06eb4364274e8c3f8fcaeeb1dbb6121948e263c7120db4ff93d4ea",
+    "native_data_sha256": "fa35e1b079af3a19b457c5eca12377147a2f05537080a5228706ea3c27395fa2"
+  },
+  {
+    "case": "guide_w315_q1p5",
+    "cell_count": 242672,
+    "minimum_cell_volume_m3": 6.48358237108946e-12,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "45da25956efb019de7ea449551fdba39f6bab1affa7ae1b5ebaad731382dbb27",
+    "native_data_sha256": "3e51caa55ae4ab6f18f33719e583c4c8488b9e0ad547b4c411f5ea13270a0de4"
+  },
+  {
+    "case": "guide_w315_q4p5",
+    "cell_count": 242672,
+    "minimum_cell_volume_m3": 6.48358237108946e-12,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "a89c002cacbc1702f8b7bf351099c8a8ca326eafe80cc116f2d2e7babff25000",
+    "native_data_sha256": "38e1f1d3de4dd5872520e8eb7b2dbf37b554a4b5942fa0511c4447d06b09a84a"
+  },
+  {
+    "case": "network_Ps460_hose50",
+    "cell_count": 68064,
+    "minimum_cell_volume_m3": 1.4394694329808797e-12,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "2c886fed0b90454b931633c9ee661321005aea32c99e0fc3c78b43ccf436bc2b",
+    "native_data_sha256": "e19792cc6d75297d8fc32682d261fda6bc5a844e9379c41fe4a5aa226346843f"
+  },
+  {
+    "case": "network_Ps460_hose60",
+    "cell_count": 68064,
+    "minimum_cell_volume_m3": 1.4394694329808797e-12,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "3e8afa9b391da0d9e5ebbfff05c12e05123090dd2995804bbf86d715bc465563",
+    "native_data_sha256": "1de09266fa9e676fbb61a2df7531903e5f8eb5445aacf3d8ebb456723c2ec841"
+  },
+  {
+    "case": "network_Q11_hose60",
+    "cell_count": 68064,
+    "minimum_cell_volume_m3": 1.4394694329808797e-12,
+    "native_reports_reproduced": true,
+    "maximum_relative_report_difference": 0.0,
+    "native_case_sha256": "40c40634930590d8aaa7bcf2d5a4afe9ddcd8d938ad440533cb24721659ee061",
+    "native_data_sha256": "cea01f60d6b84cabf5874ec426fa645c26f0417d6a63e24dd8d5713a3bdac866"
+  }
+]

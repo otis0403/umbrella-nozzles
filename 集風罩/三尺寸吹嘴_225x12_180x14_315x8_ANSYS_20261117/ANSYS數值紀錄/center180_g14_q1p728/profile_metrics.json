@@ -1,0 +1,14 @@
+{
+  "case": "center180_g14_q1p728",
+  "width_mm": 180,
+  "gap_mm": 14.0,
+  "flow_m3_min": 1.727999999996515,
+  "inlet_total_pressure_Pa": 126.1485313866023,
+  "total_pressure_loss_Pa": 40.15444872585054,
+  "slot_area_mean_velocity_m_s": 11.43077564239502,
+  "core_line_CV_pct": 4.09109447516006,
+  "core_line_mean_velocity_m_s": 12.212352285170443,
+  "full_slot_area_CV_pct": 18.15489959716797,
+  "body_reverse_volume_pct": 2.3708551441585417,
+  "engineering_convergence_pass": false
+}

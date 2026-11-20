@@ -1,0 +1,44 @@
+[
+  {
+    "position": "inner",
+    "width_mm": 225,
+    "gap_mm": 16,
+    "file": "C:\\Users\\otiso\\umbrella\\case\\Outer315_NarrowGap_ANSYS_20261117\\cad\\full\\nozzle_W225_G16_L220_ramp_mm.stl",
+    "size_mm": [
+      60.20000076293945,
+      229.8000030517578,
+      288.0
+    ],
+    "watertight_single_positive_solid": true,
+    "minimum_triangle_area_mm2": 0.000119292161663521,
+    "sha256": "18d4ed8506d9fdae7501767b1eca9ca96e88334f96b1496a50ee57344441b01d"
+  },
+  {
+    "position": "center",
+    "width_mm": 180,
+    "gap_mm": 16,
+    "file": "C:\\Users\\otiso\\umbrella\\case\\Outer315_NarrowGap_ANSYS_20261117\\cad\\full\\nozzle_W180_G16_L180_ramp_mm.stl",
+    "size_mm": [
+      60.20000076293945,
+      184.8000030517578,
+      248.0
+    ],
+    "watertight_single_positive_solid": true,
+    "minimum_triangle_area_mm2": 0.0005745442935303477,
+    "sha256": "6cae7cbbe4910ebc82769229d4eda20b613b4abb3bed9e0e4cc04c2d3f72328f"
+  },
+  {
+    "position": "outer",
+    "width_mm": 315,
+    "gap_mm": 8,
+    "file": "C:\\Users\\otiso\\umbrella\\case\\Outer315_NarrowGap_ANSYS_20261117\\cad\\full\\nozzle_W315_G8_L320_ramp_guided_mm.stl",
+    "size_mm": [
+      60.20000076293945,
+      319.79998779296875,
+      388.0
+    ],
+    "watertight_single_positive_solid": true,
+    "minimum_triangle_area_mm2": 3.0792125951391406e-05,
+    "sha256": "0f76ae2e12f1f269beaad7fceb69eda281e676a1572df9bd89fe97240e360dd8"
+  }
+]

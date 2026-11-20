@@ -1,0 +1,9 @@
+{
+  "log":"head_curves_fluent.log",
+  "jobs":[
+    {"name":"inner225_g12_q2p16","width":225,"length":220,"gap":12,"profile_kind":"ramp","q":2.16,"warm":"seed_inner","batches":30},
+    {"name":"inner225_g12_q3p2","width":225,"length":220,"gap":12,"profile_kind":"ramp","q":3.2,"warm":"inner225_g12_q2p16","batches":30},
+    {"name":"center180_g14_q1p728","width":180,"length":180,"gap":14,"profile_kind":"ramp","q":1.728,"warm":"seed_center","batches":30},
+    {"name":"center180_g14_q3p2","width":180,"length":180,"gap":14,"profile_kind":"ramp","q":3.2,"warm":"center180_g14_q1p728","batches":30}
+  ]
+}

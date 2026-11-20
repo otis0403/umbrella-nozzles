@@ -1,0 +1,71 @@
+[
+  {
+    "position": "內側",
+    "file": "STL_完整件\\內側_225x16_總長288_mm.stl",
+    "watertight": true,
+    "single_connected_component": true,
+    "winding_consistent": true,
+    "positive_solid_volume": true,
+    "minimum_triangle_area_mm2": 0.000119292161663521,
+    "size_mm": [
+      60.20000076293945,
+      229.8000030517578,
+      288.0
+    ],
+    "face_count": 131198,
+    "sha256": "18d4ed8506d9fdae7501767b1eca9ca96e88334f96b1496a50ee57344441b01d",
+    "gap_61_samples_range_mm": [
+      15.992276668548584,
+      16.000001907348633
+    ],
+    "net_width_measured_mm": 224.99876403808594,
+    "socket_ID_measured_mm": 55.400001525878906,
+    "guide_count": 0
+  },
+  {
+    "position": "中間",
+    "file": "STL_完整件\\中間_180x16_總長248_mm.stl",
+    "watertight": true,
+    "single_connected_component": true,
+    "winding_consistent": true,
+    "positive_solid_volume": true,
+    "minimum_triangle_area_mm2": 0.0005745442935303477,
+    "size_mm": [
+      60.20000076293945,
+      184.8000030517578,
+      248.0
+    ],
+    "face_count": 119166,
+    "sha256": "6cae7cbbe4910ebc82769229d4eda20b613b4abb3bed9e0e4cc04c2d3f72328f",
+    "gap_61_samples_range_mm": [
+      16.000015258789062,
+      16.000017166137695
+    ],
+    "net_width_measured_mm": 179.99874114990234,
+    "socket_ID_measured_mm": 55.400001525878906,
+    "guide_count": 0
+  },
+  {
+    "position": "外側",
+    "file": "STL_完整件\\外側_315x16_總長388_mm.stl",
+    "watertight": true,
+    "single_connected_component": true,
+    "winding_consistent": true,
+    "positive_solid_volume": true,
+    "minimum_triangle_area_mm2": 3.0792125951391406e-05,
+    "size_mm": [
+      60.20000076293945,
+      319.79998779296875,
+      388.0
+    ],
+    "face_count": 258238,
+    "sha256": "832c65500ae3ee6cf2c9f792cdab59c7c1b9195c0f607c0c2c4e7b2651c8175d",
+    "gap_61_samples_range_mm": [
+      15.998849868774414,
+      15.998852729797363
+    ],
+    "net_width_measured_mm": 314.99876403808594,
+    "socket_ID_measured_mm": 55.400001525878906,
+    "guide_count": 2
+  }
+]

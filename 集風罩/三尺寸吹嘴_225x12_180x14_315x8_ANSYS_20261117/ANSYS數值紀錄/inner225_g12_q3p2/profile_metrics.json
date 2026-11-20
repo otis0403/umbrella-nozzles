@@ -1,0 +1,14 @@
+{
+  "case": "inner225_g12_q3p2",
+  "width_mm": 225,
+  "gap_mm": 12.0,
+  "flow_m3_min": 3.1999999999935493,
+  "inlet_total_pressure_Pa": 390.6636047772901,
+  "total_pressure_loss_Pa": 136.5913353449838,
+  "slot_area_mean_velocity_m_s": 19.755878448486328,
+  "core_line_CV_pct": 6.365928449397049,
+  "core_line_mean_velocity_m_s": 20.66531621059733,
+  "full_slot_area_CV_pct": 16.007705688476562,
+  "body_reverse_volume_pct": 5.042805255446445,
+  "engineering_convergence_pass": false
+}

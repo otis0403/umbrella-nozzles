@@ -1,0 +1,10 @@
+{
+  "completed": [
+    "inner225_g12_q2p16",
+    "inner225_g12_q3p2",
+    "center180_g14_q1p728",
+    "center180_g14_q3p2"
+  ],
+  "plan": "stage_head_curves.json",
+  "owned_solver_closed": true
+}

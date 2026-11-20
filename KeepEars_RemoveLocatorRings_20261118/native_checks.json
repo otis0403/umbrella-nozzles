@@ -1,0 +1,136 @@
+{
+  "native_reopened": true,
+  "assembled_poses_verified": true,
+  "printable_parts": 7,
+  "flat_faces": [
+    {
+      "id": "inner_body",
+      "ring_count": 2,
+      "old_height_range_mm": [
+        1.5,
+        1.5
+      ],
+      "new_height_range_mm": [
+        0.0,
+        0.0
+      ],
+      "ear_thickness_range_mm": [
+        4.0,
+        4.0
+      ],
+      "M4_holes_mm": [
+        4.399995803833008,
+        4.399995803833008
+      ],
+      "annular_surface_samples": 32
+    },
+    {
+      "id": "center_body",
+      "ring_count": 2,
+      "old_height_range_mm": [
+        1.5,
+        1.5
+      ],
+      "new_height_range_mm": [
+        0.0,
+        0.0
+      ],
+      "ear_thickness_range_mm": [
+        4.0,
+        4.0
+      ],
+      "M4_holes_mm": [
+        4.399995803833008,
+        4.399996042251587
+      ],
+      "annular_surface_samples": 32
+    },
+    {
+      "id": "outer_inlet",
+      "ring_count": 2,
+      "old_height_range_mm": [
+        1.5,
+        1.5
+      ],
+      "new_height_range_mm": [
+        0.0,
+        0.0
+      ],
+      "ear_thickness_range_mm": [
+        4.0,
+        4.0
+      ],
+      "M4_holes_mm": [
+        4.400001525878906,
+        4.400001525878906
+      ],
+      "annular_surface_samples": 32
+    },
+    {
+      "id": "outer_guided_body",
+      "ring_count": 2,
+      "old_height_range_mm": [
+        1.5,
+        1.5
+      ],
+      "new_height_range_mm": [
+        0.0,
+        0.0
+      ],
+      "ear_thickness_range_mm": [
+        4.0,
+        4.0
+      ],
+      "M4_holes_mm": [
+        4.400001049041748,
+        4.400001049041748
+      ],
+      "annular_surface_samples": 32
+    }
+  ],
+  "flow_dimensions": [
+    {
+      "position": "inner",
+      "socket_ID_mm": 55.39999771118164,
+      "main_bore_mm": 51.00005340576172,
+      "gap61_range_mm": [
+        11.993546485900879,
+        12.000001907348633
+      ],
+      "width_mm": 224.99999237060547
+    },
+    {
+      "position": "center",
+      "socket_ID_mm": 55.39999771118164,
+      "main_bore_mm": 51.00008773803711,
+      "gap61_range_mm": [
+        14.000020980834961,
+        14.000022888183594
+      ],
+      "width_mm": 180.00000762939453
+    },
+    {
+      "position": "outer",
+      "socket_ID_mm": 55.39999771118164,
+      "main_bore_mm": 51.00004959106445,
+      "gap61_range_mm": [
+        7.999178409576416,
+        7.99918007850647
+      ],
+      "width_mm": 314.9997253417969,
+      "guide_leading_faces_print_Z_mm": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "verified_STL_sha256": {
+    "inner_body": "9dfe089ff5f7afeb9403dee8c12ef1f220a686a68c612d5e154ee20a08f50d7b",
+    "inner_tip_g12": "8f3c4f2f66bbbfe30eb28f81eacbe1cc148f5b7488de164f47704693504a4c63",
+    "center_body": "3341f9ef37b120558f281628de8295f018994593560d29ee794d940a5b4351ec",
+    "center_tip_g14": "4d89766b80e11ea909d5bfe810ccbc1447d022142e177477ce376bb85a6877b3",
+    "outer_inlet": "21a4116ba8c152ee01d8703e40e790e003f63593febdfada2382e82fcfe8e1c0",
+    "outer_guided_body": "79b8d71c3742c7771286b91a35a5ad161d2fc8a3b44cd3e060bcb2587aad3c0e",
+    "outer_tip_g8": "5087c11951068b0bf40df061d77e1d642470cbf12bc8bde33bfd350d40c874e5"
+  }
+}

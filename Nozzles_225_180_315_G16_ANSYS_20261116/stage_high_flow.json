@@ -1,0 +1,7 @@
+{
+  "log":"high_flow_fluent.log",
+  "jobs":[
+    {"name":"curve_w180_q4p0","width":180,"length":180,"profile_kind":"ramp","q":4.0,"warm":"ramp_w180_L180","batches":30},
+    {"name":"curve_w225_q4p0","width":225,"length":220,"profile_kind":"ramp","q":4.0,"warm":"ramp_w225_L220","batches":30}
+  ]
+}

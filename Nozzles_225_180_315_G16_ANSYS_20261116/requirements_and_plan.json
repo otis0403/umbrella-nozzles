@@ -1,0 +1,22 @@
+{
+  "outlet_order_inner_to_outer_mm": [225, 180, 315],
+  "outlet_gap_mm": 16,
+  "scope": "three complete nozzles and recalculated airflow; printer capacity deferred by user",
+  "nozzle_feed_ID_mm": 51,
+  "socket_ID_mm": 55.4,
+  "feed_elbow_included_in_nozzle_CFD_R_mm": 90,
+  "reference_pipe_cut_lengths_inner_center_outer_m": [0.4459491605, 0.3183202283, 0.4156949245],
+  "pipe_length_basis": "previous CAD centerline lengths; physical cut lengths not yet measured",
+  "pipe_insertions_to_subtract_mm": 50,
+  "assumed_darcy_friction": 0.04,
+  "assumed_lower_hose_bend_K": 0.5,
+  "assumed_joint_K_referred_to_ID46": 0.15,
+  "reference_network_hypothetical_static_pressure_Pa": 460,
+  "reference_network_pipe_cut_lengths_m": [0.6, 0.6, 0.6],
+  "additional_network_conditions": ["50 cm cuts at the same assumed 460 Pa inlet static pressure", "11 m3/min prescribed total flow to calculate required pressure"],
+  "fan_PQ_curve_available": false,
+  "current_work": "complete ramp models selected; 315 two-guide prototype improves distribution at specified flow; multi-rate pressure curves and three-way load matching in progress",
+  "full_native_CAD_reopen_and_dimension_measurements": "passed for all three selected complete prototypes",
+  "external_free_jet_and_transient_validation": "not included in this prototype delivery; disclosed as unverified",
+  "remaining": ["finish pressure curves", "solve three loaded network conditions", "fresh native Fluent case/data readback", "report and complete nozzle package"]
+}

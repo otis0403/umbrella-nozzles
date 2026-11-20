@@ -1,0 +1,5 @@
+{
+  "network_reference_case":"network_Ps460_hose60",
+  "reference_description":"three 60 cm hose cuts; hypothetical maintained 460 Pa inlet static pressure",
+  "run_fine315":true
+}

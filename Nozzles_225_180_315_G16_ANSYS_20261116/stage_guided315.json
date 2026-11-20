@@ -1,0 +1,8 @@
+{
+  "log":"guided315_fluent.log",
+  "jobs":[
+    {"name":"guide_w315_L320","width":315,"length":320,"profile_kind":"ramp","guided":true,"q":3.024,"batches":35},
+    {"name":"guide_w315_q1p5","width":315,"length":320,"profile_kind":"ramp","guided":true,"q":1.5,"warm":"guide_w315_L320","batches":30},
+    {"name":"guide_w315_q4p5","width":315,"length":320,"profile_kind":"ramp","guided":true,"q":4.5,"warm":"guide_w315_L320","batches":35}
+  ]
+}

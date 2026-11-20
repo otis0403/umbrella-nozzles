@@ -1,0 +1,8 @@
+{
+  "completed": [
+    "curve_w180_q4p0",
+    "curve_w225_q4p0"
+  ],
+  "plan": "stage_high_flow.json",
+  "owned_solver_closed": true
+}

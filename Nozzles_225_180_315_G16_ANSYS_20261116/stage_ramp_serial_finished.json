@@ -1,0 +1,9 @@
+{
+  "completed": [
+    "ramp_w180_L180",
+    "ramp_w225_L220",
+    "ramp_w315_L320"
+  ],
+  "plan": "stage_ramp_serial.json",
+  "owned_solver_closed": true
+}

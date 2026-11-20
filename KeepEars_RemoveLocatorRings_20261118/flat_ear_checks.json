@@ -1,0 +1,917 @@
+{
+  "units": "mm",
+  "parts": [
+    {
+      "id": "inner_body",
+      "group": "inner",
+      "source": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\inner_body_mm.stl",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\STL\\inner_body_flat_ears_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\3MF\\inner_body_flat_ears_K2Pro300.3mf",
+      "source_to_assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_size_mm": [
+        176.96495056152344,
+        176.96495056152344,
+        245.0
+      ],
+      "placed_3MF_bounds_mm": [
+        [
+          61.517524699999996,
+          61.517524699999996,
+          0.0
+        ],
+        [
+          238.4824753,
+          238.4824753,
+          245.0
+        ]
+      ],
+      "minimum_triangle_area_mm2": 0.00012108649319734132,
+      "watertight_single_positive_solid": true,
+      "changed": true,
+      "unchanged_byte_copy": false,
+      "STL_sha256": "9dfe089ff5f7afeb9403dee8c12ef1f220a686a68c612d5e154ee20a08f50d7b",
+      "3MF_sha256": "d2e02a060f0a54da3dfcba897b52a613fef094afcd97874571635e51b77542e1",
+      "flat_source_Z_mm": 245,
+      "flat_assembly_Z_mm": 245.0,
+      "ring_centers_assembly_XY_mm": [
+        [
+          -19.4,
+          -82.5
+        ],
+        [
+          19.4,
+          82.5
+        ]
+      ]
+    },
+    {
+      "id": "inner_tip_g12",
+      "group": "inner",
+      "source": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\inner_tip_g12_mm.stl",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\STL\\inner_tip_g12_flat_ears_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\3MF\\inner_tip_g12_flat_ears_K2Pro300.3mf",
+      "source_to_assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          245.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          245.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_size_mm": [
+        176.96437072753906,
+        176.96437072753906,
+        43.0
+      ],
+      "placed_3MF_bounds_mm": [
+        [
+          61.517814599999994,
+          61.517814599999994,
+          0.0
+        ],
+        [
+          238.4821854,
+          238.4821854,
+          43.0
+        ]
+      ],
+      "minimum_triangle_area_mm2": 0.003616312754874409,
+      "watertight_single_positive_solid": true,
+      "changed": false,
+      "unchanged_byte_copy": false,
+      "STL_sha256": "8f3c4f2f66bbbfe30eb28f81eacbe1cc148f5b7488de164f47704693504a4c63",
+      "3MF_sha256": "b7d17545141746acd4608af5de4c62c67bf76376ed8d6da14eb6786e0519e0b3",
+      "flat_source_Z_mm": null,
+      "flat_assembly_Z_mm": null,
+      "ring_centers_assembly_XY_mm": []
+    },
+    {
+      "id": "center_body",
+      "group": "center",
+      "source": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\center_body_mm.stl",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\STL\\center_body_flat_ears_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\3MF\\center_body_flat_ears_K2Pro300.3mf",
+      "source_to_assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_size_mm": [
+        145.1479949951172,
+        145.1479949951172,
+        205.0
+      ],
+      "placed_3MF_bounds_mm": [
+        [
+          77.4260025,
+          77.4260025,
+          0.0
+        ],
+        [
+          222.57399750000002,
+          222.57399750000002,
+          205.0
+        ]
+      ],
+      "minimum_triangle_area_mm2": 0.0005734452408421386,
+      "watertight_single_positive_solid": true,
+      "changed": true,
+      "unchanged_byte_copy": false,
+      "STL_sha256": "3341f9ef37b120558f281628de8295f018994593560d29ee794d940a5b4351ec",
+      "3MF_sha256": "c71f76e8ffe3ac947d74ea2459e472e38e34c19579ded4820e2906225bfbdd68",
+      "flat_source_Z_mm": 205,
+      "flat_assembly_Z_mm": 205.0,
+      "ring_centers_assembly_XY_mm": [
+        [
+          -19.4,
+          -60.0
+        ],
+        [
+          19.4,
+          60.0
+        ]
+      ]
+    },
+    {
+      "id": "center_tip_g14",
+      "group": "center",
+      "source": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\center_tip_g14_mm.stl",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\STL\\center_tip_g14_flat_ears_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\3MF\\center_tip_g14_flat_ears_K2Pro300.3mf",
+      "source_to_assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          205.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          205.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_size_mm": [
+        145.1475830078125,
+        145.1475830078125,
+        43.0
+      ],
+      "placed_3MF_bounds_mm": [
+        [
+          77.4262085,
+          77.4262085,
+          0.0
+        ],
+        [
+          222.5737915,
+          222.5737915,
+          43.0
+        ]
+      ],
+      "minimum_triangle_area_mm2": 0.0024766988727177716,
+      "watertight_single_positive_solid": true,
+      "changed": false,
+      "unchanged_byte_copy": false,
+      "STL_sha256": "4d89766b80e11ea909d5bfe810ccbc1447d022142e177477ce376bb85a6877b3",
+      "3MF_sha256": "678e7da588136d8c5a3543680acdd1a8662efd68b086c5817e8c644fcb8dfb96",
+      "flat_source_Z_mm": null,
+      "flat_assembly_Z_mm": null,
+      "ring_centers_assembly_XY_mm": []
+    },
+    {
+      "id": "outer_inlet",
+      "group": "outer",
+      "source": "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\STL\\inlet_lower_K2Pro_mm.stl",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\STL\\outer_inlet_flat_ears_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\3MF\\outer_inlet_flat_ears_K2Pro300.3mf",
+      "source_to_assembly": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_size_mm": [
+        101.09532928466797,
+        101.09532928466797,
+        55.0
+      ],
+      "placed_3MF_bounds_mm": [
+        [
+          99.45233540000001,
+          99.45233540000001,
+          0.0
+        ],
+        [
+          200.5476646,
+          200.5476646,
+          55.0
+        ]
+      ],
+      "minimum_triangle_area_mm2": 2.168708306271583e-06,
+      "watertight_single_positive_solid": true,
+      "changed": true,
+      "unchanged_byte_copy": false,
+      "STL_sha256": "21a4116ba8c152ee01d8703e40e790e003f63593febdfada2382e82fcfe8e1c0",
+      "3MF_sha256": "f2d909fa18d64e8d6890422ecb3fbaebf83fdfd47e278a708ac89f119b12a542",
+      "flat_source_Z_mm": 55,
+      "flat_assembly_Z_mm": 55.0,
+      "ring_centers_assembly_XY_mm": [
+        [
+          -18.0,
+          -35.0
+        ],
+        [
+          18.0,
+          35.0
+        ]
+      ]
+    },
+    {
+      "id": "outer_guided_body",
+      "group": "outer",
+      "source": "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\STL\\guided_upper_K2Pro_mm.stl",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\STL\\outer_guided_body_flat_ears_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\3MF\\outer_guided_body_flat_ears_K2Pro300.3mf",
+      "source_to_assembly": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          55.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          55.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_size_mm": [
+        240.60536193847656,
+        240.60536193847656,
+        290.0
+      ],
+      "placed_3MF_bounds_mm": [
+        [
+          29.697318999999993,
+          29.697318999999993,
+          0.0
+        ],
+        [
+          270.302681,
+          270.302681,
+          290.0
+        ]
+      ],
+      "minimum_triangle_area_mm2": 3.0787523827968884e-05,
+      "watertight_single_positive_solid": true,
+      "changed": true,
+      "unchanged_byte_copy": false,
+      "STL_sha256": "79b8d71c3742c7771286b91a35a5ad161d2fc8a3b44cd3e060bcb2587aad3c0e",
+      "3MF_sha256": "ed69fde3152ce244d40ec03b607b1650ba18fe1ac21cf1bef2201dc74726a6b6",
+      "flat_source_Z_mm": 290,
+      "flat_assembly_Z_mm": 345.0,
+      "ring_centers_assembly_XY_mm": [
+        [
+          -19.399999999999984,
+          -127.5
+        ],
+        [
+          19.399999999999984,
+          127.5
+        ]
+      ]
+    },
+    {
+      "id": "outer_tip_g8",
+      "group": "outer",
+      "source": "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\STL\\front_tip_g8_K2Pro_mm.stl",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\STL\\outer_tip_g8_flat_ears_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\KeepEars_RemoveLocatorRings_20261118\\3MF\\outer_tip_g8_flat_ears_K2Pro300.3mf",
+      "source_to_assembly": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          345.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          345.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_size_mm": [
+        240.60536193847656,
+        240.60536193847656,
+        43.0
+      ],
+      "placed_3MF_bounds_mm": [
+        [
+          29.697318999999993,
+          29.697318999999993,
+          0.0
+        ],
+        [
+          270.302681,
+          270.302681,
+          43.0
+        ]
+      ],
+      "minimum_triangle_area_mm2": 0.0011269974403911994,
+      "watertight_single_positive_solid": true,
+      "changed": false,
+      "unchanged_byte_copy": true,
+      "STL_sha256": "5087c11951068b0bf40df061d77e1d642470cbf12bc8bde33bfd350d40c874e5",
+      "3MF_sha256": "81fb68f103da6f34bd8244eaf03ae59b98522839a2a0fa2e5e36be69efa28292",
+      "flat_source_Z_mm": null,
+      "flat_assembly_Z_mm": null,
+      "ring_centers_assembly_XY_mm": []
+    }
+  ],
+  "groups": [
+    {
+      "position": "inner",
+      "width_mm": 225,
+      "preferred_gap_mm": 12,
+      "total_length_mm": 288,
+      "split_Z_mm": 245,
+      "body": "inner_body",
+      "tips": [
+        "inner_tip_g12",
+        "inner_tip_g16_reference"
+      ],
+      "preferred_tip": "inner_tip_g12",
+      "screw_centers_XY_mm": [
+        [
+          -19.4,
+          -82.5
+        ],
+        [
+          -19.4,
+          82.5
+        ],
+        [
+          19.4,
+          -82.5
+        ],
+        [
+          19.4,
+          82.5
+        ]
+      ],
+      "screw_count": 4,
+      "locator_indices": [
+        0,
+        3
+      ],
+      "bolt_hole_diameter_mm": 4.4,
+      "tip_hole_float_Y_mm": 1,
+      "locator_male_OD_mm": 7.4,
+      "locator_recess_diameter_mm": 7.9,
+      "radial_clearance_mm": 0.25,
+      "locator_height_mm": 1.5,
+      "recess_depth_mm": 1.8,
+      "axial_clearance_mm": 0.3,
+      "ear_thickness_each_mm": 4,
+      "seal_groove_width_mm": 1.2,
+      "seal_groove_depth_mm": 0.5,
+      "inner_sealing_land_mm": 0.6,
+      "hardware": "M4x16 bolts, M4 nuts, two OD9 washers each",
+      "parts": [
+        "inner_body",
+        "inner_tip_g12"
+      ],
+      "raised_locator_rings": false,
+      "female_recesses_retained": true,
+      "assembly_overlap_mm3": [
+        6.061237666291075e-14
+      ]
+    },
+    {
+      "position": "center",
+      "width_mm": 180,
+      "preferred_gap_mm": 14,
+      "total_length_mm": 248,
+      "split_Z_mm": 205,
+      "body": "center_body",
+      "tips": [
+        "center_tip_g14",
+        "center_tip_g16_reference"
+      ],
+      "preferred_tip": "center_tip_g14",
+      "screw_centers_XY_mm": [
+        [
+          -19.4,
+          -60.0
+        ],
+        [
+          -19.4,
+          60.0
+        ],
+        [
+          19.4,
+          -60.0
+        ],
+        [
+          19.4,
+          60.0
+        ]
+      ],
+      "screw_count": 4,
+      "locator_indices": [
+        0,
+        3
+      ],
+      "bolt_hole_diameter_mm": 4.4,
+      "tip_hole_float_Y_mm": 1,
+      "locator_male_OD_mm": 7.4,
+      "locator_recess_diameter_mm": 7.9,
+      "radial_clearance_mm": 0.25,
+      "locator_height_mm": 1.5,
+      "recess_depth_mm": 1.8,
+      "axial_clearance_mm": 0.3,
+      "ear_thickness_each_mm": 4,
+      "seal_groove_width_mm": 1.2,
+      "seal_groove_depth_mm": 0.5,
+      "inner_sealing_land_mm": 0.6,
+      "hardware": "M4x16 bolts, M4 nuts, two OD9 washers each",
+      "parts": [
+        "center_body",
+        "center_tip_g14"
+      ],
+      "raised_locator_rings": false,
+      "female_recesses_retained": true,
+      "assembly_overlap_mm3": [
+        1.119160319973389e-12
+      ]
+    },
+    {
+      "position": "outer",
+      "width_mm": 315,
+      "preferred_gap_mm": 8,
+      "total_length_mm": 388,
+      "split_Z_mm": 345,
+      "body": "outer_body",
+      "tips": [
+        "outer_tip_g8"
+      ],
+      "preferred_tip": "outer_tip_g8",
+      "screw_centers_XY_mm": [
+        [
+          -19.4,
+          -127.5
+        ],
+        [
+          -19.4,
+          0
+        ],
+        [
+          -19.4,
+          127.5
+        ],
+        [
+          19.4,
+          -127.5
+        ],
+        [
+          19.4,
+          0
+        ],
+        [
+          19.4,
+          127.5
+        ]
+      ],
+      "screw_count": 6,
+      "locator_indices": [
+        0,
+        5
+      ],
+      "bolt_hole_diameter_mm": 4.4,
+      "tip_hole_float_Y_mm": 1,
+      "locator_male_OD_mm": 7.4,
+      "locator_recess_diameter_mm": 7.9,
+      "radial_clearance_mm": 0.25,
+      "locator_height_mm": 1.5,
+      "recess_depth_mm": 1.8,
+      "axial_clearance_mm": 0.3,
+      "ear_thickness_each_mm": 4,
+      "seal_groove_width_mm": 1.2,
+      "seal_groove_depth_mm": 0.5,
+      "inner_sealing_land_mm": 0.6,
+      "hardware": "M4x16 bolts, M4 nuts, two OD9 washers each",
+      "parts": [
+        "outer_inlet",
+        "outer_guided_body",
+        "outer_tip_g8"
+      ],
+      "raised_locator_rings": false,
+      "female_recesses_retained": true,
+      "rear_joint": {
+        "split_Z_mm": 55,
+        "screw_centers_XY_mm": [
+          [
+            -18,
+            -35
+          ],
+          [
+            -18,
+            35
+          ],
+          [
+            18,
+            -35
+          ],
+          [
+            18,
+            35
+          ]
+        ],
+        "screw_count": 4,
+        "male_ring_indices": [
+          0,
+          3
+        ],
+        "flange_mm": [
+          90,
+          60,
+          4
+        ],
+        "female_recesses_retained": true,
+        "raised_locator_rings": false
+      },
+      "assembly_overlap_mm3": [
+        1.826875039237746e-12,
+        1.1374388843993222e-12
+      ]
+    }
+  ],
+  "removed_rings": [
+    {
+      "id": "inner_body",
+      "ring_count": 2,
+      "flat_source_Z_mm": 245,
+      "removed_volume_mm3": 81.90783710792142,
+      "removed_outside_ring_masks_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "material_removed_below_face_mm3": 0.0
+    },
+    {
+      "id": "center_body",
+      "ring_count": 2,
+      "flat_source_Z_mm": 205,
+      "removed_volume_mm3": 81.90782207825961,
+      "removed_outside_ring_masks_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "material_removed_below_face_mm3": 0.0
+    },
+    {
+      "id": "outer_inlet",
+      "ring_count": 2,
+      "flat_source_Z_mm": 55,
+      "removed_volume_mm3": 81.9078306300487,
+      "removed_outside_ring_masks_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "material_removed_below_face_mm3": 0.0
+    },
+    {
+      "id": "outer_guided_body",
+      "ring_count": 2,
+      "flat_source_Z_mm": 290,
+      "removed_volume_mm3": 81.90790155990373,
+      "removed_outside_ring_masks_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "material_removed_below_face_mm3": 0.0
+    }
+  ],
+  "source_hashes_unchanged": {
+    "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\inner_body_mm.stl": "57177ce2f585a000660192621884f7628f69476c27b4fef7f42e0cf8c553e861",
+    "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\inner_tip_g12_mm.stl": "08c104cabbea9eedb26959988f4e82138ee341d1dd6e31f1216b260bf99ec234",
+    "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\center_body_mm.stl": "136e64fa5aef4fa3e2fd14b59945b47b88782cdd2fff701f74501668a938a0de",
+    "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\center_tip_g14_mm.stl": "43c2b4b01c02feda69717bad7c53deb8f1d9b87f65f1de8f284a8aac414db904",
+    "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\STL\\inlet_lower_K2Pro_mm.stl": "912a0845cdd8a086a0cd13ae041c08d5f61ecbf37dc68bc9b069ac1e21ea41dc",
+    "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\STL\\guided_upper_K2Pro_mm.stl": "76f6a3d87ad3b0abf711822851cb45337cbd45cc1675bf4136b66806827e1943",
+    "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\STL\\front_tip_g8_K2Pro_mm.stl": "5087c11951068b0bf40df061d77e1d642470cbf12bc8bde33bfd350d40c874e5"
+  },
+  "printer_volume_mm": [
+    300,
+    300,
+    300
+  ],
+  "brim_allowance_each_side_mm": 8,
+  "only_physical_change": "Remove eight raised locator collars from four male mating faces; retain all ears, flanges, holes and flow walls.",
+  "hardware_one_three_head_set": {
+    "M4x16_screws": 18,
+    "M4_nuts": 18,
+    "OD9_washers": 36
+  },
+  "female_pockets_retained": true,
+  "old_ear_interface_compatible": true,
+  "new_CFD_run": false,
+  "physical_slicing_print_fit_and_sealing_verified": false
+}

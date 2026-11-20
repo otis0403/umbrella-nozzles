@@ -1,0 +1,29 @@
+{
+  "native_reopened": true,
+  "assembled_pose_verified": true,
+  "ray_checks": {
+    "socket_ID_mm": 55.39999771118164,
+    "existing_tip_interface_mm": [
+      314.99961853027344,
+      21.9986515045166
+    ],
+    "tip_gap61_range_mm": [
+      7.999178409576416,
+      7.99918007850647
+    ],
+    "tip_width_mm": 314.9997253417969,
+    "new_joint_flow_section_mm": [
+      55.23211669921875,
+      46.97726249694824
+    ],
+    "guide_leading_faces_print_Z_mm": [
+      0.0,
+      0.0
+    ],
+    "M4_hole_mm": 4.400001525878906,
+    "fixed_recess_mm": 7.900000333786011,
+    "floating_recess_Y_mm": 8.899999618530273,
+    "floating_hole_Y_mm": 5.400001049041748,
+    "male_locator_OD_mm": 7.4000020027160645
+  }
+}

@@ -1,0 +1,1317 @@
+Auto-Transcript Start Time:  00:59:26, 17 Nov 2026 台北標準時間 
+Current Directory: "C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116"
+
+              Welcome to ANSYS Fluent 2026 R1
+
+              Copyright 2026 Synopsys, Inc. and ANSYS, Inc. All rights reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Feb  2 2026 16:32:00 EST  Build Id: 10262  
+ 
+Connected License Server List:	<Non FlexNet Publisher License Server (FNPLS)>
+
+     --------------------------------------------------------------
+     This is a student version of ANSYS FLUENT. Usage of this product
+     license is limited to the terms and conditions specified in your ANSYS
+     license form, additional terms section.
+     --------------------------------------------------------------
+Host spawning Node 0 on machine "Otis" (win64).
+Host waiting for connection from Node 0 at 127.0.0.1:61957 
+
+Node 0 connecting to the Host ... connection established.
+
+-------------------------------------------------------------------------------
+ID    Hostname  Core  O.S.         PID    CPU Model Name                    
+-------------------------------------------------------------------------------
+n3    Otis      4/10  Windows-x64  28596  Intel(R) Core(TM) Ultra 5 115U    
+n2    Otis      3/10  Windows-x64  28172  Intel(R) Core(TM) Ultra 5 115U    
+n1    Otis      2/10  Windows-x64  29100  Intel(R) Core(TM) Ultra 5 115U    
+n0*   Otis      1/10  Windows-x64  22892  Intel(R) Core(TM) Ultra 5 115U    
+host  Otis            Windows-x64  22492  Intel(R) Core(TM) Ultra 5 115U    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cleanup script file is C:\\Users\\otiso\\umbrella\\case\\Nozzles_225_180_315_G16_ANSYS_20261116\\cleanup-fluent-Otis-22492.bat
+Note: Rank = 0: Process affinity not being set (6).
+Note: Rank = 1: Process affinity not being set (6).
+Note: Rank = 2: Process affinity not being set (6).
+Note: Rank = 3: Process affinity not being set (6).
+
+Graphics driver currently in use: null
+
+
+ +------------------------------------------------------------------+
+ |                    ANSYS Product Improvement                     |
+ |                                                                  |
+ |   ANSYS Product Improvement Program helps improve ANSYS          |
+ |   products. Participating in this program is like filling out a  |
+ |   survey. Without interrupting your work, the software reports   |
+ |   anonymous usage information such as errors, machine and        |
+ |   solver statistics, features used, etc. to ANSYS. We never      |
+ |   use the data to identify or contact you.                       |
+ |   The data does NOT contain:                                     |
+ |   - Any personally identifiable information including names,     |
+ |     IP addresses, file names, part names, etc.                   |
+ |   - Any information about your geometry or design specific       |
+ |     inputs.                                                      |
+ |   You can stop participation at any time. To change your         |
+ |   selection go to Help >> ANSYS Product Improvement Program      |
+ |   in the GUI.                                                    |
+ |   For more information about the ANSYS Privacy Policy, please    |
+ |   check: http://www.ansys.com/privacy                            |
+ |                                                                  |
+ +------------------------------------------------------------------+
+
+Posting ANSYS Product Improvement Program startup data
+Done.
+Information: The server has started and is running.
+(set-session-idle-timeout 3)countdown-start-timer
+
+> Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v261\fluent\fluent26.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\ramp_w225_L220\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      186416 cells,     1 cell zone  ...
+         186416 hexahedral cells,  zone id: 2
+      567864 faces,     4 face zones ...
+            976 quadrilateral velocity-inlet faces,  zone id: 3
+         550632 quadrilateral interior faces,  zone id: 4
+            976 quadrilateral pressure-outlet faces,  zone id: 5
+          15280 quadrilateral wall faces,  zone id: 6
+      195264 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 36922/1102 = 33.5045
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+Since node values are off, changing the colormap type to "Banded".
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\ramp_w225_L220\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -1.125000e-01, max (m) = 1.125000e-01
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 2.880000e-01
+ Volume statistics:
+   minimum volume (m3): 8.484350e-12
+   maximum volume (m3): 6.684047e-08
+     total volume (m3): 1.314840e-03
+ Face area statistics:
+   minimum face area (m2): 1.946672e-08
+   maximum face area (m2): 3.120601e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -47.253653
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           140.41979
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           75.261221
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet              0.0432
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.043199874
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\ramp_w180_L180\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      169824 cells,     1 cell zone  ...
+         169824 hexahedral cells,  zone id: 2
+      517408 faces,     4 face zones ...
+            976 quadrilateral velocity-inlet faces,  zone id: 3
+         501536 quadrilateral interior faces,  zone id: 4
+            976 quadrilateral pressure-outlet faces,  zone id: 5
+          13920 quadrilateral wall faces,  zone id: 6
+      177975 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 33119/1055 = 31.3924
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\ramp_w180_L180\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -9.000000e-02, max (m) = 9.000000e-02
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 2.480000e-01
+ Volume statistics:
+   minimum volume (m3): 1.153213e-11
+   maximum volume (m3): 5.364530e-08
+     total volume (m3): 1.050504e-03
+ Face area statistics:
+   minimum face area (m2): 1.946672e-08
+   maximum face area (m2): 2.507545e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -12.899311
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           107.20301
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           67.964271
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet             0.03456
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.034560095
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\guide_w315_L320\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      242672 cells,     1 cell zone  ...
+         242672 hexahedral cells,  zone id: 2
+      741892 faces,     4 face zones ...
+           1040 quadrilateral velocity-inlet faces,  zone id: 3
+         714140 quadrilateral interior faces,  zone id: 4
+           1040 quadrilateral pressure-outlet faces,  zone id: 5
+          25672 quadrilateral wall faces,  zone id: 6
+      257058 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 57035/727 = 78.4525
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\guide_w315_L320\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -1.575000e-01, max (m) = 1.575000e-01
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 3.880000e-01
+ Volume statistics:
+   minimum volume (m3): 6.483582e-12
+   maximum volume (m3): 4.894240e-08
+     total volume (m3): 2.024333e-03
+ Face area statistics:
+   minimum face area (m2): 5.034590e-09
+   maximum face area (m2): 3.283284e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -112.31263
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           258.16849
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet            77.40983
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet             0.06048
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.060474523
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\curve_w180_q1p2\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      169824 cells,     1 cell zone  ...
+         169824 hexahedral cells,  zone id: 2
+      517408 faces,     4 face zones ...
+            976 quadrilateral velocity-inlet faces,  zone id: 3
+         501536 quadrilateral interior faces,  zone id: 4
+            976 quadrilateral pressure-outlet faces,  zone id: 5
+          13920 quadrilateral wall faces,  zone id: 6
+      177975 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 33119/1055 = 31.3924
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\curve_w180_q1p2\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -9.000000e-02, max (m) = 9.000000e-02
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 2.480000e-01
+ Volume statistics:
+   minimum volume (m3): 1.153213e-11
+   maximum volume (m3): 5.364530e-08
+     total volume (m3): 1.050504e-03
+ Face area statistics:
+   minimum face area (m2): 1.946672e-08
+   maximum face area (m2): 2.507545e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -2.2598612
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           55.650709
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           33.568398
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet               0.024
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.023999965
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\curve_w180_q2p4\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      169824 cells,     1 cell zone  ...
+         169824 hexahedral cells,  zone id: 2
+      517408 faces,     4 face zones ...
+            976 quadrilateral velocity-inlet faces,  zone id: 3
+         501536 quadrilateral interior faces,  zone id: 4
+            976 quadrilateral pressure-outlet faces,  zone id: 5
+          13920 quadrilateral wall faces,  zone id: 6
+      177975 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 33119/1055 = 31.3924
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\curve_w180_q2p4\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -9.000000e-02, max (m) = 9.000000e-02
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 2.480000e-01
+ Volume statistics:
+   minimum volume (m3): 1.153213e-11
+   maximum volume (m3): 5.364530e-08
+     total volume (m3): 1.050504e-03
+ Face area statistics:
+   minimum face area (m2): 1.946672e-08
+   maximum face area (m2): 2.507545e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -32.320739
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           199.38169
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           129.82364
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet               0.048
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.047999448
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\curve_w180_q4p0\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      169824 cells,     1 cell zone  ...
+         169824 hexahedral cells,  zone id: 2
+      517408 faces,     4 face zones ...
+            976 quadrilateral velocity-inlet faces,  zone id: 3
+         501536 quadrilateral interior faces,  zone id: 4
+            976 quadrilateral pressure-outlet faces,  zone id: 5
+          13920 quadrilateral wall faces,  zone id: 6
+      177975 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 33119/1055 = 31.3924
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\curve_w180_q4p0\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -9.000000e-02, max (m) = 9.000000e-02
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 2.480000e-01
+ Volume statistics:
+   minimum volume (m3): 1.153213e-11
+   maximum volume (m3): 5.364530e-08
+     total volume (m3): 1.050504e-03
+ Face area statistics:
+   minimum face area (m2): 1.946672e-08
+   maximum face area (m2): 2.507545e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -118.59085
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           525.10162
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           355.79437
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet                0.08
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.079999827
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\curve_w225_q1p3\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      186416 cells,     1 cell zone  ...
+         186416 hexahedral cells,  zone id: 2
+      567864 faces,     4 face zones ...
+            976 quadrilateral velocity-inlet faces,  zone id: 3
+         550632 quadrilateral interior faces,  zone id: 4
+            976 quadrilateral pressure-outlet faces,  zone id: 5
+          15280 quadrilateral wall faces,  zone id: 6
+      195264 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 36922/1102 = 33.5045
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\curve_w225_q1p3\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -1.125000e-01, max (m) = 1.125000e-01
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 2.880000e-01
+ Volume statistics:
+   minimum volume (m3): 8.484350e-12
+   maximum volume (m3): 6.684047e-08
+     total volume (m3): 1.314840e-03
+ Face area statistics:
+   minimum face area (m2): 1.946672e-08
+   maximum face area (m2): 3.120601e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -11.000617
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           56.966556
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           30.417862
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet               0.026
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.025999518
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\curve_w225_q4p0\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      186416 cells,     1 cell zone  ...
+         186416 hexahedral cells,  zone id: 2
+      567864 faces,     4 face zones ...
+            976 quadrilateral velocity-inlet faces,  zone id: 3
+         550632 quadrilateral interior faces,  zone id: 4
+            976 quadrilateral pressure-outlet faces,  zone id: 5
+          15280 quadrilateral wall faces,  zone id: 6
+      195264 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 36922/1102 = 33.5045
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\curve_w225_q4p0\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -1.125000e-01, max (m) = 1.125000e-01
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 2.880000e-01
+ Volume statistics:
+   minimum volume (m3): 8.484350e-12
+   maximum volume (m3): 6.684047e-08
+     total volume (m3): 1.314840e-03
+ Face area statistics:
+   minimum face area (m2): 1.946672e-08
+   maximum face area (m2): 3.120601e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -209.57301
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           434.11947
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           238.10987
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet                0.08
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.079999964
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\guide_w315_q1p5\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      242672 cells,     1 cell zone  ...
+         242672 hexahedral cells,  zone id: 2
+      741892 faces,     4 face zones ...
+           1040 quadrilateral velocity-inlet faces,  zone id: 3
+         714140 quadrilateral interior faces,  zone id: 4
+           1040 quadrilateral pressure-outlet faces,  zone id: 5
+          25672 quadrilateral wall faces,  zone id: 6
+      257058 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 57035/727 = 78.4525
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\guide_w315_q1p5\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -1.575000e-01, max (m) = 1.575000e-01
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 3.880000e-01
+ Volume statistics:
+   minimum volume (m3): 6.483582e-12
+   maximum volume (m3): 4.894240e-08
+     total volume (m3): 2.024333e-03
+ Face area statistics:
+   minimum face area (m2): 5.034590e-09
+   maximum face area (m2): 3.283284e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -19.688649
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           71.449321
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           20.946004
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet                0.03
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet         -0.02999999
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\guide_w315_q4p5\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      242672 cells,     1 cell zone  ...
+         242672 hexahedral cells,  zone id: 2
+      741892 faces,     4 face zones ...
+           1040 quadrilateral velocity-inlet faces,  zone id: 3
+         714140 quadrilateral interior faces,  zone id: 4
+           1040 quadrilateral pressure-outlet faces,  zone id: 5
+          25672 quadrilateral wall faces,  zone id: 6
+      257058 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 57035/727 = 78.4525
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\guide_w315_q4p5\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -1.575000e-01, max (m) = 1.575000e-01
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 3.880000e-01
+ Volume statistics:
+   minimum volume (m3): 6.483582e-12
+   maximum volume (m3): 4.894240e-08
+     total volume (m3): 2.024333e-03
+ Face area statistics:
+   minimum face area (m2): 5.034590e-09
+   maximum face area (m2): 3.283284e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -257.25556
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           563.20745
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           168.22702
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet                0.09
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.090008732
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\network_Ps460_hose50\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       68064 cells,     1 cell zone  ...
+          68064 hexahedral cells,  zone id: 2
+      213268 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         194252 quadrilateral interior faces,  zone id: 4
+          16328 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral interior faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral interior faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral interior faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       77425 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1795/357 = 5.02801
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	load_2
+	outlet_1
+	load_1
+	outlet_0
+	load_0
+	housing
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\network_Ps460_hose50\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -8.422603e-02, max (m) = 8.422603e-02
+   y-coordinate: min (m) = -4.400000e-02, max (m) = 4.400000e-02
+   z-coordinate: min (m) = 0.000000e+00, max (m) = 1.280000e-01
+ Volume statistics:
+   minimum volume (m3): 1.439469e-12
+   maximum volume (m3): 4.762072e-08
+     total volume (m3): 6.995802e-04
+ Face area statistics:
+   minimum face area (m2): 1.263970e-09
+   maximum face area (m2): 2.849015e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           458.57764
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           738.98464
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.18642377
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0        -0.062918616
+
+                 pt0
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_0           703.41884
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.060742384
+
+                 pt1
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_1           706.30091
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.062763076
+
+                 pt2
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_2           703.60193
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\network_Ps460_hose60\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       68064 cells,     1 cell zone  ...
+          68064 hexahedral cells,  zone id: 2
+      213268 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         194252 quadrilateral interior faces,  zone id: 4
+          16328 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral interior faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral interior faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral interior faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       77425 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1795/357 = 5.02801
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	load_2
+	outlet_1
+	load_1
+	outlet_0
+	load_0
+	housing
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\network_Ps460_hose60\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -8.422603e-02, max (m) = 8.422603e-02
+   y-coordinate: min (m) = -4.400000e-02, max (m) = 4.400000e-02
+   z-coordinate: min (m) = 0.000000e+00, max (m) = 1.280000e-01
+ Volume statistics:
+   minimum volume (m3): 1.439469e-12
+   maximum volume (m3): 4.762072e-08
+     total volume (m3): 6.995802e-04
+ Face area statistics:
+   minimum face area (m2): 1.263970e-09
+   maximum face area (m2): 2.849015e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           460.30236
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           723.88002
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.18074763
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0        -0.060967905
+
+                 pt0
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_0           690.25007
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1         -0.05894471
+
+                 pt1
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_1           692.89293
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.060835342
+
+                 pt2
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_2           690.40087
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\network_Q11_hose60\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       68064 cells,     1 cell zone  ...
+          68064 hexahedral cells,  zone id: 2
+      213268 faces,     9 face zones ...
+            960 quadrilateral velocity-inlet faces,  zone id: 3
+         194252 quadrilateral interior faces,  zone id: 4
+          16328 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral interior faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral interior faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral interior faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       77425 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1795/357 = 5.02801
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	load_2
+	outlet_1
+	load_1
+	outlet_0
+	load_0
+	housing
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Nozzles_225_180_315_G16_ANSYS_20261116\cfd\network_Q11_hose60\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -8.422603e-02, max (m) = 8.422603e-02
+   y-coordinate: min (m) = -4.400000e-02, max (m) = 4.400000e-02
+   z-coordinate: min (m) = 0.000000e+00, max (m) = 1.280000e-01
+ Volume statistics:
+   minimum volume (m3): 1.439469e-12
+   maximum volume (m3): 4.762072e-08
+     total volume (m3): 6.995802e-04
+ Face area statistics:
+   minimum face area (m2): 1.263970e-09
+   maximum face area (m2): 2.849015e-05
+ Checking mesh.........................................
+ Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           675.05046
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           1063.0861
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.21996554
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0        -0.073446146
+
+                 pt0
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_0           991.39634
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.073153977
+
+                 pt1
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_1           1057.0735
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.073365403
+
+                 pt2
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_2           996.21015
+
+Posting ANSYS Product Improvement Program performance data 
+Done.
+Shutting down Server...
+Services Shutdown...Done.
+Server Shutdown...Done.
+Queue Cleared...Done.
+Shutdown Complete.
+Auto-Transcript Stop Time:  01:02:12, 17 Nov 2026 台北標準時間 
+Total Transcript Time: 2 Minute 45 Second.

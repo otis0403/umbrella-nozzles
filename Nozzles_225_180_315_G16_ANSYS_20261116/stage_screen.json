@@ -1,0 +1,10 @@
+{
+  "log": "screen_fluent.log",
+  "jobs": [
+    {"name": "screen_w180_L140", "width": 180, "length": 140, "q": 1.728, "batches": 25},
+    {"name": "screen_w225_L180", "width": 225, "length": 180, "q": 2.16, "batches": 25},
+    {"name": "screen_w225_L220", "width": 225, "length": 220, "q": 2.16, "batches": 25},
+    {"name": "screen_w315_L260", "width": 315, "length": 260, "q": 3.024, "batches": 30},
+    {"name": "screen_w315_L320", "width": 315, "length": 320, "q": 3.024, "batches": 30}
+  ]
+}

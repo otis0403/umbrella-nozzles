@@ -1,0 +1,9 @@
+{
+  "completed": [
+    "guide_w315_L320",
+    "guide_w315_q1p5",
+    "guide_w315_q4p5"
+  ],
+  "plan": "stage_guided315.json",
+  "owned_solver_closed": true
+}

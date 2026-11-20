@@ -1,0 +1,12 @@
+{
+    "delivery":  "C:\\Users\\otiso\\umbrella\\case\\集風罩\\可換式三吹嘴_225x12_180x14_315x8_20261118",
+    "model_zip":  "C:\\Users\\otiso\\umbrella\\case\\集風罩\\可換式三吹嘴_225x12_180x14_315x8_20261118\\可換式三吹嘴_8件STL_模型與報告.zip",
+    "STL_count":  8,
+    "required_STL_count":  6,
+    "reference_STL_count":  2,
+    "CFD_source":  "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117",
+    "modular_geometry_checks_passed":  true,
+    "physical_fit_sealing_and_drying_verified":  false,
+    "visual_review_passed":  true,
+    "owned_compute_processes_closed":  true
+}

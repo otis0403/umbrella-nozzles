@@ -1,0 +1,254 @@
+{
+  "curve_w180_q1p2": {
+    "residuals": {
+      "continuity": 0.00045952,
+      "Ux": 4.1376e-06,
+      "Uy": 3.9677e-06,
+      "Uz": 7.2565e-06,
+      "k": 0.00022033,
+      "omega": 0.00015592
+    },
+    "last_total_pressure_change_pct": 0.003792401435613299,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.00014668212269837878,
+    "source_log": "curves_fluent.log"
+  },
+  "curve_w180_q2p4": {
+    "residuals": {
+      "continuity": 0.0056703,
+      "Ux": 1.2016e-05,
+      "Uy": 1.2552e-05,
+      "Uz": 2.2009e-05,
+      "k": 0.00073485,
+      "omega": 0.00064442
+    },
+    "last_total_pressure_change_pct": 0.016796657512880127,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.001149151317652914,
+    "source_log": "curves_fluent.log"
+  },
+  "curve_w225_q1p3": {
+    "residuals": {
+      "continuity": 0.0013524,
+      "Ux": 1.3184e-05,
+      "Uy": 1.833e-05,
+      "Uz": 3.3721e-05,
+      "k": 0.00078432,
+      "omega": 0.00058931
+    },
+    "last_total_pressure_change_pct": 0.06361501322072038,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.0018528479320438587,
+    "source_log": "curves_fluent.log"
+  },
+  "curve_w315_q1p5": {
+    "residuals": {
+      "continuity": 0.0008195,
+      "Ux": 1.0714e-05,
+      "Uy": 2.6111e-05,
+      "Uz": 3.5112e-05,
+      "k": 0.00062916,
+      "omega": 0.00052697
+    },
+    "last_total_pressure_change_pct": 0.14443017957446724,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.0020394079679690574,
+    "source_log": "curves_fluent.log"
+  },
+  "guide_w315_L320": {
+    "residuals": {
+      "continuity": 0.03551,
+      "Ux": 6.6755e-06,
+      "Uy": 1.5684e-05,
+      "Uz": 4.0271e-05,
+      "k": 0.00068213,
+      "omega": 0.00089223
+    },
+    "last_total_pressure_change_pct": 0.1166866351631226,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.009056673215423694,
+    "source_log": "guided315_fluent.log"
+  },
+  "guide_w315_q1p5": {
+    "residuals": {
+      "continuity": 8.4526e-06,
+      "Ux": 1.0093e-08,
+      "Uy": 1.8664e-08,
+      "Uz": 4.607e-08,
+      "k": 7.4256e-07,
+      "omega": 2.9287e-06
+    },
+    "last_total_pressure_change_pct": 0.00015230155944386475,
+    "engineering_convergence_pass": true,
+    "mass_imbalance_pct": 3.207251473664082e-05,
+    "source_log": "guided315_fluent.log"
+  },
+  "guide_w315_q4p5": {
+    "residuals": {
+      "continuity": 0.028801,
+      "Ux": 7.3634e-06,
+      "Uy": 1.5194e-05,
+      "Uz": 4.1728e-05,
+      "k": 0.00080782,
+      "omega": 0.0010802
+    },
+    "last_total_pressure_change_pct": 0.1453556713900841,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.009701790045385694,
+    "source_log": "guided315_fluent.log"
+  },
+  "curve_w180_q4p0": {
+    "residuals": {
+      "continuity": 0.0013514,
+      "Ux": 2.0722e-06,
+      "Uy": 3.0279e-06,
+      "Uz": 4.7852e-06,
+      "k": 0.00013376,
+      "omega": 0.00013438
+    },
+    "last_total_pressure_change_pct": 0.08496552948839317,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.0002160725339106689,
+    "source_log": "high_flow_fluent.log"
+  },
+  "curve_w225_q4p0": {
+    "residuals": {
+      "continuity": 0.0021405,
+      "Ux": 1.8454e-06,
+      "Uy": 4.1833e-06,
+      "Uz": 4.3534e-06,
+      "k": 9.3898e-05,
+      "omega": 0.00010584
+    },
+    "last_total_pressure_change_pct": 0.06618575442669815,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 4.481174275409321e-05,
+    "source_log": "high_flow_fluent.log"
+  },
+  "network_Ps460_hose60": {
+    "residuals": {
+      "continuity": 0.00057908,
+      "Ux": 6.5623e-07,
+      "Uy": 6.5659e-07,
+      "Uz": 1.3716e-06,
+      "k": 5.0614e-05,
+      "omega": 0.0001027
+    },
+    "last_total_pressure_change_pct": 0.00819644115979359,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.00017845376897882644,
+    "source_log": "network_fluent.log"
+  },
+  "network_Ps460_hose50": {
+    "residuals": {
+      "continuity": 0.00051525,
+      "Ux": 5.8677e-07,
+      "Uy": 5.8945e-07,
+      "Uz": 1.237e-06,
+      "k": 4.5696e-05,
+      "omega": 9.0683e-05
+    },
+    "last_total_pressure_change_pct": 0.1022552700297182,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.00016614040839027362,
+    "source_log": "network_fluent.log"
+  },
+  "network_Q11_hose60": {
+    "residuals": {
+      "continuity": 0.00013778,
+      "Ux": 4.0564e-08,
+      "Uy": 1.2298e-08,
+      "Uz": 4.2361e-08,
+      "k": 1.153e-06,
+      "omega": 7.5182e-06
+    },
+    "last_total_pressure_change_pct": 0.1793645097021704,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 4.90530691297359e-06,
+    "source_log": "network_fluent.log"
+  },
+  "ramp_w180_L180": {
+    "residuals": {
+      "continuity": 0.0061921,
+      "Ux": 1.2852e-05,
+      "Uy": 1.2761e-05,
+      "Uz": 2.4565e-05,
+      "k": 0.00079029,
+      "omega": 0.00065805
+    },
+    "last_total_pressure_change_pct": 0.021332650750527128,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.0002763173188969213,
+    "source_log": "ramp_serial_fluent.log"
+  },
+  "ramp_w225_L220": {
+    "residuals": {
+      "continuity": 0.0037404,
+      "Ux": 9.764e-06,
+      "Uy": 9.8069e-06,
+      "Uz": 1.8591e-05,
+      "k": 0.00052803,
+      "omega": 0.00049322
+    },
+    "last_total_pressure_change_pct": 0.009111568905102094,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.00029104299662549425,
+    "source_log": "ramp_serial_fluent.log"
+  },
+  "ramp_w315_L320": {
+    "residuals": {
+      "continuity": 0.0087997,
+      "Ux": 4.0831e-06,
+      "Uy": 1.1712e-05,
+      "Uz": 1.4804e-05,
+      "k": 0.00021874,
+      "omega": 0.00020286
+    },
+    "last_total_pressure_change_pct": 0.14354604427843995,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.000619186829683082,
+    "source_log": "ramp_serial_fluent.log"
+  },
+  "screen_w180_L140": {
+    "residuals": {
+      "continuity": 0.0017774,
+      "Ux": 2.3517e-07,
+      "Uy": 3.3163e-07,
+      "Uz": 5.2998e-07,
+      "k": 8.7678e-06,
+      "omega": 1.3361e-05
+    },
+    "last_total_pressure_change_pct": 0.0012902443856207314,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.00029005180115825735,
+    "source_log": "screen_fluent.log"
+  },
+  "screen_w225_L180": {
+    "residuals": {
+      "continuity": 0.010316,
+      "Ux": 1.5508e-06,
+      "Uy": 2.1467e-06,
+      "Uz": 3.9909e-06,
+      "k": 4.8298e-05,
+      "omega": 9.1055e-05
+    },
+    "last_total_pressure_change_pct": 0.1534350911232428,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.0012735078623587121,
+    "source_log": "screen_fluent.log"
+  },
+  "screen_w225_L220": {
+    "residuals": {
+      "continuity": 0.0019235,
+      "Ux": 2.6813e-07,
+      "Uy": 2.8041e-07,
+      "Uz": 6.0569e-07,
+      "k": 7.3679e-06,
+      "omega": 1.4165e-05
+    },
+    "last_total_pressure_change_pct": 0.013039847481309017,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.00014346655125178472,
+    "source_log": "screen_fluent.log"
+  }
+}

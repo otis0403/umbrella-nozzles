@@ -1,0 +1,11 @@
+﻿{
+    "completed":  [
+                      "screen_w180_L140",
+                      "screen_w225_L180",
+                      "screen_w225_L220"
+                  ],
+    "owned_solver_closed":  true,
+    "remaining_screen_profiles_superseded":  true,
+    "reason":  "Continue smooth-widening designs after three saved native comparisons",
+    "closure":  "Owned client and server processes closed before next launch"
+}

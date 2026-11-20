@@ -1,0 +1,41 @@
+[
+  {
+    "width_mm": 225,
+    "size_mm": [
+      60.20000076293945,
+      229.8000030517578,
+      288.0
+    ],
+    "minimum_triangle_area_mm2": 0.000119292161663521,
+    "positive_single_solid": true,
+    "watertight": true,
+    "volume_mm3": 231009.02309383114,
+    "sha256": "18d4ed8506d9fdae7501767b1eca9ca96e88334f96b1496a50ee57344441b01d"
+  },
+  {
+    "width_mm": 180,
+    "size_mm": [
+      60.20000076293945,
+      184.8000030517578,
+      248.0
+    ],
+    "minimum_triangle_area_mm2": 0.0005745442935303477,
+    "positive_single_solid": true,
+    "watertight": true,
+    "volume_mm3": 172197.03711776462,
+    "sha256": "6cae7cbbe4910ebc82769229d4eda20b613b4abb3bed9e0e4cc04c2d3f72328f"
+  },
+  {
+    "width_mm": 315,
+    "size_mm": [
+      60.20000076293945,
+      319.79998779296875,
+      388.0
+    ],
+    "minimum_triangle_area_mm2": 3.0792125951391406e-05,
+    "positive_single_solid": true,
+    "watertight": true,
+    "volume_mm3": 419087.3586149914,
+    "sha256": "832c65500ae3ee6cf2c9f792cdab59c7c1b9195c0f607c0c2c4e7b2651c8175d"
+  }
+]

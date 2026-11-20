@@ -1,0 +1,9 @@
+{
+  "log": "curves_fluent.log",
+  "jobs": [
+    {"name":"curve_w180_q1p2","width":180,"length":180,"profile_kind":"ramp","q":1.2,"warm":"ramp_w180_L180","batches":30},
+    {"name":"curve_w180_q2p4","width":180,"length":180,"profile_kind":"ramp","q":2.4,"warm":"ramp_w180_L180","batches":30},
+    {"name":"curve_w225_q1p3","width":225,"length":220,"profile_kind":"ramp","q":1.3,"warm":"ramp_w225_L220","batches":30},
+    {"name":"curve_w315_q1p5","width":315,"length":320,"profile_kind":"ramp","q":1.5,"warm":"ramp_w315_L320","batches":35}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "completed": [
+    "curve_w180_q1p2",
+    "curve_w180_q2p4",
+    "curve_w225_q1p3",
+    "curve_w315_q1p5"
+  ],
+  "plan": "stage_curves.json",
+  "owned_solver_closed": true
+}

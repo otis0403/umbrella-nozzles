@@ -1,0 +1,8 @@
+{
+  "log": "ramp_fluent.log",
+  "jobs": [
+    {"name": "ramp_w180_L180", "width": 180, "length": 180, "profile_kind": "ramp", "q": 1.728, "warm": "screen_w180_L140", "batches": 40},
+    {"name": "ramp_w225_L220", "width": 225, "length": 220, "profile_kind": "ramp", "q": 2.16, "warm": "screen_w225_L180", "batches": 40},
+    {"name": "ramp_w315_L320", "width": 315, "length": 320, "profile_kind": "ramp", "q": 3.024, "batches": 45}
+  ]
+}

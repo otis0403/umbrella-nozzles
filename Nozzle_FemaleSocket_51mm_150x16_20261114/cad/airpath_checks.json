@@ -1,0 +1,20 @@
+{
+  "measured_socket_ID_mm": 55.400001525878906,
+  "measured_flow_inlet_ID_mm": 51.000253677368164,
+  "gap_samples": 61,
+  "gap_range_mm": [
+    16.000015258789062,
+    16.000017166137695
+  ],
+  "outlet_span_mm": 149.99874114990234,
+  "axial_passage_clear": true,
+  "clamp_slots_open": [
+    true,
+    true
+  ],
+  "outlet_end_heights_mm": [
+    188.0,
+    188.0
+  ],
+  "physical_fit_verified": false
+}

@@ -1,0 +1,26 @@
+{
+  "width_mm": 315,
+  "gap_mm": 16,
+  "transition_length_mm": 320,
+  "height_mm": 388.0,
+  "profile_kind": "ramp",
+  "guide_count": 2,
+  "guide_nominal_thickness_mm": 1.6,
+  "guide_tip_thickness_mm": 0.8,
+  "guide_axial_limits_mm": [
+    55.0,
+    332.0
+  ],
+  "unpartitioned_outlet_length_mm": 56,
+  "full_reference_STL": "C:\\Users\\otiso\\umbrella\\case\\Nozzles_225_180_315_G16_ANSYS_20261116\\cad\\full\\nozzle_W315_G16_L320_ramp_guided_mm.stl",
+  "socket_ID_mm": 55.4,
+  "flow_ID_mm": 51,
+  "size_mm": [
+    60.20000076293945,
+    319.79998779296875,
+    388.0
+  ],
+  "closed_single_solid": true,
+  "sha256": "832c65500ae3ee6cf2c9f792cdab59c7c1b9195c0f607c0c2c4e7b2651c8175d",
+  "physical_fit_verified": false
+}

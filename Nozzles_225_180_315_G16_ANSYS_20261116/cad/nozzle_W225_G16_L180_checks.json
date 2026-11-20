@@ -1,0 +1,55 @@
+{
+  "width_mm": 225,
+  "gap_mm": 16,
+  "transition_length_mm": 180,
+  "height_mm": 248.0,
+  "full_reference_STL": "C:\\Users\\otiso\\umbrella\\case\\Nozzles_225_180_315_G16_ANSYS_20261116\\cad\\full\\nozzle_W225_G16_L180_mm.stl",
+  "socket_ID_mm": 55.4,
+  "flow_ID_mm": 51,
+  "parts": [
+    {
+      "name": "nozzle_W225_G16_L180_onepiece",
+      "file": "C:\\Users\\otiso\\umbrella\\case\\Nozzles_225_180_315_G16_ANSYS_20261116\\print\\STL\\nozzle_W225_G16_L180_onepiece_mm.stl",
+      "print_size_mm": [
+        176.96497344970703,
+        176.96497344970703,
+        248.0
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0,
+          0.0005790447090150668
+        ],
+        [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0,
+          0.0005527213563831716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_for_print_degrees": 45,
+      "sha256": "b3218db3ca7241d69d221cf91a9ce1dd1e58ebb8b0953ada59dcbc171b005bcf",
+      "closed_single_solid": true,
+      "volume_mm3": 200959.19670007905,
+      "triangles": 135874,
+      "K1C_plus_5mm_brim_checked": true
+    }
+  ],
+  "nominal_joint_material_intrusion_mm3": 1.8891904074710216e-13,
+  "screws": [],
+  "physical_fit_verified": false
+}

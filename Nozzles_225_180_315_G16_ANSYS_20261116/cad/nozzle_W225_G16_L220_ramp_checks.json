@@ -1,0 +1,18 @@
+{
+  "width_mm": 225,
+  "gap_mm": 16,
+  "transition_length_mm": 220,
+  "height_mm": 288.0,
+  "profile_kind": "ramp",
+  "full_reference_STL": "C:\\Users\\otiso\\umbrella\\case\\Nozzles_225_180_315_G16_ANSYS_20261116\\cad\\full\\nozzle_W225_G16_L220_ramp_mm.stl",
+  "socket_ID_mm": 55.4,
+  "flow_ID_mm": 51,
+  "size_mm": [
+    60.20000076293945,
+    229.8000030517578,
+    288.0
+  ],
+  "closed_single_solid": true,
+  "sha256": "18d4ed8506d9fdae7501767b1eca9ca96e88334f96b1496a50ee57344441b01d",
+  "physical_fit_verified": false
+}

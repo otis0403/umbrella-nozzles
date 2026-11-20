@@ -1,0 +1,123 @@
+{
+  "method": "one-dimensional calibrated loss network plus mean exit kinetic-pressure correction",
+  "source_root": "C:\\Users\\otiso\\umbrella\\case\\Outer315_NarrowGap_ANSYS_20261117",
+  "assumed_hose_cuts_m": [
+    0.6,
+    0.6,
+    0.6
+  ],
+  "baseline_reproduction_max_branch_flow_difference_pct": 0.0666998648852335,
+  "limitation": "calibration is not independent validation; changed nozzle losses and fan P-Q are unverified",
+  "results": [
+    {
+      "gaps_mm": [
+        16.0,
+        16.0,
+        8.0
+      ],
+      "flows_m3_min": [
+        2.9896707673568086,
+        2.889642878845074,
+        2.6533570979583287
+      ],
+      "mean_slot_speed_m_s": [
+        13.841068367392634,
+        16.72247036368677,
+        17.548658055279954
+      ],
+      "total_flow_m3_min": 8.532670744160212,
+      "inlet_total_pressure_Pa": 698.7855372389287,
+      "inlet_static_pressure_Pa": 462.979205547984,
+      "new_ANSYS_simulation": false,
+      "CAD_changed": false
+    },
+    {
+      "gaps_mm": [
+        14.0,
+        14.0,
+        8.0
+      ],
+      "flows_m3_min": [
+        2.883996813158259,
+        2.757389440935072,
+        2.624966465655735
+      ],
+      "mean_slot_speed_m_s": [
+        15.259242397662746,
+        18.236702651686986,
+        17.36088932311994
+      ],
+      "total_flow_m3_min": 8.266352719749065,
+      "inlet_total_pressure_Pa": 684.2954805564895,
+      "inlet_static_pressure_Pa": 462.979205547984,
+      "new_ANSYS_simulation": false,
+      "CAD_changed": false
+    },
+    {
+      "gaps_mm": [
+        12.0,
+        14.0,
+        8.0
+      ],
+      "flows_m3_min": [
+        2.7636627176833044,
+        2.740641421494143,
+        2.608918220606341
+      ],
+      "mean_slot_speed_m_s": [
+        17.059646405452497,
+        18.125935327342216,
+        17.254750136285324
+      ],
+      "total_flow_m3_min": 8.113222359783789,
+      "inlet_total_pressure_Pa": 676.1718638951322,
+      "inlet_static_pressure_Pa": 462.979205547984,
+      "new_ANSYS_simulation": false,
+      "CAD_changed": false
+    },
+    {
+      "gaps_mm": [
+        12.0,
+        12.0,
+        8.0
+      ],
+      "flows_m3_min": [
+        2.741922519916928,
+        2.5840542072988373,
+        2.588385687081499
+      ],
+      "mean_slot_speed_m_s": [
+        16.9254476538082,
+        19.938689871133004,
+        17.118952956888222
+      ],
+      "total_flow_m3_min": 7.914362414297265,
+      "inlet_total_pressure_Pa": 665.8489837285654,
+      "inlet_static_pressure_Pa": 462.979205547984,
+      "new_ANSYS_simulation": false,
+      "CAD_changed": false
+    },
+    {
+      "gaps_mm": [
+        14.0,
+        12.0,
+        8.0
+      ],
+      "flows_m3_min": [
+        2.8607106216431704,
+        2.599308408621907,
+        2.603782703393754
+      ],
+      "mean_slot_speed_m_s": [
+        15.136035035149048,
+        20.056392041835704,
+        17.22078507535552
+      ],
+      "total_flow_m3_min": 8.063801733658831,
+      "inlet_total_pressure_Pa": 673.5825043245152,
+      "inlet_static_pressure_Pa": 462.979205547984,
+      "new_ANSYS_simulation": false,
+      "CAD_changed": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "case": "curve_w180_q2p4",
+  "width_mm": 180,
+  "flow_m3_min": 2.3999999999951607,
+  "inlet_total_pressure_Pa": 199.3816877769327,
+  "total_pressure_loss_Pa": 69.5580471555044,
+  "slot_area_mean_velocity_m_s": 13.891658782958984,
+  "core_line_CV_pct": 4.713654838378925,
+  "core_line_mean_velocity_m_s": 14.79288424282091,
+  "full_slot_area_CV_pct": 19.960533142089844,
+  "body_reverse_volume_pct": 2.467867344152524,
+  "engineering_convergence_pass": false
+}

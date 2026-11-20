@@ -1,0 +1,21 @@
+{
+  "3MF\\01_入口段_K2Pro300.3mf": "7161fd1090a1be8a53c707ff2b33038afbbc34c864fac3608c715086fd3d073d",
+  "3MF\\02_導流段_K2Pro300.3mf": "e2d94fb640a33e0618e628519994601e5ead77bea407a88c6618deee99fefcd9",
+  "3MF\\03_可換前嘴315x8_K2Pro300.3mf": "f458b1106e9ac908f0f31c4f252faefc0ddedf8a1b2cbea0a375074ffbd0e806",
+  "STL\\01_入口段_mm.stl": "912a0845cdd8a086a0cd13ae041c08d5f61ecbf37dc68bc9b069ac1e21ea41dc",
+  "STL\\02_導流段_mm.stl": "76f6a3d87ad3b0abf711822851cb45337cbd45cc1675bf4136b66806827e1943",
+  "STL\\03_可換前嘴315x8_mm.stl": "5087c11951068b0bf40df061d77e1d642470cbf12bc8bde33bfd350d40c874e5",
+  "先看這裡_列印與組裝說明.md": "24c58d48735c187032451fe022070ee7d84b4d32d20c21b6689a8b6820d6a2dc",
+  "圖片\\assembled.png": "f98d310ebe27e48a2d4ce4ffe4b1c2ef239bd5a5a59544255e83983b00697f1b",
+  "圖片\\assembly_guide.png": "f82fc1c2590111b3d53a307044908759f964e12fe2d7661cf7347e280a5f11a6",
+  "圖片\\exploded.png": "87eec4ff88325f34f7e05b6343bad58838da458e203538ae1c5716f2d36e77a3",
+  "圖片\\K2Pro_plate_fit.png": "8eb8d05fe76455e8c0239e9ee696841077efc9285ddf3ab3a2fca67008246e3f",
+  "模型\\外側315x8_組裝_mm.blend": "c4e889d46ef8105f6da62c5956c20ecddbb0f01711966e2373ff4f39ffbe4a6e",
+  "檢查紀錄\\native_geometry_checks.json": "149e803c11a94a54c38acf845fdd1553d1e3fdd1a3811a155a76259ca8c86229",
+  "檢查紀錄\\print_checks.json": "3bcb9093c0af6f27fcf0d3b93bd1cab3fda0eb59c6e535a1c617ec7c6fc1b8ce",
+  "檢查紀錄\\交付檔名對照.json": "d1f3720fe0337764c95ee7af56e077e49cae70cd099af279efbe6243e0372c19",
+  "設計程式\\build_native.py": "9fe916ec91fc47fa0fbf04aa9cdece80574cded32c6cf7271c0781a405659e5e",
+  "設計程式\\build_split.py": "6b457b38cb10ea93cec2176bb805b375f66fe0ca4b53639de2aae6f9a512281e",
+  "設計程式\\package_split.py": "ba04b1ccae30e4c91593e521506acc90b8e56ebffc79c9bcf96398102aecb9a2",
+  "設計程式\\plate_diagram.py": "ea8d2bf719b6acc68403e1558186acb184f8c52a99bf56ab1794e09a8646c0f9"
+}

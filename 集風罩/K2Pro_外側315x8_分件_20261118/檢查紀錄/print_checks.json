@@ -1,0 +1,228 @@
+{
+  "printer": "Creality K2 Pro",
+  "build_volume_mm": [
+    300,
+    300,
+    300
+  ],
+  "rotation_Z_deg": 45,
+  "brim_space_each_side_mm": 8,
+  "split_Z_mm": 55,
+  "guides_start_Z_mm": 55,
+  "guides_split": false,
+  "new_joint_nominal_flow_mm": [
+    55.185346188023686,
+    47.01489988671925,
+    23.507449943359624
+  ],
+  "new_joint_screw_centers_XY_mm": [
+    [
+      -18,
+      -35
+    ],
+    [
+      -18,
+      35
+    ],
+    [
+      18,
+      -35
+    ],
+    [
+      18,
+      35
+    ]
+  ],
+  "new_joint_screws": "4 x M4x16 + nuts + 8 washers",
+  "new_joint_flange_mm": [
+    90,
+    60,
+    4
+  ],
+  "source_hashes_unchanged": {
+    "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\outer_body_mm.stl": "bb1d7d3d2a9292830031f4f97664a4739c9830616458d7d7a0fb275a876fcab2",
+    "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\outer_tip_g8_mm.stl": "444a71cd1a7dfb88ab8c5ae28de9032b9008e318544a1bfd6333c650dcf12a72"
+  },
+  "parts": [
+    {
+      "id": "inlet_lower",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\STL\\inlet_lower_K2Pro_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\3MF\\inlet_lower_K2Pro_300mm.3mf",
+      "print_size_mm": [
+        101.09532928466797,
+        101.09532928466797,
+        56.5
+      ],
+      "placed_3MF_bounds_mm": [
+        [
+          99.45233540000001,
+          99.45233540000001,
+          0.0
+        ],
+        [
+          200.5476646,
+          200.5476646,
+          56.5
+        ]
+      ],
+      "XY_space_with_8mm_brim_mm": [
+        117.09532928466797,
+        117.09532928466797
+      ],
+      "Z_margin_mm": 243.5,
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight_single_positive_solid": true,
+      "minimum_triangle_area_mm2": 2.168708306271583e-06,
+      "STL_sha256": "912a0845cdd8a086a0cd13ae041c08d5f61ecbf37dc68bc9b069ac1e21ea41dc",
+      "3MF_sha256": "7161fd1090a1be8a53c707ff2b33038afbbc34c864fac3608c715086fd3d073d"
+    },
+    {
+      "id": "guided_upper",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\STL\\guided_upper_K2Pro_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\3MF\\guided_upper_K2Pro_300mm.3mf",
+      "print_size_mm": [
+        240.60536193847656,
+        240.60536193847656,
+        291.5
+      ],
+      "placed_3MF_bounds_mm": [
+        [
+          29.697318999999993,
+          29.697318999999993,
+          0.0
+        ],
+        [
+          270.302681,
+          270.302681,
+          291.5
+        ]
+      ],
+      "XY_space_with_8mm_brim_mm": [
+        256.60536193847656,
+        256.60536193847656
+      ],
+      "Z_margin_mm": 8.5,
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          55.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight_single_positive_solid": true,
+      "minimum_triangle_area_mm2": 9.429083320355858e-06,
+      "STL_sha256": "76f6a3d87ad3b0abf711822851cb45337cbd45cc1675bf4136b66806827e1943",
+      "3MF_sha256": "e2d94fb640a33e0618e628519994601e5ead77bea407a88c6618deee99fefcd9"
+    },
+    {
+      "id": "front_tip_g8",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\STL\\front_tip_g8_K2Pro_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\K2Pro_Outer315_Split_20261118\\3MF\\front_tip_g8_K2Pro_300mm.3mf",
+      "print_size_mm": [
+        240.60536193847656,
+        240.60536193847656,
+        43.0
+      ],
+      "placed_3MF_bounds_mm": [
+        [
+          29.697318999999993,
+          29.697318999999993,
+          0.0
+        ],
+        [
+          270.302681,
+          270.302681,
+          43.0
+        ]
+      ],
+      "XY_space_with_8mm_brim_mm": [
+        256.60536193847656,
+        256.60536193847656
+      ],
+      "Z_margin_mm": 257.0,
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          345.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight_single_positive_solid": true,
+      "minimum_triangle_area_mm2": 0.0011269974403911994,
+      "STL_sha256": "5087c11951068b0bf40df061d77e1d642470cbf12bc8bde33bfd350d40c874e5",
+      "3MF_sha256": "f458b1106e9ac908f0f31c4f252faefc0ddedf8a1b2cbea0a375074ffbd0e806"
+    }
+  ],
+  "assembly_overlap_mm3": {
+    "new_body_joint": 3.045103743862046e-13,
+    "existing_tip_joint": 2.79899714517029e-12
+  },
+  "added_material_in_joint_flow_probe_mm3": 9.267537150062225e-05,
+  "removed_material_in_joint_flow_probe_mm3": 9.084605754583758e-05,
+  "original_upper_material_missing_mm3": 0.1399875165756259,
+  "physical_fit_slicing_print_and_sealing_verified": false,
+  "existing_tip_geometry_preserved_by_rigid_transform": true
+}

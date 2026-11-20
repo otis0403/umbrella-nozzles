@@ -1,0 +1,13 @@
+{
+  "case": "ramp_w225_L220",
+  "width_mm": 225,
+  "flow_m3_min": 2.159999999995647,
+  "inlet_total_pressure_Pa": 140.4197872918646,
+  "total_pressure_loss_Pa": 65.15856645356507,
+  "slot_area_mean_velocity_m_s": 9.999648094177246,
+  "core_line_CV_pct": 15.3060983102557,
+  "core_line_mean_velocity_m_s": 10.82629968678664,
+  "full_slot_area_CV_pct": 27.709304809570312,
+  "body_reverse_volume_pct": 7.962300550622305,
+  "engineering_convergence_pass": false
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "part_id": "inlet_lower",
+    "delivered_name": "01_入口段",
+    "print_size_mm": [
+      101.09532928466797,
+      101.09532928466797,
+      56.5
+    ]
+  },
+  {
+    "part_id": "guided_upper",
+    "delivered_name": "02_導流段",
+    "print_size_mm": [
+      240.60536193847656,
+      240.60536193847656,
+      291.5
+    ]
+  },
+  {
+    "part_id": "front_tip_g8",
+    "delivered_name": "03_可換前嘴315x8",
+    "print_size_mm": [
+      240.60536193847656,
+      240.60536193847656,
+      43.0
+    ]
+  }
+]

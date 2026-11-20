@@ -1,0 +1,8 @@
+{
+  "non_mating_part_pairs_considered": 611,
+  "broadphase_overlapping_pairs_tested": 20,
+  "non_mating_surface_intersections": [],
+  "six_hose_meshes_closed": true,
+  "mating_pairs_excluded": "each hose and its own socket/spigot; 25 mm insertion at each end",
+  "test_scope": "mesh-surface intersection; hardware and manufacturing tolerance require physical checks"
+}

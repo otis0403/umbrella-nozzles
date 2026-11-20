@@ -1,0 +1,29 @@
+{
+  "file": "C:\\Users\\otiso\\umbrella\\case\\整機整合_垂直上管_加深外殼_20261116\\print\\STL\\elbow_90deg_R90_ID51_socket55p4_spigot55_mm.stl",
+  "sha256": "d715687949d8649ad7fa5795329a39d90d7f78e8c2f6405ee11129f19f09eb04",
+  "print_size_mm": [
+    60.20000076293945,
+    150.10000038146973,
+    152.89999389648438
+  ],
+  "watertight_single_solid": true,
+  "positive_volume_mm3": 83675.87652058255,
+  "triangles": 114324,
+  "flow_ID_mm": 51,
+  "centerline_radius_mm": 90,
+  "turn_degrees": 90,
+  "female_ID_mm": 55.4,
+  "female_depth_mm": 25,
+  "male_OD_mm": 55,
+  "male_insertion_mm": 25,
+  "main_wall_mm": 2.4,
+  "male_wall_mm": 2,
+  "interface_origin_for_nozzle_mm": [
+    0,
+    95,
+    125
+  ],
+  "quantity": 6,
+  "K1C_space_plus_5mm_brim_checked": true,
+  "actual_slicing_and_fit_verified": false
+}

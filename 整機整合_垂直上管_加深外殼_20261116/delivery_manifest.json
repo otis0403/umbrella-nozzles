@@ -1,0 +1,10 @@
+{
+  "完整模型_垂直上管_後殼加深800mm.blend": "987cfa79f468102ced9ab8701d3f208cdafee7275fe35ee02a5b4d911cf4dcfb",
+  "01_後殼加深_垂直上管整機.png": "2d3d12a5897b73cce1eb0f6fbac3d64834a083c47fb1c2e34b84600ba8f53108",
+  "02_垂直主段_水平吹嘴配置.png": "0929feb33d32dde3d0fee7bfede1e7d8de724f2ccb2a2e580cfb091b9ae2fd38",
+  "vertical_layout_checks.json": "8728ae7932d72eda672b3f098688f5b333c66fd903c5808d59ac861b21baf182",
+  "native_reopen_checks.json": "06bceb08d4ccf7f51d4872c422d143b3e717d5354579b376b15b315571b2304e",
+  "elbow_geometry_checks.json": "1433e90244a3d1b501340a856163eadc8ba5bc1199efc593fdf406884a08a0c9",
+  "垂直上管與後殼說明.md": "b769adec42978278bdf294eac738511ef1a8fbe68d582f31f97a5aa355fd19ab",
+  "print/STL/elbow_90deg_R90_ID51_socket55p4_spigot55_mm.stl": "d715687949d8649ad7fa5795329a39d90d7f78e8c2f6405ee11129f19f09eb04"
+}

@@ -1,0 +1,10 @@
+{
+  "native_reopened": true,
+  "all_six_flow_axes_horizontal": true,
+  "all_six_nozzle_bodies_parallel_floor": true,
+  "all_six_released_nozzle_meshes_verified": true,
+  "left_right_symmetry_error_under_mm": 0.01,
+  "unaltered_meshes_verified": 40,
+  "source_hash_verified": true,
+  "output_sha256": "c066221d184c6c5fb04bc3fae0faf11d613c991b0b83c6ff24d6ef8ef0bafeb4"
+}

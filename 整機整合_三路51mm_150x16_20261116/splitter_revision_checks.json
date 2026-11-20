@@ -1,0 +1,28 @@
+{
+  "source": "C:\\Users\\otiso\\umbrella\\case\\ThreeWay150_51mm_System_20261114\\print\\STL\\splitter_H110_neck46_mm.stl",
+  "source_sha256": "cc3597d5b7cdb4262a6b43d3c692fac52eda0ecfb116e9ef353c9468b775ab4f",
+  "output": "C:\\Users\\otiso\\umbrella\\case\\整機整合_三路51mm_150x16_20261116\\print\\STL\\splitter_center_neck_plus10_mm.stl",
+  "output_sha256": "8f5ca6373e852a2ef8fdac68e3c22a13d70131f539f4fee060842dc20f8fbc0d",
+  "change": "center circular spigot stretched from 25 to 35 mm above z=85 mm; side ports and lower body identical",
+  "center_tip_height_mm": 120,
+  "side_tip_axis_height_mm": 98,
+  "center_neck_length_mm": 35,
+  "nominal_hose_insertion_mm": 25,
+  "center_uncovered_neck_mm": 10,
+  "bounds_mm": [
+    [
+      -82.6576919555664,
+      -60.0,
+      0.0
+    ],
+    [
+      82.6576919555664,
+      60.0,
+      120.0
+    ]
+  ],
+  "watertight_single_solid": true,
+  "winding_consistent": true,
+  "unchanged_vertices_outside_center_neck": true,
+  "modified_vertices": 448
+}

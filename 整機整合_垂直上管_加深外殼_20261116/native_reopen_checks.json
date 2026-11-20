@@ -1,0 +1,15 @@
+{
+  "native_reopened": true,
+  "six_nozzles_horizontal": true,
+  "six_upper_hose_segments_vertical": true,
+  "elbow_socket_ID_mm": 55.39999771118164,
+  "elbow_flow_ID_range_mm": [
+    50.99840545654297,
+    51.0
+  ],
+  "source_geometries_verified": true,
+  "source_file_hash_verified": true,
+  "output_sha256": "987cfa79f468102ced9ab8701d3f208cdafee7275fe35ee02a5b4d911cf4dcfb",
+  "elbow_male_OD_mm": 55.000001217842104,
+  "elbow_male_to_nozzle_diameter_clearance_mm": 0.3999987821578941
+}

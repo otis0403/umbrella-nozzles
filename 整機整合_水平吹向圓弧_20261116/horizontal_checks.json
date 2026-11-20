@@ -1,0 +1,359 @@
+{
+  "source": "C:\\Users\\otiso\\umbrella\\case\\整機整合_三路51mm_150x16_20261116\\完整模型_中央弧線_三路51mm_150x16.blend",
+  "source_sha256": "458ee3edb814da5aab0ebace2b4c4c2fbf38f21a07c5d48ea775bf3a942ef46e",
+  "source_unit_scale": 0.009999999776482582,
+  "configuration": "two blowers, six horizontal airknives, symmetric middle line of umbrella arc",
+  "back_protrusion_authorized": true,
+  "target_standoff_mm": 50,
+  "nozzle_size_mm": [
+    150,
+    16
+  ],
+  "nozzle_geometry_reused": true,
+  "flow_simulation_status": "pending for this installed geometry",
+  "outlets": [
+    {
+      "name": "小型集風罩_右側_1",
+      "mouth_center_mm": [
+        -129.2097625732422,
+        -188.58924865722656,
+        709.8660278320312
+      ],
+      "flow_axis": [
+        0.16169317066669464,
+        0.986841082572937,
+        -0.0
+      ],
+      "long_slot_axis": [
+        -0.986841082572937,
+        0.16169317066669464,
+        0.0
+      ],
+      "short_axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "target_point_mm": [
+        -121.15303039550781,
+        -139.41763305664062,
+        709.8660278320312
+      ],
+      "axis_to_floor_angle_degrees": 0.0,
+      "nozzle_body_to_floor_angle_degrees": 0.0,
+      "center_standoff_mm": 49.82729911804199,
+      "slot_to_arc_gap_range_mm": [
+        49.8002815246582,
+        53.133673667907715
+      ],
+      "slot_ray_samples": 61,
+      "mesh_hash": "44daf5795caf8d7abf52eb1dfc88cc8818f14e69e91bdded7569121fcd1fecd8"
+    },
+    {
+      "name": "小型集風罩_右側_2",
+      "mouth_center_mm": [
+        -332.0439147949219,
+        -126.85286712646484,
+        709.8660278320312
+      ],
+      "flow_axis": [
+        0.41551947593688965,
+        0.9095842838287354,
+        -0.0
+      ],
+      "long_slot_axis": [
+        -0.9095842838287354,
+        0.41551947593688965,
+        0.0
+      ],
+      "short_axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "target_point_mm": [
+        -311.3409729003906,
+        -81.5335464477539,
+        709.8660278320312
+      ],
+      "axis_to_floor_angle_degrees": 0.0,
+      "nozzle_body_to_floor_angle_degrees": 0.0,
+      "center_standoff_mm": 49.824204444885254,
+      "slot_to_arc_gap_range_mm": [
+        49.755563735961914,
+        53.175764083862305
+      ],
+      "slot_ray_samples": 61,
+      "mesh_hash": "44daf5795caf8d7abf52eb1dfc88cc8818f14e69e91bdded7569121fcd1fecd8"
+    },
+    {
+      "name": "小型集風罩_右側_3",
+      "mouth_center_mm": [
+        -511.5033264160156,
+        -13.948524475097656,
+        709.8660278320312
+      ],
+      "flow_axis": [
+        0.6400948762893677,
+        0.7682958841323853,
+        -0.0
+      ],
+      "long_slot_axis": [
+        -0.7682958841323853,
+        0.6400948762893677,
+        0.0
+      ],
+      "short_axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "target_point_mm": [
+        -479.62188720703125,
+        24.31826400756836,
+        709.8660278320312
+      ],
+      "axis_to_floor_angle_degrees": 0.0,
+      "nozzle_body_to_floor_angle_degrees": 0.0,
+      "center_standoff_mm": 49.80735778808594,
+      "slot_to_arc_gap_range_mm": [
+        49.679622650146484,
+        53.26305866241455
+      ],
+      "slot_ray_samples": 61,
+      "mesh_hash": "44daf5795caf8d7abf52eb1dfc88cc8818f14e69e91bdded7569121fcd1fecd8"
+    },
+    {
+      "name": "小型集風罩_左側_1",
+      "mouth_center_mm": [
+        129.20977783203125,
+        -188.58924865722656,
+        709.8660278320312
+      ],
+      "flow_axis": [
+        -0.1616930216550827,
+        0.986841082572937,
+        0.0
+      ],
+      "long_slot_axis": [
+        -0.986841082572937,
+        -0.1616930216550827,
+        0.0
+      ],
+      "short_axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "target_point_mm": [
+        121.15301513671875,
+        -139.41738891601562,
+        709.8660278320312
+      ],
+      "axis_to_floor_angle_degrees": 0.0,
+      "nozzle_body_to_floor_angle_degrees": 0.0,
+      "center_standoff_mm": 49.827542304992676,
+      "slot_to_arc_gap_range_mm": [
+        49.80050563812256,
+        53.13375949859619
+      ],
+      "slot_ray_samples": 61,
+      "mesh_hash": "44daf5795caf8d7abf52eb1dfc88cc8818f14e69e91bdded7569121fcd1fecd8"
+    },
+    {
+      "name": "小型集風罩_左側_2",
+      "mouth_center_mm": [
+        332.0439147949219,
+        -126.85286712646484,
+        709.8660278320312
+      ],
+      "flow_axis": [
+        -0.41551944613456726,
+        0.9095842838287354,
+        0.0
+      ],
+      "long_slot_axis": [
+        -0.9095842838287354,
+        -0.41551944613456726,
+        0.0
+      ],
+      "short_axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "target_point_mm": [
+        311.3408203125,
+        -81.53321838378906,
+        709.8660278320312
+      ],
+      "axis_to_floor_angle_degrees": 0.0,
+      "nozzle_body_to_floor_angle_degrees": 0.0,
+      "center_standoff_mm": 49.82456684112549,
+      "slot_to_arc_gap_range_mm": [
+        49.755964279174805,
+        53.17617893218994
+      ],
+      "slot_ray_samples": 61,
+      "mesh_hash": "44daf5795caf8d7abf52eb1dfc88cc8818f14e69e91bdded7569121fcd1fecd8"
+    },
+    {
+      "name": "小型集風罩_左側_3",
+      "mouth_center_mm": [
+        511.5033264160156,
+        -13.948524475097656,
+        709.8660278320312
+      ],
+      "flow_axis": [
+        -0.6400948762893677,
+        0.7682958841323853,
+        0.0
+      ],
+      "long_slot_axis": [
+        -0.7682958841323853,
+        -0.6400948762893677,
+        0.0
+      ],
+      "short_axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "target_point_mm": [
+        479.6216125488281,
+        24.31858253479004,
+        709.8660278320312
+      ],
+      "axis_to_floor_angle_degrees": 0.0,
+      "nozzle_body_to_floor_angle_degrees": 0.0,
+      "center_standoff_mm": 49.807772636413574,
+      "slot_to_arc_gap_range_mm": [
+        49.68003273010254,
+        53.26344966888428
+      ],
+      "slot_ray_samples": 61,
+      "mesh_hash": "44daf5795caf8d7abf52eb1dfc88cc8818f14e69e91bdded7569121fcd1fecd8"
+    }
+  ],
+  "hoses": [
+    {
+      "name": "外購導風管_右側_1",
+      "nozzle": "小型集風罩_右側_1",
+      "port_index": 0,
+      "centerline_length_mm": 639.9499947788285,
+      "minimum_centerline_bend_radius_mm": 45.0,
+      "centerline_shell_clearance_mm": 108.68131637573242,
+      "insertion_each_end_mm": 25,
+      "straight_hose_outside_each_joint_mm": 20
+    },
+    {
+      "name": "外購導風管_右側_2",
+      "nozzle": "小型集風罩_右側_2",
+      "port_index": 1,
+      "centerline_length_mm": 593.0412023826631,
+      "minimum_centerline_bend_radius_mm": 45.0,
+      "centerline_shell_clearance_mm": 97.0496940612793,
+      "insertion_each_end_mm": 25,
+      "straight_hose_outside_each_joint_mm": 20
+    },
+    {
+      "name": "外購導風管_右側_3",
+      "nozzle": "小型集風罩_右側_3",
+      "port_index": 2,
+      "centerline_length_mm": 627.7781155311018,
+      "minimum_centerline_bend_radius_mm": 45.0,
+      "centerline_shell_clearance_mm": 36.044921875,
+      "insertion_each_end_mm": 25,
+      "straight_hose_outside_each_joint_mm": 20
+    },
+    {
+      "name": "外購導風管_左側_3",
+      "nozzle": "小型集風罩_左側_3",
+      "port_index": 0,
+      "centerline_length_mm": 627.7780944609649,
+      "minimum_centerline_bend_radius_mm": 45.0,
+      "centerline_shell_clearance_mm": 36.044921875,
+      "insertion_each_end_mm": 25,
+      "straight_hose_outside_each_joint_mm": 20
+    },
+    {
+      "name": "外購導風管_左側_2",
+      "nozzle": "小型集風罩_左側_2",
+      "port_index": 1,
+      "centerline_length_mm": 593.0411498005022,
+      "minimum_centerline_bend_radius_mm": 45.0,
+      "centerline_shell_clearance_mm": 97.04981803894043,
+      "insertion_each_end_mm": 25,
+      "straight_hose_outside_each_joint_mm": 20
+    },
+    {
+      "name": "外購導風管_左側_1",
+      "nozzle": "小型集風罩_左側_1",
+      "port_index": 2,
+      "centerline_length_mm": 639.949997700225,
+      "minimum_centerline_bend_radius_mm": 45.0,
+      "centerline_shell_clearance_mm": 108.68141174316406,
+      "insertion_each_end_mm": 25,
+      "straight_hose_outside_each_joint_mm": 20
+    }
+  ],
+  "preserved_mesh_hashes": {
+    "Cube": "cf2b5a51595fdff9e866c44558e4394a9de852fdf571c40c232c4b1823780980",
+    "鼓風機_150FLJ330W_整體網格": "8cf575947e5ebec834200b8b564f757f884eaac3c2f06fcfbe01debbbdcdde98",
+    "鼓風機_150FLJ330W_左側_整體網格": "e1fc3e95c2f9be485d574c6a7dc294c1a82e0192731f46784437bcb725635437",
+    "三路分流接頭_右側": "d22e2d9dd781c90b81bbc79ce4c07c59d5497bd320bcc8dabf2ba4be6620849e",
+    "三路分流接頭_左側": "8da4b2f6b3fc8c3c9f4b9b9525c83ac842529b060fe23d62da43572ccc68b95e",
+    "夾傘_後組_左_固定片_27x11.4mm": "a535f106d9551a5c358ec77c622d6adee5e39c00bb8a4a379194580b71f397b0",
+    "夾傘_後組_左_輪架_前": "b01fe262277ce163384f138ca2b1953b1163638f4464164ae1ad508a7a54137f",
+    "夾傘_後組_左_輪架_後": "aebfacfedd8b8ae87beeaf8f37f05bc161b910d1cc9b33274e6bdd6e9be1fc80",
+    "夾傘_後組_左_定向輪_12x9mm": "fa97af49be8b180cc73b27f4190e389c7dc9b205a7f933c30b8f9ae3c9a301d2",
+    "夾傘_後組_左_定向輪軸": "b9549eecf6a493c8760df9577c306b590e33d26d5222cf46a7f85509aedba077",
+    "夾傘_後組_左_鉚釘_負Y": "c10586f6620f4c2713760140a5c2a4f3cc619bd24fa134f923dbccd8b6983c34",
+    "夾傘_後組_左_鉚釘_正Y": "498ce8b8a86158380a1d3f1d34de37edee9cc4c75d797e6999536e327cfe4e4c",
+    "夾傘_後組_右_固定片_27x11.4mm": "a9fc51a38c692c8c422d53429dfef3d1b527b4966269a5da1ffbdf19efce4e60",
+    "夾傘_後組_右_輪架_前": "894efc041625514756ca11ab50125859638ddaa13b2cabdb76b1f3dfc105b129",
+    "夾傘_後組_右_輪架_後": "251d7baa2bc3de11d5f83ba2c91fe942bd2ce69423a1ec1657c096fd5d520bb9",
+    "夾傘_後組_右_定向輪_12x9mm": "921dd24000bc94c55c9730312ec83fd8f7e64239debbe0bde0d04f4bb15b86e3",
+    "夾傘_後組_右_定向輪軸": "80380d6e4e9c0d1bdc806aac0b024daa5da1edc744342e0287b7f11b2bf504e2",
+    "夾傘_後組_右_鉚釘_負Y": "6c3fa10f10604ed809b298a2ca1c7b2f0f2cebb6f6d20789fdcbf25313786f5c",
+    "夾傘_後組_右_鉚釘_正Y": "6664c85121d5b18a4ca03720ef4b9872f3a7a5c48960e4ae1e094429bbf72983",
+    "夾傘_後組_大驅動輪_76x18mm": "ac9be99f5ae8c3dfde421b756ec86b63b5c4f0bc1b47839db41273f63fbdadeb",
+    "夾傘_後組_大輪輪轂_前": "4b8b3723d3a5240cff2e4555575e476982299ab8e6db40e2a3def204d31d4359",
+    "夾傘_後組_大輪輪轂_後": "3e9283c1952421e91962c6f9434190e6d49dc32e616f40c49f6fc533eedf840f",
+    "夾傘_前組_左_固定片_27x11.4mm": "f3f87c5c03dcb81e45c257341c373253f24ee39fb370d4fc1d31b7eddec043d3",
+    "夾傘_前組_左_輪架_前": "77c0b2eda13f3ba6d400d8fd817fbbe5fccfd1d842525690dc49881bb2cf0d44",
+    "夾傘_前組_左_輪架_後": "f3722d2b51cf35603781c9ca04d47f290c0f6b06e36c61f7e54bd61c4925e857",
+    "夾傘_前組_左_定向輪_12x9mm": "36c23413f2bb15b12c7678249e0e9b55270deb9197f08811ccee424ad419716b",
+    "夾傘_前組_左_定向輪軸": "76d694b71e6210506fee436c95421478a2543c77f23e7e80c7a4646f555eb46f",
+    "夾傘_前組_左_鉚釘_負Y": "78ff83ba5e8212336d1bb5e96eeeba2e56fde4bef72bb623389e98dc5088b290",
+    "夾傘_前組_左_鉚釘_正Y": "05ebe45c938557f54ce23608361f9d04c19ce41abb38328af61f768aeb9bdfc1",
+    "夾傘_前組_右_固定片_27x11.4mm": "f92512dd288a210c0c748645725637b617e5b752cdebfad3161850420daafa7c",
+    "夾傘_前組_右_輪架_前": "71bcd9969ca8660e6d95f7095ebcfb58f3efbbbf69d96a18a432a210202f5051",
+    "夾傘_前組_右_輪架_後": "1dcc0b33a272833c91b3b4ec18a090ca1c1a0bb727f9d06dad3d3dc5739b8f9a",
+    "夾傘_前組_右_定向輪_12x9mm": "579d8463bb4f8db7a9e21b505f2e34c4dd5c152bdcb8e94cfa38bd9b940846d9",
+    "夾傘_前組_右_定向輪軸": "4286ac8608e5b78bcf6e2e3c9897c4fc4049528393b5b78e0476d99042025028",
+    "夾傘_前組_右_鉚釘_負Y": "89ab8b6b334bded0f3ca3a78bbc544bbd0b87a1d5f7c27682ed95acae467b64b",
+    "夾傘_前組_右_鉚釘_正Y": "cc62e2fb6c0620aa95c4f70112b438e24d824e36d5610fb66025e30130e75b4f",
+    "夾傘_前組_大驅動輪_76x18mm": "e68de48382b956e9c29bd736b150c95c0d71abcc36104363b716c56622743a10",
+    "夾傘_前組_大輪輪轂_前": "a018eaeb3b0832b82d8ee5c6874c07122aea17b95a8aca203a562d6e1e27a59a",
+    "夾傘_前組_大輪輪轂_後": "6c5509a1c4f63b77eeebcc9b4959567e1f161cac203aec90d7f789bd4aee6382",
+    "夾傘_共用轉軸_直徑8mm": "61c87cda6e2a4a4a15c717585c990d501337675a8f855a5b36705ff6274b9810"
+  },
+  "checked_overlapping_pairs": 22,
+  "non_mating_intersections": [],
+  "assembly_bounds_mm": [
+    [
+      -700.0,
+      -463.11100006103516,
+      0.0
+    ],
+    [
+      700.0,
+      250.00003814697266,
+      1250.0
+    ]
+  ],
+  "maximum_back_protrusion_mm": 213.11100006103516,
+  "preserved_meshes_verified": true,
+  "source_file_hash_verified": true
+}

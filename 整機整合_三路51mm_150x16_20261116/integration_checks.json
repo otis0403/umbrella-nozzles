@@ -1,0 +1,299 @@
+{
+  "source_files_sha256": {
+    "C:\\Users\\otiso\\umbrella\\case\\完整模型.blend": "67f947d172fdb580a772747dbab61033cdb5d9a42cf283ab815a6a45967025e9",
+    "C:\\Users\\otiso\\umbrella\\case\\ThreeWay150_51mm_System_20261114\\print\\STL\\splitter_H110_neck46_mm.stl": "cc3597d5b7cdb4262a6b43d3c692fac52eda0ecfb116e9ef353c9468b775ab4f",
+    "C:\\Users\\otiso\\umbrella\\case\\整機整合_三路51mm_150x16_20261116\\print\\STL\\splitter_center_neck_plus10_mm.stl": "8f5ca6373e852a2ef8fdac68e3c22a13d70131f539f4fee060842dc20f8fbc0d",
+    "C:\\Users\\otiso\\umbrella\\case\\Nozzle_FemaleSocket_51mm_150x16_20261114\\print\\STL\\nozzle_150x16_female_ID55p4_H188_mm.stl": "2693822736b1e9baedebb17f7db5d0a704eaecaa814290be2ee9297f1cd346e7"
+  },
+  "unit_scale": 0.009999999776482582,
+  "shell_size_mm": [
+    1400,
+    500,
+    1250
+  ],
+  "blower_count": 2,
+  "splitter_count": 2,
+  "nozzle_count": 6,
+  "outlet_size_mm": [
+    150,
+    16
+  ],
+  "socket_ID_mm": 55.4,
+  "hose_ID_mm": 51,
+  "hose_OD_estimate_mm": 54.6,
+  "outlet_layout": "symmetric along the existing middle line of the umbrella arc",
+  "CFD_rerun": false,
+  "physical_fit_verified": false,
+  "nozzles": [
+    {
+      "name": "小型集風罩_右側_1",
+      "outlet_center_mm": [
+        -134.06056213378906,
+        -218.19448852539062,
+        709.8660278320312
+      ],
+      "bounds_cm": [
+        [
+          -21.1805362701416,
+          -24.82902717590332,
+          52.18660354614258
+        ],
+        [
+          -5.6315765380859375,
+          -18.80986976623535,
+          70.98660278320312
+        ]
+      ],
+      "shell_triangle_intersections": 0
+    },
+    {
+      "name": "小型集風罩_右側_2",
+      "outlet_center_mm": [
+        -344.509521484375,
+        -154.14039611816406,
+        709.8660278320312
+      ],
+      "bounds_cm": [
+        [
+          -41.872344970703125,
+          -19.67340087890625,
+          52.18660354614258
+        ],
+        [
+          -27.029556274414062,
+          -11.154677391052246,
+          70.98660278320312
+        ]
+      ],
+      "shell_triangle_intersections": 0
+    },
+    {
+      "name": "小型集風罩_右側_3",
+      "outlet_center_mm": [
+        -530.7061767578125,
+        -36.99740219116211,
+        709.8660278320312
+      ],
+      "bounds_cm": [
+        [
+          -59.654151916503906,
+          -9.462961196899414,
+          52.18660354614258
+        ],
+        [
+          -46.487083435058594,
+          2.0634806156158447,
+          70.98660278320312
+        ]
+      ],
+      "shell_triangle_intersections": 0
+    },
+    {
+      "name": "小型集風罩_左側_1",
+      "outlet_center_mm": [
+        134.06056213378906,
+        -218.19448852539062,
+        709.8660278320312
+      ],
+      "bounds_cm": [
+        [
+          5.6315765380859375,
+          -24.82902717590332,
+          52.18660354614258
+        ],
+        [
+          21.1805362701416,
+          -18.80986976623535,
+          70.98660278320312
+        ]
+      ],
+      "shell_triangle_intersections": 0
+    },
+    {
+      "name": "小型集風罩_左側_2",
+      "outlet_center_mm": [
+        344.509521484375,
+        -154.14039611816406,
+        709.8660278320312
+      ],
+      "bounds_cm": [
+        [
+          27.029556274414062,
+          -19.67340087890625,
+          52.18660354614258
+        ],
+        [
+          41.872344970703125,
+          -11.154678344726562,
+          70.98660278320312
+        ]
+      ],
+      "shell_triangle_intersections": 0
+    },
+    {
+      "name": "小型集風罩_左側_3",
+      "outlet_center_mm": [
+        530.7061767578125,
+        -36.99740219116211,
+        709.8660278320312
+      ],
+      "bounds_cm": [
+        [
+          46.48710250854492,
+          -9.462961196899414,
+          52.18660354614258
+        ],
+        [
+          59.65413284301758,
+          2.063448429107666,
+          70.98660278320312
+        ]
+      ],
+      "shell_triangle_intersections": 0
+    }
+  ],
+  "hoses": [
+    {
+      "name": "外購導風管_右側_1",
+      "port_index": 0,
+      "nozzle": "小型集風罩_右側_1",
+      "centerline_length_mm": 333.27653420175443,
+      "minimum_centerline_bend_radius_mm": 44.798667960996276,
+      "sampled_centerline_shell_clearance_mm": 98.67856979370117,
+      "shell_triangle_intersections": 0,
+      "male_overlap_mm": 25,
+      "female_insertion_mm": 25,
+      "bend_radius_over_40mm": true
+    },
+    {
+      "name": "外購導風管_右側_2",
+      "port_index": 1,
+      "nozzle": "小型集風罩_右側_2",
+      "centerline_length_mm": 252.13692514949054,
+      "minimum_centerline_bend_radius_mm": 44.39259934477164,
+      "sampled_centerline_shell_clearance_mm": 98.6752986907959,
+      "shell_triangle_intersections": 0,
+      "male_overlap_mm": 25,
+      "female_insertion_mm": 25,
+      "bend_radius_over_40mm": true
+    },
+    {
+      "name": "外購導風管_右側_3",
+      "port_index": 2,
+      "nozzle": "小型集風罩_右側_3",
+      "centerline_length_mm": 313.3670046286377,
+      "minimum_centerline_bend_radius_mm": 44.3364132934433,
+      "sampled_centerline_shell_clearance_mm": 97.01282501220703,
+      "shell_triangle_intersections": 0,
+      "male_overlap_mm": 25,
+      "female_insertion_mm": 25,
+      "bend_radius_over_40mm": true
+    },
+    {
+      "name": "外購導風管_左側_3",
+      "port_index": 0,
+      "nozzle": "小型集風罩_左側_3",
+      "centerline_length_mm": 313.3669824037884,
+      "minimum_centerline_bend_radius_mm": 44.33643202925282,
+      "sampled_centerline_shell_clearance_mm": 97.01313972473145,
+      "shell_triangle_intersections": 0,
+      "male_overlap_mm": 25,
+      "female_insertion_mm": 25,
+      "bend_radius_over_40mm": true
+    },
+    {
+      "name": "外購導風管_左側_2",
+      "port_index": 1,
+      "nozzle": "小型集風罩_左側_2",
+      "centerline_length_mm": 252.13692514949054,
+      "minimum_centerline_bend_radius_mm": 44.39259934477164,
+      "sampled_centerline_shell_clearance_mm": 98.67548942565918,
+      "shell_triangle_intersections": 0,
+      "male_overlap_mm": 25,
+      "female_insertion_mm": 25,
+      "bend_radius_over_40mm": true
+    },
+    {
+      "name": "外購導風管_左側_1",
+      "port_index": 2,
+      "nozzle": "小型集風罩_左側_1",
+      "centerline_length_mm": 333.276534489027,
+      "minimum_centerline_bend_radius_mm": 44.79870146658668,
+      "sampled_centerline_shell_clearance_mm": 98.67867469787598,
+      "shell_triangle_intersections": 0,
+      "male_overlap_mm": 25,
+      "female_insertion_mm": 25,
+      "bend_radius_over_40mm": true
+    }
+  ],
+  "interface_checks": [
+    {
+      "side": "右側",
+      "inlet_mm": [
+        81.99999618530273,
+        87.9999885559082
+      ],
+      "holes_clear": 12,
+      "flange_transform_matches_source": true
+    },
+    {
+      "side": "左側",
+      "inlet_mm": [
+        81.99999618530273,
+        87.9999885559082
+      ],
+      "holes_clear": 12,
+      "flange_transform_matches_source": true
+    }
+  ],
+  "common_outlet_lowering_mm": 0,
+  "splitter_shell_intersections": {
+    "三路分流接頭_右側": 0,
+    "三路分流接頭_左側": 0
+  },
+  "untouched_mesh_count": 38,
+  "untouched_mesh_hashes": {
+    "Cube": "cf2b5a51595fdff9e866c44558e4394a9de852fdf571c40c232c4b1823780980",
+    "鼓風機_150FLJ330W_整體網格": "8cf575947e5ebec834200b8b564f757f884eaac3c2f06fcfbe01debbbdcdde98",
+    "鼓風機_150FLJ330W_左側_整體網格": "e1fc3e95c2f9be485d574c6a7dc294c1a82e0192731f46784437bcb725635437",
+    "夾傘_後組_左_固定片_27x11.4mm": "a535f106d9551a5c358ec77c622d6adee5e39c00bb8a4a379194580b71f397b0",
+    "夾傘_後組_左_輪架_前": "b01fe262277ce163384f138ca2b1953b1163638f4464164ae1ad508a7a54137f",
+    "夾傘_後組_左_輪架_後": "aebfacfedd8b8ae87beeaf8f37f05bc161b910d1cc9b33274e6bdd6e9be1fc80",
+    "夾傘_後組_左_定向輪_12x9mm": "fa97af49be8b180cc73b27f4190e389c7dc9b205a7f933c30b8f9ae3c9a301d2",
+    "夾傘_後組_左_定向輪軸": "b9549eecf6a493c8760df9577c306b590e33d26d5222cf46a7f85509aedba077",
+    "夾傘_後組_左_鉚釘_負Y": "c10586f6620f4c2713760140a5c2a4f3cc619bd24fa134f923dbccd8b6983c34",
+    "夾傘_後組_左_鉚釘_正Y": "498ce8b8a86158380a1d3f1d34de37edee9cc4c75d797e6999536e327cfe4e4c",
+    "夾傘_後組_右_固定片_27x11.4mm": "a9fc51a38c692c8c422d53429dfef3d1b527b4966269a5da1ffbdf19efce4e60",
+    "夾傘_後組_右_輪架_前": "894efc041625514756ca11ab50125859638ddaa13b2cabdb76b1f3dfc105b129",
+    "夾傘_後組_右_輪架_後": "251d7baa2bc3de11d5f83ba2c91fe942bd2ce69423a1ec1657c096fd5d520bb9",
+    "夾傘_後組_右_定向輪_12x9mm": "921dd24000bc94c55c9730312ec83fd8f7e64239debbe0bde0d04f4bb15b86e3",
+    "夾傘_後組_右_定向輪軸": "80380d6e4e9c0d1bdc806aac0b024daa5da1edc744342e0287b7f11b2bf504e2",
+    "夾傘_後組_右_鉚釘_負Y": "6c3fa10f10604ed809b298a2ca1c7b2f0f2cebb6f6d20789fdcbf25313786f5c",
+    "夾傘_後組_右_鉚釘_正Y": "6664c85121d5b18a4ca03720ef4b9872f3a7a5c48960e4ae1e094429bbf72983",
+    "夾傘_後組_大驅動輪_76x18mm": "ac9be99f5ae8c3dfde421b756ec86b63b5c4f0bc1b47839db41273f63fbdadeb",
+    "夾傘_後組_大輪輪轂_前": "4b8b3723d3a5240cff2e4555575e476982299ab8e6db40e2a3def204d31d4359",
+    "夾傘_後組_大輪輪轂_後": "3e9283c1952421e91962c6f9434190e6d49dc32e616f40c49f6fc533eedf840f",
+    "夾傘_前組_左_固定片_27x11.4mm": "f3f87c5c03dcb81e45c257341c373253f24ee39fb370d4fc1d31b7eddec043d3",
+    "夾傘_前組_左_輪架_前": "77c0b2eda13f3ba6d400d8fd817fbbe5fccfd1d842525690dc49881bb2cf0d44",
+    "夾傘_前組_左_輪架_後": "f3722d2b51cf35603781c9ca04d47f290c0f6b06e36c61f7e54bd61c4925e857",
+    "夾傘_前組_左_定向輪_12x9mm": "36c23413f2bb15b12c7678249e0e9b55270deb9197f08811ccee424ad419716b",
+    "夾傘_前組_左_定向輪軸": "76d694b71e6210506fee436c95421478a2543c77f23e7e80c7a4646f555eb46f",
+    "夾傘_前組_左_鉚釘_負Y": "78ff83ba5e8212336d1bb5e96eeeba2e56fde4bef72bb623389e98dc5088b290",
+    "夾傘_前組_左_鉚釘_正Y": "05ebe45c938557f54ce23608361f9d04c19ce41abb38328af61f768aeb9bdfc1",
+    "夾傘_前組_右_固定片_27x11.4mm": "f92512dd288a210c0c748645725637b617e5b752cdebfad3161850420daafa7c",
+    "夾傘_前組_右_輪架_前": "71bcd9969ca8660e6d95f7095ebcfb58f3efbbbf69d96a18a432a210202f5051",
+    "夾傘_前組_右_輪架_後": "1dcc0b33a272833c91b3b4ec18a090ca1c1a0bb727f9d06dad3d3dc5739b8f9a",
+    "夾傘_前組_右_定向輪_12x9mm": "579d8463bb4f8db7a9e21b505f2e34c4dd5c152bdcb8e94cfa38bd9b940846d9",
+    "夾傘_前組_右_定向輪軸": "4286ac8608e5b78bcf6e2e3c9897c4fc4049528393b5b78e0476d99042025028",
+    "夾傘_前組_右_鉚釘_負Y": "89ab8b6b334bded0f3ca3a78bbc544bbd0b87a1d5f7c27682ed95acae467b64b",
+    "夾傘_前組_右_鉚釘_正Y": "cc62e2fb6c0620aa95c4f70112b438e24d824e36d5610fb66025e30130e75b4f",
+    "夾傘_前組_大驅動輪_76x18mm": "e68de48382b956e9c29bd736b150c95c0d71abcc36104363b716c56622743a10",
+    "夾傘_前組_大輪輪轂_前": "a018eaeb3b0832b82d8ee5c6874c07122aea17b95a8aca203a562d6e1e27a59a",
+    "夾傘_前組_大輪輪轂_後": "6c5509a1c4f63b77eeebcc9b4959567e1f161cac203aec90d7f789bd4aee6382",
+    "夾傘_共用轉軸_直徑8mm": "61c87cda6e2a4a4a15c717585c990d501337675a8f855a5b36705ff6274b9810"
+  },
+  "original_shell_blowers_clamp_meshes_preserved": true,
+  "scene_units_preserved": true,
+  "source_files_unchanged": true,
+  "routing_is_cut_length_instruction": false
+}

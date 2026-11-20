@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "kind": "adapter",
+    "action": "resume_nozzle",
+    "name": "open_L120_W170"
+  },
+  "result_sha256": "818d96a8f94e12fca61fad9543f2a25b4677ec6f66a84ef661a2247fae6dca75",
+  "native_sizes": {
+    "solution.cas.h5": 7453289,
+    "solution.dat.h5": 27616400
+  }
+}

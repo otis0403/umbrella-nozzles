@@ -1,0 +1,38 @@
+{
+  "name": "open_L120_W150",
+  "conditions": {
+    "prescribed_Q_m3_min": 1.8170393240860634,
+    "hypothetical_inlet_total_pressure_Pa": null,
+    "actual_fan_curve_used": false,
+    "height_mm": 188,
+    "gap_mm": 16,
+    "span_mm": 150.0,
+    "body_height_mm": 25.0,
+    "lip_length_mm": 163,
+    "warm_start_source": "jet_g16_L120_long_pipe",
+    "vane_count": 0,
+    "external_free_jet": true,
+    "ambient_boundary_type": "pressure-outlet"
+  },
+  "reports": {
+    "batch": 19,
+    "elapsed_s": 1512.2278745174408,
+    "pin": -39.56075772842966,
+    "ptin": 161.284219895248,
+    "ptout": 21.2696142351694,
+    "min": 0.03634078648172243,
+    "mout": -0.07952763979903275,
+    "mambient": 0.0431868477652079
+  },
+  "required_static_pressure_Pa": -39.56075772842966,
+  "pressure_loss_to_domain_outlet_Pa": 140.0146056600786,
+  "nozzle_flow_m3_min": 1.8170393240861218,
+  "mass_imbalance_pct": 1.527788185442086e-05,
+  "outlet_mean_axial_velocity_m_s": 0.8280485272407532,
+  "outlet_full_area_CV": 2.5616166591644287,
+  "negative_uz_volume_fraction": 0.2709639084178509,
+  "min_uz_m_s": -2.7999177533969095,
+  "last_pressure_change_pct": 0.0019897492419707064,
+  "solver": "Fluent 2026 R1, 3D double, SST k-omega; steady incompressible; smooth walls",
+  "continued_native_solution": true
+}

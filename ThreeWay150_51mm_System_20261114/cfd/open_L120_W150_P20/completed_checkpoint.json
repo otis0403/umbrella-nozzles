@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "kind": "nozzle",
+    "name": "open_L120_W150_P20",
+    "gap": 16,
+    "q": 1.8170393240860634,
+    "length": 120,
+    "shoulder": 150,
+    "plenum": 20,
+    "external": true
+  },
+  "result_sha256": "1c22d72892ccec1e2639ba1f84a3e26524f403b54282a89442f750532e1c4246",
+  "native_sizes": {
+    "solution.cas.h5": 7434143,
+    "solution.dat.h5": 27764717
+  }
+}

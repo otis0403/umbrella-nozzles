@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "kind": "adapter",
+    "name": "final_short_pipe_more_bends",
+    "height": 110.0,
+    "neck": 46.0,
+    "gap": 16,
+    "center": 0.45,
+    "side": 0.65,
+    "physical_center": 0.5,
+    "physical_side": 0.7,
+    "bend": 1.0,
+    "nozzle_curve": {
+      "a_Pa_per_Q2": 38.37308982845615,
+      "b_Pa_per_Q": 9.515969706156282,
+      "points": [
+        [
+          1.0000000000000315,
+          47.88905953461515
+        ],
+        [
+          2.500000000000079,
+          263.6217356932576
+        ]
+      ],
+      "geometry_length_mm": 120,
+      "geometry_shoulder_mm": 150,
+      "geometry_plenum_mm": 22,
+      "source_cases": [
+        "curve_selected_P22_q1",
+        "curve_selected_P22_q2.5"
+      ],
+      "max_fit_error_pct": 2.220446049250313e-14
+    }
+  },
+  "result_sha256": "26bea1aab00ce9ccb6ebf36e65d0aee74483afd4eea7df5cc1222bfbe515b123",
+  "native_sizes": {
+    "solution.cas.h5": 2679434,
+    "solution.dat.h5": 7694497
+  }
+}

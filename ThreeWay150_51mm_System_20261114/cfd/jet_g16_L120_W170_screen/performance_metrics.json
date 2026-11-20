@@ -1,0 +1,28 @@
+{
+  "case": "jet_g16_L120_W170_screen",
+  "Q_m3_min": 1.8170393240861218,
+  "gap_mm": 16,
+  "slot_mean_Uz_m_s": 12.630268096923828,
+  "30mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 87.4967401394274,
+    "same_140x80_strip_momentum_N": 0.4984639974403082,
+    "core_140mm_line_CV_pct": 16.533631002526636,
+    "core_line_mean_Uz_m_s": 15.53478166068852,
+    "patch_pressure_p10_Pa": 16.431041521289202
+  },
+  "50mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 84.9336401357598,
+    "same_140x80_strip_momentum_N": 0.5006353327016901,
+    "core_140mm_line_CV_pct": 18.540931724347846,
+    "core_line_mean_Uz_m_s": 15.115890458988025,
+    "patch_pressure_p10_Pa": 22.446056509055108
+  },
+  "80mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 78.69050886452185,
+    "same_140x80_strip_momentum_N": 0.5028615783937228,
+    "core_140mm_line_CV_pct": 20.85598498572286,
+    "core_line_mean_Uz_m_s": 13.933718693701394,
+    "patch_pressure_p10_Pa": 26.508070436655192
+  },
+  "minimum_pressure_proxy_Pa": 78.69050886452185
+}

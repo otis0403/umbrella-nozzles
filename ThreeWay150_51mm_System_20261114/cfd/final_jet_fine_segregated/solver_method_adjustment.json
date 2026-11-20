@@ -1,0 +1,193 @@
+{
+  "before": {
+    "p_v_coupling": {
+      "flow_scheme": "Coupled",
+      "flux_type": "Rhie-Chow: momentum based",
+      "flux_auto_select": true
+    },
+    "spatial_discretization": {
+      "gradient_scheme": "least-square-cell-based",
+      "discretization_scheme": {
+        "k": "second-order-upwind",
+        "mom": "second-order-upwind",
+        "omega": "second-order-upwind",
+        "pressure": "second-order"
+      }
+    },
+    "pseudo_time_method": {
+      "formulation": {
+        "coupled_solver": "global-time-step"
+      }
+    },
+    "expert": {
+      "implicit_bodyforce_treatment": false,
+      "velocity_formulation": "absolute",
+      "physical_velocity_formulation": false,
+      "disable_rhie_chow_flux": false,
+      "presto_pressure_scheme": false,
+      "first_to_second_order_blending": 1.0
+    },
+    "high_order_term_relaxation": {
+      "enable": true,
+      "relaxation_factor": 0.25,
+      "select_variables": "all-variables",
+      "type": "standard"
+    },
+    "warped_face_gradient_correction": {
+      "enable": false
+    },
+    "poor_mesh_numerics": {
+      "cell_quality_based": false,
+      "turbulence_production_term": true,
+      "solution_and_quality_based": false,
+      "gradient_quality_based": false,
+      "reset_poor_elements": false
+    }
+  },
+  "after": {
+    "p_v_coupling": {
+      "flow_scheme": "SIMPLE",
+      "flux_type": "Rhie-Chow: momentum based",
+      "flux_auto_select": true
+    },
+    "spatial_discretization": {
+      "gradient_scheme": "least-square-cell-based",
+      "discretization_scheme": {
+        "k": "second-order-upwind",
+        "mom": "second-order-upwind",
+        "omega": "second-order-upwind",
+        "pressure": "second-order"
+      }
+    },
+    "pseudo_time_method": {
+      "formulation": {
+        "segregated_solver": "off"
+      }
+    },
+    "expert": {
+      "implicit_bodyforce_treatment": false,
+      "velocity_formulation": "absolute",
+      "physical_velocity_formulation": false,
+      "disable_rhie_chow_flux": false,
+      "presto_pressure_scheme": false,
+      "first_to_second_order_blending": 1.0
+    },
+    "high_order_term_relaxation": {
+      "enable": true,
+      "relaxation_factor": 0.25,
+      "select_variables": "all-variables",
+      "type": "standard"
+    },
+    "warped_face_gradient_correction": {
+      "enable": false
+    },
+    "poor_mesh_numerics": {
+      "cell_quality_based": false,
+      "turbulence_production_term": true,
+      "solution_and_quality_based": false,
+      "gradient_quality_based": false,
+      "reset_poor_elements": false
+    }
+  },
+  "second_order_schemes_and_physical_boundaries_unchanged": true,
+  "controls": {
+    "under_relaxation": {
+      "body-force": 1.0,
+      "density": 1,
+      "k": 0.5,
+      "mom": 0.5,
+      "omega": 0.5,
+      "pressure": 0.3,
+      "turb-viscosity": 1
+    },
+    "equations": {
+      "flow": true,
+      "kw": true
+    },
+    "limits": {
+      "min_pressure": 1,
+      "max_pressure": 50000000000.0,
+      "min_tke": 1e-14,
+      "min_omega": 1e-20,
+      "max_turb_visc_ratio": 100000.0
+    },
+    "advanced": {
+      "multi_grid": {
+        "mg_controls": {
+          "k": {
+            "cycle_type": "flexible-cycle",
+            "termination_criteria": 0.01,
+            "residual_reduction_tolerance": 0.7
+          },
+          "omega": {
+            "cycle_type": "flexible-cycle",
+            "termination_criteria": 0.01,
+            "residual_reduction_tolerance": 0.7
+          },
+          "pressure": {
+            "cycle_type": "v-cycle",
+            "termination_criteria": 0.1,
+            "stabilization": "none"
+          },
+          "x-mom": {
+            "cycle_type": "flexible-cycle",
+            "termination_criteria": 0.1,
+            "residual_reduction_tolerance": 0.7
+          },
+          "y-mom": {
+            "cycle_type": "flexible-cycle",
+            "termination_criteria": 0.1,
+            "residual_reduction_tolerance": 0.7
+          },
+          "z-mom": {
+            "cycle_type": "flexible-cycle",
+            "termination_criteria": 0.1,
+            "residual_reduction_tolerance": 0.7
+          }
+        },
+        "amg_controls": {
+          "scalar_parameters": {
+            "fixed_cycle_parameters": {
+              "pre_sweeps": 0,
+              "post_sweeps": 1,
+              "max_cycle": 30
+            },
+            "coarsening_parameters": {
+              "max_coarse_levels": 40,
+              "coarsen_by_interval": 2,
+              "conservative_coarsening": true,
+              "aggressive_coarsening": true,
+              "laplace_coarsening": false
+            },
+            "smoother_type": "Gauss-Seidel"
+          },
+          "flexible_cycle_parameters": {
+            "sweeps": 2,
+            "max_fine_relaxations": 30,
+            "max_coarse_relaxations": 50
+          },
+          "options": {
+            "verbosity": 0
+          }
+        }
+      },
+      "expert": {
+        "spatial_discretization_limiter": {
+          "limiter_type": "default",
+          "cell_to_limiting": "cell-to-face",
+          "limiter_filter": false
+        },
+        "save_cell_residuals": false,
+        "keep_temporary_memory": false,
+        "allow_all_disc_schemes": false
+      },
+      "secondary_gradient_limiting": {
+        "energy": false,
+        "uds": false
+      },
+      "enhanced_skewness_correction": false,
+      "boundary_presto_treatment": false,
+      "relaxation_method": "gauss-seidel"
+    }
+  }
+}

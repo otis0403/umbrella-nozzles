@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "kind": "adapter",
+    "action": "resume_nozzle",
+    "name": "final_jet_fine"
+  },
+  "result_sha256": "8c219da805b1afb5c5a5dd76cb3043971e4c581f22c444cb76c60b77b7eff13c",
+  "native_sizes": {
+    "solution.cas.h5": 21646471,
+    "solution.dat.h5": 200016063
+  }
+}

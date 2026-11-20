@@ -1,0 +1,38 @@
+{
+  "UTC": "2026-11-14T13:10:50.171342+00:00",
+  "verified_native_cells": 830112,
+  "before": {
+    "pseudo_time": {
+      "time_step_method": "automatic",
+      "length_scale_methods": "conservative",
+      "time_step_size_scale_factor": 1.0,
+      "verbosity": 0
+    },
+    "relaxation": {
+      "body-force": 1.0,
+      "density": 1.0,
+      "k": 0.75,
+      "omega": 0.75,
+      "turb-viscosity": 1.0
+    }
+  },
+  "after": {
+    "pseudo_time": {
+      "time_step_method": "automatic",
+      "length_scale_methods": "conservative",
+      "time_step_size_scale_factor": 0.1,
+      "verbosity": 0
+    },
+    "relaxation": {
+      "body-force": 1.0,
+      "density": 1.0,
+      "k": 0.5,
+      "omega": 0.5,
+      "turb-viscosity": 1.0
+    }
+  },
+  "only_iterative_controls_changed": true,
+  "geometry_inlet_flow_and_boundary_conditions_unchanged": true,
+  "requested_during_controller_solve": true,
+  "last_seen_iteration_on_adjustment_client": 245
+}

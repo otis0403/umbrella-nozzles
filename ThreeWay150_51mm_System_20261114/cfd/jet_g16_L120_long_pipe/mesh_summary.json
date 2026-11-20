@@ -1,0 +1,28 @@
+{
+  "name": "jet_g16_L120_long_pipe",
+  "height_mm": 188,
+  "gap_mm": 16,
+  "span_mm": 150.0,
+  "body_height_mm": 25.0,
+  "lip_length_mm": 163,
+  "profile_config": {
+    "length": 120
+  },
+  "external": true,
+  "fine": false,
+  "inlet_area_m2": 0.0016546654836892057,
+  "outlet_slot_area_m2": 0.0023994506192982976,
+  "vane_count": 0,
+  "cells": 270192,
+  "nodes": 279102,
+  "minimum_tetra_volume_m3": 4.7239814457139534e-12,
+  "volume_m3": 0.020330678528188966,
+  "zones": {
+    "inlet": 752,
+    "interior": 801920,
+    "outlet": 1584,
+    "housing": 6144,
+    "lip_rim": 196,
+    "ambient": 8636
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "kind": "adapter",
+    "action": "resume_nozzle",
+    "name": "open_L120_W150"
+  },
+  "result_sha256": "76d4aa3d133ae1ca4c8a6c2c738e1705914eb697b2f88fa22b9655f8dc901f9c",
+  "native_sizes": {
+    "solution.cas.h5": 7440169,
+    "solution.dat.h5": 27276299
+  }
+}

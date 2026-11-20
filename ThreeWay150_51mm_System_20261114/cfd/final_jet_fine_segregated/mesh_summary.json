@@ -1,0 +1,32 @@
+{
+  "name": "final_jet_fine_segregated",
+  "height_mm": 188,
+  "gap_mm": 16,
+  "span_mm": 150.0,
+  "body_height_mm": 25.0,
+  "lip_length_mm": 163,
+  "profile_config": {
+    "length": 120,
+    "shoulder": 150,
+    "plenum": 22
+  },
+  "external": true,
+  "fine": true,
+  "inlet_area_m2": 0.0016579083153024125,
+  "outlet_slot_area_m2": 0.0023994506192982976,
+  "vane_count": 0,
+  "cells": 830112,
+  "nodes": 849042,
+  "minimum_tetra_volume_m3": 7.734921907264331e-14,
+  "volume_m3": 0.032457222400481406,
+  "zones": {
+    "inlet": 1504,
+    "interior": 2471804,
+    "outlet": 3000,
+    "housing": 13464,
+    "lip_rim": 288,
+    "ambient": 18808
+  },
+  "geometry_revision": "20261114_open_ambient_v1",
+  "source_native_case": "final_jet_fine"
+}

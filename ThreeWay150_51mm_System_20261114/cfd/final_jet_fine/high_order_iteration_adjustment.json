@@ -1,0 +1,97 @@
+{
+  "UTC": "2026-11-14T13:24:40.709174+00:00",
+  "verified_native_cells": 830112,
+  "before": {
+    "p_v_coupling": {
+      "flow_scheme": "Coupled",
+      "flux_type": "Rhie-Chow: momentum based",
+      "flux_auto_select": true
+    },
+    "spatial_discretization": {
+      "gradient_scheme": "least-square-cell-based",
+      "discretization_scheme": {
+        "k": "second-order-upwind",
+        "mom": "second-order-upwind",
+        "omega": "second-order-upwind",
+        "pressure": "second-order"
+      }
+    },
+    "pseudo_time_method": {
+      "formulation": {
+        "coupled_solver": "global-time-step"
+      }
+    },
+    "expert": {
+      "implicit_bodyforce_treatment": false,
+      "velocity_formulation": "absolute",
+      "physical_velocity_formulation": false,
+      "disable_rhie_chow_flux": false,
+      "presto_pressure_scheme": false,
+      "first_to_second_order_blending": 1.0
+    },
+    "high_order_term_relaxation": {
+      "enable": false,
+      "relaxation_factor": 0.25,
+      "select_variables": "flow-variables",
+      "type": "standard"
+    },
+    "warped_face_gradient_correction": {
+      "enable": false
+    },
+    "poor_mesh_numerics": {
+      "cell_quality_based": false,
+      "turbulence_production_term": true,
+      "solution_and_quality_based": false,
+      "gradient_quality_based": false,
+      "reset_poor_elements": false
+    }
+  },
+  "after": {
+    "p_v_coupling": {
+      "flow_scheme": "Coupled",
+      "flux_type": "Rhie-Chow: momentum based",
+      "flux_auto_select": true
+    },
+    "spatial_discretization": {
+      "gradient_scheme": "least-square-cell-based",
+      "discretization_scheme": {
+        "k": "second-order-upwind",
+        "mom": "second-order-upwind",
+        "omega": "second-order-upwind",
+        "pressure": "second-order"
+      }
+    },
+    "pseudo_time_method": {
+      "formulation": {
+        "coupled_solver": "global-time-step"
+      }
+    },
+    "expert": {
+      "implicit_bodyforce_treatment": false,
+      "velocity_formulation": "absolute",
+      "physical_velocity_formulation": false,
+      "disable_rhie_chow_flux": false,
+      "presto_pressure_scheme": false,
+      "first_to_second_order_blending": 1.0
+    },
+    "high_order_term_relaxation": {
+      "enable": true,
+      "relaxation_factor": 0.25,
+      "select_variables": "all-variables",
+      "type": "standard"
+    },
+    "warped_face_gradient_correction": {
+      "enable": false
+    },
+    "poor_mesh_numerics": {
+      "cell_quality_based": false,
+      "turbulence_production_term": true,
+      "solution_and_quality_based": false,
+      "gradient_quality_based": false,
+      "reset_poor_elements": false
+    }
+  },
+  "second_order_spatial_schemes_unchanged": true,
+  "only_iterative_high_order_term_relaxation_changed": true,
+  "geometry_inlet_flow_and_physical_boundaries_unchanged": true
+}

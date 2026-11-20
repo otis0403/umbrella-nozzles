@@ -1,0 +1,28 @@
+{
+  "case": "jet_g16_L120_long_pipe",
+  "Q_m3_min": 1.8170393240861218,
+  "gap_mm": 16,
+  "slot_mean_Uz_m_s": 12.628170013427734,
+  "30mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 84.52769895062946,
+    "same_140x80_strip_momentum_N": 0.48040013762307116,
+    "core_140mm_line_CV_pct": 13.984190131487864,
+    "core_line_mean_Uz_m_s": 15.068876132729969,
+    "patch_pressure_p10_Pa": 16.73085061761088
+  },
+  "50mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 82.18444017638136,
+    "same_140x80_strip_momentum_N": 0.48059223447065436,
+    "core_140mm_line_CV_pct": 13.089141285336122,
+    "core_line_mean_Uz_m_s": 14.976917834515907,
+    "patch_pressure_p10_Pa": 24.503426705216913
+  },
+  "80mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 77.01966137539641,
+    "same_140x80_strip_momentum_N": 0.4819365534841424,
+    "core_140mm_line_CV_pct": 11.591072601509417,
+    "core_line_mean_Uz_m_s": 14.390757241738873,
+    "patch_pressure_p10_Pa": 30.960230418079156
+  },
+  "minimum_pressure_proxy_Pa": 77.01966137539641
+}

@@ -1,0 +1,54 @@
+{
+  "native_blend_reopened": true,
+  "unit_scale": 0.001,
+  "parts": [
+    {
+      "part": "body_onepiece",
+      "assembly_bounds_mm": [
+        [
+          -57.0,
+          -110.4000015258789,
+          0.0
+        ],
+        [
+          61.0,
+          110.4000015258789,
+          200.0
+        ]
+      ],
+      "matches_delivered_STL_bounds": true
+    },
+    {
+      "part": "head_short216_16mm_body200",
+      "assembly_bounds_mm": [
+        [
+          -26.0,
+          -113.6500015258789,
+          194.0
+        ],
+        [
+          26.0,
+          113.6500015258789,
+          220.0
+        ]
+      ],
+      "matches_delivered_STL_bounds": true
+    },
+    {
+      "part": "head_wide228_16mm_body200",
+      "assembly_bounds_mm": [
+        [
+          -26.0,
+          -117.0,
+          194.0
+        ],
+        [
+          26.0,
+          117.0,
+          230.0
+        ]
+      ],
+      "matches_delivered_STL_bounds": true
+    }
+  ]
+}

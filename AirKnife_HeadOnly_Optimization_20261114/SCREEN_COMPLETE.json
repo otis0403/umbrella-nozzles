@@ -1,0 +1,26 @@
+[
+  {
+    "design": "short216",
+    "loss_Pa": 7.6077121098859095,
+    "outlet_span_CV_pct": 2.9395813941955566,
+    "internal_reverse_volume_pct": 0.0003668184302665507
+  },
+  {
+    "design": "wide228",
+    "loss_Pa": 8.255114984648287,
+    "outlet_span_CV_pct": 3.1998238563537598,
+    "internal_reverse_volume_pct": 0.0030556472747443556
+  },
+  {
+    "design": "wide240",
+    "loss_Pa": 9.077631120679001,
+    "outlet_span_CV_pct": 4.505154132843018,
+    "internal_reverse_volume_pct": 0.030205750628524635
+  },
+  {
+    "design": "wide252",
+    "loss_Pa": 10.123003157947807,
+    "outlet_span_CV_pct": 4.87557315826416,
+    "internal_reverse_volume_pct": 0.05098102615128729
+  }
+]

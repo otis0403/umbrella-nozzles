@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "design": "late216",
+      "case": "jet_late216_p400",
+      "warm": "C:\\Users\\otiso\\umbrella\\case\\AirKnife_16mm_Wider_ANSYS_20261114\\cfd\\jet_H260_W216",
+      "batches": 7
+    },
+    {
+      "design": "late222",
+      "case": "jet_late222_p400",
+      "warm": "C:\\Users\\otiso\\umbrella\\case\\AirKnife_16mm_Wider_ANSYS_20261114\\cfd\\jet_H260_W216",
+      "batches": 7
+    },
+    {
+      "design": "short216",
+      "case": "jet_short216_p400",
+      "warm": "C:\\Users\\otiso\\umbrella\\case\\AirKnife_16mm_Wider_ANSYS_20261114\\cfd\\jet_H260_W216",
+      "batches": 7
+    },
+    {
+      "design": "wide228",
+      "case": "jet_wide228_p400",
+      "warm": "C:\\Users\\otiso\\umbrella\\case\\AirKnife_16mm_Wider_ANSYS_20261114\\cfd\\jet_H260_W216",
+      "batches": 7
+    }
+  ],
+  "final": false
+}

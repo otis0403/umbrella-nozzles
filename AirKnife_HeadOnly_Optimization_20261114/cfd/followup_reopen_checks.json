@@ -1,0 +1,47 @@
+[
+  {
+    "case": "screen_late216",
+    "native_case_data_reopened": true,
+    "max_relative_error": 0.0
+  },
+  {
+    "case": "screen_late222",
+    "native_case_data_reopened": true,
+    "max_relative_error": 0.0
+  },
+  {
+    "case": "screen_late228",
+    "native_case_data_reopened": true,
+    "max_relative_error": 0.0
+  },
+  {
+    "case": "jet_late216_p400",
+    "native_case_data_reopened": true,
+    "max_relative_error": 0.0
+  },
+  {
+    "case": "jet_late222_p400",
+    "native_case_data_reopened": true,
+    "max_relative_error": 0.0
+  },
+  {
+    "case": "jet_short216_p400",
+    "native_case_data_reopened": true,
+    "max_relative_error": 0.0
+  },
+  {
+    "case": "jet_wide228_p400",
+    "native_case_data_reopened": true,
+    "max_relative_error": 0.0
+  },
+  {
+    "case": "jet_ref216_fine_p400",
+    "native_case_data_reopened": true,
+    "max_relative_error": 0.0
+  },
+  {
+    "case": "jet_short216_fine_p400",
+    "native_case_data_reopened": true,
+    "max_relative_error": 0.0
+  }
+]

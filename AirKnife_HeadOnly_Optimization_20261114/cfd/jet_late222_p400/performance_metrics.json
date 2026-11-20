@@ -1,0 +1,63 @@
+{
+  "computed_Q_m3_min": 5.2450398066283395,
+  "slot_mean_Uz_m_s": 24.601879119873047,
+  "nozzle_total_pressure_loss_Pa": 28.355010986327898,
+  "total_pressure_Pa": 400,
+  "span_mm": 222,
+  "gap_mm": 16,
+  "height_mm": 260,
+  "30mm": {
+    "same_200x16_patch_normal_dynamic_pressure_mean_Pa": 347.17872972934066,
+    "same_200x16_patch_pressure_p10_Pa": 176.43130846862468,
+    "same_200x80_strip_forward_momentum_N": 2.343724992061234,
+    "common_200mm_line_mean_Uz_m_s": 25.72940980405759,
+    "covered_line_length_mm": 206,
+    "covered_line_mean_Uz_m_s": 25.725591605498533,
+    "covered_line_CV_pct": 0.11808716248712793,
+    "full_320x80_window_momentum_N": 2.611018180847168,
+    "patch_grid_points": [
+      65,
+      201
+    ],
+    "strip_grid_points": [
+      161,
+      201
+    ]
+  },
+  "50mm": {
+    "same_200x16_patch_normal_dynamic_pressure_mean_Pa": 332.1712478945204,
+    "same_200x16_patch_pressure_p10_Pa": 169.7708498717925,
+    "same_200x80_strip_forward_momentum_N": 2.3367207278646562,
+    "common_200mm_line_mean_Uz_m_s": 25.706390807778984,
+    "covered_line_length_mm": 206,
+    "covered_line_mean_Uz_m_s": 25.7032341232588,
+    "covered_line_CV_pct": 0.1045804736011634,
+    "full_320x80_window_momentum_N": 2.6114320755004883,
+    "patch_grid_points": [
+      65,
+      201
+    ],
+    "strip_grid_points": [
+      161,
+      201
+    ]
+  },
+  "80mm": {
+    "same_200x16_patch_normal_dynamic_pressure_mean_Pa": 308.57832077743495,
+    "same_200x16_patch_pressure_p10_Pa": 164.66149544575666,
+    "same_200x80_strip_forward_momentum_N": 2.3295593326210224,
+    "common_200mm_line_mean_Uz_m_s": 25.665598801440602,
+    "covered_line_length_mm": 206,
+    "covered_line_mean_Uz_m_s": 25.66308080857483,
+    "covered_line_CV_pct": 0.08502490696154837,
+    "full_320x80_window_momentum_N": 2.613327980041504,
+    "patch_grid_points": [
+      65,
+      201
+    ],
+    "strip_grid_points": [
+      161,
+      201
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "case": "screen_short216",
+    "native_case_data_reopened": true,
+    "max_relative_error": 0.0
+  },
+  {
+    "case": "screen_wide228",
+    "native_case_data_reopened": true,
+    "max_relative_error": 0.0
+  }
+]

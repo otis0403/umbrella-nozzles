@@ -1,0 +1,89 @@
+{
+  "method": "Combined finer cross section, 1 mm axial head mesh and downstream reach 250 to 400 mm; not GCI or a confidence interval",
+  "cases": {
+    "ref216": {
+      "Q_m3_min": {
+        "standard": 5.099283353042694,
+        "fine": 5.094192901924725,
+        "change_pct": -0.09982679458148125
+      },
+      "slot_Uz_m_s": {
+        "standard": 24.584585189819336,
+        "fine": 24.5671443939209,
+        "change_pct": -0.07094199785668831
+      },
+      "30mm_same_200x16_patch_normal_dynamic_pressure_mean_Pa": {
+        "standard": 348.46632919067815,
+        "fine": 351.8824192377237,
+        "change_pct": 0.9803214144045169
+      },
+      "30mm_same_200x80_strip_forward_momentum_N": {
+        "standard": 2.3476412995834917,
+        "fine": 2.3517732159654408,
+        "change_pct": 0.17600288351897753
+      },
+      "50mm_same_200x16_patch_normal_dynamic_pressure_mean_Pa": {
+        "standard": 334.2359308365237,
+        "fine": 337.6733369880521,
+        "change_pct": 1.0284370513143903
+      },
+      "50mm_same_200x80_strip_forward_momentum_N": {
+        "standard": 2.3462748591015856,
+        "fine": 2.349463474104517,
+        "change_pct": 0.13590117076702768
+      },
+      "80mm_same_200x16_patch_normal_dynamic_pressure_mean_Pa": {
+        "standard": 311.7201076188076,
+        "fine": 314.80913951743577,
+        "change_pct": 0.9909633107164195
+      },
+      "80mm_same_200x80_strip_forward_momentum_N": {
+        "standard": 2.3490770377528207,
+        "fine": 2.3519192182506106,
+        "change_pct": 0.120991370317447
+      }
+    },
+    "short216": {
+      "Q_m3_min": {
+        "standard": 5.14019165121013,
+        "fine": 5.1417841688049855,
+        "change_pct": 0.03098167739485902
+      },
+      "slot_Uz_m_s": {
+        "standard": 24.781198501586914,
+        "fine": 24.794694900512695,
+        "change_pct": 0.05446225260217208
+      },
+      "30mm_same_200x16_patch_normal_dynamic_pressure_mean_Pa": {
+        "standard": 350.4644410601861,
+        "fine": 352.7410251321857,
+        "change_pct": 0.6495906018632702
+      },
+      "30mm_same_200x80_strip_forward_momentum_N": {
+        "standard": 2.3651548455943967,
+        "fine": 2.373136094365607,
+        "change_pct": 0.3374514267459938
+      },
+      "50mm_same_200x16_patch_normal_dynamic_pressure_mean_Pa": {
+        "standard": 333.9599954511104,
+        "fine": 335.96633441346745,
+        "change_pct": 0.6007722450849018
+      },
+      "50mm_same_200x80_strip_forward_momentum_N": {
+        "standard": 2.347863136144034,
+        "fine": 2.354318746267246,
+        "change_pct": 0.27495683303815355
+      },
+      "80mm_same_200x16_patch_normal_dynamic_pressure_mean_Pa": {
+        "standard": 308.1720401632982,
+        "fine": 309.68897031770854,
+        "change_pct": 0.49223484181319943
+      },
+      "80mm_same_200x80_strip_forward_momentum_N": {
+        "standard": 2.3217186625974184,
+        "fine": 2.3277420522372485,
+        "change_pct": 0.2594366723611241
+      }
+    }
+  }
+}

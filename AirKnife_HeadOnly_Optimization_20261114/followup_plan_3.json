@@ -1,0 +1,12 @@
+{
+  "jobs": [
+    {
+      "design": "ref216",
+      "case": "jet_ref216_fine_p400",
+      "fine": true,
+      "warm": "C:\\Users\\otiso\\umbrella\\case\\AirKnife_16mm_Wider_ANSYS_20261114\\cfd\\jet_H260_W216",
+      "batches": 5
+    }
+  ],
+  "final": false
+}

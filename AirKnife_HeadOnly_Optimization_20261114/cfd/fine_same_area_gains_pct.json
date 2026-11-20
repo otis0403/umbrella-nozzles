@@ -1,0 +1,19 @@
+{
+  "short216": {
+    "30mm": {
+      "same_200x16_patch_normal_dynamic_pressure_mean_Pa": 0.2440036351693875,
+      "same_200x80_strip_forward_momentum_N": 0.9083732332327177,
+      "common_200mm_line_mean_Uz_m_s": -0.07917160007868684
+    },
+    "50mm": {
+      "same_200x16_patch_normal_dynamic_pressure_mean_Pa": -0.5055189106165758,
+      "same_200x80_strip_forward_momentum_N": 0.20665450713506228,
+      "common_200mm_line_mean_Uz_m_s": -0.040526597616685756
+    },
+    "80mm": {
+      "same_200x16_patch_normal_dynamic_pressure_mean_Pa": -1.626436007409382,
+      "same_200x80_strip_forward_momentum_N": -1.0279760387070347,
+      "common_200mm_line_mean_Uz_m_s": -0.01471983380328945
+    }
+  }
+}

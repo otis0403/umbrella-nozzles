@@ -1,0 +1,56 @@
+{
+  "ref216": {
+    "height": 260,
+    "body": 200,
+    "span": 216,
+    "gap": 16,
+    "land": 0,
+    "rim": 2.4,
+    "wall": 2.4
+  },
+  "ref252": {
+    "height": 320,
+    "body": 200,
+    "span": 252,
+    "gap": 16,
+    "land": 0,
+    "rim": 2.4,
+    "wall": 2.4
+  },
+  "short216": {
+    "height": 220,
+    "body": 200,
+    "span": 216,
+    "gap": 16,
+    "land": 6,
+    "rim": 1.6,
+    "wall": 3.0
+  },
+  "wide228": {
+    "height": 230,
+    "body": 200,
+    "span": 228,
+    "gap": 16,
+    "land": 6,
+    "rim": 1.6,
+    "wall": 3.0
+  },
+  "wide240": {
+    "height": 240,
+    "body": 200,
+    "span": 240,
+    "gap": 16,
+    "land": 6,
+    "rim": 1.6,
+    "wall": 3.0
+  },
+  "wide252": {
+    "height": 260,
+    "body": 200,
+    "span": 252,
+    "gap": 16,
+    "land": 6,
+    "rim": 1.6,
+    "wall": 3.0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-14",
+  "printed_reference": "216x16 mm, total H260, no ribs",
+  "keep_existing_body": true,
+  "body_height_mm": 200,
+  "replace_upper_head_only": true,
+  "gap_mm": 16,
+  "maximum_outer_width_mm": 300,
+  "printer": "K1C",
+  "no_external_ribs": true
+}

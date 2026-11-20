@@ -1,0 +1,48 @@
+[
+  {
+    "design": "short216",
+    "height_mm": 220,
+    "slot_sample_count": 61,
+    "measured_gap_range_mm": [
+      15.999999046325684,
+      16.0
+    ],
+    "measured_clear_span_mm": 216.0,
+    "inlet_XY_mm": [
+      81.99999237060547,
+      88.0
+    ],
+    "12_original_holes_clear": true,
+    "4_module_screw_paths_clear": true,
+    "central_axis_clear": true,
+    "opposite_outlet_rim_top_Z_mm": [
+      220.0,
+      220.0
+    ],
+    "head_profile_to_CFD_sample_count": 81,
+    "max_profile_error_mm": 0.003629600329517757
+  },
+  {
+    "design": "wide228",
+    "height_mm": 230,
+    "slot_sample_count": 61,
+    "measured_gap_range_mm": [
+      15.999999046325684,
+      16.0
+    ],
+    "measured_clear_span_mm": 228.0,
+    "inlet_XY_mm": [
+      81.99999237060547,
+      88.0
+    ],
+    "12_original_holes_clear": true,
+    "4_module_screw_paths_clear": true,
+    "central_axis_clear": true,
+    "opposite_outlet_rim_top_Z_mm": [
+      230.0,
+      230.0
+    ],
+    "head_profile_to_CFD_sample_count": 81,
+    "max_profile_error_mm": 0.0036551917456222327
+  }
+]

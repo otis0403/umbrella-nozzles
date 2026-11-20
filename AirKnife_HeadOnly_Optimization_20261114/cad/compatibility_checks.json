@@ -1,0 +1,146 @@
+[
+  {
+    "design": "short216",
+    "assembly_interference_mm3": -1.8513940380771032e-12,
+    "insertion_samples": [
+      {
+        "offset_Z_mm": 0.0,
+        "interference_mm3": -1.8513940380771032e-12
+      },
+      {
+        "offset_Z_mm": 0.775,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 1.55,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 2.325,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 3.1,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 3.875,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 4.65,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 5.425,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 6.2,
+        "interference_mm3": 0.0
+      }
+    ],
+    "8mm_driver_checks": [
+      {
+        "XY_mm": [
+          -20.0,
+          -70.0
+        ],
+        "tool_obstruction_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          -20.0,
+          70.0
+        ],
+        "tool_obstruction_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          20.0,
+          -70.0
+        ],
+        "tool_obstruction_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          20.0,
+          70.0
+        ],
+        "tool_obstruction_mm3": 0.0
+      }
+    ]
+  },
+  {
+    "design": "wide228",
+    "assembly_interference_mm3": -1.8442886107195022e-12,
+    "insertion_samples": [
+      {
+        "offset_Z_mm": 0.0,
+        "interference_mm3": -1.8442886107195022e-12
+      },
+      {
+        "offset_Z_mm": 0.775,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 1.55,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 2.325,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 3.1,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 3.875,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 4.65,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 5.425,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 6.2,
+        "interference_mm3": 0.0
+      }
+    ],
+    "8mm_driver_checks": [
+      {
+        "XY_mm": [
+          -20.0,
+          -70.0
+        ],
+        "tool_obstruction_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          -20.0,
+          70.0
+        ],
+        "tool_obstruction_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          20.0,
+          -70.0
+        ],
+        "tool_obstruction_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          20.0,
+          70.0
+        ],
+        "tool_obstruction_mm3": 0.0
+      }
+    ]
+  }
+]

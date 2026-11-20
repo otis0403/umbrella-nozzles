@@ -1,0 +1,32 @@
+{
+  "name": "jet_H320_W252_fine",
+  "height_mm": 320,
+  "gap_mm": 16,
+  "span_mm": 252,
+  "body_height_mm": 200,
+  "lip_length_mm": 120,
+  "external": true,
+  "cells": 826880,
+  "nodes": 864879,
+  "inlet_area_m2": 0.007208274333882308,
+  "outlet_slot_area_m2": 0.004032,
+  "volume_m3": 0.033681886876037126,
+  "min_tetra_volume_m3": 4.5217528701008386e-13,
+  "vane_count": 0,
+  "external_bounds_mm": [
+    -100,
+    100,
+    -200,
+    200,
+    320,
+    720
+  ],
+  "zones": {
+    "interior": 2443120,
+    "inlet": 968,
+    "outlet": 3360,
+    "housing": 21120,
+    "lip_rim": 432,
+    "ambient": 49160
+  }
+}

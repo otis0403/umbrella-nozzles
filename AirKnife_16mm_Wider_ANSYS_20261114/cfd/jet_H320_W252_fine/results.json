@@ -1,0 +1,96 @@
+{
+  "name": "jet_H320_W252_fine",
+  "conditions": {
+    "prescribed_Q_m3_min": null,
+    "hypothetical_inlet_total_pressure_Pa": 400.0,
+    "actual_fan_curve_used": false,
+    "height_mm": 320,
+    "gap_mm": 16,
+    "span_mm": 252,
+    "body_height_mm": 200,
+    "lip_length_mm": 120,
+    "warm_start_source": "jet_H320_W252",
+    "vane_count": 0,
+    "external_free_jet": true
+  },
+  "reports": {
+    "batch": 6,
+    "elapsed_s": 740.4304075241089,
+    "pin": 293.2540073977752,
+    "ptin": 399.9999999999999,
+    "ptout": 43.70395551287097,
+    "min": 0.115206859884145,
+    "mout": -0.3536173856068184,
+    "mambient": 0.2384106434251926
+  },
+  "required_static_pressure_Pa": 293.2540073977752,
+  "pressure_loss_to_domain_outlet_Pa": 356.29604448712894,
+  "nozzle_flow_m3_min": 5.76034299420725,
+  "mass_imbalance_pct": 0.00010216624196642462,
+  "outlet_mean_axial_velocity_m_s": 3.6807961463928223,
+  "outlet_full_area_CV": 1.0691633224487305,
+  "negative_uz_volume_fraction": 0.03460542722914725,
+  "min_uz_m_s": -0.21360769527907453,
+  "last_pressure_change_pct": 0.00011722082851806808,
+  "solver": "Fluent 2026 R1, 3D double, SST k-omega; steady incompressible; smooth walls",
+  "free_jet_metrics": {
+    "slot_mean_uz_m_s": 23.807214736938477,
+    "slot_mass_average_total_pressure_Pa": 355.46051025390625,
+    "internal_negative_uz_volume_fraction": 6.095521840242303e-07,
+    "nozzle_total_pressure_loss_Pa": 44.539489746093636,
+    "30mm": {
+      "common_200mm_line_mean_Uz_m_s": 25.606376327134075,
+      "covered_span_line_length_mm": 236,
+      "covered_span_line_mean_Uz_m_s": 25.58792968097257,
+      "covered_span_line_p10_Uz_m_s": 25.499032515965464,
+      "covered_span_line_CV_pct": 0.28211973189427186,
+      "forward_momentum_window_N": 2.790426731109619,
+      "momentum_window_mm": {
+        "X": [
+          -40,
+          40
+        ],
+        "Y": [
+          -160,
+          160
+        ]
+      }
+    },
+    "50mm": {
+      "common_200mm_line_mean_Uz_m_s": 25.563516877992694,
+      "covered_span_line_length_mm": 236,
+      "covered_span_line_mean_Uz_m_s": 25.54674862637043,
+      "covered_span_line_p10_Uz_m_s": 25.45873083347385,
+      "covered_span_line_CV_pct": 0.2663484037376198,
+      "forward_momentum_window_N": 2.7917816638946533,
+      "momentum_window_mm": {
+        "X": [
+          -40,
+          40
+        ],
+        "Y": [
+          -160,
+          160
+        ]
+      }
+    },
+    "80mm": {
+      "common_200mm_line_mean_Uz_m_s": 25.493467147815778,
+      "covered_span_line_length_mm": 236,
+      "covered_span_line_mean_Uz_m_s": 25.47939060804695,
+      "covered_span_line_p10_Uz_m_s": 25.400288606798778,
+      "covered_span_line_CV_pct": 0.23965714519225526,
+      "forward_momentum_window_N": 2.795261859893799,
+      "momentum_window_mm": {
+        "X": [
+          -40,
+          40
+        ],
+        "Y": [
+          -160,
+          160
+        ]
+      }
+    }
+  }
+}

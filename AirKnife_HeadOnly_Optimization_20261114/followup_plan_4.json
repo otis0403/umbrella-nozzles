@@ -1,0 +1,12 @@
+{
+  "jobs": [
+    {
+      "design": "short216",
+      "case": "jet_short216_fine_p400",
+      "fine": true,
+      "warm": "jet_short216_p400",
+      "batches": 5
+    }
+  ],
+  "final": false
+}

@@ -1,0 +1,33 @@
+{
+  "file": "直通吹嘴_216x4mm_中央鴨嘴導流_單件_mm.stl",
+  "units": "mm",
+  "triangles": 171948,
+  "vertices": 85944,
+  "coordinate_edges_not_shared_twice": 0,
+  "inconsistent_oriented_edges": 0,
+  "degenerate_triangles": 0,
+  "material_components": 1,
+  "signed_volume_mm3": 332608.94057084766,
+  "bounds_mm": [
+    [
+      -110.0,
+      -60.0,
+      0.0
+    ],
+    [
+      110.0,
+      60.0,
+      240.0
+    ]
+  ],
+  "size_mm": [
+    220.0,
+    120.0,
+    240.0
+  ],
+  "minimum_triangle_double_area_mm2": 1.0952135198749602e-08,
+  "grounded_at_Z0": true,
+  "original_files_verified_unchanged": 507,
+  "sha256": "2032a4a96ff48400c4d8e199edcd7ce9230432787faa8cc881786c829bbfd02a",
+  "physical_print_tested": false
+}

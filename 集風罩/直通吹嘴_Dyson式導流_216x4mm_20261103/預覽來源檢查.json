@@ -1,0 +1,14 @@
+{
+  "source": "C:\\Users\\otiso\\umbrella\\case\\集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\直通吹嘴_216x4mm_中央鴨嘴導流_單件.blend",
+  "source_sha256": "6e41ebf753e85d40e573e51abb140b1a181db444f775c7eb0e563ec69c36f35f",
+  "source_unchanged": true,
+  "preview_method": "Actual manufacturing mesh; transparent housing/plate materials only",
+  "preview_material_face_counts": {
+    "core": 26706,
+    "vanes": 13343,
+    "shell": 131899
+  },
+  "render_engine": "Cycles CPU",
+  "samples": 24,
+  "saved_preview_scene": false
+}

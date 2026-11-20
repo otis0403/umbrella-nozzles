@@ -1,0 +1,476 @@
+{
+  "units": "mm",
+  "groups": [
+    {
+      "position": "inner",
+      "width_mm": 225,
+      "preferred_gap_mm": 12,
+      "total_length_mm": 288,
+      "split_Z_mm": 245,
+      "body": "inner_body",
+      "tips": [
+        "inner_tip_g12",
+        "inner_tip_g16_reference"
+      ],
+      "preferred_tip": "inner_tip_g12",
+      "screw_centers_XY_mm": [
+        [
+          -19.4,
+          -82.5
+        ],
+        [
+          -19.4,
+          82.5
+        ],
+        [
+          19.4,
+          -82.5
+        ],
+        [
+          19.4,
+          82.5
+        ]
+      ],
+      "screw_count": 4,
+      "locator_indices": [
+        0,
+        3
+      ],
+      "bolt_hole_diameter_mm": 4.4,
+      "tip_hole_float_Y_mm": 1,
+      "locator_male_OD_mm": 7.4,
+      "locator_recess_diameter_mm": 7.9,
+      "radial_clearance_mm": 0.25,
+      "locator_height_mm": 1.5,
+      "recess_depth_mm": 1.8,
+      "axial_clearance_mm": 0.3,
+      "ear_thickness_each_mm": 4,
+      "seal_groove_width_mm": 1.2,
+      "seal_groove_depth_mm": 0.5,
+      "inner_sealing_land_mm": 0.6,
+      "hardware": "M4x16 bolts, M4 nuts, two OD9 washers each"
+    },
+    {
+      "position": "center",
+      "width_mm": 180,
+      "preferred_gap_mm": 14,
+      "total_length_mm": 248,
+      "split_Z_mm": 205,
+      "body": "center_body",
+      "tips": [
+        "center_tip_g14",
+        "center_tip_g16_reference"
+      ],
+      "preferred_tip": "center_tip_g14",
+      "screw_centers_XY_mm": [
+        [
+          -19.4,
+          -60.0
+        ],
+        [
+          -19.4,
+          60.0
+        ],
+        [
+          19.4,
+          -60.0
+        ],
+        [
+          19.4,
+          60.0
+        ]
+      ],
+      "screw_count": 4,
+      "locator_indices": [
+        0,
+        3
+      ],
+      "bolt_hole_diameter_mm": 4.4,
+      "tip_hole_float_Y_mm": 1,
+      "locator_male_OD_mm": 7.4,
+      "locator_recess_diameter_mm": 7.9,
+      "radial_clearance_mm": 0.25,
+      "locator_height_mm": 1.5,
+      "recess_depth_mm": 1.8,
+      "axial_clearance_mm": 0.3,
+      "ear_thickness_each_mm": 4,
+      "seal_groove_width_mm": 1.2,
+      "seal_groove_depth_mm": 0.5,
+      "inner_sealing_land_mm": 0.6,
+      "hardware": "M4x16 bolts, M4 nuts, two OD9 washers each"
+    },
+    {
+      "position": "outer",
+      "width_mm": 315,
+      "preferred_gap_mm": 8,
+      "total_length_mm": 388,
+      "split_Z_mm": 345,
+      "body": "outer_body",
+      "tips": [
+        "outer_tip_g8"
+      ],
+      "preferred_tip": "outer_tip_g8",
+      "screw_centers_XY_mm": [
+        [
+          -19.4,
+          -127.5
+        ],
+        [
+          -19.4,
+          0
+        ],
+        [
+          -19.4,
+          127.5
+        ],
+        [
+          19.4,
+          -127.5
+        ],
+        [
+          19.4,
+          0
+        ],
+        [
+          19.4,
+          127.5
+        ]
+      ],
+      "screw_count": 6,
+      "locator_indices": [
+        0,
+        5
+      ],
+      "bolt_hole_diameter_mm": 4.4,
+      "tip_hole_float_Y_mm": 1,
+      "locator_male_OD_mm": 7.4,
+      "locator_recess_diameter_mm": 7.9,
+      "radial_clearance_mm": 0.25,
+      "locator_height_mm": 1.5,
+      "recess_depth_mm": 1.8,
+      "axial_clearance_mm": 0.3,
+      "ear_thickness_each_mm": 4,
+      "seal_groove_width_mm": 1.2,
+      "seal_groove_depth_mm": 0.5,
+      "inner_sealing_land_mm": 0.6,
+      "hardware": "M4x16 bolts, M4 nuts, two OD9 washers each"
+    }
+  ],
+  "parts": [
+    {
+      "id": "inner_body",
+      "file": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\inner_body_mm.stl",
+      "watertight": true,
+      "single_connected_component": true,
+      "positive_volume_mm3": 184480.41417939166,
+      "minimum_triangle_area_mm2": 0.000119292161663521,
+      "size_mm": [
+        60.20000076293945,
+        229.79998779296875,
+        246.5
+      ],
+      "bounds_mm": [
+        [
+          -30.100000381469727,
+          -114.89999389648438,
+          0.0
+        ],
+        [
+          30.100000381469727,
+          114.89999389648438,
+          246.5
+        ]
+      ],
+      "sha256": "57177ce2f585a000660192621884f7628f69476c27b4fef7f42e0cf8c553e861",
+      "position": "inner",
+      "type": "body",
+      "width_mm": 225,
+      "split_Z_mm": 245,
+      "assembly_translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "source_full_STL": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\cad\\full\\nozzle_W225_G12_L220_ramp_mm.stl"
+    },
+    {
+      "id": "inner_tip_g12",
+      "file": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\inner_tip_g12_mm.stl",
+      "watertight": true,
+      "single_connected_component": true,
+      "positive_volume_mm3": 50342.78322956015,
+      "minimum_triangle_area_mm2": 0.0036171955289319158,
+      "size_mm": [
+        52.79999923706055,
+        229.8000030517578,
+        43.0
+      ],
+      "bounds_mm": [
+        [
+          -26.399999618530273,
+          -114.9000015258789,
+          0.0
+        ],
+        [
+          26.399999618530273,
+          114.9000015258789,
+          43.0
+        ]
+      ],
+      "sha256": "08c104cabbea9eedb26959988f4e82138ee341d1dd6e31f1216b260bf99ec234",
+      "position": "inner",
+      "type": "tip",
+      "variant": "preferred",
+      "width_mm": 225,
+      "gap_mm": 12,
+      "axial_length_mm": 43,
+      "assembly_translation_mm": [
+        0,
+        0,
+        245
+      ],
+      "body_tip_interference_mm3": 1.1733644485450567e-12,
+      "added_features_inside_flow_probe_mm3": 0.0
+    },
+    {
+      "id": "inner_tip_g16_reference",
+      "file": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\inner_tip_g16_reference_mm.stl",
+      "watertight": true,
+      "single_connected_component": true,
+      "positive_volume_mm3": 50796.78388702378,
+      "minimum_triangle_area_mm2": 0.001211477649576409,
+      "size_mm": [
+        52.79999923706055,
+        229.8000030517578,
+        43.0
+      ],
+      "bounds_mm": [
+        [
+          -26.399999618530273,
+          -114.9000015258789,
+          0.0
+        ],
+        [
+          26.399999618530273,
+          114.9000015258789,
+          43.0
+        ]
+      ],
+      "sha256": "735d0ded22508c5b8fedb78a509c753f93cdd2f8cbc88518f7744ce339ab6463",
+      "position": "inner",
+      "type": "tip",
+      "variant": "reference",
+      "width_mm": 225,
+      "gap_mm": 16,
+      "axial_length_mm": 43,
+      "assembly_translation_mm": [
+        0,
+        0,
+        245
+      ],
+      "body_tip_interference_mm3": 7.812284983350448e-13,
+      "added_features_inside_flow_probe_mm3": 0.0
+    },
+    {
+      "id": "center_body",
+      "file": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\center_body_mm.stl",
+      "watertight": true,
+      "single_connected_component": true,
+      "positive_volume_mm3": 134632.94071404563,
+      "minimum_triangle_area_mm2": 0.0005745442935303477,
+      "size_mm": [
+        60.20000076293945,
+        184.79965209960938,
+        206.5
+      ],
+      "bounds_mm": [
+        [
+          -30.100000381469727,
+          -92.39982604980469,
+          0.0
+        ],
+        [
+          30.100000381469727,
+          92.39982604980469,
+          206.5
+        ]
+      ],
+      "sha256": "136e64fa5aef4fa3e2fd14b59945b47b88782cdd2fff701f74501668a938a0de",
+      "position": "center",
+      "type": "body",
+      "width_mm": 180,
+      "split_Z_mm": 205,
+      "assembly_translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "source_full_STL": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\cad\\full\\nozzle_W180_G14_L180_ramp_mm.stl"
+    },
+    {
+      "id": "center_tip_g14",
+      "file": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\center_tip_g14_mm.stl",
+      "watertight": true,
+      "single_connected_component": true,
+      "positive_volume_mm3": 41657.271355943674,
+      "minimum_triangle_area_mm2": 0.0024736751802265644,
+      "size_mm": [
+        52.79999923706055,
+        184.8000030517578,
+        43.0
+      ],
+      "bounds_mm": [
+        [
+          -26.399999618530273,
+          -92.4000015258789,
+          0.0
+        ],
+        [
+          26.399999618530273,
+          92.4000015258789,
+          43.0
+        ]
+      ],
+      "sha256": "43c2b4b01c02feda69717bad7c53deb8f1d9b87f65f1de8f284a8aac414db904",
+      "position": "center",
+      "type": "tip",
+      "variant": "preferred",
+      "width_mm": 180,
+      "gap_mm": 14,
+      "axial_length_mm": 43,
+      "assembly_translation_mm": [
+        0,
+        0,
+        205
+      ],
+      "body_tip_interference_mm3": 1.4290305050401741e-13,
+      "added_features_inside_flow_probe_mm3": 0.0
+    },
+    {
+      "id": "center_tip_g16_reference",
+      "file": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\center_tip_g16_reference_mm.stl",
+      "watertight": true,
+      "single_connected_component": true,
+      "positive_volume_mm3": 41886.67114958057,
+      "minimum_triangle_area_mm2": 0.0009197734402732749,
+      "size_mm": [
+        52.79999923706055,
+        184.8000030517578,
+        43.0
+      ],
+      "bounds_mm": [
+        [
+          -26.399999618530273,
+          -92.4000015258789,
+          0.0
+        ],
+        [
+          26.399999618530273,
+          92.4000015258789,
+          43.0
+        ]
+      ],
+      "sha256": "13d5655e3529c02e4db17c35a7b0a8c441c073d1c099dff0515a22f5e39bc38d",
+      "position": "center",
+      "type": "tip",
+      "variant": "reference",
+      "width_mm": 180,
+      "gap_mm": 16,
+      "axial_length_mm": 43,
+      "assembly_translation_mm": [
+        0,
+        0,
+        205
+      ],
+      "body_tip_interference_mm3": 1.4689426200906914e-12,
+      "added_features_inside_flow_probe_mm3": 0.0
+    },
+    {
+      "id": "outer_body",
+      "file": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\outer_body_mm.stl",
+      "watertight": true,
+      "single_connected_component": true,
+      "positive_volume_mm3": 355793.58910371136,
+      "minimum_triangle_area_mm2": 3.0792125951391406e-05,
+      "size_mm": [
+        60.20000076293945,
+        319.7998046875,
+        346.5
+      ],
+      "bounds_mm": [
+        [
+          -30.100000381469727,
+          -159.89990234375,
+          0.0
+        ],
+        [
+          30.100000381469727,
+          159.89990234375,
+          346.5
+        ]
+      ],
+      "sha256": "bb1d7d3d2a9292830031f4f97664a4739c9830616458d7d7a0fb275a876fcab2",
+      "position": "outer",
+      "type": "body",
+      "width_mm": 315,
+      "split_Z_mm": 345,
+      "assembly_translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "source_full_STL": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\cad\\full\\nozzle_W315_G8_L320_ramp_guided_mm.stl"
+    },
+    {
+      "id": "outer_tip_g8",
+      "file": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\modular\\STL\\outer_tip_g8_mm.stl",
+      "watertight": true,
+      "single_connected_component": true,
+      "positive_volume_mm3": 68844.49895383562,
+      "minimum_triangle_area_mm2": 0.0011242598993703723,
+      "size_mm": [
+        52.79999923706055,
+        319.79998779296875,
+        43.0
+      ],
+      "bounds_mm": [
+        [
+          -26.399999618530273,
+          -159.89999389648438,
+          0.0
+        ],
+        [
+          26.399999618530273,
+          159.89999389648438,
+          43.0
+        ]
+      ],
+      "sha256": "444a71cd1a7dfb88ab8c5ae28de9032b9008e318544a1bfd6333c650dcf12a72",
+      "position": "outer",
+      "type": "tip",
+      "variant": "preferred",
+      "width_mm": 315,
+      "gap_mm": 8,
+      "axial_length_mm": 43,
+      "assembly_translation_mm": [
+        0,
+        0,
+        345
+      ],
+      "body_tip_interference_mm3": 4.1011291584958087e-13,
+      "added_features_inside_flow_probe_mm3": 0.0
+    }
+  ],
+  "preferred_part_count": 6,
+  "reference_tip_count": 2,
+  "total_STL_count": 8,
+  "hardware_per_group": {
+    "M4x16_bolts": 14,
+    "M4_nuts": 14,
+    "M4_OD9_washers": 28
+  },
+  "physical_fit_and_sealing_verified": false,
+  "CFD_source": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117",
+  "nominal_flow_profile_preserved": true,
+  "printer_capacity_segmentation_deferred": true
+}

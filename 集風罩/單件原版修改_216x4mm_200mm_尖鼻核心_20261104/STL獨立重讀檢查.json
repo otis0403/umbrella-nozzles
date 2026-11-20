@@ -1,0 +1,22 @@
+{
+  "file": "直通吹嘴_216x4mm_200mm_尖鼻核心_單件_mm.stl",
+  "units": "mm",
+  "triangles": 174726,
+  "vertices": 87333,
+  "edges_not_shared_twice": 0,
+  "orientation_errors": 0,
+  "degenerate_triangles": 0,
+  "material_components": 1,
+  "size_mm": [
+    220.0,
+    120.0,
+    200.0
+  ],
+  "minimum_Z_mm": 0.0,
+  "signed_volume_mm3": 258379.4883996741,
+  "sha256": "de349cddf9f94d5c598497859733534d10143f11589ad25b9a03b08b5c15a7bd",
+  "existing_files_verified_unchanged": 540,
+  "uploaded_STL_unchanged": true,
+  "physical_print_tested": false,
+  "airflow_tested": false
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "inner_body",
+    "file_prefix": "01_內側225_本體_耳座去凸環",
+    "changed": true
+  },
+  {
+    "id": "inner_tip_g12",
+    "file_prefix": "02_內側225x12_前嘴_沿用",
+    "changed": false
+  },
+  {
+    "id": "center_body",
+    "file_prefix": "03_中間180_本體_耳座去凸環",
+    "changed": true
+  },
+  {
+    "id": "center_tip_g14",
+    "file_prefix": "04_中間180x14_前嘴_沿用",
+    "changed": false
+  },
+  {
+    "id": "outer_inlet",
+    "file_prefix": "05_外側315_入口段_去凸環",
+    "changed": true
+  },
+  {
+    "id": "outer_guided_body",
+    "file_prefix": "06_外側315_導流段_耳座去凸環",
+    "changed": true
+  },
+  {
+    "id": "outer_tip_g8",
+    "file_prefix": "07_外側315x8_前嘴_沿用",
+    "changed": false
+  }
+]

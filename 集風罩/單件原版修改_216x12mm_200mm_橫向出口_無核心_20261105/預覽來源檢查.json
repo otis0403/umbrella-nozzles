@@ -1,0 +1,13 @@
+{
+  "source": "直通吹嘴_216x12mm_200mm_橫向出口_無核心_單件.blend",
+  "source_sha256": "c8b7292d79cc469d79a9057a1091a894621133491a3b81a8e79cfec528cbe5d4",
+  "source_unchanged": true,
+  "actual_saved_manufacturing_mesh": true,
+  "central_core_present": false,
+  "interior_view": "Actual mesh with a preview-only housing cutaway; all manufacturing files unchanged",
+  "preview_only_removed_shell_faces": 61911,
+  "material_face_counts": {
+    "vanes": 10908,
+    "shell": 128972
+  }
+}

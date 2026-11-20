@@ -1,0 +1,31 @@
+{
+  "case": "final_jet_50_70",
+  "Q_m3_min": 2.022516511471332,
+  "gap_mm": 16,
+  "slot_mean_Uz_m_s": 14.044624328613281,
+  "physical_slot_mass_weighted_total_pressure_Pa": 139.46096801757812,
+  "nozzle_body_total_pressure_loss_Pa": 35.47131306217278,
+  "slot_net_Q_m3_min": 2.021778106689453,
+  "30mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 98.26602601680923,
+    "same_140x80_strip_momentum_N": 0.5577270852486329,
+    "core_140mm_line_CV_pct": 8.864382453126115,
+    "core_line_mean_Uz_m_s": 15.925456407799551,
+    "patch_pressure_p10_Pa": 16.96656356807865
+  },
+  "50mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 92.18901563223501,
+    "same_140x80_strip_momentum_N": 0.527663196535173,
+    "core_140mm_line_CV_pct": 5.2535386027380175,
+    "core_line_mean_Uz_m_s": 16.16964832262892,
+    "patch_pressure_p10_Pa": 19.852224288264892
+  },
+  "80mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 81.58549363955284,
+    "same_140x80_strip_momentum_N": 0.47990819538347484,
+    "core_140mm_line_CV_pct": 2.2659243339435213,
+    "core_line_mean_Uz_m_s": 15.970020022892028,
+    "patch_pressure_p10_Pa": 24.664347503700565
+  },
+  "minimum_pressure_proxy_Pa": 81.58549363955284
+}

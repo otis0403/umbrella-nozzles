@@ -1,0 +1,12 @@
+{
+  "source": "方形緊湊導流_216x4mm_200mm_組裝.blend",
+  "source_sha256": "a6d8100d2989c5705e75ef8149b98add347f7668080d21c3a2b752ce9e20ce72",
+  "source_unchanged": true,
+  "actual_delivered_meshes": true,
+  "interior_view": "Actual assembly; transparent housing and plates, no manufacturing geometry modification",
+  "material_face_counts": {
+    "core": 26212,
+    "vane": 8764,
+    "shell": 132586
+  }
+}

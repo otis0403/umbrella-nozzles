@@ -1,0 +1,3045 @@
+{
+  "date": "2026-11-03",
+  "file": "C:\\Users\\otiso\\umbrella\\case\\集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\直通吹嘴_216x4mm_中央鴨嘴導流_單件_mm.stl",
+  "blend": "C:\\Users\\otiso\\umbrella\\case\\集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\直通吹嘴_216x4mm_中央鴨嘴導流_單件.blend",
+  "units": "mm",
+  "bounds_mm": {
+    "min": [
+      -110.0,
+      -60.0,
+      0.0
+    ],
+    "max": [
+      110.0,
+      60.0,
+      240.0
+    ],
+    "size": [
+      220.0,
+      120.0,
+      240.0
+    ]
+  },
+  "mesh": {
+    "nonmanifold_edges": 0,
+    "material_components": 1,
+    "volume_mm3": 332608.94057084754,
+    "vertices": 85944,
+    "triangles": 171948
+  },
+  "source_file": "C:\\Users\\otiso\\umbrella\\case\\集風罩\\直通長型風刀測試版\\直通風刀_216x4mm.blend",
+  "source_sha256": "e3d7b736776d7c1e7bdd8f653da76ffcc9a353deafc6fba72d154aa205f3b19f",
+  "source_unchanged": true,
+  "saved_blend_reopened_and_same_geometry": true,
+  "net_outlet_mm": [
+    215.99998474121094,
+    4.0
+  ],
+  "outlet_gap_sample_range_mm": [
+    3.999999761581421,
+    4.0
+  ],
+  "outlet_sample_count": 61,
+  "all_sampled_upward_exit_paths_clear": true,
+  "all_four_surrounding_full_paths_clear": true,
+  "geometric_path_count": 4,
+  "mounting_holes": [
+    {
+      "x_mm": 52,
+      "y_mm": -51,
+      "diameter_mm": 6.400001525878906,
+      "through": true
+    },
+    {
+      "x_mm": 52,
+      "y_mm": 51,
+      "diameter_mm": 6.400001525878906,
+      "through": true
+    },
+    {
+      "x_mm": -48,
+      "y_mm": -51,
+      "diameter_mm": 6.400001525878906,
+      "through": true
+    },
+    {
+      "x_mm": -48,
+      "y_mm": 51,
+      "diameter_mm": 6.400001525878906,
+      "through": true
+    },
+    {
+      "x_mm": 52,
+      "y_mm": -25,
+      "diameter_mm": 4.400001525878906,
+      "through": true
+    },
+    {
+      "x_mm": 52,
+      "y_mm": 25,
+      "diameter_mm": 4.400001525878906,
+      "through": true
+    },
+    {
+      "x_mm": -48,
+      "y_mm": -25,
+      "diameter_mm": 4.400001525878906,
+      "through": true
+    },
+    {
+      "x_mm": -48,
+      "y_mm": 25,
+      "diameter_mm": 4.400001525878906,
+      "through": true
+    },
+    {
+      "x_mm": -23,
+      "y_mm": -51,
+      "diameter_mm": 4.400001525878906,
+      "through": true
+    },
+    {
+      "x_mm": 27,
+      "y_mm": -51,
+      "diameter_mm": 4.400001525878906,
+      "through": true
+    },
+    {
+      "x_mm": -23,
+      "y_mm": 51,
+      "diameter_mm": 4.400001525878906,
+      "through": true
+    },
+    {
+      "x_mm": 27,
+      "y_mm": 51,
+      "diameter_mm": 4.400001525878906,
+      "through": true
+    }
+  ],
+  "central_inlet_core_present": true,
+  "rectangular_interface_envelope_mm": [
+    82,
+    88
+  ],
+  "inlet_air_area_mm2_estimate": 5836.681860774906,
+  "inlet_free_area_fraction_estimate": 0.8097197179829482,
+  "sampled_minimum_air_area_mm2_estimate": {
+    "z_mm": 228.0,
+    "outer_clear_area_mm2": 864.0,
+    "internal_material_mm2": 0.0,
+    "net_air_area_mm2": 864.0
+  },
+  "cross_sections": [
+    {
+      "z_mm": 0.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 0.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 1.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 1.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 2.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 2.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 3.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 3.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 4.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 4.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 5.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 5.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 6.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 6.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 7.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 7.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 8.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 8.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 9.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 9.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 10.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 10.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 11.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 11.5,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 12.0,
+      "outer_clear_area_mm2": 7208.274333882308,
+      "internal_material_mm2": 1371.5924731074017,
+      "net_air_area_mm2": 5836.681860774906
+    },
+    {
+      "z_mm": 12.5,
+      "outer_clear_area_mm2": 7208.274276633918,
+      "internal_material_mm2": 1371.592464008922,
+      "net_air_area_mm2": 5836.6818126249955
+    },
+    {
+      "z_mm": 13.0,
+      "outer_clear_area_mm2": 7208.273878442099,
+      "internal_material_mm2": 1371.5924007442577,
+      "net_air_area_mm2": 5836.681477697841
+    },
+    {
+      "z_mm": 13.5,
+      "outer_clear_area_mm2": 7208.272804696308,
+      "internal_material_mm2": 1371.5922303208595,
+      "net_air_area_mm2": 5836.6805743754485
+    },
+    {
+      "z_mm": 14.0,
+      "outer_clear_area_mm2": 7208.270725598464,
+      "internal_material_mm2": 1371.5919010444056,
+      "net_air_area_mm2": 5836.678824554058
+    },
+    {
+      "z_mm": 14.5,
+      "outer_clear_area_mm2": 7208.267312661771,
+      "internal_material_mm2": 1371.5913625486983,
+      "net_air_area_mm2": 5836.675950113073
+    },
+    {
+      "z_mm": 15.0,
+      "outer_clear_area_mm2": 7208.262234010915,
+      "internal_material_mm2": 1371.5905658357997,
+      "net_air_area_mm2": 5836.671668175115
+    },
+    {
+      "z_mm": 15.5,
+      "outer_clear_area_mm2": 7208.25514860111,
+      "internal_material_mm2": 1371.5894633254143,
+      "net_air_area_mm2": 5836.665685275695
+    },
+    {
+      "z_mm": 16.0,
+      "outer_clear_area_mm2": 7208.245699471046,
+      "internal_material_mm2": 1371.5880089125453,
+      "net_air_area_mm2": 5836.6576905585
+    },
+    {
+      "z_mm": 16.5,
+      "outer_clear_area_mm2": 7208.233506142345,
+      "internal_material_mm2": 1371.586158032481,
+      "net_air_area_mm2": 5836.647348109863
+    },
+    {
+      "z_mm": 17.0,
+      "outer_clear_area_mm2": 7208.218156275749,
+      "internal_material_mm2": 1371.5838677321883,
+      "net_air_area_mm2": 5836.63428854356
+    },
+    {
+      "z_mm": 17.5,
+      "outer_clear_area_mm2": 7208.199196691987,
+      "internal_material_mm2": 1371.5810967472212,
+      "net_air_area_mm2": 5836.618099944765
+    },
+    {
+      "z_mm": 18.0,
+      "outer_clear_area_mm2": 7208.176123862769,
+      "internal_material_mm2": 1371.577805583272,
+      "net_air_area_mm2": 5836.598318279496
+    },
+    {
+      "z_mm": 18.5,
+      "outer_clear_area_mm2": 7208.148373975146,
+      "internal_material_mm2": 1371.5739566015218,
+      "net_air_area_mm2": 5836.574417373624
+    },
+    {
+      "z_mm": 19.0,
+      "outer_clear_area_mm2": 7208.115312669911,
+      "internal_material_mm2": 1371.5695141069675,
+      "net_air_area_mm2": 5836.545798562944
+    },
+    {
+      "z_mm": 19.5,
+      "outer_clear_area_mm2": 7208.076224552407,
+      "internal_material_mm2": 1371.5644444389336,
+      "net_air_area_mm2": 5836.511780113474
+    },
+    {
+      "z_mm": 20.0,
+      "outer_clear_area_mm2": 7208.030302571465,
+      "internal_material_mm2": 1371.558716062997,
+      "net_air_area_mm2": 5836.471586508467
+    },
+    {
+      "z_mm": 20.5,
+      "outer_clear_area_mm2": 7207.976637359723,
+      "internal_material_mm2": 1371.5522996635796,
+      "net_air_area_mm2": 5836.424337696143
+    },
+    {
+      "z_mm": 21.0,
+      "outer_clear_area_mm2": 7207.914206625883,
+      "internal_material_mm2": 1371.5451682364903,
+      "net_air_area_mm2": 5836.369038389393
+    },
+    {
+      "z_mm": 21.5,
+      "outer_clear_area_mm2": 7207.841864686674,
+      "internal_material_mm2": 1371.5372971807224,
+      "net_air_area_mm2": 5836.304567505951
+    },
+    {
+      "z_mm": 22.0,
+      "outer_clear_area_mm2": 7207.758332223571,
+      "internal_material_mm2": 1371.528664388834,
+      "net_air_area_mm2": 5836.2296678347375
+    },
+    {
+      "z_mm": 22.5,
+      "outer_clear_area_mm2": 7207.662186346302,
+      "internal_material_mm2": 1371.5192503352687,
+      "net_air_area_mm2": 5836.142936011033
+    },
+    {
+      "z_mm": 23.0,
+      "outer_clear_area_mm2": 7207.551851042153,
+      "internal_material_mm2": 1371.5090381619984,
+      "net_air_area_mm2": 5836.042812880155
+    },
+    {
+      "z_mm": 23.5,
+      "outer_clear_area_mm2": 7207.425588087012,
+      "internal_material_mm2": 1371.4980137608914,
+      "net_air_area_mm2": 5835.9275743261205
+    },
+    {
+      "z_mm": 24.0,
+      "outer_clear_area_mm2": 7207.281488490844,
+      "internal_material_mm2": 1371.4861658522368,
+      "net_air_area_mm2": 5835.795322638607
+    },
+    {
+      "z_mm": 24.5,
+      "outer_clear_area_mm2": 7207.11746454684,
+      "internal_material_mm2": 1371.4717934194616,
+      "net_air_area_mm2": 5835.645671127379
+    },
+    {
+      "z_mm": 25.0,
+      "outer_clear_area_mm2": 7206.93124255025,
+      "internal_material_mm2": 1371.4465155615308,
+      "net_air_area_mm2": 5835.48472698872
+    },
+    {
+      "z_mm": 25.5,
+      "outer_clear_area_mm2": 7206.720356249144,
+      "internal_material_mm2": 1371.400502141868,
+      "net_air_area_mm2": 5835.319854107276
+    },
+    {
+      "z_mm": 26.0,
+      "outer_clear_area_mm2": 7206.4821410858485,
+      "internal_material_mm2": 1371.3241869347587,
+      "net_air_area_mm2": 5835.15795415109
+    },
+    {
+      "z_mm": 26.5,
+      "outer_clear_area_mm2": 7206.213729283975,
+      "internal_material_mm2": 1371.2082665116359,
+      "net_air_area_mm2": 5835.005462772339
+    },
+    {
+      "z_mm": 27.0,
+      "outer_clear_area_mm2": 7205.912045832179,
+      "internal_material_mm2": 1371.0436994961972,
+      "net_air_area_mm2": 5834.868346335981
+    },
+    {
+      "z_mm": 27.5,
+      "outer_clear_area_mm2": 7205.57380541177,
+      "internal_material_mm2": 1370.8217061484434,
+      "net_air_area_mm2": 5834.752099263326
+    },
+    {
+      "z_mm": 28.0,
+      "outer_clear_area_mm2": 7205.195510311388,
+      "internal_material_mm2": 1370.5337682393956,
+      "net_air_area_mm2": 5834.661742071992
+    },
+    {
+      "z_mm": 28.5,
+      "outer_clear_area_mm2": 7204.773449367756,
+      "internal_material_mm2": 1370.1716291799444,
+      "net_air_area_mm2": 5834.601820187811
+    },
+    {
+      "z_mm": 29.0,
+      "outer_clear_area_mm2": 7204.30369796746,
+      "internal_material_mm2": 1369.7272943688527,
+      "net_air_area_mm2": 5834.576403598608
+    },
+    {
+      "z_mm": 29.5,
+      "outer_clear_area_mm2": 7203.782119140367,
+      "internal_material_mm2": 1369.1930317265687,
+      "net_air_area_mm2": 5834.589087413799
+    },
+    {
+      "z_mm": 30.0,
+      "outer_clear_area_mm2": 7203.20436577114,
+      "internal_material_mm2": 1368.5613723830165,
+      "net_air_area_mm2": 5834.642993388124
+    },
+    {
+      "z_mm": 30.5,
+      "outer_clear_area_mm2": 7202.565883950825,
+      "internal_material_mm2": 1367.8251114890868,
+      "net_air_area_mm2": 5834.740772461738
+    },
+    {
+      "z_mm": 31.0,
+      "outer_clear_area_mm2": 7201.861917486285,
+      "internal_material_mm2": 1366.9773091230013,
+      "net_air_area_mm2": 5834.884608363283
+    },
+    {
+      "z_mm": 31.5,
+      "outer_clear_area_mm2": 7201.087513580701,
+      "internal_material_mm2": 1366.0112912641891,
+      "net_air_area_mm2": 5835.076222316511
+    },
+    {
+      "z_mm": 32.0,
+      "outer_clear_area_mm2": 7200.237529694046,
+      "internal_material_mm2": 1364.9206508087436,
+      "net_air_area_mm2": 5835.316878885303
+    },
+    {
+      "z_mm": 32.5,
+      "outer_clear_area_mm2": 7199.306641588004,
+      "internal_material_mm2": 1363.6992486018958,
+      "net_air_area_mm2": 5835.607392986109
+    },
+    {
+      "z_mm": 33.0,
+      "outer_clear_area_mm2": 7198.289352555306,
+      "internal_material_mm2": 1362.3412144642798,
+      "net_air_area_mm2": 5835.9481380910265
+    },
+    {
+      "z_mm": 33.5,
+      "outer_clear_area_mm2": 7197.180003829188,
+      "internal_material_mm2": 1360.8409481901401,
+      "net_air_area_mm2": 5836.339055639048
+    },
+    {
+      "z_mm": 34.0,
+      "outer_clear_area_mm2": 7195.972786164112,
+      "internal_material_mm2": 1359.1931204968591,
+      "net_air_area_mm2": 5836.779665667253
+    },
+    {
+      "z_mm": 34.5,
+      "outer_clear_area_mm2": 7194.66175257472,
+      "internal_material_mm2": 1357.392673906463,
+      "net_air_area_mm2": 5837.269078668257
+    },
+    {
+      "z_mm": 35.0,
+      "outer_clear_area_mm2": 7193.240832215564,
+      "internal_material_mm2": 1355.4348235410152,
+      "net_air_area_mm2": 5837.806008674549
+    },
+    {
+      "z_mm": 35.5,
+      "outer_clear_area_mm2": 7191.703845379953,
+      "internal_material_mm2": 1353.3150578149648,
+      "net_air_area_mm2": 5838.388787564989
+    },
+    {
+      "z_mm": 36.0,
+      "outer_clear_area_mm2": 7190.044519592074,
+      "internal_material_mm2": 1351.029139008693,
+      "net_air_area_mm2": 5839.015380583381
+    },
+    {
+      "z_mm": 36.5,
+      "outer_clear_area_mm2": 7188.256506762472,
+      "internal_material_mm2": 1348.5731037086643,
+      "net_air_area_mm2": 5839.6834030538075
+    },
+    {
+      "z_mm": 37.0,
+      "outer_clear_area_mm2": 7186.333401372938,
+      "internal_material_mm2": 1345.9432631006464,
+      "net_air_area_mm2": 5840.3901382722925
+    },
+    {
+      "z_mm": 37.5,
+      "outer_clear_area_mm2": 7184.268759652957,
+      "internal_material_mm2": 1343.13620310357,
+      "net_air_area_mm2": 5841.132556549386
+    },
+    {
+      "z_mm": 38.0,
+      "outer_clear_area_mm2": 7182.056119706079,
+      "internal_material_mm2": 1340.1487843326556,
+      "net_air_area_mm2": 5841.907335373424
+    },
+    {
+      "z_mm": 38.5,
+      "outer_clear_area_mm2": 7179.689022540963,
+      "internal_material_mm2": 1336.9781418814036,
+      "net_air_area_mm2": 5842.71088065956
+    },
+    {
+      "z_mm": 39.0,
+      "outer_clear_area_mm2": 7177.161033958218,
+      "internal_material_mm2": 1333.6216849131033,
+      "net_air_area_mm2": 5843.539349045114
+    },
+    {
+      "z_mm": 39.5,
+      "outer_clear_area_mm2": 7174.465767240889,
+      "internal_material_mm2": 1330.0770960534035,
+      "net_air_area_mm2": 5844.388671187487
+    },
+    {
+      "z_mm": 40.0,
+      "outer_clear_area_mm2": 7171.59690659311,
+      "internal_material_mm2": 1326.3423305764784,
+      "net_air_area_mm2": 5845.254576016632
+    },
+    {
+      "z_mm": 40.5,
+      "outer_clear_area_mm2": 7168.548231268502,
+      "internal_material_mm2": 1322.415615378197,
+      "net_air_area_mm2": 5846.132615890305
+    },
+    {
+      "z_mm": 41.0,
+      "outer_clear_area_mm2": 7165.313640326874,
+      "internal_material_mm2": 1318.2954477305882,
+      "net_air_area_mm2": 5847.018192596286
+    },
+    {
+      "z_mm": 41.5,
+      "outer_clear_area_mm2": 7161.887177955193,
+      "internal_material_mm2": 1313.9805938127533,
+      "net_air_area_mm2": 5847.90658414244
+    },
+    {
+      "z_mm": 42.0,
+      "outer_clear_area_mm2": 7158.263059286236,
+      "internal_material_mm2": 1309.4700870141858,
+      "net_air_area_mm2": 5848.79297227205
+    },
+    {
+      "z_mm": 42.5,
+      "outer_clear_area_mm2": 7154.435696646004,
+      "internal_material_mm2": 1304.763226007272,
+      "net_air_area_mm2": 5849.672470638732
+    },
+    {
+      "z_mm": 43.0,
+      "outer_clear_area_mm2": 7150.399726158911,
+      "internal_material_mm2": 1299.8595725865125,
+      "net_air_area_mm2": 5850.540153572398
+    },
+    {
+      "z_mm": 43.5,
+      "outer_clear_area_mm2": 7146.150034637857,
+      "internal_material_mm2": 1294.7589492727404,
+      "net_air_area_mm2": 5851.391085365117
+    },
+    {
+      "z_mm": 44.0,
+      "outer_clear_area_mm2": 7141.681786684601,
+      "internal_material_mm2": 1289.4614366813526,
+      "net_air_area_mm2": 5852.220350003249
+    },
+    {
+      "z_mm": 44.5,
+      "outer_clear_area_mm2": 7136.990451924439,
+      "internal_material_mm2": 1283.9673706542499,
+      "net_air_area_mm2": 5853.023081270189
+    },
+    {
+      "z_mm": 45.0,
+      "outer_clear_area_mm2": 7132.071832297936,
+      "internal_material_mm2": 1278.2773391558558,
+      "net_air_area_mm2": 5853.794493142081
+    },
+    {
+      "z_mm": 45.5,
+      "outer_clear_area_mm2": 7126.922089331493,
+      "internal_material_mm2": 1272.3921789342369,
+      "net_air_area_mm2": 5854.529910397256
+    },
+    {
+      "z_mm": 46.0,
+      "outer_clear_area_mm2": 7121.537771307742,
+      "internal_material_mm2": 1266.3129719489657,
+      "net_air_area_mm2": 5855.224799358777
+    },
+    {
+      "z_mm": 46.5,
+      "outer_clear_area_mm2": 7115.91584025631,
+      "internal_material_mm2": 1260.0410415679526,
+      "net_air_area_mm2": 5855.874798688357
+    },
+    {
+      "z_mm": 47.0,
+      "outer_clear_area_mm2": 7110.05369868515,
+      "internal_material_mm2": 1253.577948536086,
+      "net_air_area_mm2": 5856.475750149064
+    },
+    {
+      "z_mm": 47.5,
+      "outer_clear_area_mm2": 7103.949215972579,
+      "internal_material_mm2": 1246.9254867190177,
+      "net_air_area_mm2": 5857.023729253561
+    },
+    {
+      "z_mm": 48.0,
+      "outer_clear_area_mm2": 7097.600754340414,
+      "internal_material_mm2": 1240.085678626001,
+      "net_air_area_mm2": 5857.515075714413
+    },
+    {
+      "z_mm": 48.5,
+      "outer_clear_area_mm2": 7091.007194329004,
+      "internal_material_mm2": 1233.0607707161892,
+      "net_air_area_mm2": 5857.946423612815
+    },
+    {
+      "z_mm": 49.0,
+      "outer_clear_area_mm2": 7084.167959695507,
+      "internal_material_mm2": 1225.8532284932646,
+      "net_air_area_mm2": 5858.314731202243
+    },
+    {
+      "z_mm": 49.5,
+      "outer_clear_area_mm2": 7077.083041657824,
+      "internal_material_mm2": 1218.465731393746,
+      "net_air_area_mm2": 5858.617310264079
+    },
+    {
+      "z_mm": 50.0,
+      "outer_clear_area_mm2": 7069.753022407485,
+      "internal_material_mm2": 1210.9011674747753,
+      "net_air_area_mm2": 5858.85185493271
+    },
+    {
+      "z_mm": 50.5,
+      "outer_clear_area_mm2": 7062.179097816273,
+      "internal_material_mm2": 1203.1626279075715,
+      "net_air_area_mm2": 5859.016469908701
+    },
+    {
+      "z_mm": 51.0,
+      "outer_clear_area_mm2": 7054.363099262728,
+      "internal_material_mm2": 1195.253401283162,
+      "net_air_area_mm2": 5859.109697979566
+    },
+    {
+      "z_mm": 51.5,
+      "outer_clear_area_mm2": 7046.307514506481,
+      "internal_material_mm2": 1187.17696773738,
+      "net_air_area_mm2": 5859.130546769101
+    },
+    {
+      "z_mm": 52.0,
+      "outer_clear_area_mm2": 7038.015507540211,
+      "internal_material_mm2": 1178.9369929024515,
+      "net_air_area_mm2": 5859.078514637759
+    },
+    {
+      "z_mm": 52.5,
+      "outer_clear_area_mm2": 7029.490937351021,
+      "internal_material_mm2": 1170.5373216928588,
+      "net_air_area_mm2": 5858.953615658162
+    },
+    {
+      "z_mm": 53.0,
+      "outer_clear_area_mm2": 7020.738375525345,
+      "internal_material_mm2": 1161.981971933473,
+      "net_air_area_mm2": 5858.756403591871
+    },
+    {
+      "z_mm": 53.5,
+      "outer_clear_area_mm2": 7011.763122633719,
+      "internal_material_mm2": 1153.2751278382307,
+      "net_air_area_mm2": 5858.487994795489
+    },
+    {
+      "z_mm": 54.0,
+      "outer_clear_area_mm2": 7002.571223334323,
+      "internal_material_mm2": 1144.4211333479423,
+      "net_air_area_mm2": 5858.150089986381
+    },
+    {
+      "z_mm": 54.5,
+      "outer_clear_area_mm2": 6993.169480136686,
+      "internal_material_mm2": 1135.424485336057,
+      "net_air_area_mm2": 5857.744994800629
+    },
+    {
+      "z_mm": 55.0,
+      "outer_clear_area_mm2": 6983.56546576964,
+      "internal_material_mm2": 1126.2898266914385,
+      "net_air_area_mm2": 5857.2756390782015
+    },
+    {
+      "z_mm": 55.5,
+      "outer_clear_area_mm2": 6973.767246840458,
+      "internal_material_mm2": 1117.0219399362281,
+      "net_air_area_mm2": 5856.74530690423
+    },
+    {
+      "z_mm": 56.0,
+      "outer_clear_area_mm2": 6963.779246150709,
+      "internal_material_mm2": 1107.625750366165,
+      "net_air_area_mm2": 5856.153495784544
+    },
+    {
+      "z_mm": 56.5,
+      "outer_clear_area_mm2": 6953.6027505049,
+      "internal_material_mm2": 1098.1063209984422,
+      "net_air_area_mm2": 5855.496429506458
+    },
+    {
+      "z_mm": 57.0,
+      "outer_clear_area_mm2": 6943.238963712077,
+      "internal_material_mm2": 1088.4688396641557,
+      "net_air_area_mm2": 5854.770124047921
+    },
+    {
+      "z_mm": 57.5,
+      "outer_clear_area_mm2": 6932.6890895812785,
+      "internal_material_mm2": 1078.7186116078624,
+      "net_air_area_mm2": 5853.970477973416
+    },
+    {
+      "z_mm": 58.0,
+      "outer_clear_area_mm2": 6921.954331921549,
+      "internal_material_mm2": 1068.8610521797837,
+      "net_air_area_mm2": 5853.0932797417645
+    },
+    {
+      "z_mm": 58.5,
+      "outer_clear_area_mm2": 6911.035894541928,
+      "internal_material_mm2": 1058.9016794563722,
+      "net_air_area_mm2": 5852.134215085556
+    },
+    {
+      "z_mm": 59.0,
+      "outer_clear_area_mm2": 6899.934981251461,
+      "internal_material_mm2": 1048.8461067984144,
+      "net_air_area_mm2": 5851.088874453047
+    },
+    {
+      "z_mm": 59.5,
+      "outer_clear_area_mm2": 6888.652795859189,
+      "internal_material_mm2": 1038.7000353559356,
+      "net_air_area_mm2": 5849.952760503254
+    },
+    {
+      "z_mm": 60.0,
+      "outer_clear_area_mm2": 6877.190542174154,
+      "internal_material_mm2": 1028.4692465292014,
+      "net_air_area_mm2": 5848.721295644952
+    },
+    {
+      "z_mm": 60.5,
+      "outer_clear_area_mm2": 6865.549424005398,
+      "internal_material_mm2": 1018.159594395162,
+      "net_air_area_mm2": 5847.389829610235
+    },
+    {
+      "z_mm": 61.0,
+      "outer_clear_area_mm2": 6853.730645161964,
+      "internal_material_mm2": 1007.7769981086872,
+      "net_air_area_mm2": 5845.953647053278
+    },
+    {
+      "z_mm": 61.5,
+      "outer_clear_area_mm2": 6841.735409452894,
+      "internal_material_mm2": 997.3274342879605,
+      "net_air_area_mm2": 5844.407975164933
+    },
+    {
+      "z_mm": 62.0,
+      "outer_clear_area_mm2": 6829.564920687229,
+      "internal_material_mm2": 986.8169293933826,
+      "net_air_area_mm2": 5842.747991293845
+    },
+    {
+      "z_mm": 62.5,
+      "outer_clear_area_mm2": 6817.220382674012,
+      "internal_material_mm2": 976.2515521093137,
+      "net_air_area_mm2": 5840.968830564699
+    },
+    {
+      "z_mm": 63.0,
+      "outer_clear_area_mm2": 6804.702999222288,
+      "internal_material_mm2": 965.6374057379537,
+      "net_air_area_mm2": 5839.065593484334
+    },
+    {
+      "z_mm": 63.5,
+      "outer_clear_area_mm2": 6792.013974141096,
+      "internal_material_mm2": 954.9806206146006,
+      "net_air_area_mm2": 5837.033353526495
+    },
+    {
+      "z_mm": 64.0,
+      "outer_clear_area_mm2": 6779.154511239481,
+      "internal_material_mm2": 944.2873465534682,
+      "net_air_area_mm2": 5834.867164686013
+    },
+    {
+      "z_mm": 64.5,
+      "outer_clear_area_mm2": 6766.125814326482,
+      "internal_material_mm2": 933.563745333184,
+      "net_air_area_mm2": 5832.562068993298
+    },
+    {
+      "z_mm": 65.0,
+      "outer_clear_area_mm2": 6752.929087211143,
+      "internal_material_mm2": 922.815983230975,
+      "net_air_area_mm2": 5830.113103980168
+    },
+    {
+      "z_mm": 65.5,
+      "outer_clear_area_mm2": 6739.565533702507,
+      "internal_material_mm2": 912.0502236144741,
+      "net_air_area_mm2": 5827.515310088033
+    },
+    {
+      "z_mm": 66.0,
+      "outer_clear_area_mm2": 6726.036357609614,
+      "internal_material_mm2": 901.2726195999584,
+      "net_air_area_mm2": 5824.763738009656
+    },
+    {
+      "z_mm": 66.5,
+      "outer_clear_area_mm2": 6712.342762741509,
+      "internal_material_mm2": 890.489306785715,
+      "net_air_area_mm2": 5821.853455955795
+    },
+    {
+      "z_mm": 67.0,
+      "outer_clear_area_mm2": 6698.485952907233,
+      "internal_material_mm2": 879.7063960690891,
+      "net_air_area_mm2": 5818.779556838144
+    },
+    {
+      "z_mm": 67.5,
+      "outer_clear_area_mm2": 6684.467131915827,
+      "internal_material_mm2": 868.9299665556437,
+      "net_air_area_mm2": 5815.537165360183
+    },
+    {
+      "z_mm": 68.0,
+      "outer_clear_area_mm2": 6670.287503576337,
+      "internal_material_mm2": 858.1660585686826,
+      "net_air_area_mm2": 5812.121445007655
+    },
+    {
+      "z_mm": 68.5,
+      "outer_clear_area_mm2": 6655.948271697801,
+      "internal_material_mm2": 847.4206667672518,
+      "net_air_area_mm2": 5808.527604930549
+    },
+    {
+      "z_mm": 69.0,
+      "outer_clear_area_mm2": 6641.450640089264,
+      "internal_material_mm2": 836.6997333805451,
+      "net_air_area_mm2": 5804.750906708719
+    },
+    {
+      "z_mm": 69.5,
+      "outer_clear_area_mm2": 6626.795812559765,
+      "internal_material_mm2": 826.0091415664605,
+      "net_air_area_mm2": 5800.786670993304
+    },
+    {
+      "z_mm": 70.0,
+      "outer_clear_area_mm2": 6611.98499291835,
+      "internal_material_mm2": 815.3547089018697,
+      "net_air_area_mm2": 5796.63028401648
+    },
+    {
+      "z_mm": 70.5,
+      "outer_clear_area_mm2": 6597.019384974063,
+      "internal_material_mm2": 804.742181011959,
+      "net_air_area_mm2": 5792.277203962104
+    },
+    {
+      "z_mm": 71.0,
+      "outer_clear_area_mm2": 6581.900192535941,
+      "internal_material_mm2": 794.1772253457891,
+      "net_air_area_mm2": 5787.722967190151
+    },
+    {
+      "z_mm": 71.5,
+      "outer_clear_area_mm2": 6566.628619413026,
+      "internal_material_mm2": 783.6654251050156,
+      "net_air_area_mm2": 5782.963194308011
+    },
+    {
+      "z_mm": 72.0,
+      "outer_clear_area_mm2": 6551.205869414367,
+      "internal_material_mm2": 773.2122733324791,
+      "net_air_area_mm2": 5777.9935960818875
+    },
+    {
+      "z_mm": 72.5,
+      "outer_clear_area_mm2": 6535.633146349,
+      "internal_material_mm2": 762.8231671671418,
+      "net_air_area_mm2": 5772.809979181858
+    },
+    {
+      "z_mm": 73.0,
+      "outer_clear_area_mm2": 6519.91165402597,
+      "internal_material_mm2": 752.5034022716252,
+      "net_air_area_mm2": 5767.408251754345
+    },
+    {
+      "z_mm": 73.5,
+      "outer_clear_area_mm2": 6504.042596254318,
+      "internal_material_mm2": 742.2581674383355,
+      "net_air_area_mm2": 5761.784428815982
+    },
+    {
+      "z_mm": 74.0,
+      "outer_clear_area_mm2": 6488.027176843087,
+      "internal_material_mm2": 732.0925393799323,
+      "net_air_area_mm2": 5755.934637463154
+    },
+    {
+      "z_mm": 74.5,
+      "outer_clear_area_mm2": 6471.86659960132,
+      "internal_material_mm2": 722.0114777096287,
+      "net_air_area_mm2": 5749.855121891691
+    },
+    {
+      "z_mm": 75.0,
+      "outer_clear_area_mm2": 6455.562068338057,
+      "internal_material_mm2": 712.0198201165467,
+      "net_air_area_mm2": 5743.54224822151
+    },
+    {
+      "z_mm": 75.5,
+      "outer_clear_area_mm2": 6439.114786862344,
+      "internal_material_mm2": 702.1222777410919,
+      "net_air_area_mm2": 5736.992509121253
+    },
+    {
+      "z_mm": 76.0,
+      "outer_clear_area_mm2": 6422.525958983218,
+      "internal_material_mm2": 692.323430755029,
+      "net_air_area_mm2": 5730.202528228189
+    },
+    {
+      "z_mm": 76.5,
+      "outer_clear_area_mm2": 6405.796788509726,
+      "internal_material_mm2": 682.6277241506618,
+      "net_air_area_mm2": 5723.169064359064
+    },
+    {
+      "z_mm": 77.0,
+      "outer_clear_area_mm2": 6388.928479250909,
+      "internal_material_mm2": 673.0394637432465,
+      "net_air_area_mm2": 5715.889015507662
+    },
+    {
+      "z_mm": 77.5,
+      "outer_clear_area_mm2": 6371.922235015808,
+      "internal_material_mm2": 663.5628123904685,
+      "net_air_area_mm2": 5708.359422625339
+    },
+    {
+      "z_mm": 78.0,
+      "outer_clear_area_mm2": 6354.779259613466,
+      "internal_material_mm2": 654.2017864325263,
+      "net_air_area_mm2": 5700.577473180939
+    },
+    {
+      "z_mm": 78.5,
+      "outer_clear_area_mm2": 6337.500756852926,
+      "internal_material_mm2": 644.9602523560766,
+      "net_air_area_mm2": 5692.54050449685
+    },
+    {
+      "z_mm": 79.0,
+      "outer_clear_area_mm2": 6320.087930543229,
+      "internal_material_mm2": 635.8419236849832,
+      "net_air_area_mm2": 5684.246006858246
+    },
+    {
+      "z_mm": 79.5,
+      "outer_clear_area_mm2": 6302.541984493418,
+      "internal_material_mm2": 626.8503581005253,
+      "net_air_area_mm2": 5675.691626392892
+    },
+    {
+      "z_mm": 80.0,
+      "outer_clear_area_mm2": 6284.864122512537,
+      "internal_material_mm2": 617.9889547934081,
+      "net_air_area_mm2": 5666.8751677191285
+    },
+    {
+      "z_mm": 80.5,
+      "outer_clear_area_mm2": 6267.055548409625,
+      "internal_material_mm2": 609.2609520496115,
+      "net_air_area_mm2": 5657.794596360014
+    },
+    {
+      "z_mm": 81.0,
+      "outer_clear_area_mm2": 6249.117465993725,
+      "internal_material_mm2": 600.6694250718142,
+      "net_air_area_mm2": 5648.44804092191
+    },
+    {
+      "z_mm": 81.5,
+      "outer_clear_area_mm2": 6231.051079073883,
+      "internal_material_mm2": 592.2172840378057,
+      "net_air_area_mm2": 5638.8337950360765
+    },
+    {
+      "z_mm": 82.0,
+      "outer_clear_area_mm2": 6212.857591459135,
+      "internal_material_mm2": 583.9072723970028,
+      "net_air_area_mm2": 5628.950319062132
+    },
+    {
+      "z_mm": 82.5,
+      "outer_clear_area_mm2": 6194.538206958528,
+      "internal_material_mm2": 575.7419654058602,
+      "net_air_area_mm2": 5618.796241552667
+    },
+    {
+      "z_mm": 83.0,
+      "outer_clear_area_mm2": 6176.094129381103,
+      "internal_material_mm2": 567.7237689026649,
+      "net_air_area_mm2": 5608.370360478438
+    },
+    {
+      "z_mm": 83.5,
+      "outer_clear_area_mm2": 6157.526562535902,
+      "internal_material_mm2": 559.8549183218788,
+      "net_air_area_mm2": 5597.671644214023
+    },
+    {
+      "z_mm": 84.0,
+      "outer_clear_area_mm2": 6138.836710231966,
+      "internal_material_mm2": 552.1374779478901,
+      "net_air_area_mm2": 5586.699232284076
+    },
+    {
+      "z_mm": 84.5,
+      "outer_clear_area_mm2": 6120.025776278341,
+      "internal_material_mm2": 544.573340407709,
+      "net_air_area_mm2": 5575.452435870632
+    },
+    {
+      "z_mm": 85.0,
+      "outer_clear_area_mm2": 6101.0949644840675,
+      "internal_material_mm2": 537.1642264018459,
+      "net_air_area_mm2": 5563.930738082222
+    },
+    {
+      "z_mm": 85.5,
+      "outer_clear_area_mm2": 6082.045478658185,
+      "internal_material_mm2": 529.9116846722804,
+      "net_air_area_mm2": 5552.133793985905
+    },
+    {
+      "z_mm": 86.0,
+      "outer_clear_area_mm2": 6062.87852260974,
+      "internal_material_mm2": 522.8170922061332,
+      "net_air_area_mm2": 5540.061430403606
+    },
+    {
+      "z_mm": 86.5,
+      "outer_clear_area_mm2": 6043.595300147772,
+      "internal_material_mm2": 515.8816546733317,
+      "net_air_area_mm2": 5527.7136454744395
+    },
+    {
+      "z_mm": 87.0,
+      "outer_clear_area_mm2": 6024.197015081323,
+      "internal_material_mm2": 509.1064070962623,
+      "net_air_area_mm2": 5515.09060798506
+    },
+    {
+      "z_mm": 87.5,
+      "outer_clear_area_mm2": 6004.684871219437,
+      "internal_material_mm2": 502.49221474908757,
+      "net_air_area_mm2": 5502.192656470349
+    },
+    {
+      "z_mm": 88.0,
+      "outer_clear_area_mm2": 5985.060072371156,
+      "internal_material_mm2": 496.03977428411156,
+      "net_air_area_mm2": 5489.020298087044
+    },
+    {
+      "z_mm": 88.5,
+      "outer_clear_area_mm2": 5965.323822345522,
+      "internal_material_mm2": 489.7496150822665,
+      "net_air_area_mm2": 5475.574207263256
+    },
+    {
+      "z_mm": 89.0,
+      "outer_clear_area_mm2": 5945.477324951578,
+      "internal_material_mm2": 483.62210082450736,
+      "net_air_area_mm2": 5461.855224127071
+    },
+    {
+      "z_mm": 89.5,
+      "outer_clear_area_mm2": 5925.521783998363,
+      "internal_material_mm2": 477.65743128059603,
+      "net_air_area_mm2": 5447.864352717767
+    },
+    {
+      "z_mm": 90.0,
+      "outer_clear_area_mm2": 5905.458403294927,
+      "internal_material_mm2": 471.8556443114726,
+      "net_air_area_mm2": 5433.602758983454
+    },
+    {
+      "z_mm": 90.5,
+      "outer_clear_area_mm2": 5885.288386650302,
+      "internal_material_mm2": 466.2166180811245,
+      "net_air_area_mm2": 5419.071768569177
+    },
+    {
+      "z_mm": 91.0,
+      "outer_clear_area_mm2": 5865.012937873537,
+      "internal_material_mm2": 460.74007347357843,
+      "net_air_area_mm2": 5404.272864399959
+    },
+    {
+      "z_mm": 91.5,
+      "outer_clear_area_mm2": 5844.633260773671,
+      "internal_material_mm2": 455.4255767103636,
+      "net_air_area_mm2": 5389.207684063307
+    },
+    {
+      "z_mm": 92.0,
+      "outer_clear_area_mm2": 5824.150559159751,
+      "internal_material_mm2": 450.2725421635263,
+      "net_air_area_mm2": 5373.878016996225
+    },
+    {
+      "z_mm": 92.5,
+      "outer_clear_area_mm2": 5803.566036840814,
+      "internal_material_mm2": 445.28023535899996,
+      "net_air_area_mm2": 5358.285801481815
+    },
+    {
+      "z_mm": 93.0,
+      "outer_clear_area_mm2": 5782.880897625905,
+      "internal_material_mm2": 440.4477761648799,
+      "net_air_area_mm2": 5342.433121461025
+    },
+    {
+      "z_mm": 93.5,
+      "outer_clear_area_mm2": 5762.0963453240665,
+      "internal_material_mm2": 435.77414215889274,
+      "net_air_area_mm2": 5326.322203165174
+    },
+    {
+      "z_mm": 94.0,
+      "outer_clear_area_mm2": 5741.213583744338,
+      "internal_material_mm2": 431.2581721691008,
+      "net_air_area_mm2": 5309.955411575238
+    },
+    {
+      "z_mm": 94.5,
+      "outer_clear_area_mm2": 5720.233816695767,
+      "internal_material_mm2": 426.89856998163447,
+      "net_air_area_mm2": 5293.335246714132
+    },
+    {
+      "z_mm": 95.0,
+      "outer_clear_area_mm2": 5699.15824798739,
+      "internal_material_mm2": 422.6939082090187,
+      "net_air_area_mm2": 5276.464339778371
+    },
+    {
+      "z_mm": 95.5,
+      "outer_clear_area_mm2": 5677.988081428252,
+      "internal_material_mm2": 418.64263231241534,
+      "net_air_area_mm2": 5259.345449115837
+    },
+    {
+      "z_mm": 96.0,
+      "outer_clear_area_mm2": 5656.724520827396,
+      "internal_material_mm2": 414.743064770892,
+      "net_air_area_mm2": 5241.981456056505
+    },
+    {
+      "z_mm": 96.5,
+      "outer_clear_area_mm2": 5635.368769993863,
+      "internal_material_mm2": 410.9934093906081,
+      "net_air_area_mm2": 5224.375360603255
+    },
+    {
+      "z_mm": 97.0,
+      "outer_clear_area_mm2": 5613.922032736696,
+      "internal_material_mm2": 407.39175574659976,
+      "net_air_area_mm2": 5206.530276990096
+    },
+    {
+      "z_mm": 97.5,
+      "outer_clear_area_mm2": 5592.385512864936,
+      "internal_material_mm2": 403.93608374965015,
+      "net_air_area_mm2": 5188.449429115286
+    },
+    {
+      "z_mm": 98.0,
+      "outer_clear_area_mm2": 5570.760414187626,
+      "internal_material_mm2": 400.62426833053826,
+      "net_air_area_mm2": 5170.136145857088
+    },
+    {
+      "z_mm": 98.5,
+      "outer_clear_area_mm2": 5549.04794051381,
+      "internal_material_mm2": 397.4540842337765,
+      "net_air_area_mm2": 5151.593856280034
+    },
+    {
+      "z_mm": 99.0,
+      "outer_clear_area_mm2": 5527.249295652527,
+      "internal_material_mm2": 394.42321091277273,
+      "net_air_area_mm2": 5132.826084739753
+    },
+    {
+      "z_mm": 99.5,
+      "outer_clear_area_mm2": 5505.365683412821,
+      "internal_material_mm2": 391.5292375181957,
+      "net_air_area_mm2": 5113.836445894626
+    },
+    {
+      "z_mm": 100.0,
+      "outer_clear_area_mm2": 5483.398307603738,
+      "internal_material_mm2": 388.7696679711553,
+      "net_air_area_mm2": 5094.628639632583
+    },
+    {
+      "z_mm": 100.5,
+      "outer_clear_area_mm2": 5461.348372034314,
+      "internal_material_mm2": 386.14192611267396,
+      "net_air_area_mm2": 5075.20644592164
+    },
+    {
+      "z_mm": 101.0,
+      "outer_clear_area_mm2": 5439.217080513594,
+      "internal_material_mm2": 383.64336092078537,
+      "net_air_area_mm2": 5055.573719592809
+    },
+    {
+      "z_mm": 101.5,
+      "outer_clear_area_mm2": 5417.005636850619,
+      "internal_material_mm2": 381.27125178646963,
+      "net_air_area_mm2": 5035.73438506415
+    },
+    {
+      "z_mm": 102.0,
+      "outer_clear_area_mm2": 5394.715244854434,
+      "internal_material_mm2": 379.0228138395219,
+      "net_air_area_mm2": 5015.6924310149125
+    },
+    {
+      "z_mm": 102.5,
+      "outer_clear_area_mm2": 5372.34710833408,
+      "internal_material_mm2": 376.8952033153424,
+      "net_air_area_mm2": 4995.451905018737
+    },
+    {
+      "z_mm": 103.0,
+      "outer_clear_area_mm2": 5349.902431098596,
+      "internal_material_mm2": 374.88552295354276,
+      "net_air_area_mm2": 4975.016908145053
+    },
+    {
+      "z_mm": 103.5,
+      "outer_clear_area_mm2": 5327.38241695703,
+      "internal_material_mm2": 372.99082741917937,
+      "net_air_area_mm2": 4954.39158953785
+    },
+    {
+      "z_mm": 104.0,
+      "outer_clear_area_mm2": 5304.788269718421,
+      "internal_material_mm2": 371.2081287373485,
+      "net_air_area_mm2": 4933.580140981073
+    },
+    {
+      "z_mm": 104.5,
+      "outer_clear_area_mm2": 5282.121193191812,
+      "internal_material_mm2": 369.53440173181764,
+      "net_air_area_mm2": 4912.586791459995
+    },
+    {
+      "z_mm": 105.0,
+      "outer_clear_area_mm2": 5259.382391186244,
+      "internal_material_mm2": 367.9665894583161,
+      "net_air_area_mm2": 4891.415801727928
+    },
+    {
+      "z_mm": 105.5,
+      "outer_clear_area_mm2": 5236.573067510763,
+      "internal_material_mm2": 366.50160862306365,
+      "net_air_area_mm2": 4870.0714588877
+    },
+    {
+      "z_mm": 106.0,
+      "outer_clear_area_mm2": 5213.694425974406,
+      "internal_material_mm2": 365.1363549770912,
+      "net_air_area_mm2": 4848.558070997315
+    },
+    {
+      "z_mm": 106.5,
+      "outer_clear_area_mm2": 5190.7476703862185,
+      "internal_material_mm2": 363.8677086768907,
+      "net_air_area_mm2": 4826.879961709327
+    },
+    {
+      "z_mm": 107.0,
+      "outer_clear_area_mm2": 5167.734004555242,
+      "internal_material_mm2": 362.69253960192026,
+      "net_air_area_mm2": 4805.041464953321
+    },
+    {
+      "z_mm": 107.5,
+      "outer_clear_area_mm2": 5144.654632290521,
+      "internal_material_mm2": 361.6077126195043,
+      "net_air_area_mm2": 4783.046919671016
+    },
+    {
+      "z_mm": 108.0,
+      "outer_clear_area_mm2": 5121.510757401094,
+      "internal_material_mm2": 360.6100927876865,
+      "net_air_area_mm2": 4760.9006646134085
+    },
+    {
+      "z_mm": 108.5,
+      "outer_clear_area_mm2": 5098.303583696005,
+      "internal_material_mm2": 359.69655048662474,
+      "net_air_area_mm2": 4738.6070332093805
+    },
+    {
+      "z_mm": 109.0,
+      "outer_clear_area_mm2": 5075.034314984298,
+      "internal_material_mm2": 358.8639664691695,
+      "net_air_area_mm2": 4716.170348515128
+    },
+    {
+      "z_mm": 109.5,
+      "outer_clear_area_mm2": 5051.704155075013,
+      "internal_material_mm2": 358.1092368213281,
+      "net_air_area_mm2": 4693.594918253684
+    },
+    {
+      "z_mm": 110.0,
+      "outer_clear_area_mm2": 5028.314307777189,
+      "internal_material_mm2": 357.42927782340223,
+      "net_air_area_mm2": 4670.885029953787
+    },
+    {
+      "z_mm": 110.5,
+      "outer_clear_area_mm2": 5004.865976899876,
+      "internal_material_mm2": 356.8210307026843,
+      "net_air_area_mm2": 4648.044946197191
+    },
+    {
+      "z_mm": 111.0,
+      "outer_clear_area_mm2": 4981.360366252113,
+      "internal_material_mm2": 356.2814662687265,
+      "net_air_area_mm2": 4625.078899983387
+    },
+    {
+      "z_mm": 111.5,
+      "outer_clear_area_mm2": 4957.79867964294,
+      "internal_material_mm2": 355.80758942234445,
+      "net_air_area_mm2": 4601.991090220596
+    },
+    {
+      "z_mm": 112.0,
+      "outer_clear_area_mm2": 4934.182120881402,
+      "internal_material_mm2": 355.39644352970475,
+      "net_air_area_mm2": 4578.785677351697
+    },
+    {
+      "z_mm": 112.5,
+      "outer_clear_area_mm2": 4910.511893776537,
+      "internal_material_mm2": 355.04511465306416,
+      "net_air_area_mm2": 4555.466779123473
+    },
+    {
+      "z_mm": 113.0,
+      "outer_clear_area_mm2": 4886.7892021373955,
+      "internal_material_mm2": 354.75073563000456,
+      "net_air_area_mm2": 4532.038466507392
+    },
+    {
+      "z_mm": 113.5,
+      "outer_clear_area_mm2": 4863.015249773011,
+      "internal_material_mm2": 354.510489993336,
+      "net_air_area_mm2": 4508.504759779675
+    },
+    {
+      "z_mm": 114.0,
+      "outer_clear_area_mm2": 4839.1912404924315,
+      "internal_material_mm2": 354.3216157242563,
+      "net_air_area_mm2": 4484.869624768175
+    },
+    {
+      "z_mm": 114.5,
+      "outer_clear_area_mm2": 4815.318378104697,
+      "internal_material_mm2": 354.1814088318613,
+      "net_air_area_mm2": 4461.136969272836
+    },
+    {
+      "z_mm": 115.0,
+      "outer_clear_area_mm2": 4791.39786641885,
+      "internal_material_mm2": 354.08722675274754,
+      "net_air_area_mm2": 4437.310639666102
+    },
+    {
+      "z_mm": 115.5,
+      "outer_clear_area_mm2": 4767.4309092439335,
+      "internal_material_mm2": 354.03649156525836,
+      "net_air_area_mm2": 4413.394417678675
+    },
+    {
+      "z_mm": 116.0,
+      "outer_clear_area_mm2": 4743.418710388989,
+      "internal_material_mm2": 354.02669301397003,
+      "net_air_area_mm2": 4389.392017375019
+    },
+    {
+      "z_mm": 116.5,
+      "outer_clear_area_mm2": 4719.362473663059,
+      "internal_material_mm2": 354.0553913413626,
+      "net_air_area_mm2": 4365.307082321697
+    },
+    {
+      "z_mm": 117.0,
+      "outer_clear_area_mm2": 4695.2634028751845,
+      "internal_material_mm2": 354.1202199253816,
+      "net_air_area_mm2": 4341.143182949803
+    },
+    {
+      "z_mm": 117.5,
+      "outer_clear_area_mm2": 4671.12270183441,
+      "internal_material_mm2": 354.21888772393504,
+      "net_air_area_mm2": 4316.903814110475
+    },
+    {
+      "z_mm": 118.0,
+      "outer_clear_area_mm2": 4646.941574349778,
+      "internal_material_mm2": 354.34918153049273,
+      "net_air_area_mm2": 4292.592392819286
+    },
+    {
+      "z_mm": 118.5,
+      "outer_clear_area_mm2": 4622.721224230327,
+      "internal_material_mm2": 354.50896804919876,
+      "net_air_area_mm2": 4268.2122561811275
+    },
+    {
+      "z_mm": 119.0,
+      "outer_clear_area_mm2": 4598.462855285104,
+      "internal_material_mm2": 354.69619580375485,
+      "net_air_area_mm2": 4243.766659481348
+    },
+    {
+      "z_mm": 119.5,
+      "outer_clear_area_mm2": 4574.167671323149,
+      "internal_material_mm2": 354.9088969025082,
+      "net_air_area_mm2": 4219.258774420641
+    },
+    {
+      "z_mm": 120.0,
+      "outer_clear_area_mm2": 4549.836876153504,
+      "internal_material_mm2": 355.14518869384256,
+      "net_air_area_mm2": 4194.691687459662
+    },
+    {
+      "z_mm": 120.5,
+      "outer_clear_area_mm2": 4525.471673585211,
+      "internal_material_mm2": 355.4032753629264,
+      "net_air_area_mm2": 4170.068398222284
+    },
+    {
+      "z_mm": 121.0,
+      "outer_clear_area_mm2": 4501.073267427314,
+      "internal_material_mm2": 355.68144954613115,
+      "net_air_area_mm2": 4145.391817881183
+    },
+    {
+      "z_mm": 121.5,
+      "outer_clear_area_mm2": 4476.6428614888555,
+      "internal_material_mm2": 355.9749307790387,
+      "net_air_area_mm2": 4120.667930709817
+    },
+    {
+      "z_mm": 122.0,
+      "outer_clear_area_mm2": 4452.181659578874,
+      "internal_material_mm2": 356.2715270459032,
+      "net_air_area_mm2": 4095.910132532971
+    },
+    {
+      "z_mm": 122.5,
+      "outer_clear_area_mm2": 4427.690865506414,
+      "internal_material_mm2": 356.57019314562837,
+      "net_air_area_mm2": 4071.120672360786
+    },
+    {
+      "z_mm": 123.0,
+      "outer_clear_area_mm2": 4403.17168308052,
+      "internal_material_mm2": 356.8709290782144,
+      "net_air_area_mm2": 4046.3007540023054
+    },
+    {
+      "z_mm": 123.5,
+      "outer_clear_area_mm2": 4378.62531611023,
+      "internal_material_mm2": 357.1737348436611,
+      "net_air_area_mm2": 4021.4515812665695
+    },
+    {
+      "z_mm": 124.0,
+      "outer_clear_area_mm2": 4354.0529684045905,
+      "internal_material_mm2": 357.4786104419686,
+      "net_air_area_mm2": 3996.574357962622
+    },
+    {
+      "z_mm": 124.5,
+      "outer_clear_area_mm2": 4329.455843772641,
+      "internal_material_mm2": 357.78555587313684,
+      "net_air_area_mm2": 3971.6702878995043
+    },
+    {
+      "z_mm": 125.0,
+      "outer_clear_area_mm2": 4304.835146023428,
+      "internal_material_mm2": 358.0945711371659,
+      "net_air_area_mm2": 3946.740574886262
+    },
+    {
+      "z_mm": 125.5,
+      "outer_clear_area_mm2": 4280.192078965988,
+      "internal_material_mm2": 358.40565623405564,
+      "net_air_area_mm2": 3921.7864227319324
+    },
+    {
+      "z_mm": 126.0,
+      "outer_clear_area_mm2": 4255.5278464093635,
+      "internal_material_mm2": 358.7188111638061,
+      "net_air_area_mm2": 3896.8090352455574
+    },
+    {
+      "z_mm": 126.5,
+      "outer_clear_area_mm2": 4230.843652162601,
+      "internal_material_mm2": 359.0340359264173,
+      "net_air_area_mm2": 3871.8096162361835
+    },
+    {
+      "z_mm": 127.0,
+      "outer_clear_area_mm2": 4206.140700034742,
+      "internal_material_mm2": 359.35133052188934,
+      "net_air_area_mm2": 3846.7893695128523
+    },
+    {
+      "z_mm": 127.5,
+      "outer_clear_area_mm2": 4181.420193834825,
+      "internal_material_mm2": 359.67069495022207,
+      "net_air_area_mm2": 3821.749498884603
+    },
+    {
+      "z_mm": 128.0,
+      "outer_clear_area_mm2": 4156.683337371895,
+      "internal_material_mm2": 359.99212921141554,
+      "net_air_area_mm2": 3796.691208160479
+    },
+    {
+      "z_mm": 128.5,
+      "outer_clear_area_mm2": 4131.931334454998,
+      "internal_material_mm2": 360.31563330546976,
+      "net_air_area_mm2": 3771.6157011495284
+    },
+    {
+      "z_mm": 129.0,
+      "outer_clear_area_mm2": 4107.16538889317,
+      "internal_material_mm2": 360.64120723238483,
+      "net_air_area_mm2": 3746.524181660785
+    },
+    {
+      "z_mm": 129.5,
+      "outer_clear_area_mm2": 4082.3867044954545,
+      "internal_material_mm2": 360.9688509921606,
+      "net_air_area_mm2": 3721.417853503294
+    },
+    {
+      "z_mm": 130.0,
+      "outer_clear_area_mm2": 4057.596485070896,
+      "internal_material_mm2": 361.2985645847971,
+      "net_air_area_mm2": 3696.297920486099
+    },
+    {
+      "z_mm": 130.5,
+      "outer_clear_area_mm2": 4032.7959344285346,
+      "internal_material_mm2": 361.6303480102943,
+      "net_air_area_mm2": 3671.1655864182403
+    },
+    {
+      "z_mm": 131.0,
+      "outer_clear_area_mm2": 4007.986256377415,
+      "internal_material_mm2": 361.96420126865235,
+      "net_air_area_mm2": 3646.0220551087627
+    },
+    {
+      "z_mm": 131.5,
+      "outer_clear_area_mm2": 3983.1686547265786,
+      "internal_material_mm2": 362.3001243598711,
+      "net_air_area_mm2": 3620.8685303667075
+    },
+    {
+      "z_mm": 132.0,
+      "outer_clear_area_mm2": 3958.3443332850675,
+      "internal_material_mm2": 362.6381172839506,
+      "net_air_area_mm2": 3595.706216001117
+    },
+    {
+      "z_mm": 132.5,
+      "outer_clear_area_mm2": 3933.514495861923,
+      "internal_material_mm2": 362.97818004089083,
+      "net_air_area_mm2": 3570.536315821032
+    },
+    {
+      "z_mm": 133.0,
+      "outer_clear_area_mm2": 3908.680346266188,
+      "internal_material_mm2": 363.32031263069194,
+      "net_air_area_mm2": 3545.3600336354957
+    },
+    {
+      "z_mm": 133.5,
+      "outer_clear_area_mm2": 3883.843088306904,
+      "internal_material_mm2": 363.6645150533536,
+      "net_air_area_mm2": 3520.1785732535504
+    },
+    {
+      "z_mm": 134.0,
+      "outer_clear_area_mm2": 3859.0039257931144,
+      "internal_material_mm2": 364.01078730887616,
+      "net_air_area_mm2": 3494.9931384842384
+    },
+    {
+      "z_mm": 134.5,
+      "outer_clear_area_mm2": 3834.1640625338623,
+      "internal_material_mm2": 364.3591293972595,
+      "net_air_area_mm2": 3469.804933136603
+    },
+    {
+      "z_mm": 135.0,
+      "outer_clear_area_mm2": 3809.3247023381887,
+      "internal_material_mm2": 364.7095413185034,
+      "net_air_area_mm2": 3444.6151610196853
+    },
+    {
+      "z_mm": 135.5,
+      "outer_clear_area_mm2": 3784.487049015138,
+      "internal_material_mm2": 365.0620230726082,
+      "net_air_area_mm2": 3419.42502594253
+    },
+    {
+      "z_mm": 136.0,
+      "outer_clear_area_mm2": 3759.652306373748,
+      "internal_material_mm2": 365.4165746595737,
+      "net_air_area_mm2": 3394.2357317141746
+    },
+    {
+      "z_mm": 136.5,
+      "outer_clear_area_mm2": 3734.8216782230643,
+      "internal_material_mm2": 365.7731960794,
+      "net_air_area_mm2": 3369.0484821436644
+    },
+    {
+      "z_mm": 137.0,
+      "outer_clear_area_mm2": 3709.9963683721276,
+      "internal_material_mm2": 366.13188733208705,
+      "net_air_area_mm2": 3343.8644810400406
+    },
+    {
+      "z_mm": 137.5,
+      "outer_clear_area_mm2": 3685.1775806299815,
+      "internal_material_mm2": 366.4926484176348,
+      "net_air_area_mm2": 3318.6849322123467
+    },
+    {
+      "z_mm": 138.0,
+      "outer_clear_area_mm2": 3660.3665188056675,
+      "internal_material_mm2": 366.85547933604335,
+      "net_air_area_mm2": 3293.511039469624
+    },
+    {
+      "z_mm": 138.5,
+      "outer_clear_area_mm2": 3635.5643867082294,
+      "internal_material_mm2": 367.2203800873126,
+      "net_air_area_mm2": 3268.344006620917
+    },
+    {
+      "z_mm": 139.0,
+      "outer_clear_area_mm2": 3610.7723881467105,
+      "internal_material_mm2": 367.5873506714427,
+      "net_air_area_mm2": 3243.1850374752676
+    },
+    {
+      "z_mm": 139.5,
+      "outer_clear_area_mm2": 3585.991726930146,
+      "internal_material_mm2": 367.95639108843346,
+      "net_air_area_mm2": 3218.0353358417124
+    },
+    {
+      "z_mm": 140.0,
+      "outer_clear_area_mm2": 3561.223606867585,
+      "internal_material_mm2": 368.32750133828495,
+      "net_air_area_mm2": 3192.8961055293003
+    },
+    {
+      "z_mm": 140.5,
+      "outer_clear_area_mm2": 3536.4692317680683,
+      "internal_material_mm2": 368.7006814209973,
+      "net_air_area_mm2": 3167.768550347071
+    },
+    {
+      "z_mm": 141.0,
+      "outer_clear_area_mm2": 3511.729805440636,
+      "internal_material_mm2": 369.0759313365703,
+      "net_air_area_mm2": 3142.653874104066
+    },
+    {
+      "z_mm": 141.5,
+      "outer_clear_area_mm2": 3487.0065316943324,
+      "internal_material_mm2": 369.45325108500407,
+      "net_air_area_mm2": 3117.5532806093283
+    },
+    {
+      "z_mm": 142.0,
+      "outer_clear_area_mm2": 3462.3006143382004,
+      "internal_material_mm2": 369.8326406662986,
+      "net_air_area_mm2": 3092.4679736719017
+    },
+    {
+      "z_mm": 142.5,
+      "outer_clear_area_mm2": 3437.613257181284,
+      "internal_material_mm2": 370.21410008045393,
+      "net_air_area_mm2": 3067.39915710083
+    },
+    {
+      "z_mm": 143.0,
+      "outer_clear_area_mm2": 3412.945664032619,
+      "internal_material_mm2": 370.59762932747,
+      "net_air_area_mm2": 3042.348034705149
+    },
+    {
+      "z_mm": 143.5,
+      "outer_clear_area_mm2": 3388.299038701252,
+      "internal_material_mm2": 370.98322840734676,
+      "net_air_area_mm2": 3017.315810293905
+    },
+    {
+      "z_mm": 144.0,
+      "outer_clear_area_mm2": 3363.6745849962244,
+      "internal_material_mm2": 371.3708973200843,
+      "net_air_area_mm2": 2992.3036876761403
+    },
+    {
+      "z_mm": 144.5,
+      "outer_clear_area_mm2": 3339.073506726579,
+      "internal_material_mm2": 371.76063606568266,
+      "net_air_area_mm2": 2967.3128706608964
+    },
+    {
+      "z_mm": 145.0,
+      "outer_clear_area_mm2": 3314.49700770136,
+      "internal_material_mm2": 372.15244464414167,
+      "net_air_area_mm2": 2942.3445630572182
+    },
+    {
+      "z_mm": 145.5,
+      "outer_clear_area_mm2": 3289.946291729604,
+      "internal_material_mm2": 372.5463230554614,
+      "net_air_area_mm2": 2917.3999686741427
+    },
+    {
+      "z_mm": 146.0,
+      "outer_clear_area_mm2": 3265.4225626203606,
+      "internal_material_mm2": 372.94227129964196,
+      "net_air_area_mm2": 2892.4802913207186
+    },
+    {
+      "z_mm": 146.5,
+      "outer_clear_area_mm2": 3240.9270241826666,
+      "internal_material_mm2": 373.34028937668336,
+      "net_air_area_mm2": 2867.5867348059833
+    },
+    {
+      "z_mm": 147.0,
+      "outer_clear_area_mm2": 3216.460880225565,
+      "internal_material_mm2": 373.7403772865854,
+      "net_air_area_mm2": 2842.7205029389793
+    },
+    {
+      "z_mm": 147.5,
+      "outer_clear_area_mm2": 3192.0253345580995,
+      "internal_material_mm2": 374.14253502934815,
+      "net_air_area_mm2": 2817.8827995287515
+    },
+    {
+      "z_mm": 148.0,
+      "outer_clear_area_mm2": 3167.621590989313,
+      "internal_material_mm2": 374.5467626049718,
+      "net_air_area_mm2": 2793.0748283843413
+    },
+    {
+      "z_mm": 148.5,
+      "outer_clear_area_mm2": 3143.2508533282457,
+      "internal_material_mm2": 374.953060013456,
+      "net_air_area_mm2": 2768.2977933147895
+    },
+    {
+      "z_mm": 149.0,
+      "outer_clear_area_mm2": 3118.9143253839406,
+      "internal_material_mm2": 375.3614272548011,
+      "net_air_area_mm2": 2743.5528981291395
+    },
+    {
+      "z_mm": 149.5,
+      "outer_clear_area_mm2": 3094.6132109654427,
+      "internal_material_mm2": 375.77186432900686,
+      "net_air_area_mm2": 2718.841346636436
+    },
+    {
+      "z_mm": 150.0,
+      "outer_clear_area_mm2": 3070.3487138817904,
+      "internal_material_mm2": 376.1843712360735,
+      "net_air_area_mm2": 2694.1643426457167
+    },
+    {
+      "z_mm": 150.5,
+      "outer_clear_area_mm2": 3046.122037942027,
+      "internal_material_mm2": 376.59894797600083,
+      "net_air_area_mm2": 2669.523089966026
+    },
+    {
+      "z_mm": 151.0,
+      "outer_clear_area_mm2": 3021.934386955195,
+      "internal_material_mm2": 377.01559454878884,
+      "net_air_area_mm2": 2644.9187924064063
+    },
+    {
+      "z_mm": 151.5,
+      "outer_clear_area_mm2": 2997.786964730337,
+      "internal_material_mm2": 377.4343109544377,
+      "net_air_area_mm2": 2620.352653775899
+    },
+    {
+      "z_mm": 152.0,
+      "outer_clear_area_mm2": 2973.680975076495,
+      "internal_material_mm2": 377.8550971929472,
+      "net_air_area_mm2": 2595.825877883548
+    },
+    {
+      "z_mm": 152.5,
+      "outer_clear_area_mm2": 2949.6176218027144,
+      "internal_material_mm2": 378.2779532643176,
+      "net_air_area_mm2": 2571.339668538397
+    },
+    {
+      "z_mm": 153.0,
+      "outer_clear_area_mm2": 2925.598108718032,
+      "internal_material_mm2": 378.70287916854863,
+      "net_air_area_mm2": 2546.8952295494837
+    },
+    {
+      "z_mm": 153.5,
+      "outer_clear_area_mm2": 2901.6236396314916,
+      "internal_material_mm2": 379.1298749056404,
+      "net_air_area_mm2": 2522.493764725851
+    },
+    {
+      "z_mm": 154.0,
+      "outer_clear_area_mm2": 2877.6954183521375,
+      "internal_material_mm2": 379.5589404755931,
+      "net_air_area_mm2": 2498.1364778765446
+    },
+    {
+      "z_mm": 154.5,
+      "outer_clear_area_mm2": 2853.81464868901,
+      "internal_material_mm2": 379.99007587840634,
+      "net_air_area_mm2": 2473.8245728106035
+    },
+    {
+      "z_mm": 155.0,
+      "outer_clear_area_mm2": 2829.982534451152,
+      "internal_material_mm2": 380.4232811140804,
+      "net_air_area_mm2": 2449.5592533370714
+    },
+    {
+      "z_mm": 155.5,
+      "outer_clear_area_mm2": 2806.200279447607,
+      "internal_material_mm2": 380.8585561826152,
+      "net_air_area_mm2": 2425.3417232649917
+    },
+    {
+      "z_mm": 156.0,
+      "outer_clear_area_mm2": 2782.4690874874213,
+      "internal_material_mm2": 381.29590108401084,
+      "net_air_area_mm2": 2401.1731864034105
+    },
+    {
+      "z_mm": 156.5,
+      "outer_clear_area_mm2": 2758.7901623796265,
+      "internal_material_mm2": 381.73531581826717,
+      "net_air_area_mm2": 2377.054846561359
+    },
+    {
+      "z_mm": 157.0,
+      "outer_clear_area_mm2": 2735.164707933271,
+      "internal_material_mm2": 382.17680038538424,
+      "net_air_area_mm2": 2352.9879075478866
+    },
+    {
+      "z_mm": 157.5,
+      "outer_clear_area_mm2": 2711.593927957397,
+      "internal_material_mm2": 382.6203547853621,
+      "net_air_area_mm2": 2328.9735731720352
+    },
+    {
+      "z_mm": 158.0,
+      "outer_clear_area_mm2": 2688.0790262610467,
+      "internal_material_mm2": 383.06597901820066,
+      "net_air_area_mm2": 2305.013047242846
+    },
+    {
+      "z_mm": 158.5,
+      "outer_clear_area_mm2": 2664.6212066532635,
+      "internal_material_mm2": 383.50316214031136,
+      "net_air_area_mm2": 2281.118044512952
+    },
+    {
+      "z_mm": 159.0,
+      "outer_clear_area_mm2": 2641.2216729430866,
+      "internal_material_mm2": 383.8856633169674,
+      "net_air_area_mm2": 2257.336009626119
+    },
+    {
+      "z_mm": 159.5,
+      "outer_clear_area_mm2": 2617.8816289395627,
+      "internal_material_mm2": 384.17300671670307,
+      "net_air_area_mm2": 2233.7086222228595
+    },
+    {
+      "z_mm": 160.0,
+      "outer_clear_area_mm2": 2594.6022784517286,
+      "internal_material_mm2": 384.3403417258053,
+      "net_air_area_mm2": 2210.261936725923
+    },
+    {
+      "z_mm": 160.5,
+      "outer_clear_area_mm2": 2571.3848252886305,
+      "internal_material_mm2": 384.3762112887679,
+      "net_air_area_mm2": 2187.0086139998625
+    },
+    {
+      "z_mm": 161.0,
+      "outer_clear_area_mm2": 2548.2304732593097,
+      "internal_material_mm2": 384.2804404198264,
+      "net_air_area_mm2": 2163.9500328394834
+    },
+    {
+      "z_mm": 161.5,
+      "outer_clear_area_mm2": 2525.140426172808,
+      "internal_material_mm2": 384.0621425273621,
+      "net_air_area_mm2": 2141.078283645446
+    },
+    {
+      "z_mm": 162.0,
+      "outer_clear_area_mm2": 2502.1158878381675,
+      "internal_material_mm2": 383.7378411929695,
+      "net_air_area_mm2": 2118.378046645198
+    },
+    {
+      "z_mm": 162.5,
+      "outer_clear_area_mm2": 2479.158062064431,
+      "internal_material_mm2": 383.32970504698,
+      "net_air_area_mm2": 2095.828357017451
+    },
+    {
+      "z_mm": 163.0,
+      "outer_clear_area_mm2": 2456.2681526606425,
+      "internal_material_mm2": 382.86389338223006,
+      "net_air_area_mm2": 2073.4042592784126
+    },
+    {
+      "z_mm": 163.5,
+      "outer_clear_area_mm2": 2433.4473634358424,
+      "internal_material_mm2": 382.3690101478702,
+      "net_air_area_mm2": 2051.0783532879723
+    },
+    {
+      "z_mm": 164.0,
+      "outer_clear_area_mm2": 2410.6968981990713,
+      "internal_material_mm2": 381.87466396500383,
+      "net_air_area_mm2": 2028.8222342340673
+    },
+    {
+      "z_mm": 164.5,
+      "outer_clear_area_mm2": 2388.017960759374,
+      "internal_material_mm2": 381.4101318059498,
+      "net_air_area_mm2": 2006.6078289534244
+    },
+    {
+      "z_mm": 165.0,
+      "outer_clear_area_mm2": 2365.4117549257903,
+      "internal_material_mm2": 381.0031239789185,
+      "net_air_area_mm2": 1984.4086309468719
+    },
+    {
+      "z_mm": 165.5,
+      "outer_clear_area_mm2": 2342.879484507367,
+      "internal_material_mm2": 380.6786480598963,
+      "net_air_area_mm2": 1962.200836447471
+    },
+    {
+      "z_mm": 166.0,
+      "outer_clear_area_mm2": 2320.422353313146,
+      "internal_material_mm2": 380.45796941352756,
+      "net_air_area_mm2": 1939.9643838996183
+    },
+    {
+      "z_mm": 166.5,
+      "outer_clear_area_mm2": 2298.041565152162,
+      "internal_material_mm2": 380.357665944788,
+      "net_air_area_mm2": 1917.683899207374
+    },
+    {
+      "z_mm": 167.0,
+      "outer_clear_area_mm2": 2275.738323833465,
+      "internal_material_mm2": 380.3887747232407,
+      "net_air_area_mm2": 1895.3495491102244
+    },
+    {
+      "z_mm": 167.5,
+      "outer_clear_area_mm2": 2253.5138331660933,
+      "internal_material_mm2": 380.5560281216675,
+      "net_air_area_mm2": 1872.9578050444256
+    },
+    {
+      "z_mm": 168.0,
+      "outer_clear_area_mm2": 2231.3692969590916,
+      "internal_material_mm2": 380.8571771108658,
+      "net_air_area_mm2": 1850.5121198482257
+    },
+    {
+      "z_mm": 168.5,
+      "outer_clear_area_mm2": 2209.3059190215,
+      "internal_material_mm2": 381.1310345044974,
+      "net_air_area_mm2": 1828.1748845170025
+    },
+    {
+      "z_mm": 169.0,
+      "outer_clear_area_mm2": 2187.3249031623636,
+      "internal_material_mm2": 380.67702979622015,
+      "net_air_area_mm2": 1806.6478733661434
+    },
+    {
+      "z_mm": 169.5,
+      "outer_clear_area_mm2": 2165.4274531907254,
+      "internal_material_mm2": 378.83080863166987,
+      "net_air_area_mm2": 1786.5966445590554
+    },
+    {
+      "z_mm": 170.0,
+      "outer_clear_area_mm2": 2143.6147729156214,
+      "internal_material_mm2": 375.1168708387702,
+      "net_air_area_mm2": 1768.4979020768512
+    },
+    {
+      "z_mm": 170.5,
+      "outer_clear_area_mm2": 2121.888066146099,
+      "internal_material_mm2": 361.7535487935049,
+      "net_air_area_mm2": 1760.134517352594
+    },
+    {
+      "z_mm": 171.0,
+      "outer_clear_area_mm2": 2100.248536691198,
+      "internal_material_mm2": 353.67594943576387,
+      "net_air_area_mm2": 1746.572587255434
+    },
+    {
+      "z_mm": 171.5,
+      "outer_clear_area_mm2": 2078.697388359964,
+      "internal_material_mm2": 343.3582153456365,
+      "net_air_area_mm2": 1735.3391730143276
+    },
+    {
+      "z_mm": 172.0,
+      "outer_clear_area_mm2": 2057.2358249614367,
+      "internal_material_mm2": 330.96652949245544,
+      "net_air_area_mm2": 1726.2692954689812
+    },
+    {
+      "z_mm": 172.5,
+      "outer_clear_area_mm2": 2035.8650503046579,
+      "internal_material_mm2": 316.77147259182397,
+      "net_air_area_mm2": 1719.0935777128338
+    },
+    {
+      "z_mm": 173.0,
+      "outer_clear_area_mm2": 2014.586268198674,
+      "internal_material_mm2": 301.1284477746699,
+      "net_air_area_mm2": 1713.457820424004
+    },
+    {
+      "z_mm": 173.5,
+      "outer_clear_area_mm2": 1993.4006824525209,
+      "internal_material_mm2": 284.4578528269492,
+      "net_air_area_mm2": 1708.9428296255717
+    },
+    {
+      "z_mm": 174.0,
+      "outer_clear_area_mm2": 1972.3094968752453,
+      "internal_material_mm2": 267.22499999999997,
+      "net_air_area_mm2": 1705.0844968752453
+    },
+    {
+      "z_mm": 174.5,
+      "outer_clear_area_mm2": 1951.3139152758886,
+      "internal_material_mm2": 249.919783391547,
+      "net_air_area_mm2": 1701.3941318843415
+    },
+    {
+      "z_mm": 175.0,
+      "outer_clear_area_mm2": 1930.4151414634912,
+      "internal_material_mm2": 233.03609389735513,
+      "net_air_area_mm2": 1697.379047566136
+    },
+    {
+      "z_mm": 175.5,
+      "outer_clear_area_mm2": 1909.6143792470991,
+      "internal_material_mm2": 217.05098173353406,
+      "net_air_area_mm2": 1692.5633975135652
+    },
+    {
+      "z_mm": 176.0,
+      "outer_clear_area_mm2": 1888.9128324357507,
+      "internal_material_mm2": 202.40356652949245,
+      "net_air_area_mm2": 1686.5092659062582
+    },
+    {
+      "z_mm": 176.5,
+      "outer_clear_area_mm2": 1868.3117048384931,
+      "internal_material_mm2": 189.47369499154215,
+      "net_air_area_mm2": 1678.838009846951
+    },
+    {
+      "z_mm": 177.0,
+      "outer_clear_area_mm2": 1847.8122002643647,
+      "internal_material_mm2": 178.5603461371528,
+      "net_air_area_mm2": 1669.251854127212
+    },
+    {
+      "z_mm": 177.5,
+      "outer_clear_area_mm2": 1827.415522522406,
+      "internal_material_mm2": 169.85978409985609,
+      "net_air_area_mm2": 1657.55573842255
+    },
+    {
+      "z_mm": 178.0,
+      "outer_clear_area_mm2": 1807.1228754216634,
+      "internal_material_mm2": 163.44345850480113,
+      "net_air_area_mm2": 1643.6794169168622
+    },
+    {
+      "z_mm": 178.5,
+      "outer_clear_area_mm2": 1786.9354627711755,
+      "internal_material_mm2": 159.23565241495768,
+      "net_air_area_mm2": 1627.6998103562178
+    },
+    {
+      "z_mm": 179.0,
+      "outer_clear_area_mm2": 1766.85448837999,
+      "internal_material_mm2": 156.99087784797223,
+      "net_air_area_mm2": 1609.863610532018
+    },
+    {
+      "z_mm": 179.5,
+      "outer_clear_area_mm2": 1746.8811560571446,
+      "internal_material_mm2": 156.27101886367282,
+      "net_air_area_mm2": 1590.6101371934717
+    },
+    {
+      "z_mm": 180.0,
+      "outer_clear_area_mm2": 1727.0166696116846,
+      "internal_material_mm2": 156.42222222222222,
+      "net_air_area_mm2": 1570.5944473894624
+    },
+    {
+      "z_mm": 180.5,
+      "outer_clear_area_mm2": 1707.2622328526481,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1707.2622328526481
+    },
+    {
+      "z_mm": 181.0,
+      "outer_clear_area_mm2": 1687.6190495890812,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1687.6190495890812
+    },
+    {
+      "z_mm": 181.5,
+      "outer_clear_area_mm2": 1668.0883236300242,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1668.0883236300242
+    },
+    {
+      "z_mm": 182.0,
+      "outer_clear_area_mm2": 1648.6712587845204,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1648.6712587845204
+    },
+    {
+      "z_mm": 182.5,
+      "outer_clear_area_mm2": 1629.3690588616107,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1629.3690588616107
+    },
+    {
+      "z_mm": 183.0,
+      "outer_clear_area_mm2": 1610.182927670339,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1610.182927670339
+    },
+    {
+      "z_mm": 183.5,
+      "outer_clear_area_mm2": 1591.1140690197487,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1591.1140690197487
+    },
+    {
+      "z_mm": 184.0,
+      "outer_clear_area_mm2": 1572.1636867188777,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1572.1636867188777
+    },
+    {
+      "z_mm": 184.5,
+      "outer_clear_area_mm2": 1553.3329845767714,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1553.3329845767714
+    },
+    {
+      "z_mm": 185.0,
+      "outer_clear_area_mm2": 1534.6233259172736,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1534.6233259172736
+    },
+    {
+      "z_mm": 185.5,
+      "outer_clear_area_mm2": 1516.0421908062701,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1516.0421908062701
+    },
+    {
+      "z_mm": 186.0,
+      "outer_clear_area_mm2": 1497.6046025917349,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1497.6046025917349
+    },
+    {
+      "z_mm": 186.5,
+      "outer_clear_area_mm2": 1479.325394358691,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1479.325394358691
+    },
+    {
+      "z_mm": 187.0,
+      "outer_clear_area_mm2": 1461.2186676605295,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1461.2186676605295
+    },
+    {
+      "z_mm": 187.5,
+      "outer_clear_area_mm2": 1443.297797351194,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1443.297797351194
+    },
+    {
+      "z_mm": 188.0,
+      "outer_clear_area_mm2": 1425.5754374859414,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1425.5754374859414
+    },
+    {
+      "z_mm": 188.5,
+      "outer_clear_area_mm2": 1408.063528267587,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1408.063528267587
+    },
+    {
+      "z_mm": 189.0,
+      "outer_clear_area_mm2": 1390.7733040115618,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1390.7733040115618
+    },
+    {
+      "z_mm": 189.5,
+      "outer_clear_area_mm2": 1373.7153020997514,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1373.7153020997514
+    },
+    {
+      "z_mm": 190.0,
+      "outer_clear_area_mm2": 1356.8993728897783,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1356.8993728897783
+    },
+    {
+      "z_mm": 190.5,
+      "outer_clear_area_mm2": 1340.3346905431924,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1340.3346905431924
+    },
+    {
+      "z_mm": 191.0,
+      "outer_clear_area_mm2": 1324.0297647330003,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1324.0297647330003
+    },
+    {
+      "z_mm": 191.5,
+      "outer_clear_area_mm2": 1307.9924531881413,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1307.9924531881413
+    },
+    {
+      "z_mm": 192.0,
+      "outer_clear_area_mm2": 1292.229975029668,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1292.229975029668
+    },
+    {
+      "z_mm": 192.5,
+      "outer_clear_area_mm2": 1276.7489248509999,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1276.7489248509999
+    },
+    {
+      "z_mm": 193.0,
+      "outer_clear_area_mm2": 1261.5552874922053,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1261.5552874922053
+    },
+    {
+      "z_mm": 193.5,
+      "outer_clear_area_mm2": 1246.6544534560737,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1246.6544534560737
+    },
+    {
+      "z_mm": 194.0,
+      "outer_clear_area_mm2": 1232.051234912016,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1232.051234912016
+    },
+    {
+      "z_mm": 194.5,
+      "outer_clear_area_mm2": 1217.749882231778,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1217.749882231778
+    },
+    {
+      "z_mm": 195.0,
+      "outer_clear_area_mm2": 1203.7541009999086,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1203.7541009999086
+    },
+    {
+      "z_mm": 195.5,
+      "outer_clear_area_mm2": 1190.0670694402293,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1190.0670694402293
+    },
+    {
+      "z_mm": 196.0,
+      "outer_clear_area_mm2": 1176.6914561988824,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1176.6914561988824
+    },
+    {
+      "z_mm": 196.5,
+      "outer_clear_area_mm2": 1163.6294384234666,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1163.6294384234666
+    },
+    {
+      "z_mm": 197.0,
+      "outer_clear_area_mm2": 1150.8827200774988,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1150.8827200774988
+    },
+    {
+      "z_mm": 197.5,
+      "outer_clear_area_mm2": 1138.4525504288629,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1138.4525504288629
+    },
+    {
+      "z_mm": 198.0,
+      "outer_clear_area_mm2": 1126.3397426509475,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1126.3397426509475
+    },
+    {
+      "z_mm": 198.5,
+      "outer_clear_area_mm2": 1114.5446924754717,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1114.5446924754717
+    },
+    {
+      "z_mm": 199.0,
+      "outer_clear_area_mm2": 1103.0673968359854,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1103.0673968359854
+    },
+    {
+      "z_mm": 199.5,
+      "outer_clear_area_mm2": 1091.9074724421725,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1091.9074724421725
+    },
+    {
+      "z_mm": 200.0,
+      "outer_clear_area_mm2": 1081.0641742254347,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1081.0641742254347
+    },
+    {
+      "z_mm": 200.5,
+      "outer_clear_area_mm2": 1070.5364135976702,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1070.5364135976702
+    },
+    {
+      "z_mm": 201.0,
+      "outer_clear_area_mm2": 1060.3227764661292,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1060.3227764661292
+    },
+    {
+      "z_mm": 201.5,
+      "outer_clear_area_mm2": 1050.4215409490068,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1050.4215409490068
+    },
+    {
+      "z_mm": 202.0,
+      "outer_clear_area_mm2": 1040.8306947377848,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1040.8306947377848
+    },
+    {
+      "z_mm": 202.5,
+      "outer_clear_area_mm2": 1031.5479520545089,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1031.5479520545089
+    },
+    {
+      "z_mm": 203.0,
+      "outer_clear_area_mm2": 1022.5707701540194,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1022.5707701540194
+    },
+    {
+      "z_mm": 203.5,
+      "outer_clear_area_mm2": 1013.8963653235166,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1013.8963653235166
+    },
+    {
+      "z_mm": 204.0,
+      "outer_clear_area_mm2": 1005.5217283340749,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 1005.5217283340749
+    },
+    {
+      "z_mm": 204.5,
+      "outer_clear_area_mm2": 997.4436393015674,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 997.4436393015674
+    },
+    {
+      "z_mm": 205.0,
+      "outer_clear_area_mm2": 989.6586819167247,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 989.6586819167247
+    },
+    {
+      "z_mm": 205.5,
+      "outer_clear_area_mm2": 982.163257007311,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 982.163257007311
+    },
+    {
+      "z_mm": 206.0,
+      "outer_clear_area_mm2": 974.9535953980497,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 974.9535953980497
+    },
+    {
+      "z_mm": 206.5,
+      "outer_clear_area_mm2": 968.0257700371685,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 968.0257700371685
+    },
+    {
+      "z_mm": 207.0,
+      "outer_clear_area_mm2": 961.3757073614671,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 961.3757073614671
+    },
+    {
+      "z_mm": 207.5,
+      "outer_clear_area_mm2": 954.9991978753208,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 954.9991978753208
+    },
+    {
+      "z_mm": 208.0,
+      "outer_clear_area_mm2": 948.8919059219483,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 948.8919059219483
+    },
+    {
+      "z_mm": 208.5,
+      "outer_clear_area_mm2": 943.0493786292187,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 943.0493786292187
+    },
+    {
+      "z_mm": 209.0,
+      "outer_clear_area_mm2": 937.4670540152619,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 937.4670540152619
+    },
+    {
+      "z_mm": 209.5,
+      "outer_clear_area_mm2": 932.1402682429836,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 932.1402682429836
+    },
+    {
+      "z_mm": 210.0,
+      "outer_clear_area_mm2": 927.0642620159606,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 927.0642620159606
+    },
+    {
+      "z_mm": 210.5,
+      "outer_clear_area_mm2": 922.2341861118794,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 922.2341861118794
+    },
+    {
+      "z_mm": 211.0,
+      "outer_clear_area_mm2": 917.6451060531555,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 917.6451060531555
+    },
+    {
+      "z_mm": 211.5,
+      "outer_clear_area_mm2": 913.2920059180631,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 913.2920059180631
+    },
+    {
+      "z_mm": 212.0,
+      "outer_clear_area_mm2": 909.1697912993125,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 909.1697912993125
+    },
+    {
+      "z_mm": 212.5,
+      "outer_clear_area_mm2": 905.2732914202925,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 905.2732914202925
+    },
+    {
+      "z_mm": 213.0,
+      "outer_clear_area_mm2": 901.5972604232644,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 901.5972604232644
+    },
+    {
+      "z_mm": 213.5,
+      "outer_clear_area_mm2": 898.1363778466631,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 898.1363778466631
+    },
+    {
+      "z_mm": 214.0,
+      "outer_clear_area_mm2": 894.885248312649,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 894.885248312649
+    },
+    {
+      "z_mm": 214.5,
+      "outer_clear_area_mm2": 891.8384004490929,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 891.8384004490929
+    },
+    {
+      "z_mm": 215.0,
+      "outer_clear_area_mm2": 888.9902850736925,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 888.9902850736925
+    },
+    {
+      "z_mm": 215.5,
+      "outer_clear_area_mm2": 886.3352726710971,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 886.3352726710971
+    },
+    {
+      "z_mm": 216.0,
+      "outer_clear_area_mm2": 883.8676501971472,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 883.8676501971472
+    },
+    {
+      "z_mm": 216.5,
+      "outer_clear_area_mm2": 881.5816172473606,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 881.5816172473606
+    },
+    {
+      "z_mm": 217.0,
+      "outer_clear_area_mm2": 879.4712816299193,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 879.4712816299193
+    },
+    {
+      "z_mm": 217.5,
+      "outer_clear_area_mm2": 877.5306543862213,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 877.5306543862213
+    },
+    {
+      "z_mm": 218.0,
+      "outer_clear_area_mm2": 875.7536443049147,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 875.7536443049147
+    },
+    {
+      "z_mm": 218.5,
+      "outer_clear_area_mm2": 874.1340519780262,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 874.1340519780262
+    },
+    {
+      "z_mm": 219.0,
+      "outer_clear_area_mm2": 872.6655634505038,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 872.6655634505038
+    },
+    {
+      "z_mm": 219.5,
+      "outer_clear_area_mm2": 871.3417435168074,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 871.3417435168074
+    },
+    {
+      "z_mm": 220.0,
+      "outer_clear_area_mm2": 870.1560287207977,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 870.1560287207977
+    },
+    {
+      "z_mm": 220.5,
+      "outer_clear_area_mm2": 869.101720117302,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 869.101720117302
+    },
+    {
+      "z_mm": 221.0,
+      "outer_clear_area_mm2": 868.1719758560093,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 868.1719758560093
+    },
+    {
+      "z_mm": 221.5,
+      "outer_clear_area_mm2": 867.3598036503963,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 867.3598036503963
+    },
+    {
+      "z_mm": 222.0,
+      "outer_clear_area_mm2": 866.6580531964875,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 866.6580531964875
+    },
+    {
+      "z_mm": 222.5,
+      "outer_clear_area_mm2": 866.059408607954,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 866.059408607954
+    },
+    {
+      "z_mm": 223.0,
+      "outer_clear_area_mm2": 865.5563809361093,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 865.5563809361093
+    },
+    {
+      "z_mm": 223.5,
+      "outer_clear_area_mm2": 865.1413008449103,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 865.1413008449103
+    },
+    {
+      "z_mm": 224.0,
+      "outer_clear_area_mm2": 864.806311512892,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.806311512892
+    },
+    {
+      "z_mm": 224.5,
+      "outer_clear_area_mm2": 864.5433618354925,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.5433618354925
+    },
+    {
+      "z_mm": 225.0,
+      "outer_clear_area_mm2": 864.3442000028115,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.3442000028115
+    },
+    {
+      "z_mm": 225.5,
+      "outer_clear_area_mm2": 864.2003675294441,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.2003675294441
+    },
+    {
+      "z_mm": 226.0,
+      "outer_clear_area_mm2": 864.1031938144869,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.1031938144869
+    },
+    {
+      "z_mm": 226.5,
+      "outer_clear_area_mm2": 864.0437913113481,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0437913113481
+    },
+    {
+      "z_mm": 227.0,
+      "outer_clear_area_mm2": 864.0130513885895,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0130513885895
+    },
+    {
+      "z_mm": 227.5,
+      "outer_clear_area_mm2": 864.001640964529,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.001640964529
+    },
+    {
+      "z_mm": 228.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 228.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 229.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 229.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 230.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 230.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 231.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 231.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 232.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 232.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 233.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 233.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 234.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 234.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 235.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 235.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 236.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 236.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 237.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 237.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 238.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 238.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 239.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 239.5,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    },
+    {
+      "z_mm": 240.0,
+      "outer_clear_area_mm2": 864.0,
+      "internal_material_mm2": 0.0,
+      "net_air_area_mm2": 864.0
+    }
+  ],
+  "core_parameters_mm": {
+    "base_width": 36,
+    "base_depth": 42,
+    "taper_starts": 24,
+    "end": 140,
+    "tip_diameter": 1.6
+  },
+  "crossed_vanes_mm": {
+    "nominal_thickness": 2,
+    "trailing_thickness": 0.8,
+    "wide_plate_end": 180,
+    "depth_plate_end": 170
+  },
+  "all_internal_material_starts_at_build_plate": true,
+  "nominal_housing_wall_mm": 2,
+  "downward_faces_over_45deg_above_flange": 0,
+  "corresponding_area_mm2": 0.0,
+  "reference": "https://patents.google.com/patent/US20170006991A1/en",
+  "reference_scope": "central tapered duckbill and crossed guide vanes; dimensions and rectangular coupling are this prototype",
+  "CFD_executed": false,
+  "physical_print_validated": false,
+  "performance_validated": false,
+  "stl_sha256": "2032a4a96ff48400c4d8e199edcd7ce9230432787faa8cc881786c829bbfd02a",
+  "blend_sha256": "6e41ebf753e85d40e573e51abb140b1a181db444f775c7eb0e563ec69c36f35f"
+}

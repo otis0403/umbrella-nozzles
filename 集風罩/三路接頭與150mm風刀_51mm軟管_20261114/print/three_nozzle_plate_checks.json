@@ -1,0 +1,14 @@
+{
+  "items": 3,
+  "centers_X_mm": [
+    45,
+    110,
+    175
+  ],
+  "minimum_model_gap_mm": 14.281272888183594,
+  "within_K1C_with_5mm_brim": true,
+  "individual_5mm_brims_do_not_overlap": true,
+  "independently_reopened_all_build_items": true,
+  "generic_3MF_geometry_only": true,
+  "actual_slicing_verified": false
+}

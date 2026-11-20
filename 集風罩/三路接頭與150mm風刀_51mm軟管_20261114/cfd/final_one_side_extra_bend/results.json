@@ -1,0 +1,167 @@
+{
+  "name": "final_one_side_extra_bend",
+  "conditions": {
+    "kind": "adapter",
+    "name": "final_one_side_extra_bend",
+    "height": 110.0,
+    "neck": 46.0,
+    "gap": 16,
+    "center": 0.95,
+    "side": 1.15,
+    "physical_center": 1.0,
+    "physical_side": 1.2,
+    "batches": 9,
+    "warm": "final_adapter_100_120",
+    "bend": [
+      1.0,
+      0.5,
+      0.5
+    ],
+    "reuse_verified": true
+  },
+  "equivalent_loads": [
+    {
+      "length_m": 1.15,
+      "linear_Pa_per_velocity": 0.9488768385252276,
+      "quadratic_Pa_per_velocity2": 0.6268123311770583,
+      "permeability_m2": 1.8969795941037125e-08,
+      "c2_per_m": 1044.6872186284306,
+      "thickness_m": 0.001,
+      "hose_K_referred_to_port": 1.2587868010854661,
+      "bend_K_assumed": 1.0,
+      "joint_K_assumed": 0.15,
+      "exit_kinetic_energy_correction_included": true
+    },
+    {
+      "length_m": 0.95,
+      "linear_Pa_per_velocity": 0.9488768385252276,
+      "quadratic_Pa_per_velocity2": 0.36597094249852363,
+      "permeability_m2": 1.8969795941037125e-08,
+      "c2_per_m": 609.9515708308728,
+      "thickness_m": 0.001,
+      "hose_K_referred_to_port": 0.8240511532879083,
+      "bend_K_assumed": 0.5,
+      "joint_K_assumed": 0.15,
+      "exit_kinetic_energy_correction_included": true
+    },
+    {
+      "length_m": 1.15,
+      "linear_Pa_per_velocity": 0.9488768385252276,
+      "quadratic_Pa_per_velocity2": 0.42826142337697964,
+      "permeability_m2": 1.8969795941037125e-08,
+      "c2_per_m": 713.7690389616328,
+      "thickness_m": 0.001,
+      "hose_K_referred_to_port": 0.9278686214186683,
+      "bend_K_assumed": 0.5,
+      "joint_K_assumed": 0.15,
+      "exit_kinetic_energy_correction_included": true
+    }
+  ],
+  "actual_fan_curve_used": false,
+  "reports": {
+    "batch": 9,
+    "elapsed_s": 95.28879475593567,
+    "pin": 301.1798587880397,
+    "ptin": 399.9999999999999,
+    "min": 0.1106478520319149,
+    "m0": -0.03451422346636349,
+    "m1": -0.03864557929275257,
+    "m2": -0.03748803659590667
+  },
+  "branch_flow_m3_min": [
+    1.7257111733181747,
+    1.9322789646376286,
+    1.8744018297953333
+  ],
+  "total_flow_m3_min": 5.532391967751137,
+  "branch_share_pct": [
+    31.19285805086691,
+    34.9266461216247,
+    33.8804958275084
+  ],
+  "balance_error_pct": 6.421425847399275,
+  "physical_port_total_pressure_Pa": [
+    387.35898012684606,
+    385.3844162985266,
+    385.33268739162014
+  ],
+  "adapter_total_pressure_loss_Pa": 14.017186819527865,
+  "mass_imbalance_pct": 1.145697086936879e-05,
+  "last_flow_change_pct": 8.037852892162078e-05,
+  "last_pressure_change_pct": 4.839421889890616e-05,
+  "internal_negative_global_Z_volume_pct": 0.09009861124706267,
+  "internal_negative_local_flow_volume_pct": 0.07664798616065563,
+  "native_minimum_cell_volume_m3": 1.4394694329808797e-12,
+  "network_calibration": [
+    {
+      "iteration": 0,
+      "Q_m3_min": [
+        1.7131598540648296,
+        1.9176559947340288,
+        1.8598898905877101
+      ],
+      "target_total_pressure_Pa": [
+        378.42888771655504,
+        375.5145123061326,
+        375.4361169234999
+      ],
+      "actual_total_pressure_Pa": [
+        387.5110956160935,
+        385.56471846356527,
+        385.5189760961658
+      ],
+      "error_pct": [
+        2.399977431517075,
+        2.6763828901609443,
+        2.685639105605908
+      ]
+    },
+    {
+      "iteration": 1,
+      "Q_m3_min": [
+        1.7257123064566136,
+        1.9322783900879925,
+        1.8744003231799276
+      ],
+      "target_total_pressure_Pa": [
+        383.87443451466027,
+        381.1228399013535,
+        381.1779429529399
+      ],
+      "actual_total_pressure_Pa": [
+        387.3593555895429,
+        385.3839336431421,
+        385.3319397789482
+      ],
+      "error_pct": [
+        0.9078283838538592,
+        1.1180368363364224,
+        1.0897789084614473
+      ]
+    },
+    {
+      "iteration": 2,
+      "Q_m3_min": [
+        1.7257111733181747,
+        1.9322789646376286,
+        1.8744018297953333
+      ],
+      "target_total_pressure_Pa": [
+        383.8739411779228,
+        381.123061082478,
+        381.1785413867142
+      ],
+      "actual_total_pressure_Pa": [
+        387.35898012684606,
+        385.3844162985266,
+        385.33268739162014
+      ],
+      "error_pct": [
+        0.9078602569972283,
+        1.1181047937496524,
+        1.0898163337824007
+      ]
+    }
+  ],
+  "network_load_consistency_pass": true
+}

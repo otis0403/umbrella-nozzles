@@ -1,0 +1,41 @@
+{
+  "UTC": "2026-11-14T13:16:51.617139+00:00",
+  "verified_native_cells": 830112,
+  "before": {
+    "k": {
+      "cycle_type": "f-cycle",
+      "termination_criteria": 0.1,
+      "stabilization": "none"
+    },
+    "omega": {
+      "cycle_type": "f-cycle",
+      "termination_criteria": 0.1,
+      "stabilization": "none"
+    },
+    "pressure-coupled": {
+      "cycle_type": "f-cycle",
+      "termination_criteria": 0.1,
+      "stabilization": "none"
+    }
+  },
+  "after": {
+    "k": {
+      "cycle_type": "f-cycle",
+      "termination_criteria": 0.01,
+      "stabilization": "none"
+    },
+    "omega": {
+      "cycle_type": "f-cycle",
+      "termination_criteria": 0.01,
+      "stabilization": "none"
+    },
+    "pressure-coupled": {
+      "cycle_type": "f-cycle",
+      "termination_criteria": 0.01,
+      "stabilization": "none"
+    }
+  },
+  "only_inner_linear_tolerances_changed": true,
+  "outer_convergence_thresholds_unchanged": true,
+  "geometry_flow_and_physical_boundary_conditions_unchanged": true
+}

@@ -1,0 +1,35 @@
+{
+  "new_source": "直通吹嘴_216x12mm_200mm_橫向出口_單件.blend",
+  "new_sha256": "45a7802fdad8291154c7405aff70d070489f0be09e5bc539eb98d163e6b8052f",
+  "old_source": "C:\\Users\\otiso\\umbrella\\case\\集風罩\\單件原版修改_216x4mm_200mm_尖鼻核心_20261104\\直通吹嘴_216x4mm_200mm_尖鼻核心_單件.blend",
+  "old_sha256": "bb155aca6b45cbc099d5415dcc6c5b0be8f2e6b78b3fc60a3796becabd0c0d65",
+  "all_sources_unchanged": true,
+  "actual_manufacturing_meshes": true,
+  "interior_transparency_only": true,
+  "interior_face_counts": {
+    "core": 30071,
+    "vanes": 13327,
+    "shell": 128972
+  },
+  "comparison_camera": {
+    "location_mm": [
+      0,
+      0,
+      650
+    ],
+    "rotation_euler_degrees": [
+      0,
+      0,
+      90
+    ],
+    "orthographic_scale_mm": 270,
+    "image_pixels": [
+      1000,
+      1000
+    ],
+    "same_for_both_models": true,
+    "screen_right": "+Y",
+    "screen_down": "+X",
+    "flow_axis": "+Z toward camera"
+  }
+}

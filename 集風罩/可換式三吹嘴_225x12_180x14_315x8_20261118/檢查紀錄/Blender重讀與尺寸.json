@@ -1,0 +1,121 @@
+{
+  "native_reopened": true,
+  "records": [
+    {
+      "position": "inner",
+      "socket_ID_mm": 55.400001525878906,
+      "joint_width_mm": 224.99867248535156,
+      "joint_depth_mm": 21.99895668029785,
+      "locator_male_OD_mm": 7.400000095367432,
+      "tips": [
+        {
+          "id": "inner_tip_g12",
+          "gap_mm": 12,
+          "gap61_range_mm": [
+            11.993545532226562,
+            12.000001430511475
+          ],
+          "width_mm": 225.0,
+          "interface_depth_mm": 21.9988956451416,
+          "M4_hole_mm": 4.399999618530273,
+          "fixed_recess_mm": 7.8999998569488525,
+          "floating_recess_Y_mm": 8.899993896484375,
+          "floating_hole_Y_mm": 5.399993896484375
+        },
+        {
+          "id": "inner_tip_g16_reference",
+          "gap_mm": 16,
+          "gap61_range_mm": [
+            15.992265701293945,
+            16.000001907348633
+          ],
+          "width_mm": 225.0,
+          "interface_depth_mm": 21.99984645843506,
+          "M4_hole_mm": 4.399999618530273,
+          "fixed_recess_mm": 7.8999998569488525,
+          "floating_recess_Y_mm": 8.899993896484375,
+          "floating_hole_Y_mm": 5.399993896484375
+        }
+      ],
+      "flow_axis_horizontal": true,
+      "body_to_tip_translation_mm": [
+        0,
+        0,
+        245
+      ]
+    },
+    {
+      "position": "center",
+      "socket_ID_mm": 55.400001525878906,
+      "joint_width_mm": 179.99942779541016,
+      "joint_depth_mm": 22.000075340270996,
+      "locator_male_OD_mm": 7.400000095367432,
+      "tips": [
+        {
+          "id": "center_tip_g14",
+          "gap_mm": 14,
+          "gap61_range_mm": [
+            14.000020027160645,
+            14.000022411346436
+          ],
+          "width_mm": 180.0,
+          "interface_depth_mm": 21.999953269958496,
+          "M4_hole_mm": 4.399999618530273,
+          "fixed_recess_mm": 7.8999998569488525,
+          "floating_recess_Y_mm": 8.899997234344482,
+          "floating_hole_Y_mm": 5.4000020027160645
+        },
+        {
+          "id": "center_tip_g16_reference",
+          "gap_mm": 16,
+          "gap61_range_mm": [
+            15.999999046325684,
+            15.999999046325684
+          ],
+          "width_mm": 180.00000762939453,
+          "interface_depth_mm": 21.9998779296875,
+          "M4_hole_mm": 4.399999618530273,
+          "fixed_recess_mm": 7.8999998569488525,
+          "floating_recess_Y_mm": 8.899997234344482,
+          "floating_hole_Y_mm": 5.4000020027160645
+        }
+      ],
+      "flow_axis_horizontal": true,
+      "body_to_tip_translation_mm": [
+        0,
+        0,
+        205
+      ]
+    },
+    {
+      "position": "outer",
+      "socket_ID_mm": 55.400001525878906,
+      "joint_width_mm": 314.9996337890625,
+      "joint_depth_mm": 21.9986515045166,
+      "locator_male_OD_mm": 7.400001049041748,
+      "tips": [
+        {
+          "id": "outer_tip_g8",
+          "gap_mm": 8,
+          "gap61_range_mm": [
+            7.999185085296631,
+            7.9991865158081055
+          ],
+          "width_mm": 314.9997863769531,
+          "interface_depth_mm": 21.998600006103516,
+          "M4_hole_mm": 4.399999618530273,
+          "fixed_recess_mm": 7.8999998569488525,
+          "floating_recess_Y_mm": 8.899993896484375,
+          "floating_hole_Y_mm": 5.399993896484375
+        }
+      ],
+      "flow_axis_horizontal": true,
+      "body_to_tip_translation_mm": [
+        0,
+        0,
+        345
+      ]
+    }
+  ],
+  "illustrative_hardware_not_STL_parts": true
+}

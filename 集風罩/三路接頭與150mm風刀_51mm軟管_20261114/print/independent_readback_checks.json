@@ -1,0 +1,23 @@
+[
+  {
+    "part": "splitter_H110_neck46",
+    "STL_hash_matches": true,
+    "STL_and_3MF_closed_single_solids": true,
+    "volume_and_dimensions_match": true,
+    "within_K1C_with_5mm_brim": true
+  },
+  {
+    "part": "nozzle_150x16_H188_W150_P22",
+    "STL_hash_matches": true,
+    "STL_and_3MF_closed_single_solids": true,
+    "volume_and_dimensions_match": true,
+    "within_K1C_with_5mm_brim": true
+  },
+  {
+    "part": "fit_sample_OD50_ID46",
+    "STL_hash_matches": true,
+    "STL_and_3MF_closed_single_solids": true,
+    "volume_and_dimensions_match": true,
+    "within_K1C_with_5mm_brim": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "source": "直通吹嘴_216x4mm_200mm_尖鼻核心_單件.blend",
+  "source_sha256": "bb155aca6b45cbc099d5415dcc6c5b0be8f2e6b78b3fc60a3796becabd0c0d65",
+  "source_unchanged": true,
+  "actual_saved_manufacturing_mesh": true,
+  "interior_view": "Transparent materials only; no manufacturing geometry changes",
+  "face_classification_counts": {
+    "core": 30035,
+    "vanes": 13967,
+    "shell": 130724
+  }
+}

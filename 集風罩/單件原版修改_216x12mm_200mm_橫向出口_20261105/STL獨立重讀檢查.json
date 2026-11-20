@@ -1,0 +1,22 @@
+{
+  "file": "直通吹嘴_216x12mm_200mm_橫向出口_單件_mm.stl",
+  "units": "mm",
+  "triangles": 172370,
+  "vertices": 86155,
+  "edges_not_shared_twice": 0,
+  "orientation_errors": 0,
+  "degenerate_triangles": 0,
+  "material_components": 1,
+  "size_XYZ_mm": [
+    118.0,
+    220.0,
+    200.0
+  ],
+  "minimum_Z_mm": 0.0,
+  "signed_volume_mm3": 263748.46442087815,
+  "sha256": "21a56b877e86fe3dc2e4acb85ca6a912e957aa3288ff4b6275cf0dfb182eca25",
+  "existing_files_verified_unchanged": 556,
+  "all_existing_files_unchanged": true,
+  "physically_printed": false,
+  "backflow_improvement_tested": false
+}

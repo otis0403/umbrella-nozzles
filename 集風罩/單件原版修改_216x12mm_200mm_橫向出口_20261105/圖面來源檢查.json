@@ -1,0 +1,107 @@
+{
+  "new_manufacturing_blend_sha256": "45a7802fdad8291154c7405aff70d070489f0be09e5bc539eb98d163e6b8052f",
+  "new_stl_sha256": "21a56b877e86fe3dc2e4acb85ca6a912e957aa3288ff4b6275cf0dfb182eca25",
+  "drawing_source": "Verified CAD report and parametric profile; actual CAD renders for direction comparison",
+  "registered_flange_projection_mm": {
+    "X": [
+      -57,
+      61
+    ],
+    "Y": [
+      -60,
+      60
+    ],
+    "R": 4,
+    "reference_hole_XY": [
+      52,
+      51
+    ]
+  },
+  "registered_hole_projections": [
+    {
+      "X": 52,
+      "Y": -51,
+      "diameter": 6.4
+    },
+    {
+      "X": 52,
+      "Y": 51,
+      "diameter": 6.4
+    },
+    {
+      "X": -48,
+      "Y": -51,
+      "diameter": 6.4
+    },
+    {
+      "X": -48,
+      "Y": 51,
+      "diameter": 6.4
+    },
+    {
+      "X": 52,
+      "Y": -25,
+      "diameter": 4.4
+    },
+    {
+      "X": 52,
+      "Y": 25,
+      "diameter": 4.4
+    },
+    {
+      "X": -48,
+      "Y": -25,
+      "diameter": 4.4
+    },
+    {
+      "X": -48,
+      "Y": 25,
+      "diameter": 4.4
+    },
+    {
+      "X": -23,
+      "Y": -51,
+      "diameter": 4.4
+    },
+    {
+      "X": 27,
+      "Y": -51,
+      "diameter": 4.4
+    },
+    {
+      "X": -23,
+      "Y": 51,
+      "diameter": 4.4
+    },
+    {
+      "X": 27,
+      "Y": 51,
+      "diameter": 4.4
+    }
+  ],
+  "comparison_camera": {
+    "location_mm": [
+      0,
+      0,
+      650
+    ],
+    "rotation_euler_degrees": [
+      0,
+      0,
+      90
+    ],
+    "orthographic_scale_mm": 270,
+    "image_pixels": [
+      1000,
+      1000
+    ],
+    "same_for_both_models": true,
+    "screen_right": "+Y",
+    "screen_down": "+X",
+    "flow_axis": "+Z toward camera"
+  },
+  "images": {
+    "03_固定法蘭_新舊出口方向對照.png": "631003f8436ace9ac90c9e90382b2eaab4f94ec794d7ef08f93ac2925060edaa",
+    "04_橫向出口_尺寸與孔位圖.png": "46615f9e7cfee80e5b5486c58f3b0539250273c67f6c51965f2d0d11d14b7336"
+  }
+}

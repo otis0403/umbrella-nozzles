@@ -1,0 +1,2084 @@
+{
+  "original_files": [
+    {
+      "path": ".DS_Store",
+      "sha256": "e9ac0ed90e537d420077dd8988a577af35538f7c4e6c7673f78a854b28c9efee"
+    },
+    {
+      "path": "blender_extract_profile.py",
+      "sha256": "c7ebbf05b8f17407e6a5185d7cd33489f6879ed5a4075a61af67a090c1dd86b1"
+    },
+    {
+      "path": "blender_import_umbrella_canopy_structure.py",
+      "sha256": "0bbfe3c7ae1c766c919e07daafb03ac04db571c9a031d986d4907218ef5cf540"
+    },
+    {
+      "path": "blender_make_seam_fillers.py",
+      "sha256": "6132a8aede332ae8802015107f4e81fcc5feb5b01950a5a53cd8fed9fa5ad12f"
+    },
+    {
+      "path": "blender_make_umbrella_trough_wood_structure.py",
+      "sha256": "95e68d5a5b201592d993ecc3d6d0b1230d55431cfef27028520484782b953faa"
+    },
+    {
+      "path": "blender_make_wood_curve_structure.py",
+      "sha256": "0b5945ae8fc5cd6351eee633d2acb92cd0c4ca785dbbb541690a64ecaa388eab"
+    },
+    {
+      "path": "decompress_blend.py",
+      "sha256": "e41d6b4a83cb15f71afb09a498c5af39b5f72beba84be0db436d6d8e26e8807f"
+    },
+    {
+      "path": "IMG_6002_檢視用.png",
+      "sha256": "9a8c6dcd239a918024036e08d34228ab8877e103702d66ba795c735e4ad2fabe"
+    },
+    {
+      "path": "inspect_blend_blocks.py",
+      "sha256": "bcbefdf46c3bbcf44e6941bdc6a82e0b981780498ec5741ea8ce17599d45458f"
+    },
+    {
+      "path": "make_laser_cut_preview.py",
+      "sha256": "e33695b5cdc8022cd7915d3cfadd60f280db1d31f0f3d4da88136832344b1b18"
+    },
+    {
+      "path": "make_mesh_projection_png.py",
+      "sha256": "ab2e00a8303565bbbcbae3d990d45402beda1593d6b223d12f7e0c34146a43c9"
+    },
+    {
+      "path": "make_mesh_projection_svg.py",
+      "sha256": "fff777d0b98eb1c9a0d4095737084fb2a22af8ccf7fa6988ed364c0253552b35"
+    },
+    {
+      "path": "make_umbrella_canopy_panel_structure.py",
+      "sha256": "f36ff25929fd3e94eef3dc83e9e18100d00f6230d4c8d870906d95c1a25a29da"
+    },
+    {
+      "path": "make_umbrella_trough_wood_obj.py",
+      "sha256": "80359f96592634e5e52db21c8587981041ae648a39bfe0938835ca584f08aae3"
+    },
+    {
+      "path": "parse_original_mesh.py",
+      "sha256": "f2bfee13e3c90a4b5873d6f417eea77663e2711f70b29e4b187a021d489dc65a"
+    },
+    {
+      "path": "傘面板件接縫填充_五款.blend",
+      "sha256": "678980e0fb0c65fb3468045c2313236520f6c579d8ed52d2a0d972ee50ca1142"
+    },
+    {
+      "path": "傘面板件接縫填充_五款.blend1",
+      "sha256": "36eca1ec5af918bd5fa6ac3e6357456ebbf1a57f23ce49dcb1e2cc80bcaa4522"
+    },
+    {
+      "path": "傘面板件接縫填充_五款尺寸.csv",
+      "sha256": "699c6a1435ac4a217c2685f501ce010eaf8ac988145fa94e3d663263aacc1f3c"
+    },
+    {
+      "path": "傘面板件接縫填充_五款預覽.png",
+      "sha256": "52cc6a018e543264c43ca1faec3bb572c3d39f9ceb0fdc06379ec4c4e06e86c8"
+    },
+    {
+      "path": "內部圓弧傘面木板結構.blend",
+      "sha256": "92cc6cc4dc954f191f8facc4329afad642df14b092aba02b39868d98e1105f49"
+    },
+    {
+      "path": "內部圓弧傘面木板結構.blend1",
+      "sha256": "dd86b4ef32246561dd0ad6e8c85c6e7306dab57e067a97a82a015498b804c323"
+    },
+    {
+      "path": "內部圓弧傘面木板結構.mtl",
+      "sha256": "42bd01cb1f3eb6308ad1044356fd7c94d87c28b3114e4f5432ade84a8c4471ae"
+    },
+    {
+      "path": "內部圓弧傘面木板結構.obj",
+      "sha256": "7efbc437e7cc6547f237239f540cdb3c1cac9e5af3ad3974787675c7d8080cb8"
+    },
+    {
+      "path": "內部圓弧傘面板件尺寸.csv",
+      "sha256": "37e5a67914eedcad79fe40f69a96befb8e7060f2f67747770babee4be8cf810a"
+    },
+    {
+      "path": "內部圓弧傘面正視分片圖.png",
+      "sha256": "7afcec835d9d58a21d0b5e6a70660e61b1c09c81e545433c2d4b88323e9feb1a"
+    },
+    {
+      "path": "內部圓弧傘面正視分片圖.svg",
+      "sha256": "d161b27c66c1db4a9745df1f54c9e6473160f08741d8d2d74652e26992ac0a75"
+    },
+    {
+      "path": "內部圓弧木板板件尺寸.csv",
+      "sha256": "75960a204b0abd68643f606fd44b70d43f4776850a9712fa31388839835b5dfa"
+    },
+    {
+      "path": "內部圓弧木板結構預覽.mtl",
+      "sha256": "50de7b827aac1be98026e847a168fb1301687b309ab6bb29c162d3893fde282c"
+    },
+    {
+      "path": "內部圓弧木板結構預覽.obj",
+      "sha256": "88101a8cd24d25693339f871d445752dc45e3825a9a5501b3faeba6aa7c055d2"
+    },
+    {
+      "path": "分段木板曲面結構圖.svg",
+      "sha256": "fdf59432d913fd0b8346a01a3f379d5f6b22fe0a97ee97da57230eb0214183d9"
+    },
+    {
+      "path": "加入雨傘_整體模擬_3840x3480_無地板.png",
+      "sha256": "a3b98b570b7285cff63e8617d929a2f0240738e0dc9c24bab26b84247f250403"
+    },
+    {
+      "path": "圓弧正視.jpg",
+      "sha256": "6f1a85b1ff3e9b4e99a6ea3c5a9c420fd80fc10c5dd93e7f0d7ada669b2e431e"
+    },
+    {
+      "path": "執行傘面式木板結構建模.command",
+      "sha256": "3b27319c254ecc06609cae4576eed4c455edb119cbd30d3034fb74357484d0ed"
+    },
+    {
+      "path": "執行內部圓弧木板建模.command",
+      "sha256": "03ae0b86686b787464d93354a43a02fbf42697688e39ea3df45dd3b2af54e881"
+    },
+    {
+      "path": "執行接縫填充建模.command",
+      "sha256": "c8c153ef297ff7e4917fe14092361aff71c33026f115706b94563ec1d2f4b8f4"
+    },
+    {
+      "path": "執行木板曲面建模.command",
+      "sha256": "adfd8f74a48eaa07e1cc4532786896dfcff15322de954573120dc80c2acb6c1b"
+    },
+    {
+      "path": "基本建模模型.blend",
+      "sha256": "41651c6e5ab628b1f8fe5255a9fe55a6c9cacd0decd7d2fd2da6d1252585be76"
+    },
+    {
+      "path": "基本建模模型.blend1",
+      "sha256": "27457cd22c757175a83ddd52af3f673d8aa0658525a199318ef2c057cdbf0cbd"
+    },
+    {
+      "path": "基本建模模型_木板圓弧替換.blend",
+      "sha256": "b279a1d414b066e58e1e09c72cbe90948c1f06aaedffbf95dbacffc9216b156e"
+    },
+    {
+      "path": "基本建模模型_木板圓弧替換_旋轉15度.blend",
+      "sha256": "4be55052d4e62a2d88d2cc260ad6d5aace8ecefc1ca360ec2d700d79298826e7"
+    },
+    {
+      "path": "基本建模模型_木板圓弧替換_旋轉15度_水平長孔1cm.blend",
+      "sha256": "912e3bc7753d4a9a9a1101277839b4eb8f5fe3471c29db9030d0a1c8da22eb99"
+    },
+    {
+      "path": "基本建模模型_木板圓弧替換_旋轉15度_水平長孔1cm.blend1",
+      "sha256": "8cb12eb1cb71db6c86af33d3830abf1e252c1bfc206c5d737c94a5fb3084a15d"
+    },
+    {
+      "path": "基本建模模型_木板圓弧替換_旋轉15度_水平長孔1cm_預覽.png",
+      "sha256": "f4e1d415248d091faf81b656000e45441cfdc446ccee85ca12cd601c94e53081"
+    },
+    {
+      "path": "基本建模模型_木板圓弧替換_旋轉15度_預覽.png",
+      "sha256": "136b5353e1281a699c4fb9502c52b56d864afc45f67cb598c49d13dcf0d2dc29"
+    },
+    {
+      "path": "基本建模模型_木板圓弧替換_預覽.png",
+      "sha256": "7606995f45ed5831b49c74a3a73b3bb6cc77e6db1758acb1d58597f9e626df1d"
+    },
+    {
+      "path": "完整模型.blend",
+      "sha256": "67f947d172fdb580a772747dbab61033cdb5d9a42cf283ab815a6a45967025e9"
+    },
+    {
+      "path": "完整模型.blend1",
+      "sha256": "7b92f2cd122d4ce1af11e36d1c9dce02b173607bb4641f6612c8ca785964665c"
+    },
+    {
+      "path": "折疊傘快速乾燥機_v2_上方開口構造圖.png",
+      "sha256": "7e8bc8d7a5f953cd608590eac965af28ac4dd23018cdf399c9ccd015fe842538"
+    },
+    {
+      "path": "折疊傘快速乾燥機_v2_上方開口構造圖.svg",
+      "sha256": "fa00d9eca0616bc5cbe850415ce3d25f84b2542fe8f6d8569ba49292d9f8389b"
+    },
+    {
+      "path": "折疊傘快速乾燥機_初步構造圖.png",
+      "sha256": "616ff027dac92020645f08efffca3ff22237ffacba115a4d9e87431564564c83"
+    },
+    {
+      "path": "折疊傘快速乾燥機_初步構造圖.svg",
+      "sha256": "fa00d9eca0616bc5cbe850415ce3d25f84b2542fe8f6d8569ba49292d9f8389b"
+    },
+    {
+      "path": "接縫填充_STL_五款.zip",
+      "sha256": "ab2696689d98fcb5488475c61f1c6fed88831f55c83c37eabfce063a3325a928"
+    },
+    {
+      "path": "放傘模擬圖.png",
+      "sha256": "ed5252b966f795bfe78a307c17da17bc8ab57c9eff20c5cda36b71180b80c4d3"
+    },
+    {
+      "path": "木板曲面剖面尺寸圖.svg",
+      "sha256": "a9bf75f5386f0e4a095a700149d6dac456086b91075fb8f4c82ce72e2895073d"
+    },
+    {
+      "path": "木板曲面板件尺寸.csv",
+      "sha256": "3eb272b262b333c121778a74254033bf24c5d3e5ad08c8252a6bc3e6c9257da6"
+    },
+    {
+      "path": "第一版.blend",
+      "sha256": "40aca6a034c7b6466599c3f2756e7b5827b25bfd2c4b48b3bcf7b00ceb140dd2"
+    },
+    {
+      "path": "第一版.blend1",
+      "sha256": "8c3900c09843e08475c29c1cc914a4dae166e3190ada676230cc831feb0a94d1"
+    },
+    {
+      "path": "第一版_decompressed.blend",
+      "sha256": "8773ba48a881f9f0321c487987fb49546bfe9832a8941fc600c512bcb87b3f2e"
+    },
+    {
+      "path": "第一版_mesh投影檢查.png",
+      "sha256": "2f930abb740eb74d6257cf624f3c197bb32487f989f452e0490d09eebed92c2f"
+    },
+    {
+      "path": "第一版_mesh投影檢查.svg",
+      "sha256": "59f17d96fece5e24d0c268e78317b759bb0b2367eb6064fd80e69d9d1033ba22"
+    },
+    {
+      "path": "第一版_mesh解析.json",
+      "sha256": "5b031b2623a811cf1f4f32960bd81142b4388e80fcb5e3149fd1a71814195295"
+    },
+    {
+      "path": "第一版_曲面候選邊.csv",
+      "sha256": "2b10bbbde2ab0793d54764944a0af534779905104b9ee59aa0cad7805248f648"
+    },
+    {
+      "path": "錯誤木板.blend",
+      "sha256": "50e87ab4eac3b2b675ffcc6f4811e4d7b8e134c64086585b0e12a39c866b681e"
+    },
+    {
+      "path": "錯誤木板.blend1",
+      "sha256": "ae3c45e6e7f6fa2948f51fc492753af3a984cbf765aaee0648981b22ab909b91"
+    },
+    {
+      "path": "雷射切割_01_90x60cm.dxf",
+      "sha256": "2f60ebb4186e113289fd894018ae4264324ab3881afa8d86112d881723d335be"
+    },
+    {
+      "path": "雷射切割_02_90x60cm.dxf",
+      "sha256": "f500cfa1aabbc3f7c7972e3c702b17037ba8fa4162a3b6d9612020ead5bad232"
+    },
+    {
+      "path": "雷射切割_03_45x60cm.dxf",
+      "sha256": "233acedad3f51749d993119e45db6c298ba64d39a5a87c613d88590ceaad3045"
+    },
+    {
+      "path": "雷射切割_04_90x60cm.dxf",
+      "sha256": "5fff471f5d1ac0e4d6ad3fb43e31f2a80a81e37110aad557a66f709128859ff6"
+    },
+    {
+      "path": "雷射切割_DXF四檔.zip",
+      "sha256": "b5c45c8d1b181e1a070fd0ffb6dd60e6e553a4acd270c5f6aa395da071f971d2"
+    },
+    {
+      "path": "雷射切割四次排版預覽.png",
+      "sha256": "f4a859359a0e7d2953eeeccbc962f173504006e3c477a5e706082614cb319d53"
+    },
+    {
+      "path": "雷射切割四次排版預覽.svg",
+      "sha256": "03706661dd298dbf47574a6ebb090795f05f324ec7e6345f1b6f066b439bb507"
+    },
+    {
+      "path": "blend_inspect_views\\front.png",
+      "sha256": "2e24826e65d7c965bf0ff6d83b83f0bff2ce64151543fe05f760010852216021"
+    },
+    {
+      "path": "blend_inspect_views\\iso.png",
+      "sha256": "0a0a42b287c668421afae99aa15f2ced0be75e2a4aa9b56b0973c5827ed7a502"
+    },
+    {
+      "path": "blend_inspect_views\\side.png",
+      "sha256": "0e71b8bcf7ee62746b941b9572a7923594005cb90ad43c11715035834c5d9cde"
+    },
+    {
+      "path": "blend_inspect_views\\top.png",
+      "sha256": "21641f8cc674085d95dc09593df038478b47e3d1ec332c76acc8725c28539e37"
+    },
+    {
+      "path": "__pycache__\\blender_import_umbrella_canopy_structure.cpython-313.pyc",
+      "sha256": "a8254d49f32d70bdc1aa8e36ae73e06b318197fa32b9ae4cafbb0b13b80fc816"
+    },
+    {
+      "path": "__pycache__\\blender_make_umbrella_trough_wood_structure.cpython-313.pyc",
+      "sha256": "06f3985bc8e29a67a42d04a775361f7b15d24b001dd1bf81d5c5a2c08c7b4cb5"
+    },
+    {
+      "path": "__pycache__\\blender_make_wood_curve_structure.cpython-313.pyc",
+      "sha256": "382eba3bc65ddfee758a56dbaea36f21b8f5ee2f8350c19c91d72b7ae1af9a8c"
+    },
+    {
+      "path": "__pycache__\\make_laser_cut_preview.cpython-313.pyc",
+      "sha256": "3acfbdfa3270b8f9dff872f69f5139f87545b2faea2eb5efe915c48f7d4da6cd"
+    },
+    {
+      "path": "__pycache__\\make_umbrella_canopy_panel_structure.cpython-313.pyc",
+      "sha256": "3a1f3571c23e760f359b7c404480331102948b5e73c7f2547b03f69ef472b603"
+    },
+    {
+      "path": "__pycache__\\parse_original_mesh.cpython-313.pyc",
+      "sha256": "e8edcca07282e0280d38fa145e3c186bc42c574bf119746eceb3f8936e6aec1f"
+    },
+    {
+      "path": "外殼觀察面調整\\change_observation_side.py",
+      "sha256": "3645a3b3bfaa857cba6881c3280ed5383d75e09472665096bbbacd6b53064007"
+    },
+    {
+      "path": "外殼觀察面調整\\render_back_opening.py",
+      "sha256": "4e2cdad7342f509cbceae2751a9c47f5182022f50b57c73912bae0e366b5a2ae"
+    },
+    {
+      "path": "外殼觀察面調整\\完整模型_外殼修改檢查.json",
+      "sha256": "f4011a38d00701775f1da27429f52afc5b461c9d6c96065d98ffe6d4ed0bda29"
+    },
+    {
+      "path": "外殼觀察面調整\\完整模型_更改觀察面前備份_20261030_203834.blend",
+      "sha256": "af975cc309ea0b31f7962d464528d62ab01836d9f3954546ea23952eaef71bf8"
+    },
+    {
+      "path": "外殼觀察面調整\\完整模型_背面開口預覽.png",
+      "sha256": "2eb354b73a5477d16fdadf568c2cc31ad17ba5e352486f75bfbee776dbd32aba"
+    },
+    {
+      "path": "夾傘機構\\.DS_Store",
+      "sha256": "358309b0c46f0de674a53899e0bf34b303f8c973e7e636351b43d935c8793719"
+    },
+    {
+      "path": "夾傘機構\\10mm含雨傘_夾持正視.png",
+      "sha256": "763e811ee9b1a4e054121b7d46161c0c64cdefdd11de022c64801287570958f4"
+    },
+    {
+      "path": "夾傘機構\\10mm含雨傘_夾持近照.png",
+      "sha256": "aa5dfe311964e4997a4c003ef1c4c3c867758752291541d1082aca39f6cde43d"
+    },
+    {
+      "path": "夾傘機構\\10mm含雨傘_尺寸與動畫檢查.json",
+      "sha256": "1073a8b45108ce0f7ce14ae6b542cf77a3010255987f1b171acdbeecfda6d6d1"
+    },
+    {
+      "path": "夾傘機構\\10mm含雨傘_整體預覽.png",
+      "sha256": "c3cfbccaa756971df519a1765016d9418bf02b9d7d37df53303e378cc63f83db"
+    },
+    {
+      "path": "夾傘機構\\blender_generate_clamp_mechanism.py",
+      "sha256": "594e2738ef277e9d7a1288b615861b87fe5e22d195705c6803ac4e4d4fd02b0d"
+    },
+    {
+      "path": "夾傘機構\\blender_update_10mm_add_umbrella.py",
+      "sha256": "ed26a25ac991e80bfb498e4514af63c325c2b57261d929358cbb6e0347416e6e"
+    },
+    {
+      "path": "夾傘機構\\README_10mm含雨傘.md",
+      "sha256": "6187a74da5767d1c00637e820d18d74893647057f2bde9dc369645b468e93236"
+    },
+    {
+      "path": "夾傘機構\\README_夾傘旋轉機構.md",
+      "sha256": "e658ee5454050a2df88f79a18e5ac47a44939983dcab3c045e8740bf746f6e49"
+    },
+    {
+      "path": "夾傘機構\\夾傘旋轉機構_10mm_含雨傘.blend",
+      "sha256": "3beeb1e264cb56e21c9d02b6a6ce45b10b435b609d0e33f3968384a84c7db18e"
+    },
+    {
+      "path": "夾傘機構\\夾傘旋轉機構_3D.blend",
+      "sha256": "dfb8ae05027b4a5bac388a1d01ba57133654d95b7b3ec4c0a5c85695402c06da"
+    },
+    {
+      "path": "夾傘機構\\夾傘旋轉機構_3D.blend1",
+      "sha256": "05802630d308ceac5f274093db9d8e4bda1edb7fec97ec2445dd5049884ceec7"
+    },
+    {
+      "path": "夾傘機構\\夾傘旋轉機構_正視預覽.png",
+      "sha256": "41b1274ab12264bfd8db6bd20fcfe42410073a7601f87742d6cbd4a34079ad10"
+    },
+    {
+      "path": "夾傘機構\\夾傘旋轉機構_立體預覽.png",
+      "sha256": "198370f616d1d555583af43a40281be8332f6b8e591213f6e71fad18725afd8a"
+    },
+    {
+      "path": "夾傘機構\\夾傘機構.1.jpeg",
+      "sha256": "0a92ab4226e239327613b587d772f2d312d1b2a7935034991cffeddec6e0cdda"
+    },
+    {
+      "path": "夾傘機構\\定向滾輪_尺寸修正版_近照.png",
+      "sha256": "26e67e7006c693bf3d34d833951f9b23667da8205d653dea44971432cec7d797"
+    },
+    {
+      "path": "夾傘機構\\定向滾輪_尺寸檢查.json",
+      "sha256": "51466a4db3c609917794d80d2e5ba2e37747b827c395bc58749cc78101179783"
+    },
+    {
+      "path": "接縫填充_STL\\F01_中心三角板放射縫_6.47deg_300.0mm.stl",
+      "sha256": "a553e75a95c0bd2d83a409c79fc4a1d4527b3c1a8c06596963c2ba3140d302ff"
+    },
+    {
+      "path": "接縫填充_STL\\F02_內圈梯形放射縫_15.83deg_180.6mm.stl",
+      "sha256": "a482b0c2b0c4ef3b8b51c0d137eb82229e37cc9a8552f95985f0318519a793a4"
+    },
+    {
+      "path": "接縫填充_STL\\F03_外圈梯形放射縫_22.12deg_225.8mm.stl",
+      "sha256": "01c3a2110baca43e7733a3bfaf3311452b8222196e4c7a4db2f1f0c553b6f100"
+    },
+    {
+      "path": "接縫填充_STL\\F04_三角板與內圈交界_19.56deg_159.9mm.stl",
+      "sha256": "76fb787c458cb094f336f6f551b0c3681596d9237f41e7013dbcdc674be551c5"
+    },
+    {
+      "path": "接縫填充_STL\\F05_內圈與外圈交界_15.69deg_239.8mm.stl",
+      "sha256": "a6d120155744b552b3f5ec69ff1418c0edbac429de0fc48e3e7153fd56bd0422"
+    },
+    {
+      "path": "集風罩\\.DS_Store",
+      "sha256": "784f3f634db990d5f25ccf2b6fc4687af8e70e33dc8d171b3d53f65649a47341"
+    },
+    {
+      "path": "集風罩\\30cm測試集風罩_列印檔與說明.zip",
+      "sha256": "9bed788137ae7488a1c4d47badb37de9de2cc4e688444ab39b24465451fa61c6"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_216x4mm_完整檔案.zip",
+      "sha256": "10d630c56a6bb6b136b7b49bd3bd224a7928d9d91ec79479f6d9ab687cffcb79"
+    },
+    {
+      "path": "集風罩\\90度風刀_216x4mm_原20cm剖面_完整檔案.zip",
+      "sha256": "934c4d57523a20170aead18a75782513159437b4779b6584292d7307b486c2ff"
+    },
+    {
+      "path": "集風罩\\analyze_right_duct.py",
+      "sha256": "4e975860df95218c3a30057f010fab27c2ca9ff278c9253b4e80d72058e014a8"
+    },
+    {
+      "path": "集風罩\\blender_add_opposite_side.py",
+      "sha256": "648163da0b5b54550a29c546063619a5dd472680484a4c5a4a443daec1fdc9ec"
+    },
+    {
+      "path": "集風罩\\blender_build_right_hood.py",
+      "sha256": "3dc73e17d5a20f90c680328eacea626380cc9bf24425aeef1a0145893da24bd4"
+    },
+    {
+      "path": "集風罩\\blender_check_hood_files.py",
+      "sha256": "f1b2ccc9121f1be0d82b518a1fc385f9255478a12c35bcd2cb59d368f602f383"
+    },
+    {
+      "path": "集風罩\\blender_hood_preview.py",
+      "sha256": "260f83457526e5b90058c3d636ed016bf2154de928a6b765970e1d9aef0f71c5"
+    },
+    {
+      "path": "集風罩\\draw_right_duct.py",
+      "sha256": "16e58b227ef192d0fade7e09b506ff89e77c61e9f6b8b94bd673f70d23dbbce5"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版_完整檔案.zip",
+      "sha256": "8dcb1bed1de354cfaf665eead215c396e05ed6ac49b0b2ae8bc66b5eb90aed4e"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版_完整檔案.zip",
+      "sha256": "be29ab9923a1e3c0f147f67f56f48580af7d2e8c665cb75fb4c089c27efca646"
+    },
+    {
+      "path": "集風罩\\三路分流_四個Blender與列印檔.zip",
+      "sha256": "78ae5ac06e882931a72a0416180cd87503c1a5158be35e8d29c68ceaceed3d7d"
+    },
+    {
+      "path": "集風罩\\右半邊集風罩_01平面圖.png",
+      "sha256": "330e5905c13d7dab4c5916df29a2de569e9a2f3376f23337692a9b4022370283"
+    },
+    {
+      "path": "集風罩\\右半邊集風罩_01平面圖.svg",
+      "sha256": "9dc81cf0ecefec1fb2d4c361f6a1388d3776d407037e0ea221eadb680df73989"
+    },
+    {
+      "path": "集風罩\\右半邊集風罩_02剖面與計算.png",
+      "sha256": "5b8dacc42081041793b62837392ea07bf1f287471151d905470eab5d93c68e02"
+    },
+    {
+      "path": "集風罩\\右半邊集風罩_02剖面與計算.svg",
+      "sha256": "11a8a8ec3e560b80c5c5609cb25c7ecd5d3b73bb44fe34a4f7ee6c065c5b485a"
+    },
+    {
+      "path": "集風罩\\右半邊集風罩_平面與剖面.pdf",
+      "sha256": "ad00c0f7760301ad992934813d1f422a2bc99c292f3f3caf9669c0baba0cb023"
+    },
+    {
+      "path": "集風罩\\右半邊集風罩_計算.json",
+      "sha256": "78a43cc0d260c24d232ba4af37a0a11509c1de252cacd04d2b39cfac7313b91d"
+    },
+    {
+      "path": "集風罩\\右半邊集風罩_設計與計算說明.md",
+      "sha256": "4611c3f35e8fbb87f88d1809aff7da50885f5b3364c4aa09747000a116234b89"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版_完整檔案.zip",
+      "sha256": "c077e4b47ab6131f06f7fc64ae8e80e9314aa54508e02b4cf4732b6bb6ca8e0b"
+    },
+    {
+      "path": "集風罩\\第一版_加入集風罩前備份.blend",
+      "sha256": "1c60cac51c4a4d4e293adf458cf5e52914976ff5140b679e2a3e98c29da3d3ca"
+    },
+    {
+      "path": "集風罩\\第一版_新增另一側鼓風機與集風罩前備份.blend",
+      "sha256": "acf2879a6acb20549de8f26922cb3d45634daec24fbd8638e3c33e6b7d7ea974"
+    },
+    {
+      "path": "集風罩\\集風罩_出風口側預覽.png",
+      "sha256": "ddfc991bc339e5353216e6fa62f7ccc24dde2ed11eedd8baff51f07905775e20"
+    },
+    {
+      "path": "集風罩\\集風罩_單體.blend",
+      "sha256": "84c22c9ad3bd13008621dc08b69b4b91ca02b61582e0dc5ef50747163c2d4636"
+    },
+    {
+      "path": "集風罩\\集風罩_單體_mm.stl",
+      "sha256": "8ac775789004a7601eab19cd90e277fccc21c895e98b4f78073e7237f348161b"
+    },
+    {
+      "path": "集風罩\\集風罩_單體預覽.png",
+      "sha256": "aedb654022c9a5c3f7346755c7f7757e873002223c94a25d6e0b118271eddc7e"
+    },
+    {
+      "path": "集風罩\\集風罩_外殼內配置預覽.png",
+      "sha256": "9c708f4487bc21a76293532da1dc3e0661ac564b5118282e2c1772ece8a25681"
+    },
+    {
+      "path": "集風罩\\集風罩_建模與定位檢查.json",
+      "sha256": "1f2662284087b555fa12b3a0d1474a7883d7bc38d860dc6149793d92c572e209"
+    },
+    {
+      "path": "集風罩\\集風罩_模型使用說明.md",
+      "sha256": "ff3e2c823164f582453b25a46a3090e453f0436d53c3d14adf9f097044b3517e"
+    },
+    {
+      "path": "集風罩\\雙側鼓風機與集風罩_位置與原物件檢查.json",
+      "sha256": "9caaf1da82dedf007b5d9a194c8b1783619555106c0f057e76fc30a251f21c2d"
+    },
+    {
+      "path": "集風罩\\雙側鼓風機與集風罩_配置預覽.png",
+      "sha256": "d5185fc24299b2808ab5ccd21c793718508980c1ccfde8d5a9f1688a481cdfbb"
+    },
+    {
+      "path": "雨傘架設預覽\\.DS_Store",
+      "sha256": "4d0f29e60c9d04dff245236a75f6a502420e798d2cbc5d4d630455ce44611319"
+    },
+    {
+      "path": "雨傘架設預覽\\23吋開傘_側面間隙模擬.png",
+      "sha256": "6a300de20ebb094e56cd8886c9643ea763f2eee8e65d6b00e76c0d757735172e"
+    },
+    {
+      "path": "雨傘架設預覽\\23吋開傘_傘柄支承近照.png",
+      "sha256": "5654c6be6a3ffa058082e760414151ec25c7fd00237a71753a2677051a923c35"
+    },
+    {
+      "path": "雨傘架設預覽\\23吋開傘_立體架設模擬.png",
+      "sha256": "ed5252b966f795bfe78a307c17da17bc8ab57c9eff20c5cda36b71180b80c4d3"
+    },
+    {
+      "path": "雨傘架設預覽\\23吋開傘_預覽定位與假設.json",
+      "sha256": "b1833e30b1b075678fe542c468cb759740a9490522b334dc9b89638202022fb0"
+    },
+    {
+      "path": "雨傘架設預覽\\render_open_umbrella_preview.py",
+      "sha256": "378db53c20614bbc47bf51ae3dfc7e5c760ccd5dff48eba4e654a3e44e35a6a8"
+    },
+    {
+      "path": "雨傘架設預覽\\預覽說明.md",
+      "sha256": "aa4015de883ac523da3ca5ef4d803a5ce366a06dacabbd98bc35b2a225bbc199"
+    },
+    {
+      "path": "鼓風機\\.DS_Store",
+      "sha256": "7714db3ae8ddc4a881912716f70e59255f04d9a2bc337d6e31f84361323e8d09"
+    },
+    {
+      "path": "鼓風機\\blender_add_blower.py",
+      "sha256": "5fe7d05105b9749b8a55d771271bb77194bd7f09abf3f9c4ab24c3b253f6442b"
+    },
+    {
+      "path": "鼓風機\\blender_join_blower.py",
+      "sha256": "9ae4ccca01b076f7a50135b0bd3bf717317d9d5a806f9cb4b704a02b488c331d"
+    },
+    {
+      "path": "鼓風機\\blender_verify_and_install_blower.py",
+      "sha256": "3ae4272e1fc69a14ee00b5b13076138e2be315f80c1b680ac1d5338364c207c5"
+    },
+    {
+      "path": "鼓風機\\第一版_新增鼓風機前備份.blend",
+      "sha256": "6007db415f9954dc5ab4ce16a3cd9227416d2595fb4a8cd7d04f258178a06eb8"
+    },
+    {
+      "path": "鼓風機\\第一版_鼓風機Join前備份.blend",
+      "sha256": "42a1b41902cfd3ff391efb0b8df418d47aaf5cde92c3c43d42132342135895e8"
+    },
+    {
+      "path": "鼓風機\\集風罩_現況幾何.json",
+      "sha256": "fe7ba1a044e05b7e6db225a3c73ad5a354acae80bbe07606f563fa2f8ff6bca0"
+    },
+    {
+      "path": "鼓風機\\鼓風機1.jpg",
+      "sha256": "236de95e2abc1132ec568888c6c863146b0c6115a217d8da8f0515001655eb4d"
+    },
+    {
+      "path": "鼓風機\\鼓風機2.jpg",
+      "sha256": "bcbf2fee0a4e8e8e9eb45922c1937699e60ea8079a2190fc5e100e46b498fe0b"
+    },
+    {
+      "path": "鼓風機\\鼓風機3.jpg",
+      "sha256": "3046dd54cb1c52a07bceda2b853e3ebe77d9ae57ca82dee557c449c7f668c920"
+    },
+    {
+      "path": "鼓風機\\鼓風機4.jpg",
+      "sha256": "7c2957e343b2792ff56d4bb4746b7251e98083972381d2937468da39793e9a67"
+    },
+    {
+      "path": "鼓風機\\鼓風機_Join檢查.json",
+      "sha256": "a76e499d582738cf0938383b49755b6fd2ee209d6969deaaa1eb8b586da322dc"
+    },
+    {
+      "path": "鼓風機\\鼓風機_尺寸與原物件檢查.json",
+      "sha256": "58b9c5622645aceb1a86f1565b47f371d3fcecf6820ba2d88f69980b1c80ac76"
+    },
+    {
+      "path": "鼓風機\\鼓風機_進風側預覽.png",
+      "sha256": "80ddb575eb0789138350b63894ee0ffd2c5e7f35a1bf11397e7c3b85dee42181"
+    },
+    {
+      "path": "鼓風機\\鼓風機_馬達側預覽.png",
+      "sha256": "9559376c00b788b5e2293bc110eabce9f3b980ca34aac339c24590bcc36bab81"
+    },
+    {
+      "path": "鼓風機\\鼓風機數據.jpg",
+      "sha256": "86667c43b319874c73558483ddf23833dd32d069efafc458ca66c3ff4e27fc87"
+    },
+    {
+      "path": "鼓風機\\鼓風機詳細尺寸.png",
+      "sha256": "140e62248ea6233dbb795449482fb51e1a1bda93288aaedb0cc83d3f86c115cb"
+    },
+    {
+      "path": "鼓風機\\曲線資料\\150FLJ330W_曲線搜尋與版本核對.md",
+      "sha256": "3ee10ad722493ee0198c8981322c16ae5add6ea5da87b1e636b59a995a7aab1e"
+    },
+    {
+      "path": "鼓風機\\曲線資料\\CNDF_原廠型錄_版本待核對.pdf",
+      "sha256": "5a79da62d11dd2e07fbd60d8bfdf6e7e919431f0d6f32b3785c29e5d7ee4e91e"
+    },
+    {
+      "path": "鼓風機\\曲線資料\\CNDF_第22頁.png",
+      "sha256": "d82c702e454a6a7235bafc644aae16643a71d0a64a9a1073dd15cf6b984bb80f"
+    },
+    {
+      "path": "鼓風機\\曲線資料\\SOK_150FLJ-N_參考曲線_非本機確認版.jpg",
+      "sha256": "1f3df2d54357e9eec3b2513e144e4c2cce67dfd827050fe29d73a6c8f0a7a5c4"
+    },
+    {
+      "path": "雨傘架設預覽\\折疊傘修正版\\23吋折疊傘_側面間隙模擬.png",
+      "sha256": "98fdc646952e2573dee82495cc157f8c2c7c88279d8370c4032e3e0605ee6720"
+    },
+    {
+      "path": "雨傘架設預覽\\折疊傘修正版\\23吋折疊傘_八片傘面輪廓.png",
+      "sha256": "4f68d37f459fbf3ac8f3589f5489e88e29dedd37e18c7302feceb4fcc088f8ab"
+    },
+    {
+      "path": "雨傘架設預覽\\折疊傘修正版\\23吋折疊傘_短握把與凹槽.png",
+      "sha256": "f2d1c87e6c9c33c3e129520f074d6de54eaed6a787eb0af802bb9c9a98bbb550"
+    },
+    {
+      "path": "雨傘架設預覽\\折疊傘修正版\\23吋折疊傘_立體架設模擬.png",
+      "sha256": "2a11adb8444ce6491f236774f02c35985c6b8039282db5206acc6f19e47956b8"
+    },
+    {
+      "path": "雨傘架設預覽\\折疊傘修正版\\23吋折疊傘_預覽定位與假設.json",
+      "sha256": "beb77d75f35af0de83b833655b5868de712903e07c9bccea69eb4b96b593142a"
+    },
+    {
+      "path": "雨傘架設預覽\\折疊傘修正版\\render_folding_umbrella_preview.py",
+      "sha256": "449a9035167ed0b5af2e4bdf4baea1e5c5a3fdefd959a7bf6009cb98fc74151d"
+    },
+    {
+      "path": "雨傘架設預覽\\折疊傘修正版\\預覽說明.md",
+      "sha256": "f7abe0080bde040f81d1622daacf403a287949f2060a3f799ecdfe2a2e62ce30"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口\\.DS_Store",
+      "sha256": "faf8f616a1de79bba7aa52dcbf7e959a64f747d5448ccb31643175e575b2fd24"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口\\20cm單件出風口.blend",
+      "sha256": "249cf20ac567a014abdca4c5b6c78aa64f186657d2252f5a5a260facc2cfc247"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口\\20cm單件出風口.blend1",
+      "sha256": "b23c2171228147ec681b43785f8aa86ad1823b4af4c054d33e7c073af337285e"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口\\build_20cm_single_piece.py",
+      "sha256": "86b109db271a79a7f4c1e518e25810c52cdba5564418c3b149edbc3b7265f9a5"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口\\使用說明.md",
+      "sha256": "157eaf12e1bb560371aeab938614ba821641d3eb2edf466a3536c9623e3e5618"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口\\單件出風口_尺寸檢查.json",
+      "sha256": "049d1a2c163bdc1b774ed696c845d4800199593bd82da8c486adc5d096a32ed7"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口\\單件出風口_直接列印_mm.stl",
+      "sha256": "6d23ae0aa13a62318968c7174e92b53ef7c7758d759fe052d1c4cec01e7e520d"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口\\單件出風口_預覽.png",
+      "sha256": "82a3937003c99cf8644f68c8910858592bcd1a611ed7b4d0ac63176d491049eb"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\20cm單件出風口_平順改善版.blend",
+      "sha256": "5c19f26a9e8f8e5c8991a67217b64b953bfaeba6aa0b787e5e4a35143ff5c3a3"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\build_improved_single_piece.py",
+      "sha256": "4efd2b6dad92a8db79fb93d62dc9c625fdc10090cd92b2b387dac5edfa7ccae3"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\compare_transition_geometry.py",
+      "sha256": "20b013a2f5d50bffa38494b31f92a6145cc06c81fd58e59c638c105efa093e29"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\draw_transition_comparison.py",
+      "sha256": "faa9f01006e26ef3885cd019799e6baf425d3ede5cfa96a799c4f063873e02be"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\使用說明.md",
+      "sha256": "31de74b49e97e594c66daa3c88521a6e3943da2070a221847650379643a734b7"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\平順改善版_單件出風口_直接列印_mm.stl",
+      "sha256": "1a3280f86ebfd478886fa83acc1d383c7fa140c8965ac7dee95a5b71a2efd9a9"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\平順改善版_尺寸檢查.json",
+      "sha256": "9e90284597ad8be141a790e1d7636e4a486c9344b6b3295eb84a0c17336e36de"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\平順改善版_預覽.png",
+      "sha256": "e7beb13dfdcbc8e9817e5b16f807fb890f61e75ceaaf357b019fa35e7263a73c"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\轉接段_前後幾何比較.json",
+      "sha256": "47e937147ae901b16e925c796cf9a4bff991880384c29529b1dac31a8f744aa0"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\轉接段_前後截面.csv",
+      "sha256": "6fb3e1ad39cd1b987793d8d434186176beffef3a1b223175511e05ef76e32202"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\轉接段_前後比較圖.pdf",
+      "sha256": "3f62e7c87d36d4125c5b85ab08b9b975802c9a98175f7b78537b2b1e000fd619"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\轉接段_前後比較圖.png",
+      "sha256": "fc84aae0e75eee387f42058a0a348fc8cce72e4dfe62e3116864ed89c3f15b6e"
+    },
+    {
+      "path": "集風罩\\20cm單件出風口_平順改善版\\轉接段_前後比較圖.svg",
+      "sha256": "38f1ad87e910d470b35fcd7d19513d0bbe6434d72a9ea845db1508f70ca37981"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\01_集風罩本體_整件_mm.stl",
+      "sha256": "a01311f0639f2a8590ce2d4cc6744a0a4b60644d3eecb9c67399ac7f33b2159b"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\02_本體右半片_切面朝下_mm.stl",
+      "sha256": "0d780167b1b8c1afae86bbe8526eb450b25ddf0ab2f4c54c4be445192a41a470"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\02_本體左半片_切面朝下_mm.stl",
+      "sha256": "697644d41b946875b2e3adba6c87ea1993595951ef82794f3eb246484f6f8235"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\03_旁通孔片_00_封閉.stl",
+      "sha256": "7e8388fb1fdbdb4e47f9256ccbfa3b5d39d10dbbbf2d8712b486368f995b1adc"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\03_旁通孔片_28mm.stl",
+      "sha256": "6d393e03fb50ed32f6077ae6bd80a37f5f097ba6f2ce23d3c62d2e9dbf1b5ad0"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\03_旁通孔片_32mm.stl",
+      "sha256": "5ad60dcb0c38f62fcd05dea542316f7cf181aef1272321e78f9c166c93f6568e"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\03_旁通孔片_36mm.stl",
+      "sha256": "e214a5811a80f5b040487c58f9548feb1e516ea1a5720ec7ceb5484ccdeba909"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\03_旁通孔片_38mm.stl",
+      "sha256": "029cf631f1b6f23346708ab846bea95b69567aede899380241c6d2d3ccf20510"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\03_旁通孔片_40mm.stl",
+      "sha256": "d923f22040605fc1c0282644f86aaa88acae59107bf14bce37a06213ee9af572"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\03_旁通孔片_44mm.stl",
+      "sha256": "8ae2788fec5227250b7ce43dad3c2c1bf4372d9961f6279ebff6d8d66c2a3cc8"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\04_測壓口封帽_平底朝下_mm.stl",
+      "sha256": "9d91880d4727a8ce30fcc3664731308ee4971c562717e3d9d4df1ed9b71ca421"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\30cm測試集風罩_組裝.blend",
+      "sha256": "98dfa3ea0fb90a7938402bb64ba8eb32fcdb2d725d0c9a6db827a3822874ced4"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\build_printable_test_hood.py",
+      "sha256": "82eb3b51c9c282ce8ee720069c41c43b83e68244774864d33ec8e24f3586a70e"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\check_saved_test_hood.py",
+      "sha256": "ed45482afe5f430b4461ee98a57b20760f363823e890033b5d5ba131dd0f8fe4"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\check_stl_print_files.py",
+      "sha256": "c1130ce774b507a2435eed6a5fa818d9020292140d01bf37091577f3d3150c1a"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\draw_test_hood_spec.py",
+      "sha256": "cb40ea1a54fbbf706a799cd62eee9d1e36d35cf17a1dd67808b4a2c299c541ce"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\STL檔案重讀檢查.json",
+      "sha256": "f6a6d1522a55917bb6b005d2f0358a650d7a381d15255e69abab73ba8ee8e81d"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\列印與測試說明.md",
+      "sha256": "9252548677d78d8572122a8adb6be649f459e34d2711f895e5e80cc6fd1eca00"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\實測紀錄表.csv",
+      "sha256": "d46fe3979b37fc4b3f162aff25a7c0141dc1229bbd8ce68cba0bec06f0f78aee"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\尺寸與幾何檢查.json",
+      "sha256": "708d18910053adebc3a9be7246d8aeb5053102a04991f7040ea65ac9e49c7394"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\測試罩_尺寸與原理圖.pdf",
+      "sha256": "38a7deb8d6d1b357a3745cbc44b2358f8132ff59b357704cf4830a7f4e9e17f4"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\測試罩_尺寸與原理圖.png",
+      "sha256": "f9e841a70ff9663e2a09ac0ef79e6e084440a0b0a53cb8a60cb1d43dc46430c9"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\測試罩_尺寸與原理圖.svg",
+      "sha256": "940ba2f4c3eb01cc97f797c362e72dd58152acbab3a9fefaedfa691df5472b3d"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\測試集風罩_旁通側預覽.png",
+      "sha256": "25e1383e66b9805d03bf64ba37ec07d1dc1da9af5d78ae34785bb6e8c4680c64"
+    },
+    {
+      "path": "集風罩\\30cm列印測試版\\測試集風罩_正面預覽.png",
+      "sha256": "931a47ec2ceaedc133f0ccd561b15b9364a77e2a5bde2e4d8283f80643d9bca2"
+    },
+    {
+      "path": "集風罩\\30cm單件出風口\\30cm單件出風口.blend",
+      "sha256": "a2b016c047c94b207e89a0b1fd74e3304347e7bda39862767a4511c0c3dfdf04"
+    },
+    {
+      "path": "集風罩\\30cm單件出風口\\build_single_piece.py",
+      "sha256": "402eda39b17540b4c76db2737eccaf42ca0ce8638cc29f4e82c7414ac22d1d36"
+    },
+    {
+      "path": "集風罩\\30cm單件出風口\\使用說明.md",
+      "sha256": "c3591b4fce5d54702793c6b6add6c646f5316b1c47fbdc2a8aacfb27e530d051"
+    },
+    {
+      "path": "集風罩\\30cm單件出風口\\單件出風口_尺寸檢查.json",
+      "sha256": "60964c610ca4ff80cd286741abc11eda014a92802eb213b1376dd9178933cbe5"
+    },
+    {
+      "path": "集風罩\\30cm單件出風口\\單件出風口_直接列印_mm.stl",
+      "sha256": "c2c3881284edf777a8c6764fac64e014122d4ee63217402d8c2d3f2a6b782a7a"
+    },
+    {
+      "path": "集風罩\\30cm單件出風口\\單件出風口_預覽.png",
+      "sha256": "c755aa3eee139d994186f1b45d47735c1cbb1b251a47117028ddfde03b9fbfe3"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\01_原20cm剖面_完整外觀.png",
+      "sha256": "c69f524f68e4443445c611507dd07d922fdd63c1cb56acd3a755f8cd10fdd936"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\02_直線4mm刀口_近看.png",
+      "sha256": "ffe80afada4323be58da89beadaf18636702cbb922cb4a293a149257e5f40ac2"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\03_薄流道轉彎_對稱緩收_剖面.png",
+      "sha256": "9ef213023c24b1f6a6995c6adb4e63aa1e3977a8bb8d968c97f7bf11ebdfda08"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\04_原20cm剖面_尺寸與末端放大.png",
+      "sha256": "bf7e4956c3e630d77aff35d21980866fa6062089517c281ad7423354271c1836"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\90度直線風刀_216x4mm_原20cm剖面.blend",
+      "sha256": "a0391f235a11dc025ce7e57288bc6f84de931d5d69ba93e64a34c70dc58343e8"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\90度直線風刀_216x4mm_原20cm剖面_單件_mm.stl",
+      "sha256": "4d0adb20c44a3253353038cfe096b0f33f8a4e758943cbb6e557624ccae17214"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\build_90deg_nozzle.py",
+      "sha256": "ebd782ef1b4e217183748c67c9323818a3c3edeb8356fb101f7b502707f65998"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\draw_dimensions.py",
+      "sha256": "d4a1e877f59144d3977bd8ebd4770c0e88bb5ba6dd522b763f04d70ac184e0cc"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\finish_delivery.py",
+      "sha256": "a04dcc46d9ed9515b0c09deb6b1322978f832445515de0486bf186ce85b9537d"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\render_90deg_previews.py",
+      "sha256": "bc6e53aef78fbaa9f42b2de50cc9ed3a7a6ebd2ff8618dc570313b57617ce7dc"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\STL_重讀檢查.json",
+      "sha256": "48369910022991fdaba913c7981c10970a9fec045f5202ee537c4e81fff876a7"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\verify_stl_files.py",
+      "sha256": "28c30517213756d29d4abfcfa786c300b816c9ee022540a8ad1d5d423aaa8cd1"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\使用與列印說明.md",
+      "sha256": "dee6a541a91113c938563965eea5e396c4c715f28d1d8ef4f369b432ca37baf3"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\原20cm剖面_尺寸圖.pdf",
+      "sha256": "a06b24cd9203b62d78f85209ab65c5add35ddd3f954382b2c1422f6fb9ffc7f0"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm_原20cm剖面版\\尺寸與流道檢查.json",
+      "sha256": "28b5d194942536bcce8fae1333c84caaea4d98f4022ffe4c1d71a475d9c5a018"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\01_90度風刀_完整外觀.png",
+      "sha256": "34fcb14490b2cb5fb32f58932160cf84c8c1f6a584f0bea52c758dae1f73e8de"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\02_直線4mm出口_近看.png",
+      "sha256": "960bf78a0987518679d158f4260a70bbf869db98236525410ab70cdb09329a78"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\03_90度內流道_剖面.png",
+      "sha256": "50ae60aecee22a29dbf8cf5ea2acb0536aeb1f10460e26fa145a357363367113"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\04_90度風刀_尺寸圖.png",
+      "sha256": "a0cb03e96654a6e5d96686d4d97f2e0b9e884effc08a123bfdf7e7e26538cff1"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\90度直線風刀_216x4mm.blend",
+      "sha256": "2c4cb3f8f35b5d6bb43f4197bf0b2cb1dfc94b48818f60f8d5d35cf94c1015b0"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\90度直線風刀_216x4mm_單件_mm.stl",
+      "sha256": "5029cc0fc712cf857bb850f9d6921acaf4f0812371d2c0b26de083c8450ff3bf"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\90度直線風刀_尺寸圖.pdf",
+      "sha256": "3d0fb655197be6b4cbdd64b70c492b37fa5750c69850e081e9b5815cb34eda15"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\build_90deg_nozzle.py",
+      "sha256": "a5f722b65aade81821b8b030ee44204f8f3282495bb75df8531a305ef02f5b57"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\draw_dimensions.py",
+      "sha256": "6ec227fdef33b8b8e9fc254062619bc5f478a85c6311e15ac1bf305e3225abab"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\finish_delivery.py",
+      "sha256": "d0d3c86aa41facd909ad2ef2de8047d1ec3e6d15345e81d4dadd17b9b7aa70d2"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\render_90deg_previews.py",
+      "sha256": "6297478280a9b7036036e1923f9c000054255e6c2829cf4c21ee26f55135f093"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\STL_重讀檢查.json",
+      "sha256": "8f411a4520fd84d03862e2cd7116550c2db73843897017658035a01b279a0cac"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\verify_stl_files.py",
+      "sha256": "28c30517213756d29d4abfcfa786c300b816c9ee022540a8ad1d5d423aaa8cd1"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\使用與列印說明.md",
+      "sha256": "ea83239cf1c90da5651de0414a4a782a02064635420906ea86c38724b5f5bdc6"
+    },
+    {
+      "path": "集風罩\\90度直線風刀_4mm測試版\\尺寸與流道檢查.json",
+      "sha256": "7d7dedb6ac035d861c224d8866ff0608493362bb53c9d78a1ba520c0997a0e93"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\Airblade原理_第二版01連續展寬.png",
+      "sha256": "882b483ed2ea9c2ebfbae09dbb77cd0f4365e69b10d78acd7d88118580ea114e"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\Airblade原理_第二版01連續展寬.svg",
+      "sha256": "d2e63c1da8183221ca429b9d8ff977bde24449feac73406ad70fb5ced9549dc6"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\Airblade原理_第二版02平順噴嘴剖面.png",
+      "sha256": "38b2febc83baf4dd4bf03bc42de6458f812d12b713f11a0e15a63812dd308c27"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\Airblade原理_第二版02平順噴嘴剖面.svg",
+      "sha256": "2c0dde79c478349d94bd6f4d377f1302bdd874dfa7fd807f9db538105b097563"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\Airblade原理_第二版候選尺寸.json",
+      "sha256": "e89737dfb632faf4c3157edb84390079a539ca8cea8060f1343fbf4759f4a1a3"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\Airblade原理_第二版圖面.pdf",
+      "sha256": "ec8fa886609bed2d60f83eaff6fb3100bb640793e51b3c56b99afee431c3375b"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\Airblade原理與第二版修正.md",
+      "sha256": "a419ddfc6bc134e3181f32c2566a0f56402ffb36015e413254b60c54b97373cc"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\EP1909627B1.html",
+      "sha256": "188d46586eef8ad8cf1af8532d47aea95a313c2f993616ba030e50d121a8784d"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\EP1909627B1.pdf",
+      "sha256": "2b70da6a9e972ef4c105c699eb98f85bf1c79097b11e9194b9dc495655f83c41"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\EP1909627_figure3.png",
+      "sha256": "368f3b183d9713d8f2843f106cba8b339a81af18577266b5581eddda5059981f"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\EP1909627_figure4.png",
+      "sha256": "237c94f095165691b5f0443d5c37b1a1c6b71e4d9345d5213c2a3138d08f8f1e"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\EP1909627_figure5.png",
+      "sha256": "f4e7504c68c314de6b4e16c053e04e6496691bc39e96bcf6cb26d4482f2e2c31"
+    },
+    {
+      "path": "集風罩\\Airblade研究\\make_airblade_revision.py",
+      "sha256": "cd608a03f806f3690c137f9667992f9d36db05291181ce22b68a669ec57d2384"
+    },
+    {
+      "path": "集風罩\\三維CFD\\build_case.py",
+      "sha256": "7c30b525e45b7ca0ac78f560b7f179ecddbaa337031698baf38428bc2dc81cec"
+    },
+    {
+      "path": "集風罩\\三維CFD\\Dockerfile",
+      "sha256": "8cc6730e768fc517e460ca50c7bfc8951c3249f8830833f3bc06c7f32cf45b9d"
+    },
+    {
+      "path": "集風罩\\三維CFD\\environment_build.log",
+      "sha256": "1b0d8515845d002ae5d06ddc22fac1c5d1710e37d8666cb2b089b8e068902564"
+    },
+    {
+      "path": "集風罩\\三維CFD\\environment_build_https.log",
+      "sha256": "206553cd30e5d4de7495463eb91769b48b91b07679a7112a1562b1d9aee27960"
+    },
+    {
+      "path": "集風罩\\三維CFD\\run_case.sh",
+      "sha256": "5570b5a7ce12fbbc2978670c06be31819f3e2b7f7458ecc0c8037ef109ef6c86"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\.DS_Store",
+      "sha256": "992da6235841b44e246c05dd04a6979cd6883748d45d63f8ba6f1141da712d37"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\01_內流道剖面_新舊比較.png",
+      "sha256": "d5c06ccec5aeb31039807ec0ede5f7733c3fdb9122313e3d4def26288297fd7d"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\02_單側組裝_內流道平順版.blend",
+      "sha256": "aae5dccb479a28e06ec56de88d1f1ba8182b10ca1044246499c8f60eec8d2a89"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\02_平順接頭_完整外觀.png",
+      "sha256": "8c4b0b8d3b2a66d0df7ab77ca27e1415b95f9b57dfb38a4ecf450fd9b50408a2"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\03_內部剖開_薄前緣.png",
+      "sha256": "0dd4b8e4e6692defb3f5b50973c481c5733dfd4d9114d3783704c65f53ef2fb2"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\03_共用分流接頭_內流道平順版.blend",
+      "sha256": "87db924b2e66f6211fc7179ec92bd63f28626e947e1795f5864a697603a57ac8"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\04_小型集風罩_共用款.blend",
+      "sha256": "19ad988d97a449dfabb92142c35f48614825ce25c3560ff4d41cca80fd0e2ed9"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\04_小型集風罩_共用款.blend1",
+      "sha256": "d429bbb639407a843b595cee33ae10e6f1aa7655fadae812df289dbe6542f530"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\04_鼻端與矩形根部_近看.png",
+      "sha256": "d598b7cd522ddef9bd8a965e566d85253eaee0b08ae9f28cfb5db01d78169864"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\05_整機_平順接頭配置.png",
+      "sha256": "eed4dbb180eeef2528d2e0d6c45a6d65c08a7a2289aaafbf224ce1e77957eb9a"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\build_smooth_splitter.py",
+      "sha256": "fbd7d3cdc336b0b9e501f3f3ed5ec6b84771833b5921c97afdbca509ba1bbff0"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\draw_section_comparison.py",
+      "sha256": "2563f2700df81fb2d0dc6de40ee5cb31150a6856d209d3c285b380a830ab88f8"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\finish_delivery.py",
+      "sha256": "204e631da39ca2421f42ce1b4e1a6a2091476261f63b0cb9e97df8754a3a578f"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\render_smooth_previews.py",
+      "sha256": "f597fb34bb56b881d5b5a82a34d928265c40d98fde554c67454130f22248e267"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\STL_內流道平順版.zip",
+      "sha256": "3351be1c42921ee6b40b89e9cc31461889221dc09afddb4a01ccce2d730c78d2"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\STL_重讀檢查.json",
+      "sha256": "bc64334ac43a314b09ae0db31857da8090142ad20069e7ea1bd562346cb7f8f9"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\update_assemblies.py",
+      "sha256": "e69aa205d631b3fb0c36ab5c5d9b97df3811a9d8152f6fa0b8e359df3010f890"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\verify_interfaces.py",
+      "sha256": "34927ca1801b4c465f528e2f68d38328ad869a2d44bd2d6d2fc1c4fe2e7edaf8"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\verify_stl_files.py",
+      "sha256": "d1d9db8a5bd6d43fbbe513afe2208c0c0b66febe4ec0679948a72b0ee5007b41"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\使用與列印說明.md",
+      "sha256": "0d27890932ec7758367d41c714d9b0824473b04b0d022fb0aa0c80383c486110"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\完整模型.blend1",
+      "sha256": "9f273615a2c9e8ee092c3925dc3a8203788ed6d1da90c553c69c6c95fc42b981"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\新接頭三角面.json",
+      "sha256": "908070cd10bee640e2663af5e71f8b7121be695600951a93667ace8050f41ad2"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\流道幾何檢查.json",
+      "sha256": "c20852dd6c7548b5d78dce04b75014a250624361f8c47661e598b08d34fc7ff5"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\舊接頭三角面.json",
+      "sha256": "e8c4ea310dd7dfdf402f21c309f99fdc1c39c0bb5a5e1a0c778fae4db1cbc089"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\01_第一版_共用分流接頭.blend",
+      "sha256": "5745cb67c544306c5f28ca63b109e0eafa518a88a621a74660de234da4068547"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\01_第一版_共用分流接頭.blend1",
+      "sha256": "55fd15b06cbed6cc1e1750cb3d60a4dfe2407d4d81008c90b682c4f4efe9987b"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\01_雙側配置_透明外殼.png",
+      "sha256": "e953f8b38e8f20dd36cccae1d53dca79c5d92a5ffafcb8249c711977771e10f7"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\02_俯視_鼓風機對稱定位.png",
+      "sha256": "fe862bec3d95b1508b2b382d5b876d8e1724259b2fb8944b44a8b407e5dd7a32"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\02_單側鼓風機_導管_集風罩.blend",
+      "sha256": "019053b53c6ea97d55195c96782639c89f2ed512c7eeef79bf12f1f34c95448a"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\03_共用分流接頭.blend",
+      "sha256": "aa0724bb74c382ff1ae8a9e3c337f6bf427fb8330a7b1d813719145e8d708dc9"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\03_單側完整組裝.png",
+      "sha256": "e98eb9195224547db59a1b2d1778d26f18da524ce3fdf499bea3ada213a1df1c"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\04_同款分流接頭_兩件示意.png",
+      "sha256": "75a0bf774266a203910c79dfc5a28239ba8e8a12bdce391842e44f85e476f694"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\04_小型集風罩_共用款.blend",
+      "sha256": "d429bbb639407a843b595cee33ae10e6f1aa7655fadae812df289dbe6542f530"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\05_共用小型集風罩.png",
+      "sha256": "e145a88df4075369e1d2ff004229f8535848dffa4a03b50cbcaf9abaea044981"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\build_shared_revision.py",
+      "sha256": "1d7efeda211ba5713ab8e7b262928c4282dd84a408eb75a81db02761b454573a"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\finish_delivery.py",
+      "sha256": "a3ed6bcdde831d9012c1fb0f75247a6e9900013147bec130dec1ff4253a5d35f"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\render_shared_previews.py",
+      "sha256": "32b2949ad0ba46aa7eb4624cb427f4acb66c33cb57ff34684d18632e46d73e89"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\STL_共用款列印檔.zip",
+      "sha256": "fc03fb1646c70df2190599b897c311b500c29e6f6e0a11d1189e0afd567fd53d"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\STL_重讀檢查.json",
+      "sha256": "f9d49e25ffe3dbf9ebea843f8fbc9b8159db0e1a3ec9085dd88a837ea5a84f6a"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\verify_stl_files.py",
+      "sha256": "d1d9db8a5bd6d43fbbe513afe2208c0c0b66febe4ec0679948a72b0ee5007b41"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\使用與列印說明.md",
+      "sha256": "7985ab1bf7b18781df0c3a6c9f1fef36276a674c372cd64543a6736913d45e71"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\修改與幾何檢查.json",
+      "sha256": "bc99fd33f94e5a1b9dea23c4daaa1d32df39f4a2e2fd10bad71b910bfabe486b"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\.DS_Store",
+      "sha256": "c009f2bd35cefd4acee7a468073529fc80a9871e79128a1c4e3671930a7dfbac"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\01_第一版_三路分流集風罩.blend",
+      "sha256": "5ecde264ffc96f387ae6af8156e2c40d481b6610859f758dcaa8518618323f92"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\01_第一版_三路分流集風罩.blend1",
+      "sha256": "07baec2a2d81e32c43abfdfa51d31c03a55cce6bfd46c5c3ae7d2137d6fe7c4d"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\02_單側鼓風機_導管_集風罩.blend",
+      "sha256": "019053b53c6ea97d55195c96782639c89f2ed512c7eeef79bf12f1f34c95448a"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\02_單側鼓風機_導管_集風罩.blend1",
+      "sha256": "e71a7bebf2c10971ccafa21e31e85471735977b9c1d4a3e2b4655f374bed28fb"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\03_分流接頭_左右款.blend",
+      "sha256": "f7badcfe783a050235d9ae72b94176819f7229585f1aa5fddd79a4016357d92b"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\04_小型集風罩_共用款.blend",
+      "sha256": "d429bbb639407a843b595cee33ae10e6f1aa7655fadae812df289dbe6542f530"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\assemble_four_blends.py",
+      "sha256": "8fb9ee48aee4a56ca277ecba12c344777d9cffa2e8112a08679b020fa8697ce2"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\build_print_parts.py",
+      "sha256": "e3aefcc4f5934e7c8a3dc061f40ad697321d1191053b9d5d7973aecae74b595c"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\package_deliverables.py",
+      "sha256": "eecca6cb3a80c3ecf9132b25dc3ed38fc791523ce0702e7eacc8e596d3d07591"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\render_deliverable_previews.py",
+      "sha256": "2e9fb5d19c324e382c06d4530a6efda61d4a983b2c4dbe261f5ea82445a1fa7c"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\STL_列印檔.zip",
+      "sha256": "2c336e9fa735cf7efd498f80ecd5286be7cd779a00b907dbe826eab0aa764334"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\STL_重讀檢查.json",
+      "sha256": "989907b846048b63798fb598de41379e02b998f21b467a2ddabb2b96cd653e07"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\verify_saved_blends.py",
+      "sha256": "a9fa36464abbf15a51490ca937ee44f7c8b25246985a50a272edd4d40fe67e30"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\verify_stl_files.py",
+      "sha256": "d1d9db8a5bd6d43fbbe513afe2208c0c0b66febe4ec0679948a72b0ee5007b41"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\使用與列印說明.md",
+      "sha256": "8b08b2d4e87f5f76baf7bbf4bb149bc4e4cb04bdac49edce6c0850b93d2947b5"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\共用小型集風罩_預覽.png",
+      "sha256": "a7cfb9865497dd436c169c749245793cc7ba54e60e8c827e3b956f9ea65aa020"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\分流接頭_左右款預覽.png",
+      "sha256": "c8ab3fdbfd7a4f8d666ad743ebda82399191209594e3fec0d9fe6664d2bae1d7"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\單側組裝_實際模型預覽.png",
+      "sha256": "1af68741c1c5663ad3bf1bc07e21e759f0f9d33ab475b3dd12b71f0c09f43689"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\模型與列印檢查.json",
+      "sha256": "49e71e8a0276a6b88d2d66e75937d04a744f6cecfe94098722d0ae941ade6f5c"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\.DS_Store",
+      "sha256": "443306e33c32b1c3137552d87eb0773953eb416ce567821ff2520ffb7d15038c"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\render_split_duct_concept.py",
+      "sha256": "5702bfaac350e4d867499e0d971d4a7310a11507d30e1fb8297731a49077b2a7"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\三路分流_單側管路與噴嘴.png",
+      "sha256": "8f056be62a72e601776f2cd52e819cd180e2cbdc397f1fb4fb2c500233d9bb93"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\三路分流_正面配置.png",
+      "sha256": "01f8abbb9c40e4b777c619df424df58742eab36ab8739c642b160d40728ed094"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\三路分流_配置假設與幾何檢查.json",
+      "sha256": "09ac13f5cab0c78ea70786aef86120e9dda744fd1ab614ca89c4be30af1af97a"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\三路分流_雙側機殼內配置.png",
+      "sha256": "d777822b1ab64796bb7f84d3efded5d48fa1c6ac497797501a4ec564c6e118ad"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\方案說明.md",
+      "sha256": "d1c07a66d0171f304fbc095964b7ba1fc00f0523642beba697cc05432f3707c1"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_尺寸圖\\01_原版大型集風罩_外形尺寸.png",
+      "sha256": "0f3f35ce191a2a7b5ac01bdc9fb4ea579f92b410380f61ac8a34d544241e79bf"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_尺寸圖\\02_原版大型集風罩_接口與剖面.png",
+      "sha256": "940eb75ca09c04f9bcf15a628e74138017e33291e8094a993606c03d48320336"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_尺寸圖\\draw_dimensions.py",
+      "sha256": "1b3599f4826fe75a00b9b61b5cdc036696cf07951f711bf48828da315cc84c12"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_尺寸圖\\draw_front_only.py",
+      "sha256": "1292cb3bcd31fa1b86e620cc04620aa8e2f7b0ebdfa8963dff0065d0f3646739"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_尺寸圖\\measure_and_project.py",
+      "sha256": "71fe0458e5fa357b1d567e986d68dcc93ae9f5b39d1e5b739e6a52c2c41959bf"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_尺寸圖\\原版大型集風罩_尺寸圖.pdf",
+      "sha256": "569520b1733d73e26863a1a4686a35a181c32695ce1e71c4ebf12a609b277ab2"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_尺寸圖\\原版大型集風罩_尺寸圖.zip",
+      "sha256": "23225c78a72e562460f9b8786989fb5209dfc582108de73171b2231aaa78b6c8"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_尺寸圖\\原版大型集風罩_正視尺寸_mm.png",
+      "sha256": "74da9648b11b7bc38c1d79b2b99e3130834cc221579b8f34fb7417743259065d"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_尺寸圖\\尺寸圖說明.md",
+      "sha256": "8fa14b14c92bc001e8c8dbecc8519acfc7e4b193844b67da7caaeceb131d97a6"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_尺寸圖\\尺寸量測與視圖.json",
+      "sha256": "95b38afcafb7551f5ca4002b8cba6648713cb0d40d644982f5ffbd04240447e3"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_透視預覽\\render_original_hood.py",
+      "sha256": "af1dfd017ddd48d17cc9dbbd7f5bed1ab99d684f33170a5fb14cb4c95ce01892"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_透視預覽\\原檔與視角核對.json",
+      "sha256": "824dba04614fe3c60dad7dfe75878a1916bb56870b4d3c9652a8ba484585740a"
+    },
+    {
+      "path": "集風罩\\原版大型集風罩_透視預覽\\原版大型集風罩_整機透視.png",
+      "sha256": "e116c92a2e2921ac7bfe4eacc6f7c4015a014ad8bab43311513d644ed18ad5eb"
+    },
+    {
+      "path": "集風罩\\參考資料\\.DS_Store",
+      "sha256": "19f31dbf9af5c9e76db54ff12261609dc5607adf5f3b88db6c62f668d5a32c39"
+    },
+    {
+      "path": "集風罩\\參考資料\\imgf0003.png",
+      "sha256": "de0563d49ebdea85fa625dc022b4505722a2ddd9e35aa607524c6892c0a38f5d"
+    },
+    {
+      "path": "集風罩\\參考資料\\雷射切割_03_45x60cm.dxf.png",
+      "sha256": "a8baa32f0f214bcbbb285b3b1a10fc2fec43f6a085e5d912ca7d59a165bfdd97"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\01_實際模型_完整外觀.png",
+      "sha256": "77aeb38cbefc401ad7c62e15e538c9d4a14b16189ee894082dcd0938885e8077"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\02_實際模型_核心與十字導流剖視.png",
+      "sha256": "6fe5ba9046ebabd573a77dfdc43471a2a59f162a34f1d90aea80975699ce2d9e"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\build_nozzle.py",
+      "sha256": "83aac688bc499cff2042ed589f46b2c3035945f5553163e76148fa95bf492cd5"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\package_delivery.py",
+      "sha256": "14d2c9db38bfa868e6193e2c581e13296cac679ddb3737175fee9a248f5e93c6"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\render_actual_model.py",
+      "sha256": "fc36722e513a88fbbeedf94de7e5ab616e7591c4f67a36638ac0337ac3f26fa2"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\STL_中央鴨嘴導流版_列印包.zip",
+      "sha256": "05fe1f12995b646d9bc00412915344ca7a326bd693f04f726736658b2f2e9c4a"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\STL獨立重讀檢查.json",
+      "sha256": "4c5ad75f4aa3a66a349cd815be2e1e8c63245e9b7a88409a5afb100644ba60fd"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\verify_stl.py",
+      "sha256": "5887a3455efde9460ff554f08402d04fa4c8bf184f5b1ee7e448a104ab22b161"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\列印與使用說明.md",
+      "sha256": "031ade378abd24332a8ee99fc4dee459db82b5c3da0112ee0d973723fb1cdb93"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\原始檔案保留紀錄.json",
+      "sha256": "7e71f0f4eab2c5ee3abe89d5507600774845c786ba9360022b30a827c27ce433"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\尺寸與列印幾何檢查.json",
+      "sha256": "5c82d2aac1cea262c89b79dcedb1433c8dc18f84454c9b9fff993913b4e63aa9"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\直通吹嘴_216x4mm_中央鴨嘴導流_單件.blend",
+      "sha256": "6e41ebf753e85d40e573e51abb140b1a181db444f775c7eb0e563ec69c36f35f"
+    },
+    {
+      "path": "集風罩\\直通吹嘴_Dyson式導流_216x4mm_20261103\\預覽來源檢查.json",
+      "sha256": "2cefdd58c49e4b03c2aab066a6ace99824af07da71515d90016620cd09c86542"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\.DS_Store",
+      "sha256": "e8c2b4d79b80e9ce896fb5564dfd287cb11c84cb26caee7cf52638c7e647a4de"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\01_直通風刀_完整外觀.png",
+      "sha256": "1ddfef57640d49f28bb118b8c269b901a2eea26e5d58a4c78d45e1d2065b84b7"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\02_直線出口_頂部近看.png",
+      "sha256": "4f9979ae1eb2d1412e1048739c07d719c99b8356c02966eb1d96c849c20d584b"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\03_內部直通_剖面預覽.png",
+      "sha256": "1f25666f5647d0348a72f34ac4fe2c47bf88fafbe54884cb1113d3fe5399614d"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\04_直通風刀_尺寸圖.png",
+      "sha256": "9bedb0fb248eb6d8de53c99428356a11313a5f288b36d06d30874ed557716e1a"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\build_straight_nozzles.py",
+      "sha256": "64caf6acdb5ac60b1d17c5e89a9daf87b1a7d83a92dd1bb634bf971c9413d060"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\draw_straight_dimensions.py",
+      "sha256": "947528985d1b889537ab7b972c84be096ed3aec50169ca6d05110ff45392d7ca"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\finish_delivery.py",
+      "sha256": "f3c6f813386c206162c3e6698dd00218b555c40049736a7057b0e84e3db87683"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\render_straight_previews.py",
+      "sha256": "88ab079b033972d37bc033fcaa3ed1bdb25524ba41320adc44ac117296cceef5"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\STL_直通長型風刀_三種縫寬.zip",
+      "sha256": "57a8b598880266f9febda04a226d6018bcb5943f87f32f8456268525af986132"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\STL_重讀檢查.json",
+      "sha256": "4caaacc9524f0be0098c6c1fda50be554b7e5a8e00a3c49136d0af6a922d23b3"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\verify_stl_files.py",
+      "sha256": "65e4f3ed48b14e814bdfdef9b11a7bd8b654efc6316290b86f7d4d2b8e35ce81"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\使用與測試說明.md",
+      "sha256": "810a3b1d3738f9817e4081cc8edcace45f9bffaf865572205883957379010169"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\尺寸與流道檢查.json",
+      "sha256": "f903b17e5948383d66b86dc8a914667505bb0ad2f47f08c9e42273788ae739c0"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\直通風刀_216x2mm.blend",
+      "sha256": "77a2dad335319d372f8e48d4c92ac80ec9247e2e6c6805f20e09ed7461867063"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\直通風刀_216x4mm.blend",
+      "sha256": "e3d7b736776d7c1e7bdd8f653da76ffcc9a353deafc6fba72d154aa205f3b19f"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\直通風刀_216x6mm.blend",
+      "sha256": "64ccc27ef66d614155b1aaeb21b49e3cf32cabae35ef744cd1e3b1217828b68c"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\直通風刀_尺寸圖.pdf",
+      "sha256": "ad4fa5c6d802443b653f4793c184c82dd4dc3aec3a30ceca9c8440a4f25a8055"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\STL_毫米\\直通風刀_216x2mm_單件_mm.stl",
+      "sha256": "053f979af410845e8824e85ed11c336a4d9a4bda4b6b686555ce14e7718329b7"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\STL_毫米\\直通風刀_216x4mm_單件_mm.stl",
+      "sha256": "90a8b03197ac3a9de0778039ed0feea0dac7df9ee313e4edb943168455da023b"
+    },
+    {
+      "path": "集風罩\\直通長型風刀測試版\\STL_毫米\\直通風刀_216x6mm_單件_mm.stl",
+      "sha256": "03e440418da5fb541751714d4fdca4d8d7df9038ca7aa7d709e599a42e8a2222"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\平順流道修正版\\render_smooth_split_preview.py",
+      "sha256": "6f3b2a42ea3035ca6f76d454e984a0f67780b7e1a24bbfb0c95c088baf516ecd"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\平順流道修正版\\平順修正版_單側立體配置.png",
+      "sha256": "0f60aad48aa15b76dc685594cd910e592331858ca120b40f0b9d7684f3ae6334"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\平順流道修正版\\平順修正版_末端集風罩近照.png",
+      "sha256": "5ba4e8c0b704cee51d4b4aa7282d3c8b27fb44dfb924a56d17f4a6bf2ea11757"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\平順流道修正版\\平順修正版_配置假設與幾何檢查.json",
+      "sha256": "d2d4a09aab6f9db4457d5b7264c20eec716ab6ee96c394ddd6f51eba77acf61e"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\平順流道修正版\\平順修正版_雙側機殼內配置.png",
+      "sha256": "9d599c2d7d992bbfba5ff6a395413cf468be3fa57908c0d301dda4768ffe5382"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\平順流道修正版\\預覽說明.md",
+      "sha256": "ff2367eede4bbca4f08d4f1dc4a6d1a0ba02902731e0dff71b91e5e2dfd532b3"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\流道修正\\draw_flowpath_revision.py",
+      "sha256": "608463eaaa94967c8498e753f3784dc638a583a1384c293f179beb4fc47e33ad"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\流道修正\\修正01_矩形到三路圓管的漸變接頭.png",
+      "sha256": "9b0bddb0d5d28971a7eceddce5c99670c9ca99da331f2ff21936fc7f5a762df3"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\流道修正\\修正01_矩形到三路圓管的漸變接頭.svg",
+      "sha256": "19927be6bbd4f8026b5ec9f8ca7e4781d0c0154d1ce92b1d9d955e6c8699950d"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\流道修正\\修正02_原版薄層彎道與風刀噴嘴剖面.png",
+      "sha256": "f601fdc94fb229df40406d758d1b571c7aeedafadabe2d016510c39b03fc6522"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\流道修正\\修正02_原版薄層彎道與風刀噴嘴剖面.svg",
+      "sha256": "d1c4bf74f45de2300e248b1445c12546c056d4eec2e12e4995566077c7bf933a"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\流道修正\\修正圖說明.md",
+      "sha256": "d7d459e917c4b9b95fe57461ff918b48db3d50bf346c62b4ef1b305feb35ba9c"
+    },
+    {
+      "path": "集風罩\\三路分流方案\\流道修正\\原檔未修改檢查.json",
+      "sha256": "54beebbb4137b40cb49cba1ac282e8e95d67893774ef0fff5bc3ce38a4bfe872"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\STL_毫米\\分流接頭_右側_列印_mm.stl",
+      "sha256": "748723788bc863441eecc5b6252755c1e39c1fafc1a3e8576d53c1de8393edc3"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\STL_毫米\\分流接頭_左側_列印_mm.stl",
+      "sha256": "79ad4fd890547f4c0133d904e38aa7a711253fdf96f5f3da0bfa3aa8f97a816d"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\STL_毫米\\小型集風罩_共用款_斜放45度_mm.stl",
+      "sha256": "16434efa22c9657151ae394db3271a59fb6f7da1aeddab2d12e71331295cc0bb"
+    },
+    {
+      "path": "集風罩\\三路分流_正式模型\\STL_毫米\\小型集風罩_共用款_直立_mm.stl",
+      "sha256": "221b312fd8e7147cad53efa08534085ab7262cdf56ddc8f242347a2adcb17df3"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\STL_毫米\\分流接頭_左右共用_mm.stl",
+      "sha256": "748723788bc863441eecc5b6252755c1e39c1fafc1a3e8576d53c1de8393edc3"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\STL_毫米\\小型集風罩_共用款_斜放45度_mm.stl",
+      "sha256": "16434efa22c9657151ae394db3271a59fb6f7da1aeddab2d12e71331295cc0bb"
+    },
+    {
+      "path": "集風罩\\三路分流_共用接頭修正版\\STL_毫米\\小型集風罩_共用款_直立_mm.stl",
+      "sha256": "221b312fd8e7147cad53efa08534085ab7262cdf56ddc8f242347a2adcb17df3"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\STL_毫米\\分流接頭_左右共用_內流道平順_mm.stl",
+      "sha256": "ab2c41f37422b59a18ebe10f0324bd3bfb010683308b3552a86a277dd0128de7"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\STL_毫米\\小型集風罩_共用款_斜放45度_mm.stl",
+      "sha256": "16434efa22c9657151ae394db3271a59fb6f7da1aeddab2d12e71331295cc0bb"
+    },
+    {
+      "path": "集風罩\\三路分流_內流道平順版\\STL_毫米\\小型集風罩_共用款_直立_mm.stl",
+      "sha256": "221b312fd8e7147cad53efa08534085ab7262cdf56ddc8f242347a2adcb17df3"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\case.foam",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\centers.bin",
+      "sha256": "5df5538d52459e583d5c0c6c49dc30e74a162907b7a794e543ea7c7667dabc87"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\faces.bin",
+      "sha256": "4b5160ab8e34c4cbaad9c23428bc16374e0e6b834f805104feceb950b7f92f1f"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\fluid_volume_closed.stl",
+      "sha256": "f00bb52161aed8d5a7511e4c87ea9528e7a587439aea26af702826bc6fd95cc8"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\mesh_metadata.json",
+      "sha256": "7519bd9b4c3567283a9f9c7bf8cdc5ae95637b7bfd66319e712a8908c48abedf"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\neighbour.bin",
+      "sha256": "d6ff432d56833d88440d45b1374925cd39b0eff6b5c75c094514d7974d09e40d"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\owner.bin",
+      "sha256": "25c2212d92f1e82ca6a6efc365c9130ec4054fed1e4a8c00d4eeda13cf9f44d4"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\points.bin",
+      "sha256": "1260b9aed86243f4c5e7385e37cbae7ceac55a0aca61e3341b18e2960fcce259"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\case.foam",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\centers.bin",
+      "sha256": "68bc114da6cd2374f0e720c90454b8189fc7066912fce04da33ae4ede3ddbc20"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\faces.bin",
+      "sha256": "0bf6bae88af4c81808ce4ead81716e9348ec1aa437e6ea16234708e130a02f73"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\fluid_volume_closed.stl",
+      "sha256": "c938fbb9a4fa24cd67c88b0f96adb406713327fd62ca752ed852ca54dba969ba"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\mesh_metadata.json",
+      "sha256": "24fcb2900dd67b31bcfacaf382fa9040f2dd3a21b6658a797a685c7f2bfcacaa"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\neighbour.bin",
+      "sha256": "28aeb30003adad5805eb7d04c3ccd1f5d051f3d7b4d75cff86c521e2fe739980"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\owner.bin",
+      "sha256": "905cde101dac2cf69880edacf225e26003470e995d86e3b8e94fd2404cfb69e7"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\points.bin",
+      "sha256": "9bbb27975a9f83a339d495a935a5c3bbd9b9770f8c024acef3fdee203d68524c"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\0\\k",
+      "sha256": "fc16ded765686653eb1c4320aceeb6c57bee0148988b39fe1898f55eff35a89e"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\0\\nut",
+      "sha256": "5358bf8ce7cd8e1c8e74ddf93c1fe68f90e61f1433700d80f72ca0d6fe2354f5"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\0\\omega",
+      "sha256": "a939023eda8d83668402a1402ea2375aa13c531357e8c91c50130d3cb082dfc3"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\0\\p",
+      "sha256": "8bbca6c9d3e909888e736d41d6f50b86b37a89bc723bc5524e7ab95d95bb38b8"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\0\\U",
+      "sha256": "40d49363fbc84d7026a5ad0a0a16dec0d897330c052bec3696057a44bbfb426d"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\constant\\transportProperties",
+      "sha256": "bb3eeb2ec913e5ee10deb9753d6d71f0edf5d49dd9ec455cd02332a6a85ffa2b"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\constant\\turbulenceProperties",
+      "sha256": "abc2f6f303b5293a8c36492e72c4ae3ac3f9195cb1a4ef116f990409fafa2e53"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\system\\controlDict",
+      "sha256": "fe9560a8306578427aaa95fc8d4fb9cc18667bfdc386d8937b3224b81e512c46"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\system\\decomposeParDict",
+      "sha256": "f51c2166279e5351cb2a7994a10fd6b25b16c1972812d64a8569ab5629405334"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\system\\fvSchemes",
+      "sha256": "be51be1f14fddcb990f957771ebd009ee473bdff95d3561b819b5607c23e13e0"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\system\\fvSolution",
+      "sha256": "5557ebe14251f078786f0000fad11c4bfff0596750958edc9a708df491a6fb99"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\constant\\polyMesh\\boundary",
+      "sha256": "c65aaeedc49b501f05a9cfbcd5d3214585db07e57eb2eb81aafd8fd33cc079d4"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\constant\\polyMesh\\cellZones",
+      "sha256": "241596b2bbdd19c08759702e877f6960d1bffaa4b1d07942e0ab16617a0cf831"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\constant\\polyMesh\\faces",
+      "sha256": "213f3690620ba400fd693878bb2f082ab3a4851c6b680393a8022cd89c70a0ef"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\constant\\polyMesh\\faceZones",
+      "sha256": "6a5e46b620f65178345fb8da9a61646e194b967eccfe7eab6e5de867bca5b467"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\constant\\polyMesh\\neighbour",
+      "sha256": "3fa7c2360e47153bbbc19dfc8cf23a5517b2e5ca36aa443d2db1d109c8e9f87d"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\constant\\polyMesh\\owner",
+      "sha256": "81bc44d321a4b61b67a428f438285f465e2e90fa21f118823d11058bf3378231"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\constant\\polyMesh\\points",
+      "sha256": "bd4168633b51770a508d945f9fe63c26f3bf4ab8a14270d06e3be3f940c5f136"
+    },
+    {
+      "path": "集風罩\\三維CFD\\medium\\constant\\polyMesh\\pointZones",
+      "sha256": "03fcd9d4ef0ff171f7651f2d16e54d1ccd927a396abcbbc10b4d8725f970e1b8"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\0\\k",
+      "sha256": "fc16ded765686653eb1c4320aceeb6c57bee0148988b39fe1898f55eff35a89e"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\0\\nut",
+      "sha256": "5358bf8ce7cd8e1c8e74ddf93c1fe68f90e61f1433700d80f72ca0d6fe2354f5"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\0\\omega",
+      "sha256": "a939023eda8d83668402a1402ea2375aa13c531357e8c91c50130d3cb082dfc3"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\0\\p",
+      "sha256": "8bbca6c9d3e909888e736d41d6f50b86b37a89bc723bc5524e7ab95d95bb38b8"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\0\\U",
+      "sha256": "58ede54a8df843d3625708a67d77ef830df7ff565975c440036f2cc07c51ff80"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\constant\\transportProperties",
+      "sha256": "bb3eeb2ec913e5ee10deb9753d6d71f0edf5d49dd9ec455cd02332a6a85ffa2b"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\constant\\turbulenceProperties",
+      "sha256": "abc2f6f303b5293a8c36492e72c4ae3ac3f9195cb1a4ef116f990409fafa2e53"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\system\\controlDict",
+      "sha256": "fe9560a8306578427aaa95fc8d4fb9cc18667bfdc386d8937b3224b81e512c46"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\system\\decomposeParDict",
+      "sha256": "f51c2166279e5351cb2a7994a10fd6b25b16c1972812d64a8569ab5629405334"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\system\\fvSchemes",
+      "sha256": "be51be1f14fddcb990f957771ebd009ee473bdff95d3561b819b5607c23e13e0"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\system\\fvSolution",
+      "sha256": "5557ebe14251f078786f0000fad11c4bfff0596750958edc9a708df491a6fb99"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\constant\\polyMesh\\boundary",
+      "sha256": "995e9c0d1f1a72462d74cda1ac129b6a4a92bfe8ff63c5c97df7302e03b782c1"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\constant\\polyMesh\\cellZones",
+      "sha256": "241596b2bbdd19c08759702e877f6960d1bffaa4b1d07942e0ab16617a0cf831"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\constant\\polyMesh\\faces",
+      "sha256": "3593f55a0d8022cb5e2d4bd1d6b911ec97040fbe732ffb74b6ddb9017f7906de"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\constant\\polyMesh\\faceZones",
+      "sha256": "6a5e46b620f65178345fb8da9a61646e194b967eccfe7eab6e5de867bca5b467"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\constant\\polyMesh\\neighbour",
+      "sha256": "2b98276e0353aafa0dac53c39ca697e01e61fad86f184580bfa2ee6396dc2c68"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\constant\\polyMesh\\owner",
+      "sha256": "6cfc8b10ed8c86dfb8149af7abd8de4682780401d9d1e9c6c31f0eab50fce891"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\constant\\polyMesh\\points",
+      "sha256": "38ee96b54db3a59c3691dcd1620ec0d4d6661b316b314875f7c5afece0983fde"
+    },
+    {
+      "path": "集風罩\\三維CFD\\coarse\\constant\\polyMesh\\pointZones",
+      "sha256": "03fcd9d4ef0ff171f7651f2d16e54d1ccd927a396abcbbc10b4d8725f970e1b8"
+    },
+    {
+      "path": "夾傘機構\\整機安裝模擬_20261030\\01_夾傘機構_整體位置模擬.png",
+      "sha256": "e5dc17ce6668fa9a8caec49d87e8646519a0b68b1eb59d35c57e1cd167d0310c"
+    },
+    {
+      "path": "夾傘機構\\整機安裝模擬_20261030\\02_夾傘機構_局部觀察孔近照.png",
+      "sha256": "d2a345f4ced5df0edb64691ae32c5d78f6bc571a563eae1534bf4b84b99f750a"
+    },
+    {
+      "path": "夾傘機構\\整機安裝模擬_20261030\\03_夾傘機構_正面孔位.png",
+      "sha256": "66dd3f55bed0f9a70a05bdd3575fa16a1bf2c1e006fc9926fa25fcae17a29a18"
+    },
+    {
+      "path": "夾傘機構\\整機安裝模擬_20261030\\render_clamp_in_complete.py",
+      "sha256": "ddecfab9aa7503d310f7c1ba6576ee51300c8f3764b884ff827b1d9a38346f35"
+    },
+    {
+      "path": "夾傘機構\\整機安裝模擬_20261030\\夾傘機構_整機模擬檢查.json",
+      "sha256": "4704ba1c3b2e95eb3e0aeffab83856e944d66bbaf768f9ca247a83ee016bec41"
+    },
+    {
+      "path": "夾傘機構\\整機安裝模擬_20261030\\模擬圖說明.md",
+      "sha256": "dc9b42f9e24162b6fbc4c633227eee1c6e43446f9bde035d5065d06acf68ce48"
+    },
+    {
+      "path": "夾傘機構\\正式整合_前方中空9mm_20261030\\01_正式整合_整體外觀.png",
+      "sha256": "2ffc45b3b56305234579526f62dc61f576245935434d44676ba6736c1c456092"
+    },
+    {
+      "path": "夾傘機構\\正式整合_前方中空9mm_20261030\\02_正式整合_雙組共軸近照.png",
+      "sha256": "6a67253c9aab009299398c3593a63ec17271b299eca88496790806517888a4b6"
+    },
+    {
+      "path": "夾傘機構\\正式整合_前方中空9mm_20261030\\03_正式整合_全中空與9mm底殼剖視.png",
+      "sha256": "6f3349ed7345ac8672ea703deddb17c073e6573671bf743a05695ce12726e989"
+    },
+    {
+      "path": "夾傘機構\\正式整合_前方中空9mm_20261030\\implement_hollow_and_clamps.py",
+      "sha256": "6960d00c7656a6e6b792d2a6967b527f0fe6c000426be2f968b0e2d8c65a7cae"
+    },
+    {
+      "path": "夾傘機構\\正式整合_前方中空9mm_20261030\\publish_verified.py",
+      "sha256": "6d211c5e8aa90c225e3d68ac3121735c497f705cd1989fd0899ba77b230303d7"
+    },
+    {
+      "path": "夾傘機構\\正式整合_前方中空9mm_20261030\\render_implemented_model.py",
+      "sha256": "8b36018a3985d5f3d47861d005ff7822e2b48bfd6fc0a35928d0418add16a5bc"
+    },
+    {
+      "path": "夾傘機構\\正式整合_前方中空9mm_20261030\\完整模型_加入夾傘與中空前備份.blend",
+      "sha256": "eb3809e28897fc5675d5e076804a293b8eead57d1b9b145cea6839df44ae6502"
+    },
+    {
+      "path": "夾傘機構\\正式整合_前方中空9mm_20261030\\完整模型_雙組夾傘_前方中空9mm.blend",
+      "sha256": "4e1fa9b90ec10e084b298737c9b60c7e2baa132e3281d9d239d745dc99fa7e5e"
+    },
+    {
+      "path": "夾傘機構\\正式整合_前方中空9mm_20261030\\正式實作_核對紀錄.json",
+      "sha256": "c36b32a13e303430a7a6ffe36314aa837ef7c9ebb7378cde520c575846309eb1"
+    },
+    {
+      "path": "夾傘機構\\正式整合_前方中空9mm_20261030\\正式實作說明.md",
+      "sha256": "248e385a2740c0f104f0ae5c24545686bff3777ff564f0e432f7d406687d8af4"
+    },
+    {
+      "path": "夾傘機構\\正式整合_前方中空9mm_20261030\\渲染說明.json",
+      "sha256": "12bab2fe974f9fc7d230ff9f76f91a53afd8324cf6b8e0d43997a43c0d4d258e"
+    },
+    {
+      "path": "夾傘機構\\總成輔助軸隱藏_20261030\\hide_assembly_axes.py",
+      "sha256": "1e880bca16fe57cf3086e6c2eec1ccef6d52b662f4fd0c84bc5a03364aa101ea"
+    },
+    {
+      "path": "夾傘機構\\總成輔助軸隱藏_20261030\\完整模型_隱藏總成輔助軸.blend",
+      "sha256": "7b92f2cd122d4ce1af11e36d1c9dce02b173607bb4641f6612c8ca785964665c"
+    },
+    {
+      "path": "夾傘機構\\總成輔助軸隱藏_20261030\\完整模型_隱藏輔助軸前備份.blend",
+      "sha256": "4e1fa9b90ec10e084b298737c9b60c7e2baa132e3281d9d239d745dc99fa7e5e"
+    },
+    {
+      "path": "夾傘機構\\總成輔助軸隱藏_20261030\\核對紀錄.json",
+      "sha256": "365ff7c42a6a8d2b36d9e612517669cb1449d1106fd3a77ae770909dc1d59b29"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\01_前後留9mm外殼_整體位置.png",
+      "sha256": "853b7d0a57b1e023f60e3ff4c468509b22c2416ba8047dcb8140150f5d7bbc1b"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\02_前後留9mm外殼_上方斜視近照.png",
+      "sha256": "6a71fa84d263e27bfc4bc80f5a6ce503c45464bc5d466ad1eebf61cf626d4419"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\03_前後留9mm外殼_俯視厚度.png",
+      "sha256": "c1f800b9f74b9412ba8318e16dad47e314d100ccf477904d2863e7d9b1e462a3"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\04_前後留9mm外殼_正面遮蔽.png",
+      "sha256": "94578de543538c8bd457313120108ddb59460b1c30be793a5bca265ce09aaedc"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\05_俯視尺寸標註.png",
+      "sha256": "ef5bb05f86410815fd694021c2264c50d1e9bf43e819781b8f45d28ee220fb07"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\05_俯視尺寸標註.svg",
+      "sha256": "191242b658a3fd3449d3daa4e3b0bb8e6ff71d005a012dddb2ca7ea855d7b23d"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\05_俯視尺寸標註_資料.json",
+      "sha256": "3eb4a6e28f1857005e562ba91f1cec44a6217290825818704f0443cd8ec0ea1f"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\annotate_top_view.py",
+      "sha256": "a07566a18d4ccad6649fe9ccd79d50fcf6952bd9d236a60fc767c73b7ca421b4"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\project_dimensions.py",
+      "sha256": "8fc87b1bf54ee3d417650ed5ed5ccd3b92bcece3b17bf3fdaed8140e61893aad"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\render_9mm_front_rear_shell.py",
+      "sha256": "fe2e9c21339ba1c5e9058b9cdd0c9d0219a02484704ece94d539d03e129cca3b"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\前後9mm外殼_模擬檢查.json",
+      "sha256": "bd32da51e82f1e7299c5511ae9f6430c1ca75b80d4d7ee946bc843f707ad4eb0"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\前後9mm外殼_模擬說明.md",
+      "sha256": "f762d22395f39bb5eb71884d414668f88cffe9a2d543bc34578a03aec6ffe227"
+    },
+    {
+      "path": "夾傘機構\\雙組前後9mm留殼模擬_20261030\\投影與尺寸資料.json",
+      "sha256": "4ea86b0f5f437d7ea6704d932f45b6cf16dcca94dad39dc25d9f998a95dcb9cd"
+    },
+    {
+      "path": "夾傘機構\\雙組夾持加入雨傘_模擬圖_20261030\\01_加入雨傘_整體擺放模擬.png",
+      "sha256": "63b4ce482ee13ff25018cd1e65baf1d2d0f6eb017706e539bbdcb8cd8ec96bfc"
+    },
+    {
+      "path": "夾傘機構\\雙組夾持加入雨傘_模擬圖_20261030\\02_加入雨傘_雙組夾持近照.png",
+      "sha256": "078d1232b18e0585fb9f440b3d503c6702c715171b45e6b00ef68edbd357ec95"
+    },
+    {
+      "path": "夾傘機構\\雙組夾持加入雨傘_模擬圖_20261030\\03_加入雨傘_夾持剖視示意.png",
+      "sha256": "9a805ba31a014f5a2f0cfcef88bdb9e2062c8e4acaa329f4f28db5ddcfb0afca"
+    },
+    {
+      "path": "夾傘機構\\雙組夾持加入雨傘_模擬圖_20261030\\render_umbrella_with_dual_clamp.py",
+      "sha256": "223258812e8bb3fcec4d6439f673b7ec7b122933665f77d52e19f2e35fbf382f"
+    },
+    {
+      "path": "夾傘機構\\雙組夾持加入雨傘_模擬圖_20261030\\模擬圖說明.md",
+      "sha256": "964e51e4ce672ce237c2b3ff8e5d66d34ea8f9eb8d8eda9358a3620e94b7d3c6"
+    },
+    {
+      "path": "夾傘機構\\雙組夾持加入雨傘_模擬圖_20261030\\雨傘加入模擬_定位與檢查.json",
+      "sha256": "4751f684445bad96b9062b836947fdfc2506600addf16658231b6d362849a981"
+    },
+    {
+      "path": "夾傘機構\\雙組整機模擬_20261030\\01_雙組夾傘機構_整體位置.png",
+      "sha256": "7a455c2e197ee2c80ef7fb8c0b369b6b18260c3a65f7bb1e291f7884e73778eb"
+    },
+    {
+      "path": "夾傘機構\\雙組整機模擬_20261030\\02_雙組夾傘機構_前後排列與共軸近照.png",
+      "sha256": "d1965ab71c3bdcba18070b33b8c18fbe2c4beb621b215ad40569440959213c25"
+    },
+    {
+      "path": "夾傘機構\\雙組整機模擬_20261030\\03_雙組夾傘機構_俯視中心距.png",
+      "sha256": "229357ccd4a7a32e442e119f73552204791e05c0fdedfb6c6629d3897a886c9b"
+    },
+    {
+      "path": "夾傘機構\\雙組整機模擬_20261030\\render_dual_clamp.py",
+      "sha256": "1bdcb20516c760fd6d976153d75893a78174b41f34e597bcbdd391c8fe545832"
+    },
+    {
+      "path": "夾傘機構\\雙組整機模擬_20261030\\雙組夾傘機構_模擬檢查.json",
+      "sha256": "ba7f3d700273a74bfbbf20ee21cfbe13e82d46da874831b9b38c7aa2c3f7f8f3"
+    },
+    {
+      "path": "夾傘機構\\雙組整機模擬_20261030\\雙組模擬說明.md",
+      "sha256": "30c3ba926b23ffb601f1c527bf18133637f1b872deaa081cd7928a9a498cbaec"
+    },
+    {
+      "path": "夾傘機構\\雨傘整體高解析無地板_20261030\\.DS_Store",
+      "sha256": "6e00305a0abe1deb34719b4a1d332d1e24e068e4952c8c6f87e6bacf54e634ec"
+    },
+    {
+      "path": "夾傘機構\\雨傘整體高解析無地板_20261030\\render_highres_no_floor.py",
+      "sha256": "cd92a9080cce66afdfcb0a5e111b50e495fa0b5b29f11bb399e5246cc3edbd8d"
+    },
+    {
+      "path": "夾傘機構\\雨傘整體高解析無地板_20261030\\高解析無地板_渲染紀錄.json",
+      "sha256": "199330c3ef3cee2575d522bd3620366abbfd99edd75c378f2bcaecb5bf3f8b30"
+    }
+  ]
+}

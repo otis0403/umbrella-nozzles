@@ -1,0 +1,56 @@
+[
+  {
+    "case": "candidate_g10_q3",
+    "cell_count": 242672,
+    "minimum_cell_volume_m3": 6.48358237108946e-12,
+    "maximum_relative_report_difference": 0.0,
+    "native_reports_reproduced": true,
+    "case_sha256": "fea66975f9ee7b104310a066260ad7e655f631b1ef3ff2d87183c72706c6463e",
+    "data_sha256": "f0dcad892cfa70bdaf306fd55e4595140f245ed7e2cf58b210c89c773507aa9a"
+  },
+  {
+    "case": "candidate_g8_q3",
+    "cell_count": 242672,
+    "minimum_cell_volume_m3": 6.48358237108946e-12,
+    "maximum_relative_report_difference": 0.0,
+    "native_reports_reproduced": true,
+    "case_sha256": "d27cf0646f5e73c858b4065dc55c7592335bed77ca8ba7b8ad5edc2151d52935",
+    "data_sha256": "b3435695ce71423979becb279bb58e19d462e026ab09e011774ef0ec75d6c409"
+  },
+  {
+    "case": "control_g16_q3",
+    "cell_count": 242672,
+    "minimum_cell_volume_m3": 6.48358237108946e-12,
+    "maximum_relative_report_difference": 0.0,
+    "native_reports_reproduced": true,
+    "case_sha256": "73e18a83cc09f43106e15912d25f6f8eb7b808492a558574bf2543c51ede143c",
+    "data_sha256": "8c9502b5f952865cb8bdc4f01b20b621224c79aead060988c064d8502a1355d5"
+  },
+  {
+    "case": "network_narrow_Ps460_hose50",
+    "cell_count": 68064,
+    "minimum_cell_volume_m3": 1.4394694329808797e-12,
+    "maximum_relative_report_difference": 0.0,
+    "native_reports_reproduced": true,
+    "case_sha256": "0e5a9ee991c61e6a8fa1a663c378059176f29627a2ae6c5b1c278e41ed2abc1f",
+    "data_sha256": "34f5c7d75d188a26a0405f05f47302329021b0ce8c8c4e71cfcdc06f96daca39"
+  },
+  {
+    "case": "network_narrow_Ps460_hose60",
+    "cell_count": 68064,
+    "minimum_cell_volume_m3": 1.4394694329808797e-12,
+    "maximum_relative_report_difference": 0.0,
+    "native_reports_reproduced": true,
+    "case_sha256": "dd504f7475241218e709d4fb37735a7f88703350b296c80971bd96b4dfd840a8",
+    "data_sha256": "1685352c59370cc0c4b312f1020c777738e106974a065eccfe4f60410461f5ad"
+  },
+  {
+    "case": "selected_g8_q2",
+    "cell_count": 242672,
+    "minimum_cell_volume_m3": 6.48358237108946e-12,
+    "maximum_relative_report_difference": 0.0,
+    "native_reports_reproduced": true,
+    "case_sha256": "ad8f9f087a37debec483f74e3af295920dbd41afcb878c3a663471f22229ace9",
+    "data_sha256": "04885b60af6057a210c27c42097c347916f5a89f821a79db377d7055d3a4f5aa"
+  }
+]

@@ -1,0 +1,83 @@
+Auto-Transcript Start Time:  14:33:56, 14 Nov 2026 台北標準時間 
+Current Directory: "C:\Users\otiso\umbrella\case\集風罩\三路接頭與150mm風刀_51mm軟管_20261114"
+
+              Welcome to ANSYS Fluent 2026 R1
+
+              Copyright 2026 Synopsys, Inc. and ANSYS, Inc. All rights reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Feb  2 2026 16:32:00 EST  Build Id: 10262  
+ 
+Connected License Server List:	<Non FlexNet Publisher License Server (FNPLS)>
+
+     --------------------------------------------------------------
+     This is a student version of ANSYS FLUENT. Usage of this product
+     license is limited to the terms and conditions specified in your ANSYS
+     license form, additional terms section.
+     --------------------------------------------------------------
+Host spawning Node 0 on machine "Otis" (win64).
+Host waiting for connection from Node 0 at 127.0.0.1:56608 
+
+Node 0 connecting to the Host ... connection established.
+
+-------------------------------------------------------------------------------
+ID    Hostname  Core  O.S.         PID    CPU Model Name                    
+-------------------------------------------------------------------------------
+n3    Otis      4/10  Windows-x64  21816  Intel(R) Core(TM) Ultra 5 115U    
+n2    Otis      3/10  Windows-x64  18300  Intel(R) Core(TM) Ultra 5 115U    
+n1    Otis      2/10  Windows-x64  21380  Intel(R) Core(TM) Ultra 5 115U    
+n0*   Otis      1/10  Windows-x64  17944  Intel(R) Core(TM) Ultra 5 115U    
+host  Otis            Windows-x64  19232  Intel(R) Core(TM) Ultra 5 115U    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cleanup script file is C:\\Users\\otiso\\umbrella\\case\\集風罩\\三路接頭與150mm風刀_51mm軟管_20261114\\cleanup-fluent-Otis-19232.bat
+Note: Rank = 0: Process affinity not being set (6).
+Note: Rank = 1: Process affinity not being set (6).
+Note: Rank = 2: Process affinity not being set (6).
+Note: Rank = 3: Process affinity not being set (6).
+
+Graphics driver currently in use: null
+
+
+ +------------------------------------------------------------------+
+ |                    ANSYS Product Improvement                     |
+ |                                                                  |
+ |   ANSYS Product Improvement Program helps improve ANSYS          |
+ |   products. Participating in this program is like filling out a  |
+ |   survey. Without interrupting your work, the software reports   |
+ |   anonymous usage information such as errors, machine and        |
+ |   solver statistics, features used, etc. to ANSYS. We never      |
+ |   use the data to identify or contact you.                       |
+ |   The data does NOT contain:                                     |
+ |   - Any personally identifiable information including names,     |
+ |     IP addresses, file names, part names, etc.                   |
+ |   - Any information about your geometry or design specific       |
+ |     inputs.                                                      |
+ |   You can stop participation at any time. To change your         |
+ |   selection go to Help >> ANSYS Product Improvement Program      |
+ |   in the GUI.                                                    |
+ |   For more information about the ANSYS Privacy Policy, please    |
+ |   check: http://www.ansys.com/privacy                            |
+ |                                                                  |
+ +------------------------------------------------------------------+
+
+Posting ANSYS Product Improvement Program startup data
+Done.
+Information: The server has started and is running.
+(set-session-idle-timeout 3)countdown-start-timer
+
+> 
+Posting ANSYS Product Improvement Program performance data 
+Done.
+Shutting down Server...
+Services Shutdown...Done.
+Server Shutdown...Done.
+Queue Cleared...Done.
+Shutdown Complete.
+Auto-Transcript Stop Time:  14:34:21, 14 Nov 2026 台北標準時間 
+Total Transcript Time: 0 Minute 25 Second.

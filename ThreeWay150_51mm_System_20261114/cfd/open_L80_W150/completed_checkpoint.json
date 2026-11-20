@@ -1,0 +1,16 @@
+{
+  "signature": {
+    "kind": "nozzle",
+    "name": "open_L80_W150",
+    "gap": 16,
+    "q": 1.8170393240860634,
+    "length": 80,
+    "shoulder": 150,
+    "external": true
+  },
+  "result_sha256": "464fe3bc6e8592020b620960221193d1340428bd8c6111499a0b748e8c7f4a8b",
+  "native_sizes": {
+    "solution.cas.h5": 7002046,
+    "solution.dat.h5": 26493934
+  }
+}

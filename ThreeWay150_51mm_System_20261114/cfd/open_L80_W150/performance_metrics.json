@@ -1,0 +1,28 @@
+{
+  "case": "open_L80_W150",
+  "Q_m3_min": 1.8170393240861222,
+  "gap_mm": 16,
+  "slot_mean_Uz_m_s": 12.620394706726074,
+  "30mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 87.5195428642765,
+    "same_140x80_strip_momentum_N": 0.4995391363777588,
+    "core_140mm_line_CV_pct": 20.853833680505204,
+    "core_line_mean_Uz_m_s": 15.001125533047288,
+    "patch_pressure_p10_Pa": 17.473992009985384
+  },
+  "50mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 84.96009433890366,
+    "same_140x80_strip_momentum_N": 0.49726555570861664,
+    "core_140mm_line_CV_pct": 17.745350237973135,
+    "core_line_mean_Uz_m_s": 15.08692585640537,
+    "patch_pressure_p10_Pa": 23.80024345025508
+  },
+  "80mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 79.71452622195035,
+    "same_140x80_strip_momentum_N": 0.49636248280121575,
+    "core_140mm_line_CV_pct": 13.240033988584626,
+    "core_line_mean_Uz_m_s": 14.636848691106715,
+    "patch_pressure_p10_Pa": 30.70576883035686
+  },
+  "minimum_pressure_proxy_Pa": 79.71452622195035
+}

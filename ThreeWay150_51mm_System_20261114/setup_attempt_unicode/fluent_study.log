@@ -1,0 +1,51 @@
+pyfluent.general WARNING: Fluent Cortex properties unobtainable. 'force exit()' and other methods are not going to work properly. Proceeding...
+MESH_READY C:\Users\otiso\umbrella\case\集風罩\三路接頭與150mm風刀_51mm軟管_20261114\cfd\curve_g4_q1 72192 76145
+
+Error: File "C:\Users\otiso\umbrella\case\集風罩\三路接頭與150mm風刀_51mm軟管_20261114\cfd\curve_g4_q1\nozzle.msh" not found!
+Error Object: #f
+
+Error: File "C:\Users\otiso\umbrella\case\集風罩\三路接頭與150mm風刀_51mm軟管_20261114\cfd\curve_g4_q1\nozzle.msh" not found!
+Error Object: #f
+OWNED_SOLVER_EXIT_COMPLETED
+Traceback (most recent call last):
+  File "C:\Users\otiso\umbrella\case\集風罩\三路接頭與150mm風刀_51mm軟管_20261114\run_solver.py", line 16, in <module>
+    solve(s,name,q=job.get('q',1.),pressure=job.get('pressure'),batches=job.get('batches',6),warm=job.get('warm'))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otiso\umbrella\case\集風罩\三路接頭與150mm風刀_51mm軟管_20261114\legacy_study.py", line 90, in solve
+    s.settings.file.read_mesh(file_name=str(mesh));s.tui.mesh.check();s.tui.mesh.quality()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otiso\umbrella\.venvs\airknife_20261114\Lib\site-packages\ansys\fluent\core\solver\flobject.py", line 2272, in __call__
+    return self.execute_command(**kwds)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\otiso\umbrella\.venvs\airknife_20261114\Lib\site-packages\ansys\fluent\core\solver\flobject.py", line 2212, in execute_command
+    ret = self._execute_command(*args, **scmKwds)
+  File "C:\Users\otiso\umbrella\.venvs\airknife_20261114\Lib\site-packages\ansys\fluent\core\solver\flobject.py", line 2183, in _execute_command
+    ret = self.flproxy.execute_cmd(self._parent.path, self.obj_name, **kwds)
+  File "C:\Users\otiso\umbrella\.venvs\airknife_20261114\Lib\site-packages\ansys\fluent\core\services\settings.py", line 79, in _fn
+    return fn(self, *args, **kwds)
+  File "C:\Users\otiso\umbrella\.venvs\airknife_20261114\Lib\site-packages\ansys\fluent\core\services\settings.py", line 147, in execute_cmd
+    return self.service.execute_cmd(path, command, **kwds)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otiso\umbrella\.venvs\airknife_20261114\Lib\site-packages\ansys\fluent\core\_grpc_services\settings_service_v0.py", line 212, in execute_cmd
+    response = self._stub.ExecuteCommand(request, metadata=self._metadata)
+  File "C:\Users\otiso\umbrella\.venvs\airknife_20261114\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\otiso\umbrella\.venvs\airknife_20261114\Lib\site-packages\grpc\_interceptor.py", line 328, in _with_call
+    call = self._interceptor.intercept_unary_unary(
+        continuation, client_call_details, request
+    )
+  File "C:\Users\otiso\umbrella\.venvs\airknife_20261114\Lib\site-packages\ansys\fluent\core\services\interceptors.py", line 175, in intercept_unary_unary
+    return self._intercept_call(continuation, client_call_details, request)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otiso\umbrella\.venvs\airknife_20261114\Lib\site-packages\ansys\fluent\core\services\interceptors.py", line 165, in _intercept_call
+    raise new_ex from None
+RuntimeError: File "C:\Users\otiso\umbrella\case\集風罩\三路接頭與150mm風刀_51mm軟管_20261114\cfd\curve_g4_q1\nozzle.msh" not found!
+Error Object: #f

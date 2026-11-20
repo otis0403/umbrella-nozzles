@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\otiso\umbrella\case\集風罩\三路接頭與150mm風刀_51mm軟管_20261114\build_cad.py", line 61, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--height',type=float,default=120);p.add_argument('--neck',type=float,default=46);p.add_argument('--gap',type=float,default=6);p.add_argument('--length',type=float,default=120);a=p.parse_args();main(a.height,a.neck,a.gap,a.length)
+                                                                                                                                                                                                                                                 ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otiso\umbrella\case\集風罩\三路接頭與150mm風刀_51mm軟管_20261114\build_cad.py", line 54, in main
+    export(split_solid(height,neck),f'splitter_H{height:g}_neck{neck:g}','adapter',records)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otiso\umbrella\case\集風罩\三路接頭與150mm風刀_51mm軟管_20261114\build_cad.py", line 44, in export
+    assert reread.is_watertight and reread.is_winding_consistent and len(reread.split(only_watertight=False))==1
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

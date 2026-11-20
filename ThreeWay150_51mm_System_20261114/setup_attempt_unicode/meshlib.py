@@ -1,0 +1,56 @@
+"""Conformal multiblock hexahedra, native Fluent ASCII mesh (metres)."""
+import json
+from collections import defaultdict
+import numpy as np
+from geometry import ROOT,boundary,signed_area
+
+class HexMesh:
+    def __init__(self):self.nodes=[];self.lookup={};self.cells=[]
+    def block(self,grids):
+        grids=np.asarray(grids);ids=np.empty(grids.shape[:3],np.int32)
+        for index in np.ndindex(ids.shape):
+            p=grids[index];key=tuple(np.round(p,7));number=self.lookup.get(key)
+            if number is None:number=len(self.nodes);self.nodes.append(p);self.lookup[key]=number
+            ids[index]=number
+        k,j,i=np.indices(np.array(ids.shape)-1)
+        cell=np.stack([ids[k,j,i],ids[k,j,i+1],ids[k,j+1,i+1],ids[k,j+1,i],ids[k+1,j,i],ids[k+1,j,i+1],ids[k+1,j+1,i+1],ids[k+1,j+1,i]],axis=-1).reshape(-1,8)
+        self.cells.extend(cell)
+    def export(self,path,classify,metadata):
+        pts=np.asarray(self.nodes)/1000;cells=np.asarray(self.cells);assert len(cells)<1e6 and len(pts)<1e6
+        p=pts[cells];vol=np.zeros(len(cells));mintet=1
+        for a,b,c in [(1,2,6),(2,3,6),(3,7,6),(7,4,6),(4,5,6),(5,1,6)]:
+            tet=np.einsum('ij,ij->i',np.cross(p[:,a]-p[:,0],p[:,b]-p[:,0]),p[:,c]-p[:,0])/6
+            mintet=min(mintet,float(tet.min()));vol+=tet
+        assert mintet>0,('nonpositive_tetra',mintet)
+        faces={}
+        order=[(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)]
+        for cid,cell in enumerate(cells,1):
+            for indices in order:
+                face=tuple(int(cell[x]) for x in indices);key=tuple(sorted(face))
+                if key in faces:faces[key][2]=cid
+                else:faces[key]=[face,cid,0]
+        zones=defaultdict(list)
+        for face,c0,c1 in faces.values():
+            xyz=pts[list(face)]*1000;name=classify(xyz,bool(c1))
+            if c1 and name is None:name='interior'
+            if not c1 and name is None:name='housing'
+            zones[name].append((*[v+1 for v in face],c0,c1))
+        names=list(zones);nface=len(faces)
+        with path.open('w',encoding='ascii') as f:
+            f.write('(0 "Three-way and nozzle fluid mesh; coordinates metres")\n(2 3)\n')
+            f.write(f'(10 (0 1 {len(pts):x} 0))\n(12 (0 1 {len(cells):x} 0))\n(13 (0 1 {nface:x} 0))\n')
+            f.write(f'(10 (1 1 {len(pts):x} 1 3)(\n');np.savetxt(f,pts,fmt='%.12g');f.write('))\n')
+            f.write(f'(12 (2 1 {len(cells):x} 1 4))\n');first=1
+            for zid,name in enumerate(names,3):
+                rows=zones[name];bc=2 if rows[0][-1] else 10 if name=='inlet' else 5 if name.startswith('outlet') else 3
+                f.write(f'(13 ({zid:x} {first:x} {first+len(rows)-1:x} {bc:x} 4)(\n')
+                for row in rows:f.write(' '.join(format(int(x),'x') for x in row)+'\n')
+                f.write('))\n');first+=len(rows)
+            f.write('(39 (2 fluid fluid)())\n')
+            for zid,name in enumerate(names,3):
+                typ='interior' if zones[name][0][-1] else 'velocity-inlet' if name=='inlet' else 'pressure-outlet' if name.startswith('outlet') else 'wall'
+                f.write(f'(39 ({zid:x} {typ} {name})())\n')
+        metadata.update(cells=len(cells),nodes=len(pts),minimum_tetra_volume_m3=mintet,volume_m3=float(vol.sum()),zones={n:len(v) for n,v in zones.items()})
+        path.with_name('mesh_summary.json').write_text(json.dumps(metadata,indent=2),encoding='utf-8')
+        print('MESH_READY',str(path.parent),len(cells),len(pts),flush=True)
+        return metadata

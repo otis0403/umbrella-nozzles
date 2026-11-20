@@ -1,0 +1,14 @@
+{
+  "signature": {
+    "name": "curve_w180_q4p0",
+    "width": 180,
+    "length": 180,
+    "profile_kind": "ramp",
+    "q": 4.0
+  },
+  "result_sha256": "959495a59a21062d3bf3e56e41e252f9d5dc62ba1681a1cbea2da7ac16a5265e",
+  "native_sizes": {
+    "solution.cas.h5": 5446771,
+    "solution.dat.h5": 41713200
+  }
+}

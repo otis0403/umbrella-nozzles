@@ -1,0 +1,13 @@
+{
+  "case": "curve_w225_q4p0",
+  "width_mm": 225,
+  "flow_m3_min": 3.99999999999194,
+  "inlet_total_pressure_Pa": 434.1194716912217,
+  "total_pressure_loss_Pa": 196.0095977901739,
+  "slot_area_mean_velocity_m_s": 18.52040672302246,
+  "core_line_CV_pct": 9.153359354040136,
+  "core_line_mean_velocity_m_s": 19.421884960669086,
+  "full_slot_area_CV_pct": 21.906768798828125,
+  "body_reverse_volume_pct": 4.631576035407478,
+  "engineering_convergence_pass": false
+}

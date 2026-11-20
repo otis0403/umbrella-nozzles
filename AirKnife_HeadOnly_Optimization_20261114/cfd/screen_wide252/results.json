@@ -1,0 +1,35 @@
+{
+  "name": "screen_wide252",
+  "conditions": {
+    "prescribed_Q_m3_min": 3.0,
+    "hypothetical_inlet_total_pressure_Pa": null,
+    "actual_fan_curve_used": false,
+    "height_mm": 260,
+    "gap_mm": 16,
+    "span_mm": 252,
+    "body_height_mm": 200,
+    "lip_length_mm": 60,
+    "warm_start_source": "C:\\Users\\otiso\\umbrella\\case\\AirKnife_16mm_Wider_ANSYS_20261114\\cfd\\body_H260_W216",
+    "vane_count": 0,
+    "external_free_jet": false
+  },
+  "reports": {
+    "batch": 6,
+    "elapsed_s": 77.7414436340332,
+    "pin": 82.67985529048484,
+    "ptin": 111.523411406926,
+    "ptout": 101.4004082489782,
+    "min": 0.05999560842287901,
+    "mout": -0.05999560943518938
+  },
+  "required_static_pressure_Pa": 82.67985529048484,
+  "pressure_loss_to_domain_outlet_Pa": 10.123003157947807,
+  "nozzle_flow_m3_min": 2.9997804211439503,
+  "mass_imbalance_pct": 1.6873074563725129e-06,
+  "outlet_mean_axial_velocity_m_s": 12.399115562438965,
+  "outlet_full_area_CV": 0.17477737367153168,
+  "negative_uz_volume_fraction": 0.0005098102615128729,
+  "min_uz_m_s": -2.4731298489540223,
+  "last_pressure_change_pct": 1.6550423070778096e-05,
+  "solver": "Fluent 2026 R1, 3D double, SST k-omega; steady incompressible; smooth walls"
+}

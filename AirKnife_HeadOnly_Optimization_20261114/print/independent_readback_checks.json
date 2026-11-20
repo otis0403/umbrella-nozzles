@@ -1,0 +1,59 @@
+[
+  {
+    "file": "print\\STL\\body_onepiece_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\head_short216_16mm_body200_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\head_wide228_16mm_body200_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\3MF\\body_onepiece.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\head_short216_16mm_body200.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\head_wide228_16mm_body200.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\01_body_onepiece_Z45.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\02_short216_head_Z45.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\02_wide228_head_Z45.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "name": "screen_wide240",
+  "height_mm": 240,
+  "gap_mm": 16,
+  "profile_config": {
+    "height": 240,
+    "body": 200,
+    "span": 240,
+    "gap": 16,
+    "land": 6,
+    "rim": 1.6,
+    "wall": 3.0
+  },
+  "span_mm": 240,
+  "body_height_mm": 200,
+  "lip_length_mm": 40,
+  "external": false,
+  "cells": 175104,
+  "nodes": 187425,
+  "inlet_area_m2": 0.007208274333882308,
+  "outlet_slot_area_m2": 0.0038399999999999997,
+  "volume_m3": 0.0013410162305199243,
+  "min_tetra_volume_m3": 1.115349139708816e-13,
+  "vane_count": 0,
+  "external_bounds_mm": null,
+  "zones": {
+    "interior": 513216,
+    "inlet": 1152,
+    "outlet": 1152,
+    "housing": 21888
+  }
+}

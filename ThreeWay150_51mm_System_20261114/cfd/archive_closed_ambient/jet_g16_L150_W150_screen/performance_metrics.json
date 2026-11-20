@@ -1,0 +1,28 @@
+{
+  "case": "jet_g16_L150_W150_screen",
+  "Q_m3_min": 1.8170393240861222,
+  "gap_mm": 16,
+  "slot_mean_Uz_m_s": 12.628199577331543,
+  "30mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 85.11014667709318,
+    "same_140x80_strip_momentum_N": 0.48369558219005915,
+    "core_140mm_line_CV_pct": 14.185712551485125,
+    "core_line_mean_Uz_m_s": 15.116592618934865,
+    "patch_pressure_p10_Pa": 17.426910947482508
+  },
+  "50mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 82.87659517230377,
+    "same_140x80_strip_momentum_N": 0.48492441203283587,
+    "core_140mm_line_CV_pct": 14.002095578791037,
+    "core_line_mean_Uz_m_s": 14.979228328446764,
+    "patch_pressure_p10_Pa": 25.216356508429726
+  },
+  "80mm": {
+    "same_140x20_patch_mean_normal_dynamic_pressure_Pa": 77.71406208455882,
+    "same_140x80_strip_momentum_N": 0.48712458980375745,
+    "core_140mm_line_CV_pct": 13.936945297612082,
+    "core_line_mean_Uz_m_s": 14.406119872980023,
+    "patch_pressure_p10_Pa": 30.971873624937775
+  },
+  "minimum_pressure_proxy_Pa": 77.71406208455882
+}

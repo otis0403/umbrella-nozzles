@@ -1,0 +1,36 @@
+{
+  "name": "curve_final_q2.5",
+  "conditions": {
+    "prescribed_Q_m3_min": 2.5,
+    "hypothetical_inlet_total_pressure_Pa": null,
+    "actual_fan_curve_used": false,
+    "height_mm": 188,
+    "gap_mm": 16,
+    "span_mm": 150.0,
+    "body_height_mm": 25.0,
+    "lip_length_mm": 163,
+    "warm_start_source": "curve_g16_q2.5",
+    "vane_count": 0,
+    "external_free_jet": false,
+    "ambient_boundary_type": null
+  },
+  "reports": {
+    "batch": 9,
+    "elapsed_s": 116.3507559299469,
+    "pin": -110.6160699196547,
+    "ptin": 269.619643236954,
+    "ptout": 216.0297616602618,
+    "min": 0.05000000000000158,
+    "mout": -0.04999997258379142
+  },
+  "required_static_pressure_Pa": -110.6160699196547,
+  "pressure_loss_to_domain_outlet_Pa": 53.58988157669219,
+  "nozzle_flow_m3_min": 2.500000000000079,
+  "mass_imbalance_pct": 5.483242031256546e-05,
+  "outlet_mean_axial_velocity_m_s": 17.363136291503906,
+  "outlet_full_area_CV": 0.21946270763874054,
+  "negative_uz_volume_fraction": 0.14419969933048576,
+  "min_uz_m_s": -9.188713105446402,
+  "last_pressure_change_pct": 0.00422915830015238,
+  "solver": "Fluent 2026 R1, 3D double, SST k-omega; steady incompressible; smooth walls"
+}

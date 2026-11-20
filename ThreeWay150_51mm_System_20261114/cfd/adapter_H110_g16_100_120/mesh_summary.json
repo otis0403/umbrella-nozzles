@@ -1,0 +1,25 @@
+{
+  "name": "adapter_H110_g16_100_120",
+  "type": "adapter",
+  "height_mm": 110,
+  "neck_mm": 46,
+  "fine": false,
+  "reference_old_layout_ID46": false,
+  "inlet_area_m2": 0.007208274333882308,
+  "external": false,
+  "cells": 66336,
+  "nodes": 75475,
+  "minimum_tetra_volume_m3": 7.909387417647307e-14,
+  "volume_m3": 0.0006830277091005314,
+  "zones": {
+    "inlet": 960,
+    "interior": 189284,
+    "housing": 15896,
+    "load_0": 288,
+    "outlet_0": 288,
+    "load_1": 288,
+    "outlet_1": 288,
+    "load_2": 288,
+    "outlet_2": 288
+  }
+}

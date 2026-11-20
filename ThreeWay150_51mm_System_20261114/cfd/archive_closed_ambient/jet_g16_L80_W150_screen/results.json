@@ -1,0 +1,38 @@
+{
+  "name": "jet_g16_L80_W150_screen",
+  "conditions": {
+    "prescribed_Q_m3_min": 1.8170393240860634,
+    "hypothetical_inlet_total_pressure_Pa": null,
+    "actual_fan_curve_used": false,
+    "height_mm": 148,
+    "gap_mm": 16,
+    "span_mm": 150.0,
+    "body_height_mm": 25.0,
+    "lip_length_mm": 123,
+    "warm_start_source": "jet_g16_L120_long_pipe",
+    "vane_count": 0,
+    "external_free_jet": true
+  },
+  "reports": {
+    "batch": 8,
+    "elapsed_s": 323.6746418476105,
+    "pin": -28.71770227871005,
+    "ptin": 172.1373057056826,
+    "ptout": 14.05247298505948,
+    "min": 0.03634078648172244,
+    "mout": -0.03634082338617162,
+    "mambient": 0.0
+  },
+  "required_static_pressure_Pa": -28.71770227871005,
+  "pressure_loss_to_domain_outlet_Pa": 158.08483272062313,
+  "nozzle_flow_m3_min": 1.8170393240861222,
+  "mass_imbalance_pct": 0.00010155104704656089,
+  "outlet_mean_axial_velocity_m_s": 0.37849941849708557,
+  "outlet_full_area_CV": 6.100605487823486,
+  "negative_uz_volume_fraction": 0.7998687352659365,
+  "min_uz_m_s": -2.936815288972554,
+  "last_pressure_change_pct": 0.0021090699130162974,
+  "solver": "Fluent 2026 R1, 3D double, SST k-omega; steady incompressible; smooth walls",
+  "invalidated_for_free_jet_selection": true,
+  "invalidation_reason": "Ambient region was incorrectly exported as wall; recomputation with open ambient is required"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "body_H320_W252",
+  "conditions": {
+    "prescribed_Q_m3_min": 3.0,
+    "hypothetical_inlet_total_pressure_Pa": null,
+    "actual_fan_curve_used": false,
+    "height_mm": 320,
+    "gap_mm": 12,
+    "span_mm": 252,
+    "body_height_mm": 200,
+    "lip_length_mm": 120,
+    "warm_start_source": null,
+    "vane_count": 0,
+    "external_free_jet": false
+  },
+  "reports": {
+    "batch": 6,
+    "elapsed_s": 173.64087629318237,
+    "pin": 163.9213390657004,
+    "ptin": 192.764959898778,
+    "ptout": 175.8699259685054,
+    "min": 0.05999560842287901,
+    "mout": -0.0599956081772279
+  },
+  "required_static_pressure_Pa": 163.9213390657004,
+  "pressure_loss_to_domain_outlet_Pa": 16.895033930272575,
+  "nozzle_flow_m3_min": 2.9997804211439503,
+  "mass_imbalance_pct": 4.0944848635038515e-07,
+  "outlet_mean_axial_velocity_m_s": 16.532773971557617,
+  "outlet_full_area_CV": 0.16520634293556213,
+  "negative_uz_volume_fraction": 2.5454382336204215e-06,
+  "min_uz_m_s": -0.18262384774970733,
+  "last_pressure_change_pct": 6.409061118451683e-06,
+  "solver": "Fluent 2026 R1, 3D double, SST k-omega; steady incompressible; smooth walls"
+}

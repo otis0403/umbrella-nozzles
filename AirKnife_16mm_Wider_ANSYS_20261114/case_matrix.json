@@ -1,0 +1,58 @@
+[
+  {
+    "name": "body_H260_W216",
+    "height_mm": 260,
+    "span_mm": 216,
+    "gap_mm": 16,
+    "body_height_mm": 200,
+    "external": false
+  },
+  {
+    "name": "jet_H260_W216",
+    "height_mm": 260,
+    "span_mm": 216,
+    "gap_mm": 16,
+    "body_height_mm": 200,
+    "external": true
+  },
+  {
+    "name": "body_H320_W252",
+    "height_mm": 320,
+    "span_mm": 252,
+    "gap_mm": 16,
+    "body_height_mm": 200,
+    "external": false
+  },
+  {
+    "name": "jet_H320_W252",
+    "height_mm": 320,
+    "span_mm": 252,
+    "gap_mm": 16,
+    "body_height_mm": 200,
+    "external": true
+  },
+  {
+    "name": "body_H360_W252",
+    "height_mm": 360,
+    "span_mm": 252,
+    "gap_mm": 16,
+    "body_height_mm": 200,
+    "external": false
+  },
+  {
+    "name": "jet_H360_W252",
+    "height_mm": 360,
+    "span_mm": 252,
+    "gap_mm": 16,
+    "body_height_mm": 200,
+    "external": true
+  },
+  {
+    "name": "jet_H320_W252_fine",
+    "height_mm": 320,
+    "span_mm": 252,
+    "gap_mm": 16,
+    "body_height_mm": 200,
+    "external": true
+  }
+]

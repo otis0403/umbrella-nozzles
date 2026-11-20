@@ -1,0 +1,59 @@
+[
+  {
+    "file": "print\\STL\\body_onepiece_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\lip_252x12_H320_no_ribs_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\lip_252x12_H360_no_ribs_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\3MF\\body_onepiece.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\lip_252x12_H320_no_ribs.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\lip_252x12_H360_no_ribs.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\01_body_onepiece_Z45.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\02_lip_H320_W252_gap12_Z45.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\02_lip_H360_W252_gap12_Z45.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "file": "K1C_252x16_Wider_ANSYS_PrintPack.zip",
+  "files": 102,
+  "bytes": 29156697,
+  "sha256": "836f3a26b649088c8337819bec0bc8f4de28f82c8efa00f976098494743685f2",
+  "zip_CRC_pass": true,
+  "every_member_hash_matches": true,
+  "raw_CFD_kept_locally": "cfd/",
+  "raw_CFD_in_ZIP": false,
+  "actual_slicing_verified": false,
+  "physical_print_verified": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "body_H260_W216",
+  "height_mm": 260,
+  "gap_mm": 12,
+  "span_mm": 216,
+  "body_height_mm": 200,
+  "lip_length_mm": 60,
+  "external": false,
+  "cells": 188928,
+  "nodes": 202125,
+  "inlet_area_m2": 0.007208274333882308,
+  "outlet_slot_area_m2": 0.0025919999999999997,
+  "volume_m3": 0.0013862614256090157,
+  "min_tetra_volume_m3": 1.0671813117483079e-13,
+  "vane_count": 0,
+  "external_bounds_mm": null,
+  "zones": {
+    "interior": 553824,
+    "inlet": 1152,
+    "outlet": 1152,
+    "housing": 23616
+  }
+}

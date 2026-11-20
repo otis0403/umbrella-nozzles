@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-14",
+  "reason": "User changed requested outlet gap from 12 mm back to 16 mm",
+  "completed_12mm_cases": [
+    "body_H260_W216",
+    "body_H320_W252",
+    "body_H360_W252"
+  ],
+  "partial_12mm_study_not_a_final_deliverable": true
+}

@@ -1,0 +1,15 @@
+{
+  "signature": {
+    "name": "guide_w315_q1p5",
+    "width": 315,
+    "length": 320,
+    "profile_kind": "ramp",
+    "guided": true,
+    "q": 1.5
+  },
+  "result_sha256": "7f04b4331879fecdad2bebd99e075ab387e226afd54300402a42f43636715ce8",
+  "native_sizes": {
+    "solution.cas.h5": 8376884,
+    "solution.dat.h5": 60248952
+  }
+}

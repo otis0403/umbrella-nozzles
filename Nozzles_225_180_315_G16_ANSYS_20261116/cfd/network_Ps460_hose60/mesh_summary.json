@@ -1,0 +1,33 @@
+{
+  "name": "network_Ps460_hose60",
+  "type": "adapter",
+  "height_mm": 110,
+  "neck_mm": 46,
+  "fine": false,
+  "reference_old_layout_ID46": false,
+  "inlet_area_m2": 0.007208274333882308,
+  "external": false,
+  "physical_port_lengths_mm": [
+    25,
+    35,
+    25
+  ],
+  "center_neck_extended_mm": 10,
+  "cells": 68064,
+  "nodes": 77425,
+  "minimum_tetra_volume_m3": 7.909387417647307e-14,
+  "volume_m3": 0.0006995802383784812,
+  "zones": {
+    "inlet": 960,
+    "interior": 194252,
+    "housing": 16328,
+    "load_0": 288,
+    "outlet_0": 288,
+    "load_1": 288,
+    "outlet_1": 288,
+    "load_2": 288,
+    "outlet_2": 288
+  },
+  "geometry_revision": "20261114_open_ambient_v1",
+  "template_mesh_sha256": "a3affe72c39c18cf5cdadce99f53ea0e1eae71314d46e6b07e92e15c373cca41"
+}

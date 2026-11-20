@@ -1,0 +1,35 @@
+{
+  "name": "guide_w315_q1p5",
+  "height_mm": 388.0,
+  "width_mm": 315,
+  "span_mm": 315,
+  "transition_length_mm": 320,
+  "profile_kind": "ramp",
+  "gap_mm": 16,
+  "external": false,
+  "fine": false,
+  "feed_elbow_R_mm": 90,
+  "inlet_area_m2": 0.002027923775921899,
+  "outlet_slot_area_m2": 0.005039450619298297,
+  "body_height_mm": 25,
+  "lip_length_mm": 363.0,
+  "reach_mm": 0,
+  "vane_count": 2,
+  "guide_nominal_thickness_mm": 1.6,
+  "guide_Z_mm": [
+    55.0,
+    332.0
+  ],
+  "unpartitioned_outlet_length_mm": 56,
+  "cells": 242672,
+  "nodes": 257058,
+  "minimum_tetra_volume_m3": 1.073754830321331e-12,
+  "volume_m3": 0.0020243333770677678,
+  "zones": {
+    "inlet": 1040,
+    "interior": 714140,
+    "outlet": 1040,
+    "housing": 25672
+  },
+  "geometry_revision": "20261114_open_ambient_v1"
+}

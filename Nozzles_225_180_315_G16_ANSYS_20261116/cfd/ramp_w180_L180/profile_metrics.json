@@ -1,0 +1,13 @@
+{
+  "case": "ramp_w180_L180",
+  "width_mm": 180,
+  "flow_m3_min": 1.727999999996515,
+  "inlet_total_pressure_Pa": 107.2030087003287,
+  "total_pressure_loss_Pa": 39.23873818022922,
+  "slot_area_mean_velocity_m_s": 10.001874923706055,
+  "core_line_CV_pct": 5.555782734956793,
+  "core_line_mean_velocity_m_s": 10.754080430371173,
+  "full_slot_area_CV_pct": 21.046520233154297,
+  "body_reverse_volume_pct": 2.4065040958806025,
+  "engineering_convergence_pass": false
+}

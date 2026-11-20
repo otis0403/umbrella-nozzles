@@ -1,0 +1,9 @@
+{
+  "pressure_outlets": [
+    "outlet"
+  ],
+  "walls": [
+    "housing"
+  ],
+  "ambient_open_verified": false
+}

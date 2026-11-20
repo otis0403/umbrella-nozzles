@@ -1,0 +1,15 @@
+{
+  "signature": {
+    "name": "guide_w315_L320",
+    "width": 315,
+    "length": 320,
+    "profile_kind": "ramp",
+    "guided": true,
+    "q": 3.024
+  },
+  "result_sha256": "0258fe6491415bca05b10163c22eeaae9931869fa32a9eb83162a37d1bfc333c",
+  "native_sizes": {
+    "solution.cas.h5": 8376880,
+    "solution.dat.h5": 60536797
+  }
+}

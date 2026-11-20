@@ -1,0 +1,8 @@
+{
+  "signature": "ffa514fb0a1e5708fd2fa9bf0e8ec3a84df79f231bc913fabc39c6f29773d236",
+  "result_sha256": "17c2bee595b89451a044a11fe06d4575961b85ee82f5d27fe486fd4b5345d9f4",
+  "native_sizes": {
+    "solution.cas.h5": 2727531,
+    "solution.dat.h5": 17439392
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "final_jet_50_70",
+  "height_mm": 188,
+  "gap_mm": 16,
+  "span_mm": 150.0,
+  "body_height_mm": 25.0,
+  "lip_length_mm": 163,
+  "profile_config": {
+    "length": 120,
+    "shoulder": 150,
+    "plenum": 22
+  },
+  "external": true,
+  "fine": false,
+  "inlet_area_m2": 0.0016546654836892057,
+  "outlet_slot_area_m2": 0.0023994506192982976,
+  "vane_count": 0,
+  "cells": 270192,
+  "nodes": 279102,
+  "minimum_tetra_volume_m3": 5.075059617964774e-12,
+  "volume_m3": 0.02045692250341947,
+  "zones": {
+    "inlet": 752,
+    "interior": 801920,
+    "outlet": 1584,
+    "housing": 6144,
+    "lip_rim": 196,
+    "ambient": 8636
+  },
+  "geometry_revision": "20261114_open_ambient_v1"
+}

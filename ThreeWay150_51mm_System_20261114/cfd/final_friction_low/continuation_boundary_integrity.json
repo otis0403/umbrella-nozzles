@@ -1,0 +1,65 @@
+{
+  "porous_jump_boundaries_unchanged": true,
+  "before": {
+    "load_0": {
+      "alpha": 1.896979594103712e-08,
+      "dm": 0.001,
+      "c2": 390.1364986979857
+    },
+    "load_1": {
+      "alpha": 1.896979594103712e-08,
+      "dm": 0.001,
+      "c2": 340.1529381775739
+    },
+    "load_2": {
+      "alpha": 1.896979594103712e-08,
+      "dm": 0.001,
+      "c2": 390.1365198405509
+    }
+  },
+  "after": {
+    "load_0": {
+      "alpha": 1.896979594103712e-08,
+      "dm": 0.001,
+      "c2": 390.1364986979857
+    },
+    "load_1": {
+      "alpha": 1.896979594103712e-08,
+      "dm": 0.001,
+      "c2": 340.1529381775739
+    },
+    "load_2": {
+      "alpha": 1.896979594103712e-08,
+      "dm": 0.001,
+      "c2": 390.1365198405509
+    }
+  },
+  "relaxation_menu": "pseudo_time_explicit_relaxation_factor.global_dt_pseudo_relax",
+  "relaxation_before": {
+    "body-force": 1.0,
+    "density": 1.0,
+    "k": 0.5,
+    "omega": 0.5,
+    "turb-viscosity": 1.0
+  },
+  "relaxation_after": {
+    "body-force": 1.0,
+    "density": 1.0,
+    "k": 0.5,
+    "omega": 0.5,
+    "turb-viscosity": 1.0
+  },
+  "pseudo_time_before": {
+    "time_step_method": "automatic",
+    "length_scale_methods": "conservative",
+    "time_step_size_scale_factor": 1.0,
+    "verbosity": 0
+  },
+  "pseudo_time_after": {
+    "time_step_method": "automatic",
+    "length_scale_methods": "conservative",
+    "time_step_size_scale_factor": 0.1,
+    "verbosity": 0
+  },
+  "second_order_discretization_preserved": true
+}

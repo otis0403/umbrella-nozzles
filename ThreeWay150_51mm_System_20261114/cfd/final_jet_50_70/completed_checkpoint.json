@@ -1,0 +1,18 @@
+{
+  "signature": {
+    "kind": "nozzle",
+    "name": "final_jet_50_70",
+    "gap": 16,
+    "q": 2.022516511471267,
+    "length": 120,
+    "shoulder": 150,
+    "plenum": 22,
+    "external": true,
+    "fine": false
+  },
+  "result_sha256": "ecffdfbc386975047c59dabc637dcea6016f24cc68f203eef9e45aa2752e6c1f",
+  "native_sizes": {
+    "solution.cas.h5": 7436835,
+    "solution.dat.h5": 27824317
+  }
+}

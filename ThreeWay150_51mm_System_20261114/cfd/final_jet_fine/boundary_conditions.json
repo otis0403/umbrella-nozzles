@@ -1,0 +1,11 @@
+{
+  "pressure_outlets": [
+    "outlet",
+    "ambient"
+  ],
+  "walls": [
+    "housing",
+    "lip_rim"
+  ],
+  "ambient_open_verified": true
+}

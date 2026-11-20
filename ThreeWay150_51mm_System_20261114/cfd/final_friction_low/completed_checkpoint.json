@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "kind": "adapter",
+    "name": "final_friction_low",
+    "height": 110.0,
+    "neck": 46.0,
+    "gap": 16,
+    "center": 0.95,
+    "side": 1.15,
+    "physical_center": 1.0,
+    "physical_side": 1.2,
+    "friction": 0.02,
+    "nozzle_curve": {
+      "a_Pa_per_Q2": 38.37308982845615,
+      "b_Pa_per_Q": 9.515969706156282,
+      "points": [
+        [
+          1.0000000000000315,
+          47.88905953461515
+        ],
+        [
+          2.500000000000079,
+          263.6217356932576
+        ]
+      ],
+      "geometry_length_mm": 120,
+      "geometry_shoulder_mm": 150,
+      "geometry_plenum_mm": 22,
+      "source_cases": [
+        "curve_selected_P22_q1",
+        "curve_selected_P22_q2.5"
+      ],
+      "max_fit_error_pct": 2.220446049250313e-14
+    }
+  },
+  "result_sha256": "52684f5994d797074bf260afa37c16bd5b8e7e16fdbe8fdaf6792d2832083cc4",
+  "native_sizes": {
+    "solution.cas.h5": 2679417,
+    "solution.dat.h5": 7767074
+  }
+}

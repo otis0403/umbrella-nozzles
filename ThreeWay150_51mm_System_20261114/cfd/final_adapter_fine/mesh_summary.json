@@ -1,0 +1,26 @@
+{
+  "name": "final_adapter_fine",
+  "type": "adapter",
+  "height_mm": 110.0,
+  "neck_mm": 46.0,
+  "fine": true,
+  "reference_old_layout_ID46": false,
+  "inlet_area_m2": 0.007208274333882308,
+  "external": false,
+  "cells": 680656,
+  "nodes": 704986,
+  "minimum_tetra_volume_m3": 5.964086709723237e-13,
+  "volume_m3": 0.0006835286445174527,
+  "zones": {
+    "inlet": 4680,
+    "interior": 2013632,
+    "housing": 38456,
+    "load_0": 1504,
+    "outlet_0": 1504,
+    "load_1": 1504,
+    "outlet_1": 1504,
+    "load_2": 1504,
+    "outlet_2": 1504
+  },
+  "geometry_revision": "20261114_open_ambient_v1"
+}

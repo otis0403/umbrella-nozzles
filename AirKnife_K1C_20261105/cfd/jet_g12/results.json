@@ -1,0 +1,87 @@
+{
+  "name": "jet_g12",
+  "conditions": {
+    "prescribed_Q_m3_min": null,
+    "hypothetical_inlet_total_pressure_Pa": 400.0,
+    "actual_fan_curve_used": false,
+    "height_mm": 260,
+    "gap_mm": 12,
+    "vane_count": 0,
+    "external_free_jet": true
+  },
+  "reports": {
+    "batch": 7,
+    "elapsed_s": 443.4383375644684,
+    "pin": 352.271191427339,
+    "ptin": 399.9999999999997,
+    "ptout": 66.01854441589923,
+    "min": 0.07704127533937748,
+    "mout": -0.1673628904880308,
+    "mambient": 0.0903218473254808
+  },
+  "required_static_pressure_Pa": 352.271191427339,
+  "pressure_loss_to_domain_outlet_Pa": 333.9814555841005,
+  "nozzle_flow_m3_min": 3.852063766968874,
+  "mass_imbalance_pct": 0.00030136680170885795,
+  "outlet_mean_axial_velocity_m_s": 1.7431331872940063,
+  "outlet_full_area_CV": 2.373811960220337,
+  "negative_uz_volume_fraction": 0.23517687045098998,
+  "min_uz_m_s": -0.8622730739599167,
+  "last_pressure_change_pct": 0.00010360253284790947,
+  "solver": "Fluent 2026 R1, 3D double, SST k-omega; steady incompressible; smooth walls",
+  "free_jet_metrics": {
+    "slot_mass_average_total_pressure_Pa": 376.4555358886719,
+    "nozzle_total_pressure_loss_Pa": 23.544464111328125,
+    "slot_mean_axial_velocity_m_s": 24.767009735107422,
+    "internal_negative_uz_volume_fraction": 2.058281688606845e-06,
+    "internal_min_uz_m_s": -0.2307725685337005,
+    "30mm": {
+      "central_200mm_line_mean_uz_m_s": 25.752935885259543,
+      "central_200mm_line_p10_uz_m_s": 25.741699948443824,
+      "central_200mm_line_CV": 0.0006640935327056469,
+      "forward_momentum_window_N": 1.9318870306015015,
+      "momentum_window_mm": {
+        "X": [
+          -40,
+          40
+        ],
+        "Y": [
+          -130,
+          130
+        ]
+      }
+    },
+    "50mm": {
+      "central_200mm_line_mean_uz_m_s": 25.732591731190308,
+      "central_200mm_line_p10_uz_m_s": 25.721801593159483,
+      "central_200mm_line_CV": 0.0006062556545076833,
+      "forward_momentum_window_N": 1.9324395656585693,
+      "momentum_window_mm": {
+        "X": [
+          -40,
+          40
+        ],
+        "Y": [
+          -130,
+          130
+        ]
+      }
+    },
+    "80mm": {
+      "central_200mm_line_mean_uz_m_s": 25.67869094407425,
+      "central_200mm_line_p10_uz_m_s": 25.673204635911823,
+      "central_200mm_line_CV": 0.00047125023574813503,
+      "forward_momentum_window_N": 1.9343012571334839,
+      "momentum_window_mm": {
+        "X": [
+          -40,
+          40
+        ],
+        "Y": [
+          -130,
+          130
+        ]
+      }
+    }
+  }
+}

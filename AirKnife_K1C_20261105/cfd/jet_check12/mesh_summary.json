@@ -1,0 +1,29 @@
+{
+  "name": "jet_check12",
+  "height_mm": 260,
+  "gap_mm": 12,
+  "external": true,
+  "cells": 797840,
+  "nodes": 833829,
+  "inlet_area_m2": 0.007208274333882308,
+  "outlet_slot_area_m2": 0.0025919999999999997,
+  "volume_m3": 0.03338625560340499,
+  "min_tetra_volume_m3": 4.5217528701008386e-13,
+  "vane_count": 0,
+  "external_bounds_mm": [
+    -100,
+    100,
+    -200,
+    200,
+    260,
+    660
+  ],
+  "zones": {
+    "interior": 2357980,
+    "inlet": 968,
+    "outlet": 3360,
+    "housing": 17160,
+    "lip_rim": 432,
+    "ambient": 49160
+  }
+}

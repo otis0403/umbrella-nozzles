@@ -1,0 +1,260 @@
+{
+  "no_part_interferences": true,
+  "pair_checks": [
+    {
+      "gap_mm": 8,
+      "parts": [
+        "body_A",
+        "body_B"
+      ],
+      "interference_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 8,
+      "parts": [
+        "body_A",
+        "lip_08mm_front"
+      ],
+      "interference_volume_mm3": -3.297362383136715e-13
+    },
+    {
+      "gap_mm": 8,
+      "parts": [
+        "body_A",
+        "lip_08mm_back"
+      ],
+      "interference_volume_mm3": -8.397726958264684e-13
+    },
+    {
+      "gap_mm": 8,
+      "parts": [
+        "body_B",
+        "lip_08mm_front"
+      ],
+      "interference_volume_mm3": 1.9984014443252818e-13
+    },
+    {
+      "gap_mm": 8,
+      "parts": [
+        "body_B",
+        "lip_08mm_back"
+      ],
+      "interference_volume_mm3": 1.1343729774959677e-12
+    },
+    {
+      "gap_mm": 8,
+      "parts": [
+        "lip_08mm_front",
+        "lip_08mm_back"
+      ],
+      "interference_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 12,
+      "parts": [
+        "body_A",
+        "body_B"
+      ],
+      "interference_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 12,
+      "parts": [
+        "body_A",
+        "lip_12mm_front"
+      ],
+      "interference_volume_mm3": -3.297362383136715e-13
+    },
+    {
+      "gap_mm": 12,
+      "parts": [
+        "body_A",
+        "lip_12mm_back"
+      ],
+      "interference_volume_mm3": -8.397726958264684e-13
+    },
+    {
+      "gap_mm": 12,
+      "parts": [
+        "body_B",
+        "lip_12mm_front"
+      ],
+      "interference_volume_mm3": 1.9984014443252818e-13
+    },
+    {
+      "gap_mm": 12,
+      "parts": [
+        "body_B",
+        "lip_12mm_back"
+      ],
+      "interference_volume_mm3": 1.1343729774959677e-12
+    },
+    {
+      "gap_mm": 12,
+      "parts": [
+        "lip_12mm_front",
+        "lip_12mm_back"
+      ],
+      "interference_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 16,
+      "parts": [
+        "body_A",
+        "body_B"
+      ],
+      "interference_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 16,
+      "parts": [
+        "body_A",
+        "lip_16mm_front"
+      ],
+      "interference_volume_mm3": -3.297362383136715e-13
+    },
+    {
+      "gap_mm": 16,
+      "parts": [
+        "body_A",
+        "lip_16mm_back"
+      ],
+      "interference_volume_mm3": -8.397726958264684e-13
+    },
+    {
+      "gap_mm": 16,
+      "parts": [
+        "body_B",
+        "lip_16mm_front"
+      ],
+      "interference_volume_mm3": 1.9984014443252818e-13
+    },
+    {
+      "gap_mm": 16,
+      "parts": [
+        "body_B",
+        "lip_16mm_back"
+      ],
+      "interference_volume_mm3": 1.1343729774959677e-12
+    },
+    {
+      "gap_mm": 16,
+      "parts": [
+        "lip_16mm_front",
+        "lip_16mm_back"
+      ],
+      "interference_volume_mm3": 0.0
+    }
+  ],
+  "screwdriver_access_checks": [
+    {
+      "gap_mm": 8,
+      "coupling_screw_XY_mm": [
+        -20.0,
+        -70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 8,
+      "coupling_screw_XY_mm": [
+        -20.0,
+        70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 8,
+      "coupling_screw_XY_mm": [
+        20.0,
+        -70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 8,
+      "coupling_screw_XY_mm": [
+        20.0,
+        70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 12,
+      "coupling_screw_XY_mm": [
+        -20.0,
+        -70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 12,
+      "coupling_screw_XY_mm": [
+        -20.0,
+        70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 12,
+      "coupling_screw_XY_mm": [
+        20.0,
+        -70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 12,
+      "coupling_screw_XY_mm": [
+        20.0,
+        70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 16,
+      "coupling_screw_XY_mm": [
+        -20.0,
+        -70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 16,
+      "coupling_screw_XY_mm": [
+        -20.0,
+        70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 16,
+      "coupling_screw_XY_mm": [
+        20.0,
+        -70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    },
+    {
+      "gap_mm": 16,
+      "coupling_screw_XY_mm": [
+        20.0,
+        70.0
+      ],
+      "tool_diameter_mm": 8,
+      "blocked_volume_mm3": 0.0
+    }
+  ],
+  "raw_source_stl_sha256": "6f8f9ca5d755b9c6a77b417ffdef844ebb825ae8b044a93c8e071cddce0158cc"
+}

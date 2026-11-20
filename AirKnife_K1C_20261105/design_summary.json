@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-06",
+  "recommended_first_test_gap_mm": 16,
+  "control_gap_mm": 12,
+  "experimental_optional_gap_mm": 8,
+  "height_mm": 260,
+  "clear_span_mm": 216,
+  "main_printed_parts_per_assembly": 4,
+  "nominal_section_wall_mm": 2.4,
+  "solid_volume_PLA_estimate_g": 479.1130696381797,
+  "same_flow_loss_reduction_pct": 52.963395119711954,
+  "actual_blower_fan_curve_available": false,
+  "actual_installed_flow_verified": false,
+  "physical_print_verified": false,
+  "actual_slicing_verified": false,
+  "10_second_no_drip_verified": false,
+  "working_distance_mm": [
+    30,
+    80
+  ],
+  "sensitivity": {
+    "flow_m3_min": {
+      "baseline": 3.852063766968874,
+      "finer_longer_domain": 3.847092812814429,
+      "change_pct": -0.12904651779315213
+    },
+    "slot_mean_uz_m_s": {
+      "baseline": 24.767009735107422,
+      "finer_longer_domain": 24.743410110473633,
+      "change_pct": -0.09528653190754577
+    },
+    "at_80mm_center_line_uz_m_s": {
+      "baseline": 25.67869094407425,
+      "finer_longer_domain": 25.69520089979576,
+      "change_pct": 0.06429438228556794
+    },
+    "at_80mm_momentum_N": {
+      "baseline": 1.9343012571334839,
+      "finer_longer_domain": 1.9343876838684082,
+      "change_pct": 0.004468111397093466
+    }
+  },
+  "CFD_cases": 8,
+  "all_engineering_convergence_checks_passed": true
+}

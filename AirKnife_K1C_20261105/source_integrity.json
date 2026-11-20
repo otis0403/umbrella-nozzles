@@ -1,0 +1,88 @@
+{
+  "verified_date": "2026-11-06",
+  "original_files": [
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\01_實際模型_12mm橫向出口_無核心.png",
+      "sha256": "2015b503906ecee353da12c2a44e92c905521937ba3006cece70154d55d12ed5",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\02_實際模型_無核心_保留十字導流片.png",
+      "sha256": "aa33a1be3572c649b3e683639824070e6fcdccfd5d1a3c9295a232a9c64bf59c",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\build_nozzle.py",
+      "sha256": "e6e62714879c4e64a9f5af31152595ffba96ad259375319c059071cde649ef6d",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\geometry.py",
+      "sha256": "95bb1c7db365fa81cd4b9d30005e12721aec1979468d644598c32c67e041d767",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\package_delivery.py",
+      "sha256": "7174c6c37dbb551b4e7e5e83affc6167d733fcc30665fc9a7953fa21ee7244fa",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\render_model.py",
+      "sha256": "02cd92e691d3a4ea68dbe7e594e7f5f2f87faccb9b31d2fa21b24dbef0f3e4eb",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\STL獨立重讀檢查.json",
+      "sha256": "5b18ab559f449076a0af4357be6485e458e627aff0515d1a7bbbcfae09eae45f",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\verify_stl.py",
+      "sha256": "323f384be805105d30650f9ab6ea3aa2491481959d4ff02cabe708b7e0330ff4",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\修改與列印說明.md",
+      "sha256": "6e8a82c5bea0c70e806daa676c4fe56d8a34ce895bfe3619064cdf9e394e0ccf",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\原始檔案保留紀錄.json",
+      "sha256": "37eca3d2ccc6dd3cade5e3fb70f7ce2bf7db7ceb5a3bf3a5ed906635c554010c",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\尺寸與方向檢查.json",
+      "sha256": "f8cf35a2983df260b9e76d7381af9d88bdb8f6e806bf67245dca2410f1088c2b",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\直通吹嘴_216x12mm_200mm_橫向出口_無核心_單件.blend",
+      "sha256": "c8b7292d79cc469d79a9057a1091a894621133491a3b81a8e79cfec528cbe5d4",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\直通吹嘴_216x12mm_200mm_橫向出口_無核心_單件_mm.stl",
+      "sha256": "6f8f9ca5d755b9c6a77b417ffdef844ebb825ae8b044a93c8e071cddce0158cc",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\直通吹嘴_216x12mm_200mm_橫向出口_無核心_單件列印包.zip",
+      "sha256": "d59e9ea84635126e8286dc0a0e5e4ca56050f77749a65fd9a6474deb84c00680",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\預覽來源檢查.json",
+      "sha256": "02e49610bc05279e5094894f1f5bec8995bdbc4d70ab31c72b75c6b8e81fef23",
+      "matches_previous_record": true
+    },
+    {
+      "file": "集風罩\\單件原版修改_216x12mm_200mm_橫向出口_無核心_20261105\\__pycache__\\geometry.cpython-313.pyc",
+      "sha256": "d1956c01f7ad7c4d668ce4b1c426ddbb5299b7c8e6f2769275b6e2e84a98c115",
+      "matches_previous_record": true
+    }
+  ],
+  "all_recorded_original_files_unchanged": true,
+  "tracked_worktree_changes": "",
+  "new_output_directory": "AirKnife_K1C_20261105"
+}

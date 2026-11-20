@@ -1,0 +1,555 @@
+{
+  "height_mm": 260.0,
+  "span_mm": 216,
+  "gap_options_mm": [
+    8,
+    12,
+    16
+  ],
+  "body_lip_joint_Z_mm": 200.0,
+  "wall_mm": 2.4,
+  "new_design_core_present": false,
+  "internal_vanes": 0,
+  "flange_XYZ_mm": [
+    118,
+    120,
+    3
+  ],
+  "flange_X_offset_mm": 2,
+  "original_holes": [
+    {
+      "x": 52,
+      "y": -51,
+      "d": 6.4
+    },
+    {
+      "x": 52,
+      "y": 51,
+      "d": 6.4
+    },
+    {
+      "x": -48,
+      "y": -51,
+      "d": 6.4
+    },
+    {
+      "x": -48,
+      "y": 51,
+      "d": 6.4
+    },
+    {
+      "x": 52,
+      "y": -25,
+      "d": 4.4
+    },
+    {
+      "x": 52,
+      "y": 25,
+      "d": 4.4
+    },
+    {
+      "x": -48,
+      "y": -25,
+      "d": 4.4
+    },
+    {
+      "x": -48,
+      "y": 25,
+      "d": 4.4
+    },
+    {
+      "x": -23,
+      "y": -51,
+      "d": 4.4
+    },
+    {
+      "x": 27,
+      "y": -51,
+      "d": 4.4
+    },
+    {
+      "x": -23,
+      "y": 51,
+      "d": 4.4
+    },
+    {
+      "x": 27,
+      "y": 51,
+      "d": 4.4
+    }
+  ],
+  "K1C_nominal_build_mm": [
+    220,
+    220,
+    250
+  ],
+  "part_design_limit_mm": [
+    200,
+    200,
+    240
+  ],
+  "filament": "PLA/PLA+",
+  "nominal_nozzle_mm": 0.4,
+  "suggested_layer_mm": 0.2,
+  "joint_radial_clearance_mm": 0.2,
+  "loose_alignment_pin_diameter_mm": 2.8,
+  "alignment_hole_mm": 3.2,
+  "body_seam_M3x16_count": 8,
+  "lip_module_M3x16_count": 4,
+  "lip_half_M3x30_count": 4,
+  "optional_mid_joint_M3x12_count": 0,
+  "body_pin_count": 8,
+  "lip_pin_count": 4,
+  "parts": [
+    {
+      "name": "body_A",
+      "group": "body",
+      "rotation_XYZ_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        118.00000000000001,
+        110.40000000000002,
+        200.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -57.00000000000001,
+          0.0,
+          0.0
+        ],
+        [
+          61.00000000000001,
+          110.40000000000002,
+          200.0
+        ]
+      ],
+      "volume_mm3": 128083.48376207701,
+      "approx_PLA_mass_g": 158.8235198649755,
+      "triangles": 56892,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "c0d0dc37f68fbdb7b428328dc255f4d508f914e0e87178a8e24181621bccda0f"
+    },
+    {
+      "name": "body_B",
+      "group": "body",
+      "rotation_XYZ_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        118.0,
+        110.40000000000002,
+        200.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -57.00000000000001,
+          -110.40000000000002,
+          0.0
+        ],
+        [
+          61.0,
+          0.0,
+          200.0
+        ]
+      ],
+      "volume_mm3": 127633.69628931636,
+      "approx_PLA_mass_g": 158.2657833987523,
+      "triangles": 57098,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "6c88fd1c9247e262e38107e0d78b79351ba2b17e55f09b13b6b5faa2155416cc"
+    },
+    {
+      "name": "lip_08mm_front",
+      "group": "lip_8",
+      "rotation_XYZ_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        27.879656296296297,
+        66.0,
+        236.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          0.0,
+          -118.0,
+          194.0
+        ],
+        [
+          27.879656296296297,
+          118.0,
+          260.0
+        ]
+      ],
+      "volume_mm3": 64796.93138656462,
+      "approx_PLA_mass_g": 80.34819491934013,
+      "triangles": 24598,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "e10a77cd5ff11aa469e896127b9123908b416c129390252f783bf7d2d8ae50c7"
+    },
+    {
+      "name": "lip_08mm_back",
+      "group": "lip_8",
+      "rotation_XYZ_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        27.879656296296297,
+        66.0,
+        236.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -27.879656296296297,
+          -118.0,
+          194.0
+        ],
+        [
+          0.0,
+          118.0,
+          260.0
+        ]
+      ],
+      "volume_mm3": 65021.82512294298,
+      "approx_PLA_mass_g": 80.6270631524493,
+      "triangles": 24384,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "37237fe1b29a82966f04e97ba30e456551ed526e265688a3bb91fc528e3689a4"
+    },
+    {
+      "name": "lip_12mm_front",
+      "group": "lip_12",
+      "rotation_XYZ_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        28.053104197530864,
+        66.0,
+        236.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          0.0,
+          -118.0,
+          194.0
+        ],
+        [
+          28.053104197530864,
+          118.0,
+          260.0
+        ]
+      ],
+      "volume_mm3": 64868.41452110593,
+      "approx_PLA_mass_g": 80.43683400617135,
+      "triangles": 24652,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "ffb9cfe3f1bd300d7e99225aecfc62cde28bf2383fa7bf7d54599b65b2cf1d20"
+    },
+    {
+      "name": "lip_12mm_back",
+      "group": "lip_12",
+      "rotation_XYZ_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        28.053104197530864,
+        66.0,
+        236.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -28.053104197530864,
+          -118.0,
+          194.0
+        ],
+        [
+          0.0,
+          118.0,
+          260.0
+        ]
+      ],
+      "volume_mm3": 65093.30825748428,
+      "approx_PLA_mass_g": 80.7157022392805,
+      "triangles": 24442,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "f63f1b7b7496d01a026b031fa71185477fa542641bc7de0bb99a1932e9c49ab7"
+    },
+    {
+      "name": "lip_16mm_front",
+      "group": "lip_16",
+      "rotation_XYZ_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        28.22655209876543,
+        66.0,
+        236.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          0.0,
+          -118.0,
+          194.0
+        ],
+        [
+          28.22655209876543,
+          118.0,
+          260.0
+        ]
+      ],
+      "volume_mm3": 64999.46782253357,
+      "approx_PLA_mass_g": 80.59934009994163,
+      "triangles": 24720,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "7fab17019f3636be0d3335883b3b9d9b71893d771382d373a279b91d8a393702"
+    },
+    {
+      "name": "lip_16mm_back",
+      "group": "lip_16",
+      "rotation_XYZ_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        28.22655209876543,
+        66.0,
+        236.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -28.22655209876543,
+          -118.0,
+          194.0
+        ],
+        [
+          0.0,
+          118.0,
+          260.0
+        ]
+      ],
+      "volume_mm3": 65224.361558911936,
+      "approx_PLA_mass_g": 80.87820833305081,
+      "triangles": 24512,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "1e53f49e47337fda5a475554259f336dde5e3ead7412ae1f014f6f36f0fc69ef"
+    },
+    {
+      "name": "alignment_pin_2p6x6",
+      "group": "pins",
+      "rotation_XYZ_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        2.6,
+        2.6,
+        6.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -1.3,
+          -1.3,
+          0.0
+        ],
+        [
+          1.3,
+          1.3,
+          6.0
+        ]
+      ],
+      "volume_mm3": 31.65145384389665,
+      "approx_PLA_mass_g": 0.03924780276643185,
+      "triangles": 124,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "00bd5c7c886e84ca3aca64c982f74edde07dc0cde0be277d88a0630146774e5b"
+    },
+    {
+      "name": "alignment_pin_2p8x6",
+      "group": "pins",
+      "rotation_XYZ_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        2.8,
+        2.8,
+        6.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -1.4,
+          -1.4,
+          0.0
+        ],
+        [
+          1.4,
+          1.4,
+          6.0
+        ]
+      ],
+      "volume_mm3": 36.70819499055469,
+      "approx_PLA_mass_g": 0.04551816178828781,
+      "triangles": 124,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "939e0dd4e9567f11caac63b8ee3fb2a6faaa8f34bc629623b9847e5276f9ccf2"
+    },
+    {
+      "name": "alignment_pin_3p0x6",
+      "group": "pins",
+      "rotation_XYZ_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        3.0,
+        3.0,
+        6.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -1.5,
+          -1.5,
+          0.0
+        ],
+        [
+          1.5,
+          1.5,
+          6.0
+        ]
+      ],
+      "volume_mm3": 42.13950955548369,
+      "approx_PLA_mass_g": 0.05225299184879978,
+      "triangles": 124,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "133af3401de96e3ada4d84b232b7774dacf6f72d90c0f5874acedbf4e93b26b2"
+    },
+    {
+      "name": "fit_coupon_3p1",
+      "group": "coupon",
+      "rotation_XYZ_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        12.0,
+        12.0,
+        5.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -6.0,
+          -6.0,
+          0.0
+        ],
+        [
+          6.0,
+          6.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 682.3692987829592,
+      "approx_PLA_mass_g": 0.8461379304908694,
+      "triangles": 208,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "708c4f9619933fd071b4f1c2e3a0bf48d1f23ebe7823a14c8ce8016d21a73af0"
+    },
+    {
+      "name": "fit_coupon_3p2",
+      "group": "coupon",
+      "rotation_XYZ_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        12.0,
+        12.0,
+        5.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -6.0,
+          -6.0,
+          0.0
+        ],
+        [
+          6.0,
+          6.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 679.9023537500002,
+      "approx_PLA_mass_g": 0.8430789186500003,
+      "triangles": 208,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "d75fc6f1bd91ceb966ae49958625dca43acf4a89f0b50df654590bc256a56dec"
+    },
+    {
+      "name": "fit_coupon_3p3",
+      "group": "coupon",
+      "rotation_XYZ_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_size_mm": [
+        12.0,
+        12.0,
+        5.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -6.0,
+          -6.0,
+          0.0
+        ],
+        [
+          6.0,
+          6.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 677.3570930017091,
+      "approx_PLA_mass_g": 0.8399227953221193,
+      "triangles": 208,
+      "single_closed_component": true,
+      "zero_degenerate_triangles": true,
+      "stl_sha256": "533d5b704c8706e0f75b37c0f810eb30a71fc36cde6987b5f1bcb1dc45279c24"
+    }
+  ],
+  "physical_print_verified": false,
+  "10_second_drying_verified": false
+}

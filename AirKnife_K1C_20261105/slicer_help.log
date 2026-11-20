@@ -1,0 +1,48 @@
+OpenGL probe display point: x=0, y=0
+OpenGL probe: version=4.6.0 - Build 31.0.101.5522, vendor=Intel, renderer=Intel(R) Graphics
+[2026-11-05 23:50:54.586002] [0x0000682c] [error]   crealityprint_main start
+add font of HarmonyOS_Sans_SC_Bold returns 1
+add font of HarmonyOS_Sans_SC_Regular returns 1
+add font of NanumGothic-Regular returns 1
+add font of NanumGothic-Bold returns 1
+add font of HarmonyOS_Sans_SC_Bold returns 1
+add font of HarmonyOS_Sans_SC_Regular returns 1
+add font of NanumGothic-Regular returns 1
+add font of NanumGothic-Bold returns 1
+config_pathC:\Program Files\Creality\Creality Print 7.3\resources\images\process\ProcessConfig.json
+[PrinterMgrView::PrinterMgrView] AddUserScript ws_proxy, policy=lan_device
+select:0
+request for resource: /homepage/index.html?lang=zh_TW&version=7.3.0.6157&type=Release&region=Asia-Pacific&use_inches=0&debug=false&ai=true&time=1793893861&privacy=0&os=Windows%2011%20%28build%2026200%29%2C%2064-bit%20edition
+Request received: GET /homepage/index.html?lang=zh_TW&version=7.3.0.6157&type=Release&region=Asia-Pacific&use_inches=0&debug=false&ai=true&time=1793893861&privacy=0&os=Windows%2011%20%28build%2026200%29%2C%2064-bit%20editiondone
+request for resource: /homepage/config.js
+Request received: GET /homepage/config.jsdone
+request for resource: /homepage/assets/index-a45ef22f.css
+request for resource: /homepage/assets/index-b92f5b19.js
+Request received: GET /homepage/assets/index-a45ef22f.cssdone
+Request received: GET /homepage/assets/index-b92f5b19.jsselect:2
+done
+Function took 0 seconds to execute.
+request for resource: /homepage/images/Community/common/HomePage/icon-clock.svg
+Request received: GET /homepage/images/Community/common/HomePage/icon-clock.svgdone
+request for resource: /homepage/images/Community/dark/layout/Home%20Page.svg
+Request received: GET /homepage/images/Community/dark/layout/Home%20Page.svgdone
+request for resource: /homepage/images/Community/dark/layout/Online%20Params.svg
+request for resource: /homepage/images/Community/dark/layout/Guide%20Forum.svg
+request for resource: /homepage/images/Community/dark/layout/Personal%20Center.svg
+Request received: GET /homepage/images/Community/dark/layout/Online%20Params.svgRequest received: GET /homepage/images/Community/dark/layout/Guide%20Forum.svgRequest received: GET /homepage/images/Community/dark/layout/Personal%20Center.svgdone
+done
+done
+request for resource: /homepage/images/Community/dark/layout/My%20Models.svg
+request for resource: /homepage/images/Community/dark/layout/My%20Presets.svg
+request for resource: /homepage/images/Community/dark/layout/My%20Downloads.svg
+request for resource: /homepage/images/Community/dark/layout/Feedback.svg
+request for resource: /homepage/images/Community/dark/layout/Empty%20Projects.svg
+request for resource: /homepage/images/Community/dark/layout/Shop.svg
+Request received: GET /homepage/images/Community/dark/layout/My%20Models.svgdone
+Request received: GET /homepage/images/Community/dark/layout/My%20Presets.svgdone
+Request received: GET /homepage/images/Community/dark/layout/My%20Downloads.svgrequest for resource: /homepage/images/Community/dark/layout/Shop%20Link.svg
+done
+Request received: GET /homepage/images/Community/dark/layout/Feedback.svgdone
+Request received: GET /homepage/images/Community/dark/layout/Empty%20Projects.svgdone
+Request received: GET /homepage/images/Community/dark/layout/Shop.svgdone
+Request received: GET /homepage/images/Community/dark/layout/Shop%20Link.svgdone

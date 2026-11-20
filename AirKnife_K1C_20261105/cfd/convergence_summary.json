@@ -1,0 +1,186 @@
+{
+  "legacy_Q3": {
+    "last_iteration": 197,
+    "last_residuals": {
+      "continuity": 9.7241e-06,
+      "Ux": 1.988e-10,
+      "Uy": 1.6803e-10,
+      "Uz": 4.0058e-10,
+      "k": 2.9557e-08,
+      "omega": 1.9764e-08
+    },
+    "last_flow_change_pct": 0.0,
+    "last_inlet_pressure_change_pct": 6.652690459213608e-06,
+    "mass_imbalance_pct": 1.0008093890660278e-08,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_below_1e_minus_5": true,
+    "criteria": {
+      "continuity": 0.0001,
+      "velocity": 1e-06,
+      "k_omega": 1e-05,
+      "pressure_and_flow_stability_pct": 0.5,
+      "mass_imbalance_pct": 0.1
+    }
+  },
+  "H200": {
+    "last_iteration": 200,
+    "last_residuals": {
+      "continuity": 3.0809e-05,
+      "Ux": 1.485e-09,
+      "Uy": 1.9695e-09,
+      "Uz": 2.9009e-09,
+      "k": 3.1368e-07,
+      "omega": 1.968e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_inlet_pressure_change_pct": 0.00030401315659079047,
+    "mass_imbalance_pct": 4.75516032886444e-08,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_below_1e_minus_5": false,
+    "criteria": {
+      "continuity": 0.0001,
+      "velocity": 1e-06,
+      "k_omega": 1e-05,
+      "pressure_and_flow_stability_pct": 0.5,
+      "mass_imbalance_pct": 0.1
+    }
+  },
+  "H260": {
+    "last_iteration": 174,
+    "last_residuals": {
+      "continuity": 9.6871e-06,
+      "Ux": 7.2683e-10,
+      "Uy": 1.3258e-09,
+      "Uz": 3.7475e-09,
+      "k": 9.1559e-07,
+      "omega": 4.9667e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_inlet_pressure_change_pct": 5.033411422425098e-06,
+    "mass_imbalance_pct": 1.790314549096526e-07,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_below_1e_minus_5": true,
+    "criteria": {
+      "continuity": 0.0001,
+      "velocity": 1e-06,
+      "k_omega": 1e-05,
+      "pressure_and_flow_stability_pct": 0.5,
+      "mass_imbalance_pct": 0.1
+    }
+  },
+  "H320": {
+    "last_iteration": 167,
+    "last_residuals": {
+      "continuity": 9.5897e-06,
+      "Ux": 4.706e-10,
+      "Uy": 7.7725e-10,
+      "Uz": 3.4714e-09,
+      "k": 1.0396e-06,
+      "omega": 4.9266e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_inlet_pressure_change_pct": 3.371395426084258e-05,
+    "mass_imbalance_pct": 7.859582923690036e-07,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_below_1e_minus_5": true,
+    "criteria": {
+      "continuity": 0.0001,
+      "velocity": 1e-06,
+      "k_omega": 1e-05,
+      "pressure_and_flow_stability_pct": 0.5,
+      "mass_imbalance_pct": 0.1
+    }
+  },
+  "jet_g8": {
+    "last_iteration": 280,
+    "last_residuals": {
+      "continuity": 2.4733e-05,
+      "Ux": 2.1121e-08,
+      "Uy": 2.1537e-08,
+      "Uz": 4.2207e-08,
+      "k": 1.2982e-07,
+      "omega": 3.7331e-07
+    },
+    "last_flow_change_pct": 0.00026564529181670514,
+    "last_inlet_pressure_change_pct": 3.139936983892355e-05,
+    "mass_imbalance_pct": 0.0003674663679348878,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_below_1e_minus_5": false,
+    "criteria": {
+      "continuity": 0.0001,
+      "velocity": 1e-06,
+      "k_omega": 1e-05,
+      "pressure_and_flow_stability_pct": 0.5,
+      "mass_imbalance_pct": 0.1
+    }
+  },
+  "jet_g12": {
+    "last_iteration": 280,
+    "last_residuals": {
+      "continuity": 3.2378e-05,
+      "Ux": 2.0049e-08,
+      "Uy": 2.2896e-08,
+      "Uz": 3.8932e-08,
+      "k": 1.1817e-07,
+      "omega": 2.2541e-07
+    },
+    "last_flow_change_pct": 0.000382743358664674,
+    "last_inlet_pressure_change_pct": 0.00010360253284790947,
+    "mass_imbalance_pct": 0.00030136680170885795,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_below_1e_minus_5": false,
+    "criteria": {
+      "continuity": 0.0001,
+      "velocity": 1e-06,
+      "k_omega": 1e-05,
+      "pressure_and_flow_stability_pct": 0.5,
+      "mass_imbalance_pct": 0.1
+    }
+  },
+  "jet_g16": {
+    "last_iteration": 280,
+    "last_residuals": {
+      "continuity": 4.6999e-05,
+      "Ux": 2.2289e-08,
+      "Uy": 2.4044e-08,
+      "Uz": 4.2122e-08,
+      "k": 1.4175e-07,
+      "omega": 2.7557e-07
+    },
+    "last_flow_change_pct": 0.0003813255618864527,
+    "last_inlet_pressure_change_pct": 0.0001982137632230355,
+    "mass_imbalance_pct": 0.00024881474676993537,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_below_1e_minus_5": false,
+    "criteria": {
+      "continuity": 0.0001,
+      "velocity": 1e-06,
+      "k_omega": 1e-05,
+      "pressure_and_flow_stability_pct": 0.5,
+      "mass_imbalance_pct": 0.1
+    }
+  },
+  "jet_check12": {
+    "last_iteration": 140,
+    "last_residuals": {
+      "continuity": 9.7451e-06,
+      "Ux": 1.3662e-08,
+      "Uy": 1.4633e-08,
+      "Uz": 3.2029e-08,
+      "k": 1.3583e-07,
+      "omega": 3.2088e-07
+    },
+    "last_flow_change_pct": 8.132061597791381e-06,
+    "last_inlet_pressure_change_pct": 2.2276493349060086e-06,
+    "mass_imbalance_pct": 0.00017553689025558278,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_below_1e_minus_5": true,
+    "criteria": {
+      "continuity": 0.0001,
+      "velocity": 1e-06,
+      "k_omega": 1e-05,
+      "pressure_and_flow_stability_pct": 0.5,
+      "mass_imbalance_pct": 0.1
+    }
+  }
+}

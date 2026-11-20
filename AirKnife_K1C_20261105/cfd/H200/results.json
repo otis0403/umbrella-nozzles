@@ -1,0 +1,32 @@
+{
+  "name": "H200",
+  "conditions": {
+    "prescribed_Q_m3_min": 3.0,
+    "hypothetical_inlet_total_pressure_Pa": null,
+    "actual_fan_curve_used": false,
+    "height_mm": 200,
+    "gap_mm": 12,
+    "vane_count": 0,
+    "external_free_jet": false
+  },
+  "reports": {
+    "batch": 5,
+    "elapsed_s": 109.73868536949158,
+    "pin": 218.740815222848,
+    "ptin": 247.5863655666048,
+    "ptout": 235.1098297871633,
+    "min": 0.05999560842287901,
+    "mout": -0.05999560845140788
+  },
+  "required_static_pressure_Pa": 218.740815222848,
+  "pressure_loss_to_domain_outlet_Pa": 12.476535779441491,
+  "nozzle_flow_m3_min": 2.9997804211439503,
+  "mass_imbalance_pct": 4.75516032886444e-08,
+  "outlet_mean_axial_velocity_m_s": 19.287588119506836,
+  "outlet_full_area_CV": 0.14348265528678894,
+  "negative_uz_volume_fraction": 6.371456809339875e-05,
+  "min_uz_m_s": -0.5622550584709775,
+  "last_pressure_change_pct": 0.00030401315659079047,
+  "solver": "Fluent 2026 R1, 3D double, SST k-omega; steady incompressible; smooth walls",
+  "outlet_gap_averaged_long_CV": 0.027795378118753433
+}

@@ -1,0 +1,88 @@
+{
+  "method": "Combined mesh refinement and downstream domain extension; not GCI",
+  "baseline_case": "jet_g12",
+  "check_case": "jet_check12",
+  "baseline_mesh": {
+    "name": "jet_g12",
+    "height_mm": 260,
+    "gap_mm": 12,
+    "external": true,
+    "cells": 425240,
+    "nodes": 448600,
+    "inlet_area_m2": 0.007208274333882308,
+    "outlet_slot_area_m2": 0.0025919999999999997,
+    "volume_m3": 0.02138624559257371,
+    "min_tetra_volume_m3": 1.5461561259586964e-12,
+    "vane_count": 0,
+    "external_bounds_mm": [
+      -100,
+      100,
+      -200,
+      200,
+      260,
+      510
+    ],
+    "zones": {
+      "interior": 1252722,
+      "inlet": 648,
+      "outlet": 2728,
+      "housing": 14040,
+      "lip_rim": 360,
+      "ambient": 28220
+    }
+  },
+  "check_mesh": {
+    "name": "jet_check12",
+    "height_mm": 260,
+    "gap_mm": 12,
+    "external": true,
+    "cells": 797840,
+    "nodes": 833829,
+    "inlet_area_m2": 0.007208274333882308,
+    "outlet_slot_area_m2": 0.0025919999999999997,
+    "volume_m3": 0.03338625560340499,
+    "min_tetra_volume_m3": 4.5217528701008386e-13,
+    "vane_count": 0,
+    "external_bounds_mm": [
+      -100,
+      100,
+      -200,
+      200,
+      260,
+      660
+    ],
+    "zones": {
+      "interior": 2357980,
+      "inlet": 968,
+      "outlet": 3360,
+      "housing": 17160,
+      "lip_rim": 432,
+      "ambient": 49160
+    }
+  },
+  "baseline_external_reach_mm": 250,
+  "check_external_reach_mm": 400,
+  "metrics": {
+    "flow_m3_min": {
+      "baseline": 3.852063766968874,
+      "finer_longer_domain": 3.847092812814429,
+      "change_pct": -0.12904651779315213
+    },
+    "slot_mean_uz_m_s": {
+      "baseline": 24.767009735107422,
+      "finer_longer_domain": 24.743410110473633,
+      "change_pct": -0.09528653190754577
+    },
+    "at_80mm_center_line_uz_m_s": {
+      "baseline": 25.67869094407425,
+      "finer_longer_domain": 25.69520089979576,
+      "change_pct": 0.06429438228556794
+    },
+    "at_80mm_momentum_N": {
+      "baseline": 1.9343012571334839,
+      "finer_longer_domain": 1.9343876838684082,
+      "change_pct": 0.004468111397093466
+    }
+  },
+  "all_listed_changes_below_5_pct": true
+}

@@ -1,0 +1,11 @@
+{
+  "file": "K1C_AirKnife_260mm_8-12-16mm_PrintPack.zip",
+  "files": 147,
+  "size_bytes": 20676542,
+  "sha256": "13026ae36ca225bf6f77533b76ebc9ba437a322e112c610cdb1113de17d77e41",
+  "zip_CRC_pass": true,
+  "each_member_hash_matches_delivered_source": true,
+  "raw_CFD_case_data_included": false,
+  "raw_CFD_retained_locally_at": "cfd/",
+  "actual_slicing_or_print_verified": false
+}

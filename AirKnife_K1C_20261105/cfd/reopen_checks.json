@@ -1,0 +1,27 @@
+[
+  {
+    "name": "H260",
+    "case_and_data_reopened": true,
+    "native_report_max_relative_error": 0.0
+  },
+  {
+    "name": "jet_g8",
+    "case_and_data_reopened": true,
+    "native_report_max_relative_error": 0.0
+  },
+  {
+    "name": "jet_g12",
+    "case_and_data_reopened": true,
+    "native_report_max_relative_error": 0.0
+  },
+  {
+    "name": "jet_g16",
+    "case_and_data_reopened": true,
+    "native_report_max_relative_error": 0.0
+  },
+  {
+    "name": "jet_check12",
+    "case_and_data_reopened": true,
+    "native_report_max_relative_error": 0.0
+  }
+]

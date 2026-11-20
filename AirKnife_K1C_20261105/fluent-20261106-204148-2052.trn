@@ -1,0 +1,457 @@
+Auto-Transcript Start Time:  20:41:48, 06 Nov 2026 台北標準時間 
+Current Directory: "C:\Users\otiso\umbrella\case\AirKnife_K1C_20261105"
+
+              Welcome to ANSYS Fluent 2026 R1
+
+              Copyright 2026 Synopsys, Inc. and ANSYS, Inc. All rights reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Feb  2 2026 16:32:00 EST  Build Id: 10262  
+ 
+Connected License Server List:	<Non FlexNet Publisher License Server (FNPLS)>
+
+     --------------------------------------------------------------
+     This is a student version of ANSYS FLUENT. Usage of this product
+     license is limited to the terms and conditions specified in your ANSYS
+     license form, additional terms section.
+     --------------------------------------------------------------
+Host spawning Node 0 on machine "Otis" (win64).
+Host waiting for connection from Node 0 at 127.0.0.1:57358 
+
+Node 0 connecting to the Host ... connection established.
+
+-------------------------------------------------------------------------------
+ID    Hostname  Core  O.S.         PID    CPU Model Name                    
+-------------------------------------------------------------------------------
+n3    Otis      4/10  Windows-x64  168    Intel(R) Core(TM) Ultra 5 115U    
+n2    Otis      3/10  Windows-x64  1156   Intel(R) Core(TM) Ultra 5 115U    
+n1    Otis      2/10  Windows-x64  16376  Intel(R) Core(TM) Ultra 5 115U    
+n0*   Otis      1/10  Windows-x64  22356  Intel(R) Core(TM) Ultra 5 115U    
+host  Otis            Windows-x64  14032  Intel(R) Core(TM) Ultra 5 115U    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cleanup script file is C:\\Users\\otiso\\umbrella\\case\\AirKnife_K1C_20261105\\cleanup-fluent-Otis-14032.bat
+
+Otis is already loaded (33.8822).                       Process affinity not being set.
+
+Graphics driver currently in use: null
+
+
+ +------------------------------------------------------------------+
+ |                    ANSYS Product Improvement                     |
+ |                                                                  |
+ |   ANSYS Product Improvement Program helps improve ANSYS          |
+ |   products. Participating in this program is like filling out a  |
+ |   survey. Without interrupting your work, the software reports   |
+ |   anonymous usage information such as errors, machine and        |
+ |   solver statistics, features used, etc. to ANSYS. We never      |
+ |   use the data to identify or contact you.                       |
+ |   The data does NOT contain:                                     |
+ |   - Any personally identifiable information including names,     |
+ |     IP addresses, file names, part names, etc.                   |
+ |   - Any information about your geometry or design specific       |
+ |     inputs.                                                      |
+ |   You can stop participation at any time. To change your         |
+ |   selection go to Help >> ANSYS Product Improvement Program      |
+ |   in the GUI.                                                    |
+ |   For more information about the ANSYS Privacy Policy, please    |
+ |   check: http://www.ansys.com/privacy                            |
+ |                                                                  |
+ +------------------------------------------------------------------+
+
+Posting ANSYS Product Improvement Program startup data
+Done.
+Information: The server has started and is running.
+(set-session-idle-timeout 3)countdown-start-timer
+
+> Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v261\fluent\fluent26.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\AirKnife_K1C_20261105\cfd\H260\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      188928 cells,     1 cell zone  ...
+         188928 hexahedral cells,  zone id: 2
+      579744 faces,     4 face zones ...
+         553824 quadrilateral interior faces,  zone id: 3
+           1152 quadrilateral velocity-inlet faces,  zone id: 4
+           1152 quadrilateral pressure-outlet faces,  zone id: 5
+          23616 quadrilateral wall faces,  zone id: 6
+      202125 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1152/927 = 1.24272
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	inlet
+	interior
+	fluid
+     parallel,
+Done.
+Since node values are off, changing the colormap type to "Banded".
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\AirKnife_K1C_20261105\cfd\H260\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           219.25627
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           248.09983
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet         0.059995608
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.059995609
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\AirKnife_K1C_20261105\cfd\jet_g8\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      425240 cells,     1 cell zone  ...
+         425240 hexahedral cells,  zone id: 2
+     1298718 faces,     6 face zones ...
+        1252722 quadrilateral interior faces,  zone id: 3
+            648 quadrilateral pressure-inlet faces,  zone id: 4
+           2728 quadrilateral pressure-outlet faces,  zone id: 5
+          14040 quadrilateral wall faces,  zone id: 6
+            360 quadrilateral wall faces,  zone id: 7
+          28220 quadrilateral pressure-outlet faces,  zone id: 8
+      448600 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 2728/1642 = 1.66139
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	ambient
+	lip_rim
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\AirKnife_K1C_20261105\cfd\jet_g8\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           378.74512
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet         0.051401986
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet         -0.13467547
+
+            mambient
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                         ambient         0.083273672
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\AirKnife_K1C_20261105\cfd\jet_g12\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      425240 cells,     1 cell zone  ...
+         425240 hexahedral cells,  zone id: 2
+     1298718 faces,     6 face zones ...
+        1252722 quadrilateral interior faces,  zone id: 3
+            648 quadrilateral pressure-inlet faces,  zone id: 4
+           2728 quadrilateral pressure-outlet faces,  zone id: 5
+          14040 quadrilateral wall faces,  zone id: 6
+            360 quadrilateral wall faces,  zone id: 7
+          28220 quadrilateral pressure-outlet faces,  zone id: 8
+      448600 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 2728/1642 = 1.66139
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	ambient
+	lip_rim
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\AirKnife_K1C_20261105\cfd\jet_g12\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           352.27119
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet         0.077041275
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet         -0.16736289
+
+            mambient
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                         ambient         0.090321847
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\AirKnife_K1C_20261105\cfd\jet_g16\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      425240 cells,     1 cell zone  ...
+         425240 hexahedral cells,  zone id: 2
+     1298718 faces,     6 face zones ...
+        1252722 quadrilateral interior faces,  zone id: 3
+            648 quadrilateral pressure-inlet faces,  zone id: 4
+           2728 quadrilateral pressure-outlet faces,  zone id: 5
+          14040 quadrilateral wall faces,  zone id: 6
+            360 quadrilateral wall faces,  zone id: 7
+          28220 quadrilateral pressure-outlet faces,  zone id: 8
+      448600 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 2728/1642 = 1.66139
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	ambient
+	lip_rim
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\AirKnife_K1C_20261105\cfd\jet_g16\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           316.37085
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.10198499
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet         -0.19663309
+
+            mambient
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                         ambient         0.094648362
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\AirKnife_K1C_20261105\cfd\jet_check12\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      797840 cells,     1 cell zone  ...
+         797840 hexahedral cells,  zone id: 2
+     2429060 faces,     6 face zones ...
+        2357980 quadrilateral interior faces,  zone id: 3
+            968 quadrilateral pressure-inlet faces,  zone id: 4
+           3360 quadrilateral pressure-outlet faces,  zone id: 5
+          17160 quadrilateral wall faces,  zone id: 6
+            432 quadrilateral wall faces,  zone id: 7
+          49160 quadrilateral pressure-outlet faces,  zone id: 8
+      833829 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 3360/2539 = 1.32336
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	ambient
+	lip_rim
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\AirKnife_K1C_20261105\cfd\jet_check12\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           352.36807
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet         0.076941856
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet         -0.25853792
+
+            mambient
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                         ambient           0.1815962
+
+Posting ANSYS Product Improvement Program performance data 
+Done.
+Shutting down Server...
+Services Shutdown...Done.
+Server Shutdown...Done.
+Queue Cleared...Done.
+Shutdown Complete.
+Auto-Transcript Stop Time:  20:43:51, 06 Nov 2026 台北標準時間 
+Total Transcript Time: 2 Minute 3 Second.

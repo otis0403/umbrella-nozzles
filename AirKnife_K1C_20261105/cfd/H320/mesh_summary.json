@@ -1,0 +1,20 @@
+{
+  "name": "housing",
+  "height_mm": 320,
+  "gap_mm": 12,
+  "external": false,
+  "cells": 232704,
+  "nodes": 248675,
+  "inlet_area_m2": 0.007208274333882308,
+  "outlet_slot_area_m2": 0.0025919999999999997,
+  "volume_m3": 0.001734890439863733,
+  "min_tetra_volume_m3": 1.1153646035060376e-13,
+  "vane_count": 0,
+  "external_bounds_mm": null,
+  "zones": {
+    "interior": 682416,
+    "inlet": 1152,
+    "outlet": 1152,
+    "housing": 29088
+  }
+}

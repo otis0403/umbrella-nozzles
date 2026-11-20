@@ -1,0 +1,1127 @@
+{
+  "units": "mm",
+  "printer_volume_mm": [
+    300,
+    300,
+    300
+  ],
+  "brim_allowance_each_side_mm": 8,
+  "source_hashes_unchanged": {
+    "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\cad\\full\\nozzle_W225_G12_L220_ramp_mm.stl": "4a8f55c0f5056623b8dd1daacc39bdc1c9d394d7f7c026713bfd910324c10bed",
+    "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\cad\\full\\nozzle_W180_G14_L180_ramp_mm.stl": "34d106052609992a4106f245313819727a51e9d6e451b7d9a5f52d092b9b12a2",
+    "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\cad\\full\\nozzle_W315_G8_L320_ramp_guided_mm.stl": "0f76ae2e12f1f269beaad7fceb69eda281e676a1572df9bd89fe97240e360dd8"
+  },
+  "parts": [
+    {
+      "id": "inner_body",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\STL\\inner_body_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\3MF\\inner_body_K2Pro300.3mf",
+      "print_size_mm": [
+        185.72483825683594,
+        185.72483825683594,
+        245.0
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight_single_positive_solid": true,
+      "minimum_triangle_area_mm2": 0.00012108649319734132,
+      "volume_mm3": 563292.9309183116,
+      "discarded_numerically_zero_component_volumes_mm3": [],
+      "placed_3MF_bounds_mm": [
+        [
+          57.1375809,
+          57.1375809,
+          0.0
+        ],
+        [
+          242.8624191,
+          242.8624191,
+          245.0
+        ]
+      ],
+      "STL_sha256": "20ce9ce0407f082a6cacbf4ec72811cef700cdaf963ff6089052048e5e09ef16",
+      "3MF_sha256": "b627a18e267e4346b1e4562a0c3dbac25f19bd2ff102cba982e62de2147ff39d"
+    },
+    {
+      "id": "inner_tip_g12",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\STL\\inner_tip_g12_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\3MF\\inner_tip_g12_K2Pro300.3mf",
+      "print_size_mm": [
+        186.0611114501953,
+        186.0611114501953,
+        55.0
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          233.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight_single_positive_solid": true,
+      "minimum_triangle_area_mm2": 7.78678409205314e-09,
+      "volume_mm3": 111070.8224199188,
+      "discarded_numerically_zero_component_volumes_mm3": [],
+      "placed_3MF_bounds_mm": [
+        [
+          56.969444300000006,
+          56.969444300000006,
+          0.0
+        ],
+        [
+          243.03055569999998,
+          243.03055569999998,
+          55.0
+        ]
+      ],
+      "STL_sha256": "ffc2af03734d092573e77221c47a66ec97bae5196d2c9545325c135123d61f85",
+      "3MF_sha256": "f2fe4fada5b4e0e9a1d1dc8b2d44b96ccac35ce0b470f33a06cacbc1f6325e70"
+    },
+    {
+      "id": "center_body",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\STL\\center_body_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\3MF\\center_body_K2Pro300.3mf",
+      "print_size_mm": [
+        153.71556091308594,
+        153.71556091308594,
+        205.0
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight_single_positive_solid": true,
+      "minimum_triangle_area_mm2": 0.00020059081725776196,
+      "volume_mm3": 402774.53689925204,
+      "discarded_numerically_zero_component_volumes_mm3": [],
+      "placed_3MF_bounds_mm": [
+        [
+          73.1422195,
+          73.1422195,
+          0.0
+        ],
+        [
+          226.8577805,
+          226.8577805,
+          205.0
+        ]
+      ],
+      "STL_sha256": "c00ab1b29862da578d66bcbc3985b7a4fdb395c3b96abf25de80e8a7f8780f4e",
+      "3MF_sha256": "5d8fe6b77002a112ceb5b3a5ec52c7deaf9c58dcf00ab4e9d8090478420493bd"
+    },
+    {
+      "id": "center_tip_g14",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\STL\\center_tip_g14_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\3MF\\center_tip_g14_K2Pro300.3mf",
+      "print_size_mm": [
+        154.2409210205078,
+        154.2409210205078,
+        55.0
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          193.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight_single_positive_solid": true,
+      "minimum_triangle_area_mm2": 7.541029367723605e-08,
+      "volume_mm3": 90714.87471018638,
+      "discarded_numerically_zero_component_volumes_mm3": [],
+      "placed_3MF_bounds_mm": [
+        [
+          72.8795395,
+          72.8795395,
+          0.0
+        ],
+        [
+          227.12046049999998,
+          227.12046049999998,
+          55.0
+        ]
+      ],
+      "STL_sha256": "fe2b9365863b7f390e1671f1a93a68d24cc33ee59ca5f358af2ba39fd390922f",
+      "3MF_sha256": "df36dfd45c423a58491cb1f099524d39fa74db598f00ba885fd69791a339c13c"
+    },
+    {
+      "id": "outer_inlet",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\STL\\outer_inlet_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\3MF\\outer_inlet_K2Pro300.3mf",
+      "print_size_mm": [
+        70.59728240966797,
+        70.59728240966797,
+        67.0
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight_single_positive_solid": true,
+      "minimum_triangle_area_mm2": 2.2067221407550297e-05,
+      "volume_mm3": 76149.00345764271,
+      "discarded_numerically_zero_component_volumes_mm3": [],
+      "placed_3MF_bounds_mm": [
+        [
+          114.70135880000001,
+          114.70135880000001,
+          0.0
+        ],
+        [
+          185.2986412,
+          185.2986412,
+          67.0
+        ]
+      ],
+      "STL_sha256": "333e85438970886ad7c2deef92343fbe7266a5b46a8a75002efa3b6a2e61ab0e",
+      "3MF_sha256": "0337927ba7a0ab2781d7caff5e93f1e5f3d90793be2ce27537c527d89023b054"
+    },
+    {
+      "id": "outer_guided_body",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\STL\\outer_guided_body_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\3MF\\outer_guided_body_K2Pro300.3mf",
+      "print_size_mm": [
+        249.57411193847656,
+        249.57411193847656,
+        290.0
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          55.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight_single_positive_solid": true,
+      "minimum_triangle_area_mm2": 4.786431221954466e-05,
+      "volume_mm3": 981661.9336490696,
+      "discarded_numerically_zero_component_volumes_mm3": [],
+      "placed_3MF_bounds_mm": [
+        [
+          25.212943999999993,
+          25.212943999999993,
+          0.0
+        ],
+        [
+          274.787056,
+          274.787056,
+          290.0
+        ]
+      ],
+      "STL_sha256": "8f072930972a5175d7874ecd66f9813b543d9441c899d9eeb074ad0dd5ea8eda",
+      "3MF_sha256": "5e9873e966cadf4807cf04b20cc299db510d962f5f1db2efa22ddddde9e97481"
+    },
+    {
+      "id": "outer_tip_g8",
+      "STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\STL\\outer_tip_g8_mm.stl",
+      "3MF": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\3MF\\outer_tip_g8_K2Pro300.3mf",
+      "print_size_mm": [
+        249.697998046875,
+        249.69798278808594,
+        55.0
+      ],
+      "assembly_from_print": [
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          333.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight_single_positive_solid": true,
+      "minimum_triangle_area_mm2": 1.0367869413303149e-08,
+      "volume_mm3": 151663.93704133554,
+      "discarded_numerically_zero_component_volumes_mm3": [],
+      "placed_3MF_bounds_mm": [
+        [
+          25.151000999999994,
+          25.151009000000002,
+          0.0
+        ],
+        [
+          274.848999,
+          274.848991,
+          55.0
+        ]
+      ],
+      "STL_sha256": "37ebcd33af21f25ed82a4043b0ba5bc2360f7b50a90fa1e4116a7512b53d9cfe",
+      "3MF_sha256": "49f01144b807eac0fa172befc45be1e0fa7d6f434624b8d3087c9cdb553a8d24"
+    }
+  ],
+  "groups": [
+    {
+      "id": "inner",
+      "width_mm": 225,
+      "gap_mm": 12,
+      "height_mm": 288,
+      "length_mm": 220,
+      "parts": [
+        "inner_body",
+        "inner_tip_g12"
+      ],
+      "tip_visible_seam_Z_mm": 233,
+      "nominal_tip_length_mm": 55,
+      "joints": [
+        {
+          "id": "inner_tip_joint",
+          "overlap_Z_mm": [
+            233,
+            245
+          ],
+          "overlap_mm": 12,
+          "visible_seam_Z_mm": 233,
+          "male_leading_end": "high",
+          "screw_count": 4,
+          "screw": "M3x6 DIN7991 countersunk",
+          "nut": "M3 DIN934 AF5.5 thickness2.4",
+          "screw_clearance_mm": 3.6,
+          "nut_slot_mm": [
+            2.7,
+            5.8
+          ],
+          "seal_groove_Z_mm": [
+            234.3,
+            235.5
+          ],
+          "seal_groove_depth_mm": 0.4,
+          "hardware": [
+            {
+              "side_X": -1,
+              "center_YZ_mm": [
+                -82.5,
+                239.0
+              ],
+              "head_face_X_mm": -18.45042332726479,
+              "tip_X_mm": -12.45042332726479,
+              "nut_slot_X_abs_mm": [
+                12.400423327264797,
+                15.100423327264798
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                235.7,
+                245.15
+              ],
+              "male_outer_X_abs_mm": 15.800423327264797,
+              "thread_beyond_nut_mm": 0.2500000000000071,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\inner_tip_joint_screw0.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\inner_tip_joint_nut0.stl",
+              "nut_collision_mm3": 1.420716969838286e-05,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": -1,
+              "center_YZ_mm": [
+                82.5,
+                239.0
+              ],
+              "head_face_X_mm": -18.45042332726479,
+              "tip_X_mm": -12.45042332726479,
+              "nut_slot_X_abs_mm": [
+                12.400423327264797,
+                15.100423327264796
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                235.7,
+                245.15
+              ],
+              "male_outer_X_abs_mm": 15.800423327264795,
+              "thread_beyond_nut_mm": 0.25000000000000533,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\inner_tip_joint_screw1.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\inner_tip_joint_nut1.stl",
+              "nut_collision_mm3": 1.6320640101490553e-05,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": 1,
+              "center_YZ_mm": [
+                -82.5,
+                239.0
+              ],
+              "head_face_X_mm": 18.45042332726479,
+              "tip_X_mm": 12.45042332726479,
+              "nut_slot_X_abs_mm": [
+                12.400423327264797,
+                15.100423327264798
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                235.7,
+                245.15
+              ],
+              "male_outer_X_abs_mm": 15.800423327264797,
+              "thread_beyond_nut_mm": 0.2500000000000071,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\inner_tip_joint_screw2.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\inner_tip_joint_nut2.stl",
+              "nut_collision_mm3": 1.6271384762884945e-05,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": 1,
+              "center_YZ_mm": [
+                82.5,
+                239.0
+              ],
+              "head_face_X_mm": 18.45042332726479,
+              "tip_X_mm": 12.45042332726479,
+              "nut_slot_X_abs_mm": [
+                12.400423327264797,
+                15.100423327264796
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                235.7,
+                245.15
+              ],
+              "male_outer_X_abs_mm": 15.800423327264795,
+              "thread_beyond_nut_mm": 0.25000000000000533,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\inner_tip_joint_screw3.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\inner_tip_joint_nut3.stl",
+              "nut_collision_mm3": 1.6993826884365932e-05,
+              "nut_flow_intrusion_mm3": 0.0
+            }
+          ]
+        }
+      ],
+      "overlap_mm3": [
+        2.41394404465467e-12
+      ],
+      "added_in_flow_probe_mm3": 0.0,
+      "removed_in_flow_probe_mm3": 0.0,
+      "nominal_added_in_flow_probe_mm3": 0.0,
+      "nominal_removed_in_flow_probe_mm3": 0.0,
+      "screw_count": 4,
+      "old_ear_interface_compatible": false
+    },
+    {
+      "id": "center",
+      "width_mm": 180,
+      "gap_mm": 14,
+      "height_mm": 248,
+      "length_mm": 180,
+      "parts": [
+        "center_body",
+        "center_tip_g14"
+      ],
+      "tip_visible_seam_Z_mm": 193,
+      "nominal_tip_length_mm": 55,
+      "joints": [
+        {
+          "id": "center_tip_joint",
+          "overlap_Z_mm": [
+            193,
+            205
+          ],
+          "overlap_mm": 12,
+          "visible_seam_Z_mm": 193,
+          "male_leading_end": "high",
+          "screw_count": 4,
+          "screw": "M3x6 DIN7991 countersunk",
+          "nut": "M3 DIN934 AF5.5 thickness2.4",
+          "screw_clearance_mm": 3.6,
+          "nut_slot_mm": [
+            2.7,
+            5.8
+          ],
+          "seal_groove_Z_mm": [
+            194.3,
+            195.5
+          ],
+          "seal_groove_depth_mm": 0.4,
+          "hardware": [
+            {
+              "side_X": -1,
+              "center_YZ_mm": [
+                -60.0,
+                199.0
+              ],
+              "head_face_X_mm": -18.45113533800966,
+              "tip_X_mm": -12.45113533800966,
+              "nut_slot_X_abs_mm": [
+                12.401135338009663,
+                15.101135338009662
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                195.7,
+                205.15
+              ],
+              "male_outer_X_abs_mm": 15.801135338009662,
+              "thread_beyond_nut_mm": 0.2500000000000018,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\center_tip_joint_screw0.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\center_tip_joint_nut0.stl",
+              "nut_collision_mm3": 4.341905942248072e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": -1,
+              "center_YZ_mm": [
+                60.0,
+                199.0
+              ],
+              "head_face_X_mm": -18.45113533800966,
+              "tip_X_mm": -12.45113533800966,
+              "nut_slot_X_abs_mm": [
+                12.401135338009666,
+                15.101135338009666
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                195.7,
+                205.15
+              ],
+              "male_outer_X_abs_mm": 15.801135338009665,
+              "thread_beyond_nut_mm": 0.25000000000000533,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\center_tip_joint_screw1.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\center_tip_joint_nut1.stl",
+              "nut_collision_mm3": 4.341905937393662e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": 1,
+              "center_YZ_mm": [
+                -60.0,
+                199.0
+              ],
+              "head_face_X_mm": 18.45113533800966,
+              "tip_X_mm": 12.45113533800966,
+              "nut_slot_X_abs_mm": [
+                12.401135338009663,
+                15.101135338009662
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                195.7,
+                205.15
+              ],
+              "male_outer_X_abs_mm": 15.801135338009662,
+              "thread_beyond_nut_mm": 0.2500000000000018,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\center_tip_joint_screw2.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\center_tip_joint_nut2.stl",
+              "nut_collision_mm3": 4.416881535272436e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": 1,
+              "center_YZ_mm": [
+                60.0,
+                199.0
+              ],
+              "head_face_X_mm": 18.45113533800966,
+              "tip_X_mm": 12.45113533800966,
+              "nut_slot_X_abs_mm": [
+                12.401135338009666,
+                15.101135338009666
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                195.7,
+                205.15
+              ],
+              "male_outer_X_abs_mm": 15.801135338009665,
+              "thread_beyond_nut_mm": 0.25000000000000533,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\center_tip_joint_screw3.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\center_tip_joint_nut3.stl",
+              "nut_collision_mm3": 4.41688160404058e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            }
+          ]
+        }
+      ],
+      "overlap_mm3": [
+        3.2429004143477713e-12
+      ],
+      "added_in_flow_probe_mm3": 0.0,
+      "removed_in_flow_probe_mm3": 0.0,
+      "nominal_added_in_flow_probe_mm3": 0.0,
+      "nominal_removed_in_flow_probe_mm3": 0.0,
+      "screw_count": 4,
+      "old_ear_interface_compatible": false
+    },
+    {
+      "id": "outer",
+      "width_mm": 315,
+      "gap_mm": 8,
+      "height_mm": 388,
+      "length_mm": 320,
+      "parts": [
+        "outer_inlet",
+        "outer_guided_body",
+        "outer_tip_g8"
+      ],
+      "tip_visible_seam_Z_mm": 333,
+      "nominal_tip_length_mm": 55,
+      "joints": [
+        {
+          "id": "outer_tip_joint",
+          "overlap_Z_mm": [
+            333,
+            345
+          ],
+          "overlap_mm": 12,
+          "visible_seam_Z_mm": 333,
+          "male_leading_end": "high",
+          "screw_count": 6,
+          "screw": "M3x6 DIN7991 countersunk",
+          "nut": "M3 DIN934 AF5.5 thickness2.4",
+          "screw_clearance_mm": 3.6,
+          "nut_slot_mm": [
+            2.7,
+            5.8
+          ],
+          "seal_groove_Z_mm": [
+            334.3,
+            335.5
+          ],
+          "seal_groove_depth_mm": 0.4,
+          "hardware": [
+            {
+              "side_X": -1,
+              "center_YZ_mm": [
+                -127.5,
+                339.0
+              ],
+              "head_face_X_mm": -18.45007132030559,
+              "tip_X_mm": -12.45007132030559,
+              "nut_slot_X_abs_mm": [
+                12.400071320305589,
+                15.100071320305588
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                335.7,
+                345.15
+              ],
+              "male_outer_X_abs_mm": 15.800071320305587,
+              "thread_beyond_nut_mm": 0.24999999999999822,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_screw0.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_nut0.stl",
+              "nut_collision_mm3": 7.4317206272027245e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": -1,
+              "center_YZ_mm": [
+                0,
+                339.0
+              ],
+              "head_face_X_mm": -18.450071320305586,
+              "tip_X_mm": -12.450071320305586,
+              "nut_slot_X_abs_mm": [
+                12.400071320305589,
+                15.100071320305588
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                335.7,
+                345.15
+              ],
+              "male_outer_X_abs_mm": 15.800071320305587,
+              "thread_beyond_nut_mm": 0.2500000000000018,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_screw1.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_nut1.stl",
+              "nut_collision_mm3": 2.516352290567419e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": -1,
+              "center_YZ_mm": [
+                127.5,
+                339.0
+              ],
+              "head_face_X_mm": -18.450071320305586,
+              "tip_X_mm": -12.450071320305586,
+              "nut_slot_X_abs_mm": [
+                12.400071320305596,
+                15.100071320305595
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                335.7,
+                345.15
+              ],
+              "male_outer_X_abs_mm": 15.800071320305594,
+              "thread_beyond_nut_mm": 0.2500000000000089,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_screw2.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_nut2.stl",
+              "nut_collision_mm3": 9.818349183532808e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": 1,
+              "center_YZ_mm": [
+                -127.5,
+                339.0
+              ],
+              "head_face_X_mm": 18.45007132030559,
+              "tip_X_mm": 12.45007132030559,
+              "nut_slot_X_abs_mm": [
+                12.400071320305589,
+                15.100071320305588
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                335.7,
+                345.15
+              ],
+              "male_outer_X_abs_mm": 15.800071320305587,
+              "thread_beyond_nut_mm": 0.24999999999999822,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_screw3.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_nut3.stl",
+              "nut_collision_mm3": 9.81834913839396e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": 1,
+              "center_YZ_mm": [
+                0,
+                339.0
+              ],
+              "head_face_X_mm": 18.450071320305586,
+              "tip_X_mm": 12.450071320305586,
+              "nut_slot_X_abs_mm": [
+                12.400071320305589,
+                15.100071320305588
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                335.7,
+                345.15
+              ],
+              "male_outer_X_abs_mm": 15.800071320305587,
+              "thread_beyond_nut_mm": 0.2500000000000018,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_screw4.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_nut4.stl",
+              "nut_collision_mm3": 2.5009134197118077e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": 1,
+              "center_YZ_mm": [
+                127.5,
+                339.0
+              ],
+              "head_face_X_mm": 18.450071320305586,
+              "tip_X_mm": 12.450071320305586,
+              "nut_slot_X_abs_mm": [
+                12.400071320305596,
+                15.100071320305595
+              ],
+              "screw_head_recess_mm": 0.55,
+              "nut_slot_Z_mm": [
+                335.7,
+                345.15
+              ],
+              "male_outer_X_abs_mm": 15.800071320305594,
+              "thread_beyond_nut_mm": 0.2500000000000089,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.0,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_screw5.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_tip_joint_nut5.stl",
+              "nut_collision_mm3": 9.264905738159473e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            }
+          ]
+        },
+        {
+          "id": "outer_body_joint",
+          "overlap_Z_mm": [
+            55,
+            67
+          ],
+          "overlap_mm": 12,
+          "visible_seam_Z_mm": 67,
+          "male_leading_end": "low",
+          "screw_count": 4,
+          "screw": "M3x6 DIN7991 countersunk",
+          "nut": "M3 DIN934 AF5.5 thickness2.4",
+          "screw_clearance_mm": 3.6,
+          "nut_slot_mm": [
+            2.7,
+            5.8
+          ],
+          "seal_groove_Z_mm": [
+            64.5,
+            65.7
+          ],
+          "seal_groove_depth_mm": 0.4,
+          "hardware": [
+            {
+              "side_X": -1,
+              "center_YZ_mm": [
+                -6,
+                61.0
+              ],
+              "head_face_X_mm": -29.653619313558767,
+              "tip_X_mm": -23.653619313558767,
+              "nut_slot_X_abs_mm": [
+                23.703619313558768,
+                26.403619313558767
+              ],
+              "screw_head_recess_mm": 0.6500000000000001,
+              "nut_slot_Z_mm": [
+                54.85,
+                64.3
+              ],
+              "male_outer_X_abs_mm": 27.103619313558767,
+              "thread_beyond_nut_mm": 0.3500000000000014,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.00016875940092499884,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_body_joint_screw0.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0001687594009250012,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_body_joint_nut0.stl",
+              "nut_collision_mm3": 1.600423566355962e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": -1,
+              "center_YZ_mm": [
+                6,
+                61.0
+              ],
+              "head_face_X_mm": -29.653619313558764,
+              "tip_X_mm": -23.653619313558764,
+              "nut_slot_X_abs_mm": [
+                23.703619313558765,
+                26.403619313558764
+              ],
+              "screw_head_recess_mm": 0.6500000000000001,
+              "nut_slot_Z_mm": [
+                54.85,
+                64.3
+              ],
+              "male_outer_X_abs_mm": 27.103619313558763,
+              "thread_beyond_nut_mm": 0.3500000000000014,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.00016244841123788924,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_body_joint_screw1.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.0001624484112379387,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_body_joint_nut1.stl",
+              "nut_collision_mm3": 1.4353552957454095e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": 1,
+              "center_YZ_mm": [
+                -6,
+                61.0
+              ],
+              "head_face_X_mm": 29.653619313558767,
+              "tip_X_mm": 23.653619313558767,
+              "nut_slot_X_abs_mm": [
+                23.703619313558768,
+                26.403619313558767
+              ],
+              "screw_head_recess_mm": 0.6500000000000001,
+              "nut_slot_Z_mm": [
+                54.85,
+                64.3
+              ],
+              "male_outer_X_abs_mm": 27.103619313558767,
+              "thread_beyond_nut_mm": 0.3500000000000014,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.00016244921994261358,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_body_joint_screw2.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.00016244921994260222,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_body_joint_nut2.stl",
+              "nut_collision_mm3": 1.4353553135260871e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            },
+            {
+              "side_X": 1,
+              "center_YZ_mm": [
+                6,
+                61.0
+              ],
+              "head_face_X_mm": 29.653619313558764,
+              "tip_X_mm": 23.653619313558764,
+              "nut_slot_X_abs_mm": [
+                23.703619313558765,
+                26.403619313558764
+              ],
+              "screw_head_recess_mm": 0.6500000000000001,
+              "nut_slot_Z_mm": [
+                54.85,
+                64.3
+              ],
+              "male_outer_X_abs_mm": 27.103619313558763,
+              "thread_beyond_nut_mm": 0.3500000000000014,
+              "screw_outside_smooth_outer_mm3": 0.0,
+              "flow_intrusion_mm3": 0.0,
+              "plastic_collision_mm3": 0.00016875940092501217,
+              "screw_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_body_joint_screw3.stl",
+              "additional_seating_checked_mm": 0.16,
+              "additional_seating_collision_mm3": 0.00016875940092498713,
+              "additional_seating_flow_intrusion_mm3": 0.0,
+              "nut_envelope_STL": "C:\\Users\\otiso\\umbrella\\case\\FlushJoints_AllNozzles_20261118\\cad\\outer_body_joint_nut3.stl",
+              "nut_collision_mm3": 1.3349199108667516e-06,
+              "nut_flow_intrusion_mm3": 0.0
+            }
+          ]
+        }
+      ],
+      "overlap_mm3": [
+        2.1159738414516075e-13,
+        1.974744152921648e-11
+      ],
+      "added_in_flow_probe_mm3": 0.184679070480072,
+      "removed_in_flow_probe_mm3": 0.15843465849357183,
+      "nominal_added_in_flow_probe_mm3": 0.0,
+      "nominal_removed_in_flow_probe_mm3": 0.0,
+      "screw_count": 10,
+      "old_ear_interface_compatible": false
+    }
+  ],
+  "outer_walls_short_long_mm": [
+    8.0,
+    4.4
+  ],
+  "male_walls_short_long_mm": [
+    4.8,
+    2.0
+  ],
+  "radial_telescoping_clearance_mm": 0.3,
+  "overlap_mm": 12,
+  "socket_ID_mm": 55.4,
+  "socket_insertion_mm": 25,
+  "main_bore_mm": 51,
+  "external_ears_or_flanges": false,
+  "nominal_flow_preserved": true,
+  "physical_print_fit_strength_seal_verified": false,
+  "new_CFD_run": false
+}

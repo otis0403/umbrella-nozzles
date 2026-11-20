@@ -1,0 +1,11 @@
+{
+  "height_mm": 110,
+  "neck_mm": 46,
+  "fine": false,
+  "mesh_sha256": "a3affe72c39c18cf5cdadce99f53ea0e1eae71314d46e6b07e92e15c373cca41",
+  "physical_port_lengths_mm": [
+    25,
+    35,
+    25
+  ]
+}

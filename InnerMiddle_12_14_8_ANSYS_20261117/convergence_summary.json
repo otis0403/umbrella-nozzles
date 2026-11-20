@@ -1,0 +1,114 @@
+{
+  "inner225_g12_q2p16": {
+    "residuals": {
+      "continuity": 0.0063588,
+      "Ux": 9.9907e-06,
+      "Uy": 1.0166e-05,
+      "Uz": 1.8769e-05,
+      "k": 0.00053229,
+      "omega": 0.00048527
+    },
+    "last_total_pressure_change_pct": 0.017121257665827262,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.00028356377081234084,
+    "source_log": "head_curves_fluent.log"
+  },
+  "inner225_g12_q3p2": {
+    "residuals": {
+      "continuity": 0.00013657,
+      "Ux": 5.2806e-08,
+      "Uy": 7.6761e-08,
+      "Uz": 1.4217e-07,
+      "k": 2.9262e-06,
+      "omega": 2.4971e-06
+    },
+    "last_total_pressure_change_pct": 0.0009151758626315859,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 8.375205954122785e-06,
+    "source_log": "head_curves_fluent.log"
+  },
+  "center180_g14_q1p728": {
+    "residuals": {
+      "continuity": 0.010631,
+      "Ux": 1.2657e-05,
+      "Uy": 1.2566e-05,
+      "Uz": 2.4188e-05,
+      "k": 0.00078363,
+      "omega": 0.00064374
+    },
+    "last_total_pressure_change_pct": 0.016141285894325307,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.0006157108837106602,
+    "source_log": "head_curves_fluent.log"
+  },
+  "center180_g14_q3p2": {
+    "residuals": {
+      "continuity": 0.0026599,
+      "Ux": 2.5196e-06,
+      "Uy": 2.5301e-06,
+      "Uz": 4.5503e-06,
+      "k": 0.00015838,
+      "omega": 0.00014148
+    },
+    "last_total_pressure_change_pct": 0.022214164484887285,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 0.00018101027324196297,
+    "source_log": "head_curves_fluent.log"
+  },
+  "reference_16_16_8_hose60": {
+    "residuals": {
+      "continuity": 0.0003785,
+      "Ux": 3.7745e-07,
+      "Uy": 3.7773e-07,
+      "Uz": 8.1424e-07,
+      "k": 3.4469e-05,
+      "omega": 6.3585e-05
+    },
+    "last_total_pressure_change_pct": 0.01714628228299733,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 4.2943153069505386e-05,
+    "source_log": "network_fluent.log"
+  },
+  "candidate_12_14_8_hose60": {
+    "residuals": {
+      "continuity": 0.00047309,
+      "Ux": 7.0978e-07,
+      "Uy": 6.8046e-07,
+      "Uz": 1.5794e-06,
+      "k": 5.9069e-05,
+      "omega": 0.00010542
+    },
+    "last_total_pressure_change_pct": 0.013841500675336627,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 8.796349849668539e-05,
+    "source_log": "network_fluent.log"
+  },
+  "reference_16_16_8_hose50": {
+    "residuals": {
+      "continuity": 0.00028249,
+      "Ux": 3.337e-07,
+      "Uy": 3.3699e-07,
+      "Uz": 7.2485e-07,
+      "k": 3.0375e-05,
+      "omega": 5.7378e-05
+    },
+    "last_total_pressure_change_pct": 0.016172869254590373,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 2.9381743421718824e-05,
+    "source_log": "network_fluent.log"
+  },
+  "candidate_12_14_8_hose50": {
+    "residuals": {
+      "continuity": 0.00043803,
+      "Ux": 6.9352e-07,
+      "Uy": 6.73e-07,
+      "Uz": 1.4536e-06,
+      "k": 5.7353e-05,
+      "omega": 0.00010685
+    },
+    "last_total_pressure_change_pct": 0.013679461570258353,
+    "engineering_convergence_pass": false,
+    "mass_imbalance_pct": 3.032161179994586e-05,
+    "source_log": "network_fluent.log"
+  }
+}

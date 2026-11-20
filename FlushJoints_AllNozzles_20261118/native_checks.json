@@ -1,0 +1,51 @@
+{
+  "native_reopened": true,
+  "printable_part_count": 7,
+  "all_assembled_poses_verified": true,
+  "verified_STL_sha256": {
+    "inner_body": "20ce9ce0407f082a6cacbf4ec72811cef700cdaf963ff6089052048e5e09ef16",
+    "inner_tip_g12": "ffc2af03734d092573e77221c47a66ec97bae5196d2c9545325c135123d61f85",
+    "center_body": "c00ab1b29862da578d66bcbc3985b7a4fdb395c3b96abf25de80e8a7f8780f4e",
+    "center_tip_g14": "fe2b9365863b7f390e1671f1a93a68d24cc33ee59ca5f358af2ba39fd390922f",
+    "outer_inlet": "333e85438970886ad7c2deef92343fbe7266a5b46a8a75002efa3b6a2e61ab0e",
+    "outer_guided_body": "8f072930972a5175d7874ecd66f9813b543d9441c899d9eeb074ad0dd5ea8eda",
+    "outer_tip_g8": "37ebcd33af21f25ed82a4043b0ba5bc2360f7b50a90fa1e4116a7512b53d9cfe"
+  },
+  "ray_checks": [
+    {
+      "id": "inner",
+      "socket_ID_mm": 55.39999771118164,
+      "main_bore_mm": 51.00005340576172,
+      "gap61_range_mm": [
+        11.993546485900879,
+        12.000001907348633
+      ],
+      "width_mm": 224.99999237060547
+    },
+    {
+      "id": "center",
+      "socket_ID_mm": 55.39999771118164,
+      "main_bore_mm": 51.00008773803711,
+      "gap61_range_mm": [
+        14.000020980834961,
+        14.000022888183594
+      ],
+      "width_mm": 180.00000762939453
+    },
+    {
+      "id": "outer",
+      "socket_ID_mm": 55.39999771118164,
+      "main_bore_mm": 51.00004959106445,
+      "gap61_range_mm": [
+        7.999178409576416,
+        7.99918007850647
+      ],
+      "width_mm": 314.999755859375,
+      "guide_leading_faces_print_Z_mm": [
+        0.0,
+        0.0
+      ],
+      "guide_surface_max_change_from_source_mm": 3.814697265625e-06
+    }
+  ]
+}

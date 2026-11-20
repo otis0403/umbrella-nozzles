@@ -1,0 +1,26 @@
+{
+  "iteration": 401,
+  "last_residuals": {
+    "continuity": 9.4669e-06,
+    "x_velocity": 2.5243e-10,
+    "y_velocity": 6.6606e-10,
+    "z_velocity": 2.9342e-09,
+    "k": 1.3291e-06,
+    "omega": 4.9717e-07
+  },
+  "strict_all_residuals_lt_1e_minus_5": true,
+  "last_report_interval_pin_change_pct": 0.0005387318623731578,
+  "last_report_interval_pressure_loss_change_pct": 0.021284014980257306,
+  "mass_imbalance_pct": 1.031047735614951e-06,
+  "engineering_convergence_criteria": {
+    "continuity_lt": 0.0001,
+    "velocity_residuals_lt": 1e-06,
+    "k_omega_residuals_lt": 1e-05,
+    "pressure_change_pct_lt": 0.5,
+    "mass_imbalance_pct_lt": 0.1
+  },
+  "engineering_convergence_pass": true,
+  "source_logs": [
+    "medium_Q1p5_run.log"
+  ]
+}

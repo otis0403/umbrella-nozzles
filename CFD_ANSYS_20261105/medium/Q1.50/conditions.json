@@ -1,0 +1,14 @@
+{
+  "flow_m3_min": 1.5,
+  "rho_kg_m3": 1.2,
+  "mu_Pa_s": 1.8e-05,
+  "inlet_area_m2": 0.007072211868604234,
+  "outlet_area_m2": 0.002592,
+  "inlet_velocity_m_s": 3.5349619700991766,
+  "turbulence_intensity": 0.05,
+  "model": "steady incompressible RANS SST k-omega; no energy; smooth walls",
+  "scaled_initial_guess_from_flow_m3_min": 1.0,
+  "interpolated_initial_guess_from": null,
+  "inlet": "uniform axial velocity; no blower swirl",
+  "outlet": "0 Pa gauge at nozzle lip; reversal allowed"
+}

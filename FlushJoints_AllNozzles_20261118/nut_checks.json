@@ -1,0 +1,114 @@
+{
+  "all_nuts_fit_reloaded_plastic": true,
+  "nut_count": 18,
+  "results": [
+    {
+      "joint": "inner_tip_joint",
+      "index": 0,
+      "collision_mm3": 1.420716969838286e-05,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "inner_tip_joint",
+      "index": 1,
+      "collision_mm3": 1.6320640101490553e-05,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "inner_tip_joint",
+      "index": 2,
+      "collision_mm3": 1.6271384762884945e-05,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "inner_tip_joint",
+      "index": 3,
+      "collision_mm3": 1.6993826884365932e-05,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "center_tip_joint",
+      "index": 0,
+      "collision_mm3": 4.341905942248072e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "center_tip_joint",
+      "index": 1,
+      "collision_mm3": 4.341905937393662e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "center_tip_joint",
+      "index": 2,
+      "collision_mm3": 4.416881535272436e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "center_tip_joint",
+      "index": 3,
+      "collision_mm3": 4.41688160404058e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "outer_tip_joint",
+      "index": 0,
+      "collision_mm3": 7.4317206272027245e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "outer_tip_joint",
+      "index": 1,
+      "collision_mm3": 2.516352290567419e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "outer_tip_joint",
+      "index": 2,
+      "collision_mm3": 9.818349183532808e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "outer_tip_joint",
+      "index": 3,
+      "collision_mm3": 9.81834913839396e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "outer_tip_joint",
+      "index": 4,
+      "collision_mm3": 2.5009134197118077e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "outer_tip_joint",
+      "index": 5,
+      "collision_mm3": 9.264905738159473e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "outer_body_joint",
+      "index": 0,
+      "collision_mm3": 1.600423566355962e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "outer_body_joint",
+      "index": 1,
+      "collision_mm3": 1.4353552957454095e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "outer_body_joint",
+      "index": 2,
+      "collision_mm3": 1.4353553135260871e-06,
+      "flow_intrusion_mm3": 0.0
+    },
+    {
+      "joint": "outer_body_joint",
+      "index": 3,
+      "collision_mm3": 1.3349199108667516e-06,
+      "flow_intrusion_mm3": 0.0
+    }
+  ]
+}

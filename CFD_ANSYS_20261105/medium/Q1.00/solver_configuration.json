@@ -1,0 +1,334 @@
+{
+  "viscous": {
+    "model": "k-omega",
+    "k_omega_model": "sst",
+    "k_omega": {
+      "k_omega_low_re_correction": false,
+      "coefficients": {
+        "a1": 0.31,
+        "alpha_star_inf": 1.0,
+        "alpha_inf": 0.52,
+        "beta_star_inf": 0.09,
+        "k_omega_regime": {
+          "beta_i": 0.075,
+          "tke_prandtl_number": 1.176,
+          "sdr_prandtl_number": 2.0
+        },
+        "k_epsilon_regime": {
+          "beta_i": 0.0828,
+          "tke_prandtl_number": 1.0,
+          "sdr_prandtl_number": 1.168
+        }
+      }
+    },
+    "near_wall_treatment": {
+      "wall_omega_treatment": "correlation"
+    },
+    "transition_module": "none",
+    "options": {
+      "curvature_correction": {
+        "enabled": false
+      },
+      "corner_flow_correction": {
+        "enabled": false
+      },
+      "production_kato_launder_enabled": false,
+      "production_limiter": {
+        "enabled": true,
+        "clip_factor": 10.0
+      }
+    },
+    "turbulence_expert": {
+      "turb_non_newtonian": false,
+      "restore_sst_v61": false
+    },
+    "user_defined_functions": {
+      "turb_visc": "none"
+    }
+  },
+  "methods": {
+    "p_v_coupling": {
+      "flow_scheme": "Coupled",
+      "flux_type": "Rhie-Chow: momentum based",
+      "flux_auto_select": true
+    },
+    "spatial_discretization": {
+      "gradient_scheme": "least-square-cell-based",
+      "discretization_scheme": {
+        "k": "second-order-upwind",
+        "mom": "second-order-upwind",
+        "omega": "second-order-upwind",
+        "pressure": "second-order"
+      }
+    },
+    "pseudo_time_method": {
+      "formulation": {
+        "coupled_solver": "global-time-step"
+      }
+    },
+    "expert": {
+      "implicit_bodyforce_treatment": false,
+      "velocity_formulation": "absolute",
+      "physical_velocity_formulation": false,
+      "disable_rhie_chow_flux": false,
+      "presto_pressure_scheme": false,
+      "first_to_second_order_blending": 1.0
+    },
+    "high_order_term_relaxation": {
+      "enable": false,
+      "relaxation_factor": 0.25,
+      "select_variables": "flow-variables",
+      "type": "standard"
+    },
+    "warped_face_gradient_correction": {
+      "enable": false
+    },
+    "poor_mesh_numerics": {
+      "cell_quality_based": false,
+      "turbulence_production_term": true,
+      "solution_and_quality_based": false,
+      "gradient_quality_based": false,
+      "reset_poor_elements": false
+    }
+  },
+  "air_material": {
+    "name": "air",
+    "chemical_formula": "",
+    "density": {
+      "option": "value",
+      "value": 1.2
+    },
+    "viscosity": {
+      "option": "value",
+      "value": 1.8e-05
+    }
+  },
+  "inlet": {
+    "name": "inlet",
+    "momentum": {
+      "velocity_specification_method": "Magnitude, Normal to Boundary",
+      "reference_frame": "Absolute",
+      "velocity_magnitude": {
+        "option": "value",
+        "value": 2.356641313399451
+      },
+      "initial_gauge_pressure": {
+        "option": "value",
+        "value": 0
+      }
+    },
+    "turbulence": {
+      "turbulence_specification": "Intensity and Hydraulic Diameter",
+      "turbulent_intensity": 0.05,
+      "hydraulic_diameter": 0.042
+    }
+  },
+  "outlet": {
+    "name": "outlet",
+    "momentum": {
+      "backflow_reference_frame": "Absolute",
+      "gauge_pressure": {
+        "option": "value",
+        "value": 0
+      },
+      "pressure_profile_multiplier": 1.0,
+      "backflow_dir_spec_method": "Normal to Boundary",
+      "backflow_pressure_spec": "Total Pressure",
+      "prevent_reverse_flow": false,
+      "radial_equ_pressure_distribution": false,
+      "avg_pressure_spec": false,
+      "target_mass_flow_rate": false
+    },
+    "turbulence": {
+      "turbulence_specification": "Intensity and Hydraulic Diameter",
+      "backflow_turbulent_intensity": 0.05,
+      "backflow_hydraulic_diameter": 0.02273684210526316
+    }
+  },
+  "residual_monitor": {
+    "equations": {
+      "continuity": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-05
+      },
+      "k": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-05
+      },
+      "omega": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-05
+      },
+      "x-velocity": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-05
+      },
+      "y-velocity": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-05
+      },
+      "z-velocity": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-05
+      }
+    },
+    "options": {
+      "criterion_type": "absolute",
+      "n_save": 1000,
+      "normalize": false,
+      "residual_values": {
+        "scale_residuals": true,
+        "compute_local_scale": false
+      },
+      "print": true,
+      "plot": true,
+      "n_display": 1000
+    },
+    "axes": {
+      "x": {
+        "label": "",
+        "log_scale": false,
+        "number_format": {
+          "format_type": "float",
+          "precision": 0
+        },
+        "auto_range": {
+          "min_auto": true,
+          "max_auto": true
+        },
+        "show_major_gridlines": false,
+        "show_minor_gridlines": false
+      },
+      "y": {
+        "label": "",
+        "log_scale": true,
+        "number_format": {
+          "format_type": "exponential",
+          "precision": 0
+        },
+        "auto_range": {
+          "min_auto": true,
+          "max_auto": true
+        },
+        "show_major_gridlines": false,
+        "show_minor_gridlines": false
+      }
+    },
+    "curves": {
+      "continuity": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "monte carlo green"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "monte carlo green"
+        }
+      },
+      "k": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "lavender gray"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "lavender gray"
+        }
+      },
+      "omega": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "scarlet red"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "scarlet red"
+        }
+      },
+      "x-velocity": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "grayish blue"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "grayish blue"
+        }
+      },
+      "y-velocity": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "flush orange"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "flush orange"
+        }
+      },
+      "z-velocity": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "lime green"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "lime green"
+        }
+      }
+    }
+  }
+}

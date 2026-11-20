@@ -1,0 +1,25 @@
+{
+  "delivery": "C:\\Users\\otiso\\umbrella\\case\\集風罩\\三尺寸吹嘴_225x12_180x14_315x8_ANSYS_20261117",
+  "model_zip": "C:\\Users\\otiso\\umbrella\\case\\集風罩\\三尺寸吹嘴_225x12_180x14_315x8_ANSYS_20261117\\12_14_8mm完整吹嘴_模型與報告.zip",
+  "native_zip": "C:\\Users\\otiso\\umbrella\\case\\集風罩\\三尺寸吹嘴_225x12_180x14_315x8_ANSYS_20261117\\ANSYS原始案例_case_data.zip",
+  "reference_total_Q60": 8.50511247703395,
+  "candidate_total_Q60": 8.070487015831702,
+  "flow_change_pct": -5.110167118610742,
+  "reference_speeds60": [
+    13.796550256643359,
+    16.66874292983808,
+    17.491394466421735
+  ],
+  "candidate_speeds60": [
+    16.96915275001437,
+    18.023547169196423,
+    17.171454618696263
+  ],
+  "speed_change_pct": [
+    22.99562161811668,
+    8.127812907433828,
+    -1.8291271650162644
+  ],
+  "prototype_limitations_disclosed": true,
+  "actual_fan_point_verified": false
+}

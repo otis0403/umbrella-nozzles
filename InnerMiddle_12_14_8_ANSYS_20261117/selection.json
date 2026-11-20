@@ -1,0 +1,31 @@
+{
+  "inner": {
+    "width_mm": 225,
+    "gap_mm": 12,
+    "length_mm": 220,
+    "height_mm": 288,
+    "case": "inner225_g12_q2p16",
+    "source_root": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117"
+  },
+  "center": {
+    "width_mm": 180,
+    "gap_mm": 14,
+    "length_mm": 180,
+    "height_mm": 248,
+    "case": "center180_g14_q1p728",
+    "source_root": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117"
+  },
+  "outer": {
+    "width_mm": 315,
+    "gap_mm": 8,
+    "length_mm": 320,
+    "height_mm": 388,
+    "case": "candidate_g8_q3",
+    "source_root": "C:\\Users\\otiso\\umbrella\\case\\Outer315_NarrowGap_ANSYS_20261117",
+    "guided": true,
+    "guide_count": 2
+  },
+  "hose_ID_mm": 51,
+  "printer_capacity_deferred": true,
+  "user_authorized_new_ANSYS": true
+}

@@ -1,0 +1,16 @@
+C:\Users\otiso\umbrella\case\InnerMiddle_12_14_8_ANSYS_20261117\build_native_models.py:43: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  material.use_nodes=True
+C:\Users\otiso\umbrella\case\InnerMiddle_12_14_8_ANSYS_20261117\build_native_models.py:55: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  ink.use_nodes=True
+C:\Users\otiso\umbrella\case\InnerMiddle_12_14_8_ANSYS_20261117\build_native_models.py:63: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes=True
+00:18.969  render           | Saved: 'C:\Users\otiso\umbrella\case\InnerMiddle_12_14_8_ANSYS_20261117\images\CAD_three_nozzles_horizontal.png'
+00:18.969  blend            | Read blend: "C:\Users\otiso\umbrella\case\InnerMiddle_12_14_8_ANSYS_20261117\cad\three_complete_nozzles_horizontal.blend"
+Info: Saved as "three_complete_nozzles_horizontal.blend"
+THREE_COMPLETE_NATIVE_MODELS_VERIFIED [{"name": "inner_225x12_complete", "width_mm": 225.0, "gap_mm": 12, "gap_range_mm": [11.993545532226562, 12.000001907348633], "gap_samples": 61, "socket_ID_mm": 55.400001525878906, "total_length_mm": 288, "axial_passage_clear": true, "flow_axis_world": [0, 1, 0], "broad_body_plane_parallel_floor": true, "source_STL": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\cad\\full\\nozzle_W225_G12_L220_ramp_mm.stl", "guide_count": 0}, {"name": "center_180x14_complete", "width_mm": 180.00000762939453, "gap_mm": 14, "gap_range_mm": [14.000020980834961, 14.000022888183594], "gap_samples": 61, "socket_ID_mm": 55.400001525878906, "total_length_mm": 248, "axial_passage_clear": true, "flow_axis_world": [0, 1, 0], "broad_body_plane_parallel_floor": true, "source_STL": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\cad\\full\\nozzle_W180_G14_L180_ramp_mm.stl", "guide_count": 0}, {"name": "outer_315x8_complete", "width_mm": 314.999755859375, "gap_mm": 8, "gap_range_mm": [7.999184846878052, 7.999186277389526], "gap_samples": 61, "socket_ID_mm": 55.400001525878906, "total_length_mm": 388, "axial_passage_clear": true, "flow_axis_world": [0, 1, 0], "broad_body_plane_parallel_floor": true, "source_STL": "C:\\Users\\otiso\\umbrella\\case\\InnerMiddle_12_14_8_ANSYS_20261117\\cad\\full\\nozzle_W315_G8_L320_ramp_guided_mm.stl", "guide_count": 2}]
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+Timer 'STL Import' took 57.18 ms
+Timer 'STL Import' took 33.49 ms
+Timer 'STL Import' took 107.20 ms
+
+Blender quit

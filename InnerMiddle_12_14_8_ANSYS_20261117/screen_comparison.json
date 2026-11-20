@@ -1,0 +1,58 @@
+[
+  {
+    "case": "center180_g14_q1p728",
+    "width_mm": 180,
+    "gap_mm": 14.0,
+    "flow_m3_min": 1.727999999996515,
+    "inlet_total_pressure_Pa": 126.1485313866023,
+    "total_pressure_loss_Pa": 40.15444872585054,
+    "slot_area_mean_velocity_m_s": 11.43077564239502,
+    "core_line_CV_pct": 4.09109447516006,
+    "core_line_mean_velocity_m_s": 12.212352285170443,
+    "full_slot_area_CV_pct": 18.15489959716797,
+    "body_reverse_volume_pct": 2.3708551441585417,
+    "engineering_convergence_pass": false
+  },
+  {
+    "case": "center180_g14_q3p2",
+    "width_mm": 180,
+    "gap_mm": 14.0,
+    "flow_m3_min": 3.1999999999935533,
+    "inlet_total_pressure_Pa": 407.5456633409398,
+    "total_pressure_loss_Pa": 117.36581169399022,
+    "slot_area_mean_velocity_m_s": 21.1693115234375,
+    "core_line_CV_pct": 3.213220968780104,
+    "core_line_mean_velocity_m_s": 22.29270254405858,
+    "full_slot_area_CV_pct": 16.079500198364258,
+    "body_reverse_volume_pct": 2.3533722529327914,
+    "engineering_convergence_pass": false
+  },
+  {
+    "case": "inner225_g12_q2p16",
+    "width_mm": 225,
+    "gap_mm": 12.0,
+    "flow_m3_min": 2.159999999995647,
+    "inlet_total_pressure_Pa": 186.023647277718,
+    "total_pressure_loss_Pa": 67.2240405007083,
+    "slot_area_mean_velocity_m_s": 13.334607124328613,
+    "core_line_CV_pct": 8.067482015546133,
+    "core_line_mean_velocity_m_s": 14.121209475490595,
+    "full_slot_area_CV_pct": 18.29372215270996,
+    "body_reverse_volume_pct": 6.627769733147616,
+    "engineering_convergence_pass": false
+  },
+  {
+    "case": "inner225_g12_q3p2",
+    "width_mm": 225,
+    "gap_mm": 12.0,
+    "flow_m3_min": 3.1999999999935493,
+    "inlet_total_pressure_Pa": 390.6636047772901,
+    "total_pressure_loss_Pa": 136.5913353449838,
+    "slot_area_mean_velocity_m_s": 19.755878448486328,
+    "core_line_CV_pct": 6.365928449397049,
+    "core_line_mean_velocity_m_s": 20.66531621059733,
+    "full_slot_area_CV_pct": 16.007705688476562,
+    "body_reverse_volume_pct": 5.042805255446445,
+    "engineering_convergence_pass": false
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "height_mm": 320,
+    "slot_sample_count": 61,
+    "measured_gap_range_mm": [
+      16.000001907348633,
+      16.000003814697266
+    ],
+    "measured_clear_span_mm": 251.99998474121094,
+    "12_original_holes_clear": true,
+    "4_module_screw_paths_clear": true,
+    "central_axis_clear": true,
+    "opposite_outlet_rim_top_Z_mm": [
+      320.0,
+      320.0
+    ]
+  },
+  {
+    "height_mm": 360,
+    "slot_sample_count": 61,
+    "measured_gap_range_mm": [
+      16.0,
+      16.00000286102295
+    ],
+    "measured_clear_span_mm": 251.99998474121094,
+    "12_original_holes_clear": true,
+    "4_module_screw_paths_clear": true,
+    "central_axis_clear": true,
+    "opposite_outlet_rim_top_Z_mm": [
+      360.0,
+      360.0
+    ]
+  }
+]

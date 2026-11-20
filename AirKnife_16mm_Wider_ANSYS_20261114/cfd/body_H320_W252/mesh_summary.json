@@ -1,0 +1,23 @@
+{
+  "name": "body_H320_W252",
+  "height_mm": 320,
+  "gap_mm": 16,
+  "span_mm": 252,
+  "body_height_mm": 200,
+  "lip_length_mm": 120,
+  "external": false,
+  "cells": 231552,
+  "nodes": 247450,
+  "inlet_area_m2": 0.007208274333882308,
+  "outlet_slot_area_m2": 0.004032,
+  "volume_m3": 0.0016818921394474628,
+  "min_tetra_volume_m3": 1.115349139708816e-13,
+  "vane_count": 0,
+  "external_bounds_mm": null,
+  "zones": {
+    "interior": 679032,
+    "inlet": 1152,
+    "outlet": 1152,
+    "housing": 28944
+  }
+}

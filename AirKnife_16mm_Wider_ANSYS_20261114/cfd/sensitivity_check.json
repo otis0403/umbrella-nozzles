@@ -1,0 +1,28 @@
+{
+  "type": "Combined cross-section mesh refinement and domain extension; not GCI",
+  "baseline": "jet_H320_W252",
+  "check": "jet_H320_W252_fine",
+  "differences": {
+    "flow_m3_min": {
+      "standard": 5.77611160207032,
+      "finer_and_longer_domain": 5.76034299420725,
+      "change_pct": -0.27299693893410026
+    },
+    "slot_mean_Uz_m_s": {
+      "standard": 23.865785598754883,
+      "finer_and_longer_domain": 23.807214736938477,
+      "change_pct": -0.24541769879748987
+    },
+    "80mm_common_line_Uz_m_s": {
+      "standard": 25.46462765256697,
+      "finer_and_longer_domain": 25.493467147815778,
+      "change_pct": 0.1132531590184005
+    },
+    "80mm_momentum_N": {
+      "standard": 2.801827907562256,
+      "finer_and_longer_domain": 2.795261859893799,
+      "change_pct": -0.2343487139497391
+    }
+  },
+  "all_listed_changes_under_5_pct": true
+}

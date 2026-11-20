@@ -1,0 +1,27 @@
+[
+  {
+    "case": "body_H320_W252",
+    "native_case_data_reopened": true,
+    "max_relative_report_difference": 0.0
+  },
+  {
+    "case": "jet_H260_W216",
+    "native_case_data_reopened": true,
+    "max_relative_report_difference": 0.0
+  },
+  {
+    "case": "jet_H320_W252",
+    "native_case_data_reopened": true,
+    "max_relative_report_difference": 0.0
+  },
+  {
+    "case": "jet_H360_W252",
+    "native_case_data_reopened": true,
+    "max_relative_report_difference": 0.0
+  },
+  {
+    "case": "jet_H320_W252_fine",
+    "native_case_data_reopened": true,
+    "max_relative_report_difference": 0.0
+  }
+]

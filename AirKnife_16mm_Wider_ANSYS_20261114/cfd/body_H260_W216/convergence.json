@@ -1,0 +1,23 @@
+{
+  "last_iteration": 176,
+  "last_residuals": {
+    "continuity": 8.6892e-06,
+    "Ux": 5.3958e-10,
+    "Uy": 1.0861e-09,
+    "Uz": 2.9494e-09,
+    "k": 4.9663e-07,
+    "omega": 4.221e-07
+  },
+  "last_flow_change_pct": 0.0,
+  "last_inlet_pressure_change_pct": 6.760872858787058e-06,
+  "mass_imbalance_pct": 8.346008043206371e-07,
+  "engineering_convergence_pass": true,
+  "strict_all_residuals_below_1e_minus_5": true,
+  "criteria": {
+    "continuity": 0.0001,
+    "velocity": 1e-06,
+    "k_omega": 1e-05,
+    "last_pressure_and_flow_change_pct": 0.5,
+    "mass_imbalance_pct": 0.1
+  }
+}

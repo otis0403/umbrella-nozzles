@@ -1,0 +1,148 @@
+[
+  {
+    "height_mm": 320,
+    "same_hard_stop_interface_difference_mm3": -6.021135702296195e-12,
+    "body_intersection_mm3": -7.981783636812345e-13,
+    "insertion_samples": [
+      {
+        "offset_Z_mm": 0.0,
+        "interference_mm3": -7.981783636812345e-13
+      },
+      {
+        "offset_Z_mm": 0.775,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 1.55,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 2.325,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 3.1,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 3.875,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 4.65,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 5.425,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 6.2,
+        "interference_mm3": 0.0
+      }
+    ],
+    "driver_access": [
+      {
+        "XY_mm": [
+          -20.0,
+          -70.0
+        ],
+        "8mm_driver_blocked_volume_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          -20.0,
+          70.0
+        ],
+        "8mm_driver_blocked_volume_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          20.0,
+          -70.0
+        ],
+        "8mm_driver_blocked_volume_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          20.0,
+          70.0
+        ],
+        "8mm_driver_blocked_volume_mm3": 0.0
+      }
+    ]
+  },
+  {
+    "height_mm": 360,
+    "same_hard_stop_interface_difference_mm3": -7.838454567134685e-12,
+    "body_intersection_mm3": -7.981783636812345e-13,
+    "insertion_samples": [
+      {
+        "offset_Z_mm": 0.0,
+        "interference_mm3": -7.981783636812345e-13
+      },
+      {
+        "offset_Z_mm": 0.775,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 1.55,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 2.325,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 3.1,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 3.875,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 4.65,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 5.425,
+        "interference_mm3": 0.0
+      },
+      {
+        "offset_Z_mm": 6.2,
+        "interference_mm3": 0.0
+      }
+    ],
+    "driver_access": [
+      {
+        "XY_mm": [
+          -20.0,
+          -70.0
+        ],
+        "8mm_driver_blocked_volume_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          -20.0,
+          70.0
+        ],
+        "8mm_driver_blocked_volume_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          20.0,
+          -70.0
+        ],
+        "8mm_driver_blocked_volume_mm3": 0.0
+      },
+      {
+        "XY_mm": [
+          20.0,
+          70.0
+        ],
+        "8mm_driver_blocked_volume_mm3": 0.0
+      }
+    ]
+  }
+]

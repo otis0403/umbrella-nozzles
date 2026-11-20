@@ -1,0 +1,39 @@
+{
+  "level": "fine",
+  "source": "C:\\Users\\otiso\\umbrella\\case\\\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\geometry.py",
+  "source_sha256": "95bb1c7db365fa81cd4b9d30005e12721aec1979468d644598c32c67e041d767",
+  "cells": 882660,
+  "nodes": 948752,
+  "faces": 2713000,
+  "volume_m3": 0.0009640531153423825,
+  "min_tetra_volume_m3": 7.874891304035043e-16,
+  "bounds_m": [
+    [
+      -0.041,
+      -0.108,
+      0.0
+    ],
+    [
+      0.041,
+      0.108,
+      0.2
+    ]
+  ],
+  "zones": {
+    "interior": 2582960,
+    "inlet": 2560,
+    "outlet": 3268,
+    "housing": 73716,
+    "long_vane": 37504,
+    "short_vane": 12992
+  },
+  "structured_dimensions": [
+    86,
+    38,
+    318
+  ],
+  "inlet_area_m2": 0.007072323611204145,
+  "outlet_area_m2": 0.002592,
+  "parametric_volume_m3": 0.0009640939900504376,
+  "volume_error_pct": -0.0042397015723505405
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "case": "medium/Q0.50",
+    "native_case_data_reopen_success": true,
+    "max_report_relative_difference": 0.0,
+    "expected_reports": {
+      "pin": 7.804021453166047,
+      "ptin": 8.634545956316227,
+      "ptout": 7.368368093230801,
+      "min": 0.00999999999999995,
+      "mout": -0.00999999967688024
+    },
+    "reopened_reports": {
+      "pin": 7.804021453166047,
+      "ptin": 8.634545956316227,
+      "ptout": 7.368368093230801,
+      "min": 0.00999999999999995,
+      "mout": -0.00999999967688024
+    }
+  },
+  {
+    "case": "medium/Q1.00",
+    "native_case_data_reopen_success": true,
+    "max_report_relative_difference": 0.0,
+    "expected_reports": {
+      "pin": 28.22580995895729,
+      "ptin": 31.55137015944834,
+      "ptout": 27.9946300022716,
+      "min": 0.01999999999999989,
+      "mout": -0.02000000000449449
+    },
+    "reopened_reports": {
+      "pin": 28.22580995895729,
+      "ptin": 31.55137015944834,
+      "ptout": 27.9946300022716,
+      "min": 0.01999999999999989,
+      "mout": -0.02000000000449449
+    }
+  },
+  {
+    "case": "medium/Q1.50",
+    "native_case_data_reopen_success": true,
+    "max_report_relative_difference": 0.0,
+    "expected_reports": {
+      "pin": 60.95429068583559,
+      "ptin": 68.44085962652228,
+      "ptout": 61.26641224393472,
+      "min": 0.02999999999999987,
+      "mout": -0.02999999969068555
+    },
+    "reopened_reports": {
+      "pin": 60.95429068583559,
+      "ptin": 68.44085962652228,
+      "ptout": 61.26641224393472,
+      "min": 0.02999999999999987,
+      "mout": -0.02999999969068555
+    }
+  },
+  {
+    "case": "fine/Q1.00",
+    "native_case_data_reopen_success": true,
+    "max_report_relative_difference": 0.0,
+    "expected_reports": {
+      "pin": 28.208534789908,
+      "ptin": 31.53396110120161,
+      "ptout": 28.00336763640025,
+      "min": 0.01999999999999991,
+      "mout": -0.02000000483558355
+    },
+    "reopened_reports": {
+      "pin": 28.208534789908,
+      "ptin": 31.53396110120161,
+      "ptout": 28.00336763640025,
+      "min": 0.01999999999999991,
+      "mout": -0.02000000483558355
+    }
+  }
+]

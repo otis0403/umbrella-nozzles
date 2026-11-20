@@ -1,0 +1,77 @@
+[
+  {
+    "case": "coarse\\Q1.00",
+    "cell_count_matches_mesh": true,
+    "all_fields_finite": true,
+    "positive_cell_volumes": true,
+    "nonnegative_k_and_positive_omega": true,
+    "exported_cell_volume_matches_original_mesh": true,
+    "outlet_area_matches": true,
+    "reverse_volume_fraction": 1.9881517666826395e-06,
+    "minimum_axial_velocity_position_m": [
+      -0.010022397618380181,
+      0.0002,
+      0.13474974110952814
+    ]
+  },
+  {
+    "case": "fine\\Q1.00",
+    "cell_count_matches_mesh": true,
+    "all_fields_finite": true,
+    "positive_cell_volumes": true,
+    "nonnegative_k_and_positive_omega": true,
+    "exported_cell_volume_matches_original_mesh": true,
+    "outlet_area_matches": true,
+    "reverse_volume_fraction": 0.00011356214243464848,
+    "minimum_axial_velocity_position_m": [
+      6.66666666665e-05,
+      0.0013585910518345086,
+      0.1448776460170748
+    ]
+  },
+  {
+    "case": "medium\\Q0.50",
+    "cell_count_matches_mesh": true,
+    "all_fields_finite": true,
+    "positive_cell_volumes": true,
+    "nonnegative_k_and_positive_omega": true,
+    "exported_cell_volume_matches_original_mesh": true,
+    "outlet_area_matches": true,
+    "reverse_volume_fraction": 7.969401059565e-05,
+    "minimum_axial_velocity_position_m": [
+      9.999999999999999e-05,
+      0.022636272697036275,
+      0.14490001578133352
+    ]
+  },
+  {
+    "case": "medium\\Q1.00",
+    "cell_count_matches_mesh": true,
+    "all_fields_finite": true,
+    "positive_cell_volumes": true,
+    "nonnegative_k_and_positive_omega": true,
+    "exported_cell_volume_matches_original_mesh": true,
+    "outlet_area_matches": true,
+    "reverse_volume_fraction": 0.00013496793762683592,
+    "minimum_axial_velocity_position_m": [
+      0.0001,
+      -0.0015825061542561174,
+      0.1449000157813339
+    ]
+  },
+  {
+    "case": "medium\\Q1.50",
+    "cell_count_matches_mesh": true,
+    "all_fields_finite": true,
+    "positive_cell_volumes": true,
+    "nonnegative_k_and_positive_omega": true,
+    "exported_cell_volume_matches_original_mesh": true,
+    "outlet_area_matches": true,
+    "reverse_volume_fraction": 9.027681017157834e-05,
+    "minimum_axial_velocity_position_m": [
+      -0.0001,
+      -0.0015825061542561174,
+      0.1449000157813339
+    ]
+  }
+]

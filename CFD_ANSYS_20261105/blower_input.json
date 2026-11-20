@@ -1,0 +1,17 @@
+{
+  "source": "User-supplied specification image, 2026-11-05",
+  "model_label": "150FLJ330W",
+  "current_A": 1.6,
+  "electrical_power_W": 330,
+  "speed_rpm": 2800,
+  "listed_flow_m3_min": 11.0,
+  "listed_static_pressure_Pa": 460,
+  "capacitor_uF_range": [5, 6],
+  "clear_outlet_dimensions_mm": [82, 88],
+  "flange_dimensions_mm": [118, 120],
+  "full_verified_pressure_flow_curve_available": false,
+  "listed_flow_and_pressure_known_to_share_operating_point": false,
+  "applied_to_solver_as_fan_curve": false,
+  "simulated_prescribed_flow_m3_min": [0.5, 1.0, 1.5],
+  "note": "The blower is not included in the fluid domain. Listed values do not establish the installed nozzle operating flow or blower inlet reversal."
+}

@@ -1,0 +1,27 @@
+{
+  "source_stl_sha256_expected": "6f8f9ca5d755b9c6a77b417ffdef844ebb825ae8b044a93c8e071cddce0158cc",
+  "source_stl_sha256_actual": "6f8f9ca5d755b9c6a77b417ffdef844ebb825ae8b044a93c8e071cddce0158cc",
+  "source_stl_matches_prior_record": true,
+  "source_geometry_sha256": "95bb1c7db365fa81cd4b9d30005e12721aec1979468d644598c32c67e041d767",
+  "source_folder_read_only_during_analysis": true,
+  "writes_restricted_by_scripts_to_analysis_folder": "C:\\Users\\otiso\\umbrella\\case\\CFD_ANSYS_20261105",
+  "source_folder_files": {
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\01_\u5be6\u969b\u6a21\u578b_12mm\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3.png": "2015b503906ecee353da12c2a44e92c905521937ba3006cece70154d55d12ed5",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\02_\u5be6\u969b\u6a21\u578b_\u7121\u6838\u5fc3_\u4fdd\u7559\u5341\u5b57\u5c0e\u6d41\u7247.png": "aa33a1be3572c649b3e683639824070e6fcdccfd5d1a3c9295a232a9c64bf59c",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\build_nozzle.py": "e6e62714879c4e64a9f5af31152595ffba96ad259375319c059071cde649ef6d",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\geometry.py": "95bb1c7db365fa81cd4b9d30005e12721aec1979468d644598c32c67e041d767",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\package_delivery.py": "7174c6c37dbb551b4e7e5e83affc6167d733fcc30665fc9a7953fa21ee7244fa",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\render_model.py": "02cd92e691d3a4ea68dbe7e594e7f5f2f87faccb9b31d2fa21b24dbef0f3e4eb",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\STL\u7368\u7acb\u91cd\u8b80\u6aa2\u67e5.json": "5b18ab559f449076a0af4357be6485e458e627aff0515d1a7bbbcfae09eae45f",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\verify_stl.py": "323f384be805105d30650f9ab6ea3aa2491481959d4ff02cabe708b7e0330ff4",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\\u4fee\u6539\u8207\u5217\u5370\u8aaa\u660e.md": "6e8a82c5bea0c70e806daa676c4fe56d8a34ce895bfe3619064cdf9e394e0ccf",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\\u539f\u59cb\u6a94\u6848\u4fdd\u7559\u7d00\u9304.json": "37eca3d2ccc6dd3cade5e3fb70f7ce2bf7db7ceb5a3bf3a5ed906635c554010c",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\\u5c3a\u5bf8\u8207\u65b9\u5411\u6aa2\u67e5.json": "f8cf35a2983df260b9e76d7381af9d88bdb8f6e806bf67245dca2410f1088c2b",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\\u76f4\u901a\u5439\u5634_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_\u55ae\u4ef6.blend": "c8b7292d79cc469d79a9057a1091a894621133491a3b81a8e79cfec528cbe5d4",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\\u76f4\u901a\u5439\u5634_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_\u55ae\u4ef6_mm.stl": "6f8f9ca5d755b9c6a77b417ffdef844ebb825ae8b044a93c8e071cddce0158cc",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\\u76f4\u901a\u5439\u5634_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_\u55ae\u4ef6\u5217\u5370\u5305.zip": "d59e9ea84635126e8286dc0a0e5e4ca56050f77749a65fd9a6474deb84c00680",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\\u9810\u89bd\u4f86\u6e90\u6aa2\u67e5.json": "02e49610bc05279e5094894f1f5bec8995bdbc4d70ab31c72b75c6b8e81fef23",
+    "\u96c6\u98a8\u7f69\\\u55ae\u4ef6\u539f\u7248\u4fee\u6539_216x12mm_200mm_\u6a6b\u5411\u51fa\u53e3_\u7121\u6838\u5fc3_20261105\\__pycache__\\geometry.cpython-313.pyc": "d1956c01f7ad7c4d668ce4b1c426ddbb5299b7c8e6f2769275b6e2e84a98c115"
+  },
+  "all_recorded_source_files_unchanged": true
+}

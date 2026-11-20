@@ -1,0 +1,171 @@
+{
+  "fluid_volume_m3": 0.0009640531153422737,
+  "min_axial_velocity_m_s": -0.5843058869317682,
+  "reverse_volume_fraction_below_minus_0_m_s": 0.00012017822297299014,
+  "reverse_volume_fraction_below_minus_0.001_m_s": 0.00011834420200435558,
+  "reverse_volume_fraction_below_minus_0.01_m_s": 0.00011356214243464848,
+  "reverse_volume_fraction_below_minus_0.05_m_s": 9.034283524305251e-05,
+  "reverse_region_bounds_m": [
+    [
+      -0.040790558199499644,
+      -0.09671089627958027,
+      0.015734265615672434
+    ],
+    [
+      0.040790558199499644,
+      0.09671089627958027,
+      0.1457273896488709
+    ]
+  ],
+  "outlet_area_m2": 0.0025920001789927483,
+  "outlet_mean_uz_m_s": 6.42990255355835,
+  "outlet_face_min_uz_m_s": 0.14129415154457092,
+  "outlet_face_max_uz_m_s": 7.277848720550537,
+  "outlet_area_weighted_CV": 0.22189438343048096,
+  "outlet_reverse_flux_fraction": 0.0,
+  "outlet_area_integrated_flow_m3_min": 0.9999784827232361,
+  "housing_yplus_percentiles_0_50_95_100": [
+    0.10640741139650345,
+    1.3036903142929077,
+    3.016909658908844,
+    6.702722072601318
+  ],
+  "long_vane_yplus_percentiles_0_50_95_100": [
+    0.06819657236337662,
+    1.7025557160377502,
+    4.294651627540577,
+    5.61102294921875
+  ],
+  "short_vane_yplus_percentiles_0_50_95_100": [
+    0.08024377375841141,
+    0.7260632514953613,
+    1.8317319691181182,
+    2.638786554336548
+  ],
+  "reports_SI": {
+    "pin": 28.208534789908,
+    "ptin": 31.53396110120161,
+    "ptout": 28.00336763640025,
+    "min": 0.01999999999999991,
+    "mout": -0.02000000483558355
+  },
+  "total_pressure_loss_Pa": 3.5305934648013597,
+  "required_inlet_static_pressure_Pa": 28.208534789908,
+  "mass_imbalance_pct": 2.417791819184234e-05,
+  "viscous_model": {
+    "model": "k-omega",
+    "k_omega_model": "sst",
+    "k_omega": {
+      "k_omega_low_re_correction": false,
+      "coefficients": {
+        "a1": 0.31,
+        "alpha_star_inf": 1.0,
+        "alpha_inf": 0.52,
+        "beta_star_inf": 0.09,
+        "k_omega_regime": {
+          "beta_i": 0.075,
+          "tke_prandtl_number": 1.176,
+          "sdr_prandtl_number": 2.0
+        },
+        "k_epsilon_regime": {
+          "beta_i": 0.0828,
+          "tke_prandtl_number": 1.0,
+          "sdr_prandtl_number": 1.168
+        }
+      }
+    },
+    "near_wall_treatment": {
+      "wall_omega_treatment": "correlation"
+    },
+    "transition_module": "none",
+    "options": {
+      "curvature_correction": {
+        "enabled": false
+      },
+      "corner_flow_correction": {
+        "enabled": false
+      },
+      "production_kato_launder_enabled": false,
+      "production_limiter": {
+        "enabled": true,
+        "clip_factor": 10.0
+      }
+    },
+    "turbulence_expert": {
+      "turb_non_newtonian": false,
+      "restore_sst_v61": false
+    },
+    "user_defined_functions": {
+      "turb_visc": "none"
+    }
+  },
+  "methods": {
+    "p_v_coupling": {
+      "flow_scheme": "Coupled",
+      "flux_type": "Rhie-Chow: momentum based",
+      "flux_auto_select": true
+    },
+    "spatial_discretization": {
+      "gradient_scheme": "least-square-cell-based",
+      "discretization_scheme": {
+        "k": "second-order-upwind",
+        "mom": "second-order-upwind",
+        "omega": "second-order-upwind",
+        "pressure": "second-order"
+      }
+    },
+    "pseudo_time_method": {
+      "formulation": {
+        "coupled_solver": "global-time-step"
+      }
+    },
+    "expert": {
+      "implicit_bodyforce_treatment": false,
+      "velocity_formulation": "absolute",
+      "physical_velocity_formulation": false,
+      "disable_rhie_chow_flux": false,
+      "presto_pressure_scheme": false,
+      "first_to_second_order_blending": 1.0
+    },
+    "high_order_term_relaxation": {
+      "enable": false,
+      "relaxation_factor": 0.25,
+      "select_variables": "flow-variables",
+      "type": "standard"
+    },
+    "warped_face_gradient_correction": {
+      "enable": false
+    },
+    "poor_mesh_numerics": {
+      "cell_quality_based": false,
+      "turbulence_production_term": true,
+      "solution_and_quality_based": false,
+      "gradient_quality_based": false,
+      "reset_poor_elements": false
+    }
+  },
+  "reverse_volume_by_axial_region": {
+    "inlet_transition": {
+      "reverse_cell_count": 72,
+      "reverse_volume_fraction_of_whole_domain": 3.390254001657871e-06
+    },
+    "middle": {
+      "reverse_cell_count": 0,
+      "reverse_volume_fraction_of_whole_domain": 0.0
+    },
+    "short_vane_tip": {
+      "reverse_cell_count": 804,
+      "reverse_volume_fraction_of_whole_domain": 8.814576039039702e-06
+    },
+    "long_vane_tip": {
+      "reverse_cell_count": 2164,
+      "reverse_volume_fraction_of_whole_domain": 0.00010135731239395089
+    },
+    "final_channel": {
+      "reverse_cell_count": 0,
+      "reverse_volume_fraction_of_whole_domain": 0.0
+    }
+  },
+  "outlet_gap_averaged_long_axis_CV": 0.03435569629073143,
+  "outlet_gap_averaged_peak_mean_ratio": 1.0256301164627075
+}

@@ -1,0 +1,24 @@
+{
+  "flow_m3_min": 1.0,
+  "coarse_cells": 188600,
+  "medium_cells": 593376,
+  "inlet_static_pressure_change_pct": -0.721909027503409,
+  "total_pressure_loss_change_pct": -9.379855253542024,
+  "outlet_mean_axial_velocity_change_pct": 0.001868862233700419,
+  "outlet_full_area_CV_change_pct": 3.76590365267071,
+  "fine_cells": 882660,
+  "medium_to_fine_inlet_static_pressure_change_pct": -0.06120344845518266,
+  "medium_to_fine_total_pressure_loss_change_pct": -0.7351308001126378,
+  "medium_to_fine_outlet_mean_velocity_change_pct": 0.0006748543056378509,
+  "total_pressure_losses_coarse_medium_fine_Pa": [
+    3.9248890708881383,
+    3.5567401571767405,
+    3.5305934648013597
+  ],
+  "reverse_volume_fractions_coarse_medium_fine": [
+    1.9881517666826395e-06,
+    0.00013496793762683592,
+    0.00011356214243464848
+  ],
+  "note": "Three-grid sensitivity check; not a formal grid-convergence-index study. Tiny vane-tip recirculation is resolution-sensitive."
+}

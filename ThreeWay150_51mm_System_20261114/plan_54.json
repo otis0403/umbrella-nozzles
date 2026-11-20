@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "kind": "verify",
+      "name": "verify_selected_native_cases",
+      "cases": [
+        "curve_selected_P22_q1",
+        "curve_selected_P22_q2.5",
+        "final_adapter_100_120",
+        "final_adapter_60_80",
+        "final_adapter_50_70",
+        "final_pressure200",
+        "final_friction_low",
+        "final_friction_high",
+        "final_short_pipe_more_bends",
+        "final_one_side_extra_bend",
+        "reference_final_old_layout",
+        "final_jet_100_120",
+        "final_jet_60_80",
+        "final_jet_50_70",
+        "final_adapter_fine",
+        "final_jet_fine"
+      ]
+    }
+  ],
+  "final": true
+}

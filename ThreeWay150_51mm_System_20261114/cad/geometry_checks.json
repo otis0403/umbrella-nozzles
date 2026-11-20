@@ -1,0 +1,158 @@
+{
+  "parts": [
+    {
+      "name": "splitter_H110_neck46",
+      "group": "adapter",
+      "assembly_bounds_mm": [
+        [
+          -82.6576919555664,
+          -60.0,
+          0.0
+        ],
+        [
+          82.6576919555664,
+          60.0,
+          110.0
+        ]
+      ],
+      "print_size_mm": [
+        165.3153839111328,
+        120.0,
+        110.0
+      ],
+      "volume_mm3": 133095.67858356718,
+      "triangles": 257118,
+      "sha256": "cc3597d5b7cdb4262a6b43d3c692fac52eda0ecfb116e9ef353c9468b775ab4f",
+      "closed_single_solid": true,
+      "independent_STL_readback": true,
+      "minimum_triangle_area_mm2": 1.0664464681540637e-08
+    },
+    {
+      "name": "nozzle_150x16_H188_W150_P22",
+      "group": "nozzle",
+      "assembly_bounds_mm": [
+        [
+          -25.359363555908203,
+          -77.4000015258789,
+          0.0
+        ],
+        [
+          25.359363555908203,
+          77.4000015258789,
+          188.0
+        ]
+      ],
+      "print_size_mm": [
+        50.718727111816406,
+        154.8000030517578,
+        188.0
+      ],
+      "volume_mm3": 111088.83179638162,
+      "triangles": 168994,
+      "sha256": "419dc2b9e9c4f37bd1a527b5d99cbe440701a9e99b681ba2877858ca15ee217f",
+      "closed_single_solid": true,
+      "independent_STL_readback": true,
+      "minimum_triangle_area_mm2": 0.0001964569091796875
+    },
+    {
+      "name": "fit_sample_OD50_ID46",
+      "group": "fit_sample",
+      "assembly_bounds_mm": [
+        [
+          -25.0,
+          -25.0,
+          0.0
+        ],
+        [
+          25.0,
+          25.0,
+          25.0
+        ]
+      ],
+      "print_size_mm": [
+        50.0,
+        50.0,
+        25.0
+      ],
+      "volume_mm3": 7538.475913484399,
+      "triangles": 1536,
+      "sha256": "87de822053e3c5e77faf7189f8af9bab9a139ce558c5c68b81f0bec61bcfbda7",
+      "closed_single_solid": true,
+      "independent_STL_readback": true,
+      "minimum_triangle_area_mm2": 0.01094925514780698
+    }
+  ],
+  "adapter_height_mm": 110.0,
+  "adapter_neck_mm": 46.0,
+  "nozzle_gap_mm": 16.0,
+  "nozzle_length": 120.0,
+  "nozzle_shoulder": 150.0,
+  "nozzle_plenum": 22.0,
+  "original_holes": [
+    {
+      "x": 52,
+      "y": -51,
+      "d": 6.4
+    },
+    {
+      "x": 52,
+      "y": 51,
+      "d": 6.4
+    },
+    {
+      "x": -48,
+      "y": -51,
+      "d": 6.4
+    },
+    {
+      "x": -48,
+      "y": 51,
+      "d": 6.4
+    },
+    {
+      "x": 52,
+      "y": -25,
+      "d": 4.4
+    },
+    {
+      "x": 52,
+      "y": 25,
+      "d": 4.4
+    },
+    {
+      "x": -48,
+      "y": -25,
+      "d": 4.4
+    },
+    {
+      "x": -48,
+      "y": 25,
+      "d": 4.4
+    },
+    {
+      "x": -23,
+      "y": -51,
+      "d": 4.4
+    },
+    {
+      "x": 27,
+      "y": -51,
+      "d": 4.4
+    },
+    {
+      "x": -23,
+      "y": 51,
+      "d": 4.4
+    },
+    {
+      "x": 27,
+      "y": 51,
+      "d": 4.4
+    }
+  ],
+  "spigot_OD_mm": 50,
+  "spigot_ID_mm": 46,
+  "insertion_mm": 25,
+  "actual_slicing_verified": false,
+  "physical_print_verified": false
+}

@@ -1,0 +1,127 @@
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16724 faces (90.1% area) of pressure-outlet 8.
+   229  2.9931e-03  5.2511e-07  6.1010e-07  1.4806e-06  9.0621e-06  5.9793e-05  0:00:38   11
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16719 faces (90.1% area) of pressure-outlet 8.
+   230  2.9516e-03  5.2601e-07  6.1023e-07  1.4883e-06  9.0442e-06  5.9086e-05  0:00:35   10
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16720 faces (90.1% area) of pressure-outlet 8.
+   231  2.8624e-03  5.2351e-07  5.8611e-07  1.4842e-06  8.9608e-06  5.8225e-05  0:00:32    9
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16705 faces (90.0% area) of pressure-outlet 8.
+   232  2.8535e-03  5.2091e-07  5.7653e-07  1.4793e-06  8.8199e-06  5.7336e-05  0:00:29    8
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16722 faces (90.1% area) of pressure-outlet 8.
+
+  iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
+   233  2.7663e-03  5.1369e-07  5.5643e-07  1.4611e-06  8.6568e-06  5.6358e-05  0:00:26    7
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16721 faces (90.1% area) of pressure-outlet 8.
+   234  2.6916e-03  5.0860e-07  5.4917e-07  1.4393e-06  8.4812e-06  5.5234e-05  0:00:23    6
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16716 faces (90.1% area) of pressure-outlet 8.
+   235  2.6752e-03  5.0132e-07  5.3295e-07  1.4138e-06  8.2937e-06  5.4281e-05  0:00:19    5
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16708 faces (90.1% area) of pressure-outlet 8.
+   236  2.6050e-03  4.8952e-07  5.1009e-07  1.3805e-06  8.1561e-06  5.3478e-05  0:00:15    4
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16712 faces (90.1% area) of pressure-outlet 8.
+   237  2.6389e-03  4.8528e-07  5.2962e-07  1.3484e-06  7.9722e-06  5.2741e-05  0:00:11    3
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16716 faces (90.1% area) of pressure-outlet 8.
+   238  2.5673e-03  4.7745e-07  5.1238e-07  1.3097e-06  7.7545e-06  5.2363e-05  0:00:08    2
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16716 faces (90.1% area) of pressure-outlet 8.
+   239  2.4573e-03  4.6328e-07  4.8306e-07  1.2623e-06  7.6051e-06  5.2364e-05  0:00:04    1
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16720 faces (90.1% area) of pressure-outlet 8.
+   240  2.4736e-03  4.5939e-07  4.8708e-07  1.2264e-06  7.4722e-06  5.1754e-05  0:00:00    0
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           -49.04067
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           163.24412
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           6.9625755
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet         0.037433882
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet          -0.1498779
+
+            mambient
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                         ambient          0.11244449
+
+  iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
+   240  2.4736e-03  4.5939e-07  4.8708e-07  1.2264e-06  7.4722e-06  5.1754e-05  0:02:30   40
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16705 faces (90.0% area) of pressure-outlet 8.
+   241  1.8681e-03  4.4532e-07  4.7464e-07  1.1620e-06  5.9719e-06  4.0274e-05  0:02:21   39
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16720 faces (90.1% area) of pressure-outlet 8.
+   242  1.5713e-03  4.2730e-07  4.2535e-07  1.0617e-06  5.7619e-06  3.7489e-05  0:02:14   38
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16726 faces (90.1% area) of pressure-outlet 8.
+   243  1.3985e-03  4.2642e-07  4.1011e-07  1.0215e-06  5.8984e-06  3.6038e-05  0:02:08   37
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16727 faces (90.1% area) of pressure-outlet 8.
+   244  1.2807e-03  4.3165e-07  4.0684e-07  1.0003e-06  6.0195e-06  3.5504e-05  0:02:01   36
+
+ Reversed flow on 68 faces (28.2% area) of pressure-outlet 5.
+
+ Reversed flow on 16726 faces (90.1% area) of pressure-outlet 8.
+   245  1.2040e-03  4.3734e-07  4.0195e-07  9.8591e-07  6.0845e-06  3.9939e-05  0:01:56   35
+ACTIVE_FINE_NOZZLE_CONTROLS_UPDATED {"UTC": "2026-11-14T13:10:50.171342+00:00", "verified_native_cells": 830112, "before": {"pseudo_time": {"time_step_method": "automatic", "length_scale_methods": "conservative", "time_step_size_scale_factor": 1.0, "verbosity": 0}, "relaxation": {"body-force": 1.0, "density": 1.0, "k": 0.75, "omega": 0.75, "turb-viscosity": 1.0}}, "after": {"pseudo_time": {"time_step_method": "automatic", "length_scale_methods": "conservative", "time_step_size_scale_factor": 0.1, "verbosity": 0}, "relaxation": {"body-force": 1.0, "density": 1.0, "k": 0.5, "omega": 0.5, "turb-viscosity": 1.0}}, "only_iterative_controls_changed": true, "geometry_inlet_flow_and_boundary_conditions_unchanged": true, "changes_serialized_by_solver_between_40_iteration_batches": true}

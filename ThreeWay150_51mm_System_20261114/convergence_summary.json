@@ -1,0 +1,674 @@
+{
+  "curve_g4_q1.8": {
+    "iteration": 240,
+    "residuals": {
+      "continuity": 3.9076e-05,
+      "Ux": 1.1698e-08,
+      "Uy": 8.9394e-09,
+      "Uz": 1.5136e-08,
+      "k": 1.1757e-06,
+      "omega": 1.8825e-06
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.00043453135972647516,
+    "mass_imbalance_pct": 2.6546111952148076e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "curve_g6_q1": {
+    "iteration": 240,
+    "residuals": {
+      "continuity": 1.6962e-05,
+      "Ux": 5.9064e-08,
+      "Uy": 5.2234e-08,
+      "Uz": 8.6051e-08,
+      "k": 2.6055e-06,
+      "omega": 8.9671e-06
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.0013603403883768379,
+    "mass_imbalance_pct": 2.5924180961644244e-05,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "curve_g6_q1.8": {
+    "iteration": 240,
+    "residuals": {
+      "continuity": 1.8598e-05,
+      "Ux": 3.1652e-09,
+      "Uy": 2.6397e-09,
+      "Uz": 4.5796e-09,
+      "k": 2.0636e-07,
+      "omega": 4.6725e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.0001128741718274195,
+    "mass_imbalance_pct": 8.921413183821448e-07,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "curve_g8_q1": {
+    "iteration": 217,
+    "residuals": {
+      "continuity": 9.8705e-06,
+      "Ux": 2.0021e-08,
+      "Uy": 1.972e-08,
+      "Uz": 2.7678e-08,
+      "k": 5.373e-07,
+      "omega": 2.0528e-06
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.0004950406953433438,
+    "mass_imbalance_pct": 2.1854180444479823e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "curve_g8_q1.8": {
+    "iteration": 229,
+    "residuals": {
+      "continuity": 9.9752e-06,
+      "Ux": 1.3743e-09,
+      "Uy": 1.4321e-09,
+      "Uz": 1.8408e-09,
+      "k": 5.5401e-08,
+      "omega": 1.4189e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 5.980219776856171e-06,
+    "mass_imbalance_pct": 2.365385857862105e-07,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "curve_g12_q1": {
+    "iteration": 172,
+    "residuals": {
+      "continuity": 9.3183e-06,
+      "Ux": 1.4059e-08,
+      "Uy": 1.5297e-08,
+      "Uz": 1.9685e-08,
+      "k": 3.7056e-07,
+      "omega": 8.5206e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 7.584264879787076e-05,
+    "mass_imbalance_pct": 6.594999598513521e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "curve_g12_q1.8": {
+    "iteration": 217,
+    "residuals": {
+      "continuity": 9.8613e-06,
+      "Ux": 7.9855e-10,
+      "Uy": 7.3203e-10,
+      "Uz": 1.1196e-09,
+      "k": 3.5234e-08,
+      "omega": 7.0813e-08
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 2.4270060958087868e-05,
+    "mass_imbalance_pct": 9.697555258813797e-08,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "curve_g4_q1": {
+    "iteration": 440,
+    "residuals": {
+      "continuity": 1.6632e-05,
+      "Ux": 2.0596e-09,
+      "Uy": 1.6345e-09,
+      "Uz": 2.782e-09,
+      "k": 1.5281e-07,
+      "omega": 3.3442e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.00024258331128290678,
+    "mass_imbalance_pct": 3.980541937731327e-07,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "curve_g16_q1": {
+    "iteration": 181,
+    "residuals": {
+      "continuity": 8.9274e-06,
+      "Ux": 2.2082e-09,
+      "Uy": 4.3742e-09,
+      "Uz": 1.2411e-08,
+      "k": 2.928e-07,
+      "omega": 4.0978e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.00017793013611761875,
+    "mass_imbalance_pct": 1.334792242013674e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "curve_g16_q2.5": {
+    "iteration": 213,
+    "residuals": {
+      "continuity": 9.4668e-06,
+      "Ux": 8.2366e-10,
+      "Uy": 9.9005e-10,
+      "Uz": 1.6806e-09,
+      "k": 4.0772e-08,
+      "omega": 6.6356e-08
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 1.597930002024452e-05,
+    "mass_imbalance_pct": 2.274321703188348e-07,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "adapter_H120_g16_100_120": {
+    "iteration": 367,
+    "residuals": {
+      "continuity": 9.9456e-06,
+      "Ux": 9.4276e-09,
+      "Uy": 9.0537e-09,
+      "Uz": 1.5735e-08,
+      "k": 6.6301e-07,
+      "omega": 3.6334e-06
+    },
+    "last_flow_change_pct": 0.00014413462425810764,
+    "last_pressure_change_pct": 3.9968503606768735e-05,
+    "mass_imbalance_pct": 3.1391260276942826e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "adapter_H120_g16_60_80": {
+    "iteration": 190,
+    "residuals": {
+      "continuity": 8.6782e-06,
+      "Ux": 2.9728e-08,
+      "Uy": 1.8649e-08,
+      "Uz": 5.504e-08,
+      "k": 3.0095e-06,
+      "omega": 7.6123e-06
+    },
+    "last_flow_change_pct": 4.209840112068264e-05,
+    "last_pressure_change_pct": 4.796856940547656e-05,
+    "mass_imbalance_pct": 1.935838573938399e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "adapter_H120_g16_50_70": {
+    "iteration": 324,
+    "residuals": {
+      "continuity": 9.2046e-06,
+      "Ux": 2.6036e-08,
+      "Uy": 1.7296e-08,
+      "Uz": 5.3414e-08,
+      "k": 2.7497e-06,
+      "omega": 7.8804e-06
+    },
+    "last_flow_change_pct": 5.40170890683811e-05,
+    "last_pressure_change_pct": 6.1255386363257e-05,
+    "mass_imbalance_pct": 2.3665961436144187e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "adapter_H110_g16_100_120": {
+    "iteration": 271,
+    "residuals": {
+      "continuity": 7.046e-06,
+      "Ux": 5.655e-08,
+      "Uy": 4.8076e-08,
+      "Uz": 1.0401e-07,
+      "k": 4.7802e-06,
+      "omega": 9.4422e-06
+    },
+    "last_flow_change_pct": 2.0478922269084876e-05,
+    "last_pressure_change_pct": 1.0927532567706066e-05,
+    "mass_imbalance_pct": 1.0587616550410429e-05,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "reference_old_layout_g16_100_120": {
+    "iteration": 347,
+    "residuals": {
+      "continuity": 2.5433e-05,
+      "Ux": 2.3557e-08,
+      "Uy": 2.2485e-08,
+      "Uz": 4.0458e-08,
+      "k": 1.9326e-06,
+      "omega": 1.0651e-05
+    },
+    "last_flow_change_pct": 0.00010338966143219608,
+    "last_pressure_change_pct": 8.204378075804541e-05,
+    "mass_imbalance_pct": 9.802903291147532e-06,
+    "engineering_convergence_pass": false,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "curve_g16_L80_q1": {
+    "iteration": 280,
+    "residuals": {
+      "continuity": 1.406e-05,
+      "Ux": 2.8766e-08,
+      "Uy": 3.1116e-08,
+      "Uz": 6.9767e-08,
+      "k": 2.2967e-06,
+      "omega": 2.3563e-06
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.08612154251830038,
+    "mass_imbalance_pct": 9.842977960472205e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "curve_g16_L80_q2.5": {
+    "iteration": 280,
+    "residuals": {
+      "continuity": 4.1385e-05,
+      "Ux": 7.0247e-09,
+      "Uy": 1.3258e-08,
+      "Uz": 2.1277e-08,
+      "k": 5.502e-07,
+      "omega": 7.8795e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.014124422127978422,
+    "mass_imbalance_pct": 8.330996503768964e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "final_adapter_50_70": {
+    "iteration": 920,
+    "residuals": {
+      "continuity": 1.1453e-05,
+      "Ux": 1.5265e-08,
+      "Uy": 1.4628e-08,
+      "Uz": 2.9971e-08,
+      "k": 1.2345e-06,
+      "omega": 9.9206e-06
+    },
+    "last_flow_change_pct": 3.556687055983332e-05,
+    "last_pressure_change_pct": 8.446238797255035e-06,
+    "mass_imbalance_pct": 1.596092566043034e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "final_friction_low": {
+    "iteration": 1562,
+    "residuals": {
+      "continuity": 5.0591e-06,
+      "Ux": 1.2053e-07,
+      "Uy": 1.0681e-07,
+      "Uz": 1.8205e-07,
+      "k": 7.2304e-06,
+      "omega": 9.8093e-06
+    },
+    "last_flow_change_pct": 3.359628519827851e-06,
+    "last_pressure_change_pct": 1.8992053707478362e-06,
+    "mass_imbalance_pct": 4.302307587689535e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "reference_final_old_layout": {
+    "iteration": 1480,
+    "residuals": {
+      "continuity": 9.5083e-06,
+      "Ux": 2.6525e-08,
+      "Uy": 2.1089e-08,
+      "Uz": 4.0054e-08,
+      "k": 1.6896e-06,
+      "omega": 8.9814e-06
+    },
+    "last_flow_change_pct": 6.251280804114856e-05,
+    "last_pressure_change_pct": 1.406853639140948e-05,
+    "mass_imbalance_pct": 1.8646156563910078e-05,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "open_L80_W150": {
+    "iteration": 280,
+    "residuals": {
+      "continuity": 1.3078e-05,
+      "Ux": 2.0271e-07,
+      "Uy": 1.6014e-07,
+      "Uz": 4.1722e-07,
+      "k": 1.121e-06,
+      "omega": 1.2703e-06
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.035026936589323696,
+    "mass_imbalance_pct": 0.0028795522368184326,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "open_L150_W150": {
+    "iteration": 360,
+    "residuals": {
+      "continuity": 7.0197e-05,
+      "Ux": 6.4101e-08,
+      "Uy": 4.6003e-08,
+      "Uz": 1.2111e-07,
+      "k": 4.3157e-07,
+      "omega": 4.0036e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.00701844651632871,
+    "mass_imbalance_pct": 0.0006074065665367093,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "open_L120_W170": {
+    "iteration": 560,
+    "residuals": {
+      "continuity": 8.556e-05,
+      "Ux": 8.7372e-08,
+      "Uy": 6.9797e-08,
+      "Uz": 2.8334e-07,
+      "k": 9.1414e-07,
+      "omega": 1.082e-06
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.0301654560983744,
+    "mass_imbalance_pct": 0.002702734170491796,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "open_L120_W150": {
+    "iteration": 760,
+    "residuals": {
+      "continuity": 4.7008e-05,
+      "Ux": 5.901e-08,
+      "Uy": 4.3242e-08,
+      "Uz": 1.0198e-07,
+      "k": 2.881e-07,
+      "omega": 2.4128e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.0019897492419707064,
+    "mass_imbalance_pct": 1.527788185442086e-05,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "open_L120_W150_P20": {
+    "iteration": 240,
+    "residuals": {
+      "continuity": 3.7744e-05,
+      "Ux": 3.9466e-08,
+      "Uy": 4.3195e-08,
+      "Uz": 4.2292e-08,
+      "k": 9.331e-08,
+      "omega": 2.8634e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.0005671701200035962,
+    "mass_imbalance_pct": 0.0002697368729217079,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "open_L120_W150_P30": {
+    "iteration": 280,
+    "residuals": {
+      "continuity": 8.4098e-05,
+      "Ux": 3.8228e-08,
+      "Uy": 6.3696e-08,
+      "Uz": 3.8374e-08,
+      "k": 1.0672e-07,
+      "omega": 3.4268e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.00011243558289975973,
+    "mass_imbalance_pct": 0.0016345699581683433,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "curve_final_q1": {
+    "iteration": 240,
+    "residuals": {
+      "continuity": 3.7398e-05,
+      "Ux": 9.2213e-08,
+      "Uy": 1.0409e-07,
+      "Uz": 1.9721e-07,
+      "k": 3.9397e-06,
+      "omega": 3.6909e-06
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.030620690563174766,
+    "mass_imbalance_pct": 4.0283044747123474e-05,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "curve_final_q2.5": {
+    "iteration": 360,
+    "residuals": {
+      "continuity": 0.00010051,
+      "Ux": 3.0348e-07,
+      "Uy": 3.2308e-07,
+      "Uz": 7.8768e-07,
+      "k": 1.2255e-05,
+      "omega": 1.1469e-05
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.00422915830015238,
+    "mass_imbalance_pct": 5.483242031256546e-05,
+    "engineering_convergence_pass": false,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "open_L120_W150_P22": {
+    "iteration": 240,
+    "residuals": {
+      "continuity": 6.2685e-05,
+      "Ux": 1.6939e-08,
+      "Uy": 1.8954e-08,
+      "Uz": 1.7925e-08,
+      "k": 4.0506e-08,
+      "omega": 1.1116e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.00016826165075707562,
+    "mass_imbalance_pct": 1.3216463939895199e-05,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "curve_selected_P22_q2.5": {
+    "iteration": 240,
+    "residuals": {
+      "continuity": 2.4642e-05,
+      "Ux": 4.5096e-08,
+      "Uy": 7.0186e-08,
+      "Uz": 1.7375e-07,
+      "k": 2.8517e-06,
+      "omega": 3.0346e-06
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.003373622491823024,
+    "mass_imbalance_pct": 3.086711858335436e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "curve_selected_P22_q1": {
+    "iteration": 560,
+    "residuals": {
+      "continuity": 5.2088e-05,
+      "Ux": 7.2686e-08,
+      "Uy": 9.6869e-08,
+      "Uz": 1.5774e-07,
+      "k": 3.2205e-06,
+      "omega": 4.5045e-06
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.01363684236241891,
+    "mass_imbalance_pct": 1.6596306100235581e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "final_adapter_100_120": {
+    "iteration": 353,
+    "residuals": {
+      "continuity": 9.9311e-06,
+      "Ux": 5.8898e-08,
+      "Uy": 5.1208e-08,
+      "Uz": 1.1249e-07,
+      "k": 4.3776e-06,
+      "omega": 9.9271e-06
+    },
+    "last_flow_change_pct": 3.607678102923728e-05,
+    "last_pressure_change_pct": 5.4687262640573664e-05,
+    "mass_imbalance_pct": 1.6327469243339343e-05,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "final_adapter_60_80": {
+    "iteration": 394,
+    "residuals": {
+      "continuity": 9.902e-06,
+      "Ux": 3.8515e-08,
+      "Uy": 3.0151e-08,
+      "Uz": 6.5789e-08,
+      "k": 2.6545e-06,
+      "omega": 7.7897e-06
+    },
+    "last_flow_change_pct": 0.00017551838620288862,
+    "last_pressure_change_pct": 0.00016283878337963742,
+    "mass_imbalance_pct": 1.0065821216742216e-05,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "final_pressure200": {
+    "iteration": 172,
+    "residuals": {
+      "continuity": 9.9665e-06,
+      "Ux": 5.6469e-08,
+      "Uy": 3.7681e-08,
+      "Uz": 7.3245e-08,
+      "k": 3.2727e-06,
+      "omega": 7.6386e-06
+    },
+    "last_flow_change_pct": 3.404318319466526e-05,
+    "last_pressure_change_pct": 6.59022170168555e-08,
+    "mass_imbalance_pct": 5.503907174294492e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "final_friction_high": {
+    "iteration": 160,
+    "residuals": {
+      "continuity": 8.7593e-06,
+      "Ux": 4.7541e-08,
+      "Uy": 3.576e-08,
+      "Uz": 7.6261e-08,
+      "k": 4.1218e-06,
+      "omega": 8.067e-06
+    },
+    "last_flow_change_pct": 1.1707479408151755e-05,
+    "last_pressure_change_pct": 9.035153758496506e-06,
+    "mass_imbalance_pct": 1.8167513490094456e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "final_short_pipe_more_bends": {
+    "iteration": 400,
+    "residuals": {
+      "continuity": 1.3903e-05,
+      "Ux": 7.7823e-08,
+      "Uy": 7.7599e-08,
+      "Uz": 1.5791e-07,
+      "k": 6.4156e-06,
+      "omega": 9.0979e-06
+    },
+    "last_flow_change_pct": 0.0001187188002682582,
+    "last_pressure_change_pct": 3.9401870988164944e-05,
+    "mass_imbalance_pct": 2.134617379204707e-05,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "final_one_side_extra_bend": {
+    "iteration": 330,
+    "residuals": {
+      "continuity": 9.7006e-06,
+      "Ux": 4.9231e-08,
+      "Uy": 4.239e-08,
+      "Uz": 9.2511e-08,
+      "k": 3.9497e-06,
+      "omega": 8.1204e-06
+    },
+    "last_flow_change_pct": 8.037852892162078e-05,
+    "last_pressure_change_pct": 4.839421889890616e-05,
+    "mass_imbalance_pct": 1.145697086936879e-05,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "final_jet_100_120": {
+    "iteration": 240,
+    "residuals": {
+      "continuity": 3.9844e-05,
+      "Ux": 1.0119e-08,
+      "Uy": 1.4145e-08,
+      "Uz": 2.0792e-08,
+      "k": 8.201e-08,
+      "omega": 3.3673e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.0032094853680969372,
+    "mass_imbalance_pct": 7.506737958432873e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "final_jet_60_80": {
+    "iteration": 200,
+    "residuals": {
+      "continuity": 2.8056e-05,
+      "Ux": 9.8264e-09,
+      "Uy": 1.2818e-08,
+      "Uz": 1.1993e-08,
+      "k": 2.3766e-08,
+      "omega": 5.062e-08
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.00038256375263885016,
+    "mass_imbalance_pct": 7.761132521076599e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "final_jet_50_70": {
+    "iteration": 200,
+    "residuals": {
+      "continuity": 3.1449e-05,
+      "Ux": 1.0245e-08,
+      "Uy": 1.4127e-08,
+      "Uz": 1.7337e-08,
+      "k": 5.321e-08,
+      "omega": 1.6879e-07
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.0008510716777242009,
+    "mass_imbalance_pct": 9.102163127437323e-06,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": false
+  },
+  "final_adapter_fine": {
+    "iteration": 155,
+    "residuals": {
+      "continuity": 9.7533e-06,
+      "Ux": 4.4209e-08,
+      "Uy": 2.7702e-08,
+      "Uz": 6.6598e-08,
+      "k": 6.9565e-06,
+      "omega": 8.1514e-06
+    },
+    "last_flow_change_pct": 6.713197582275399e-05,
+    "last_pressure_change_pct": 7.140754559875617e-05,
+    "mass_imbalance_pct": 1.124351378096777e-05,
+    "engineering_convergence_pass": true,
+    "strict_all_residuals_under_1e_minus_5": true
+  },
+  "final_jet_fine": {
+    "iteration": 600,
+    "residuals": {
+      "continuity": 0.0015698,
+      "Ux": 1.1101e-06,
+      "Uy": 6.828e-07,
+      "Uz": 1.54e-06,
+      "k": 1.1259e-05,
+      "omega": 5.863e-05
+    },
+    "last_flow_change_pct": 0.0,
+    "last_pressure_change_pct": 0.024606843577745785,
+    "mass_imbalance_pct": 3.1044280894851375e-05,
+    "engineering_convergence_pass": false,
+    "strict_all_residuals_under_1e_minus_5": false
+  }
+}

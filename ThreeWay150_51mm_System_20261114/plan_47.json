@@ -1,0 +1,12 @@
+{
+  "jobs": [
+    {
+      "kind": "adapter",
+      "action": "resume_nozzle",
+      "name": "curve_selected_P22_q1",
+      "batches": 5,
+      "reuse_verified": false
+    }
+  ],
+  "final": false
+}

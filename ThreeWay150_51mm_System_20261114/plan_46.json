@@ -1,0 +1,33 @@
+{
+  "jobs": [
+    {
+      "kind": "nozzle",
+      "name": "curve_selected_P22_q1",
+      "gap": 16,
+      "q": 1.0,
+      "length": 120,
+      "shoulder": 150,
+      "plenum": 22,
+      "external": false,
+      "fine": false,
+      "batches": 9,
+      "warm": "curve_g16_q1",
+      "reuse_verified": true
+    },
+    {
+      "kind": "nozzle",
+      "name": "curve_selected_P22_q2.5",
+      "gap": 16,
+      "q": 2.5,
+      "length": 120,
+      "shoulder": 150,
+      "plenum": 22,
+      "external": false,
+      "fine": false,
+      "batches": 9,
+      "warm": "curve_g16_q2.5",
+      "reuse_verified": true
+    }
+  ],
+  "final": false
+}

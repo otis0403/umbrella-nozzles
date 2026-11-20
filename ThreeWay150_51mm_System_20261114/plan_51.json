@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "kind": "adapter",
+      "name": "final_adapter_fine",
+      "height": 110.0,
+      "neck": 46.0,
+      "gap": 16,
+      "center": 0.95,
+      "side": 1.15,
+      "physical_center": 1.0,
+      "physical_side": 1.2,
+      "fine": true,
+      "batches": 10,
+      "warm": "final_adapter_100_120",
+      "reuse_verified": true
+    }
+  ],
+  "final": false
+}

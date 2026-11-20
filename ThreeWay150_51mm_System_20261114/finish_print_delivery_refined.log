@@ -1,0 +1,5 @@
+DELIVERY_CHECK_FINISHED final_cad_build.log
+DELIVERY_CHECK_FINISHED final_print_readback.log
+DELIVERY_CHECK_FINISHED final_cad_render.log
+DELIVERY_CHECK_FINISHED final_native_blend.log
+CAD_READY_AWAITING_FINAL_CFD {"adapter_height_mm": 110, "neck_mm": 46, "nozzle_length_mm": 120, "nozzle_shoulder_mm": 150, "nozzle_plenum_mm": 22}

@@ -1,0 +1,19 @@
+{
+  "jobs": [
+    {
+      "kind": "adapter",
+      "action": "resume_nozzle",
+      "name": "open_L120_W150",
+      "batches": 5,
+      "reuse_verified": false
+    },
+    {
+      "kind": "adapter",
+      "action": "resume_nozzle",
+      "name": "open_L120_W170",
+      "batches": 5,
+      "reuse_verified": false
+    }
+  ],
+  "final": false
+}

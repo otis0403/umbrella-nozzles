@@ -1,0 +1,14 @@
+C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\render_cad.py:14: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  material=bpy.data.materials.new(ob.name);material.diffuse_color=(*color,1);material.use_nodes=True
+C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\render_cad.py:46: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Studio');world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.78,.84,.90,1);world.node_tree.nodes['Background'].inputs[1].default_value=.7;scene.world=world
+00:45.516  render           | Saved: 'C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\images\CAD_adapter.png'
+01:15.469  render           | Saved: 'C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\images\CAD_nozzle.png'
+Info: Saved as "ThreeWay150_51mm_System.blend"
+CAD_NATIVE_AND_AIRPATH_VERIFIED
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+Timer 'STL Import' took 184.24 ms
+Timer 'STL Import' took 126.16 ms
+Timer 'STL Import' took 2.19 ms
+
+Blender quit

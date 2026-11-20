@@ -1,0 +1,23 @@
+{
+  "jobs": [
+    {
+      "kind": "nozzle",
+      "name": "curve_g16_q1",
+      "gap": 16,
+      "q": 1.0,
+      "length": 120,
+      "batches": 7,
+      "warm": "curve_g12_q1"
+    },
+    {
+      "kind": "nozzle",
+      "name": "curve_g16_q2.5",
+      "gap": 16,
+      "q": 2.5,
+      "length": 120,
+      "batches": 7,
+      "warm": "curve_g16_q1"
+    }
+  ],
+  "final": false
+}

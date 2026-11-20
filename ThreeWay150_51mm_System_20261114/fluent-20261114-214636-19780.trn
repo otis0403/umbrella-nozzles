@@ -1,0 +1,1392 @@
+Auto-Transcript Start Time:  21:46:36, 14 Nov 2026 台北標準時間 
+Current Directory: "C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114"
+
+              Welcome to ANSYS Fluent 2026 R1
+
+              Copyright 2026 Synopsys, Inc. and ANSYS, Inc. All rights reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Feb  2 2026 16:32:00 EST  Build Id: 10262  
+ 
+Connected License Server List:	<Non FlexNet Publisher License Server (FNPLS)>
+
+     --------------------------------------------------------------
+     This is a student version of ANSYS FLUENT. Usage of this product
+     license is limited to the terms and conditions specified in your ANSYS
+     license form, additional terms section.
+     --------------------------------------------------------------
+Host spawning Node 0 on machine "Otis" (win64).
+Host waiting for connection from Node 0 at 127.0.0.1:50397 
+
+Node 0 connecting to the Host ... connection established.
+
+-------------------------------------------------------------------------------
+ID    Hostname  Core  O.S.         PID    CPU Model Name                    
+-------------------------------------------------------------------------------
+n3    Otis      4/10  Windows-x64  25016  Intel(R) Core(TM) Ultra 5 115U    
+n2    Otis      3/10  Windows-x64  3648   Intel(R) Core(TM) Ultra 5 115U    
+n1    Otis      2/10  Windows-x64  2748   Intel(R) Core(TM) Ultra 5 115U    
+n0*   Otis      1/10  Windows-x64  4536   Intel(R) Core(TM) Ultra 5 115U    
+host  Otis            Windows-x64  8912   Intel(R) Core(TM) Ultra 5 115U    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cleanup script file is C:\\Users\\otiso\\umbrella\\case\\ThreeWay150_51mm_System_20261114\\cleanup-fluent-Otis-8912.bat
+Note: Rank = 0: Process affinity not being set (6).
+Note: Rank = 1: Process affinity not being set (6).
+Note: Rank = 2: Process affinity not being set (6).
+Note: Rank = 3: Process affinity not being set (6).
+
+Graphics driver currently in use: null
+
+
+ +------------------------------------------------------------------+
+ |                    ANSYS Product Improvement                     |
+ |                                                                  |
+ |   ANSYS Product Improvement Program helps improve ANSYS          |
+ |   products. Participating in this program is like filling out a  |
+ |   survey. Without interrupting your work, the software reports   |
+ |   anonymous usage information such as errors, machine and        |
+ |   solver statistics, features used, etc. to ANSYS. We never      |
+ |   use the data to identify or contact you.                       |
+ |   The data does NOT contain:                                     |
+ |   - Any personally identifiable information including names,     |
+ |     IP addresses, file names, part names, etc.                   |
+ |   - Any information about your geometry or design specific       |
+ |     inputs.                                                      |
+ |   You can stop participation at any time. To change your         |
+ |   selection go to Help >> ANSYS Product Improvement Program      |
+ |   in the GUI.                                                    |
+ |   For more information about the ANSYS Privacy Policy, please    |
+ |   check: http://www.ansys.com/privacy                            |
+ |                                                                  |
+ +------------------------------------------------------------------+
+
+Posting ANSYS Product Improvement Program startup data
+Done.
+Information: The server has started and is running.
+(set-session-idle-timeout 3)countdown-start-timer
+
+> Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v261\fluent\fluent26.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\curve_selected_P22_q1\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       72192 cells,     1 cell zone  ...
+          72192 hexahedral cells,  zone id: 2
+      220400 faces,     4 face zones ...
+            752 quadrilateral velocity-inlet faces,  zone id: 3
+         212752 quadrilateral interior faces,  zone id: 4
+            752 quadrilateral pressure-outlet faces,  zone id: 5
+           6144 quadrilateral wall faces,  zone id: 6
+       76145 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 14599/646 = 22.5991
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+Since node values are off, changing the colormap type to "Banded".
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\curve_selected_P22_q1\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -12.923287
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet            47.88906
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet                0.02
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet               -0.02
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\curve_selected_P22_q2.5\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       72192 cells,     1 cell zone  ...
+          72192 hexahedral cells,  zone id: 2
+      220400 faces,     4 face zones ...
+            752 quadrilateral velocity-inlet faces,  zone id: 3
+         212752 quadrilateral interior faces,  zone id: 4
+            752 quadrilateral pressure-outlet faces,  zone id: 5
+           6144 quadrilateral wall faces,  zone id: 6
+       76145 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 14599/646 = 22.5991
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\curve_selected_P22_q2.5\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -116.61683
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           263.62174
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet                0.05
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.050000002
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_adapter_100_120\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       66336 cells,     1 cell zone  ...
+          66336 hexahedral cells,  zone id: 2
+      207868 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         189284 quadrilateral interior faces,  zone id: 4
+          15896 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral jump faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral jump faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral jump faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       75475 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1508/410 = 3.67805
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	outlet_1
+	outlet_0
+	housing
+	interior
+	inlet
+	load_0
+	load_1
+	load_2
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_adapter_100_120\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           296.01974
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.11363128
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0          -0.0374884
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.038654466
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.037488399
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_adapter_60_80\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       66336 cells,     1 cell zone  ...
+          66336 hexahedral cells,  zone id: 2
+      207868 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         189284 quadrilateral interior faces,  zone id: 4
+          15896 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral jump faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral jump faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral jump faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       75475 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1508/410 = 3.67805
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	outlet_1
+	outlet_0
+	housing
+	interior
+	inlet
+	load_0
+	load_1
+	load_2
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_adapter_60_80\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           282.48169
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet           0.1208076
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0         -0.03980297
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.041201649
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.039802973
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_adapter_50_70\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       66336 cells,     1 cell zone  ...
+          66336 hexahedral cells,  zone id: 2
+      207868 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         189284 quadrilateral interior faces,  zone id: 4
+          15896 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral jump faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral jump faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral jump faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       75475 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1508/410 = 3.67805
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	outlet_1
+	outlet_0
+	housing
+	interior
+	inlet
+	load_0
+	load_1
+	load_2
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_adapter_50_70\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           278.53977
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.12281843
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0         -0.04045033
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.041917768
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2         -0.04045033
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_pressure200\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       66336 cells,     1 cell zone  ...
+          66336 hexahedral cells,  zone id: 2
+      207868 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         189284 quadrilateral interior faces,  zone id: 4
+          15896 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral jump faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral jump faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral jump faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       75475 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1508/410 = 3.67805
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	outlet_1
+	outlet_0
+	housing
+	interior
+	inlet
+	load_0
+	load_1
+	load_2
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_pressure200\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           149.28754
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 200
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet           0.0793476
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0        -0.026179696
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.026988203
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.026179697
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_friction_low\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       66336 cells,     1 cell zone  ...
+          66336 hexahedral cells,  zone id: 2
+      207868 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         189284 quadrilateral interior faces,  zone id: 4
+          15896 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral jump faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral jump faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral jump faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       75475 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1508/410 = 3.67805
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	outlet_1
+	outlet_0
+	housing
+	interior
+	inlet
+	load_0
+	load_1
+	load_2
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_friction_low\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           276.85895
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.12364751
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0        -0.040953706
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1          -0.0417401
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2         -0.04095371
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_friction_high\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       66336 cells,     1 cell zone  ...
+          66336 hexahedral cells,  zone id: 2
+      207868 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         189284 quadrilateral interior faces,  zone id: 4
+          15896 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral jump faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral jump faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral jump faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       75475 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1508/410 = 3.67805
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	outlet_1
+	outlet_0
+	housing
+	interior
+	inlet
+	load_0
+	load_1
+	load_2
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_friction_high\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           320.71551
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet         0.099229314
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0         -0.03256883
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.034091656
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.032568829
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_short_pipe_more_bends\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       66336 cells,     1 cell zone  ...
+          66336 hexahedral cells,  zone id: 2
+      207868 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         189284 quadrilateral interior faces,  zone id: 4
+          15896 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral jump faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral jump faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral jump faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       75475 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1508/410 = 3.67805
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	outlet_1
+	outlet_0
+	housing
+	interior
+	inlet
+	load_0
+	load_1
+	load_2
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_short_pipe_more_bends\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet            299.9858
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.11144158
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0        -0.036780522
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.037880515
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.036780521
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_one_side_extra_bend\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       66336 cells,     1 cell zone  ...
+          66336 hexahedral cells,  zone id: 2
+      207868 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         189284 quadrilateral interior faces,  zone id: 4
+          15896 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral jump faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral jump faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral jump faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       75475 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1508/410 = 3.67805
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	outlet_1
+	outlet_0
+	housing
+	interior
+	inlet
+	load_0
+	load_1
+	load_2
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_one_side_extra_bend\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           301.17986
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.11064785
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0        -0.034514223
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.038645579
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.037488037
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\reference_final_old_layout\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       91200 cells,     1 cell zone  ...
+          91200 hexahedral cells,  zone id: 2
+      285176 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         261160 quadrilateral interior faces,  zone id: 4
+          21328 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral jump faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral jump faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral jump faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+      103125 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1508/555 = 2.71712
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	outlet_1
+	outlet_0
+	housing
+	interior
+	inlet
+	load_0
+	load_1
+	load_2
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\reference_final_old_layout\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           297.03613
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.11324989
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0         -0.03738105
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.038510132
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.037358728
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_jet_100_120\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      270192 cells,     1 cell zone  ...
+         270192 hexahedral cells,  zone id: 2
+      819232 faces,     6 face zones ...
+            752 quadrilateral velocity-inlet faces,  zone id: 3
+         801920 quadrilateral interior faces,  zone id: 4
+           1584 quadrilateral pressure-outlet faces,  zone id: 5
+           6144 quadrilateral wall faces,  zone id: 6
+            196 quadrilateral wall faces,  zone id: 7
+           8636 quadrilateral pressure-outlet faces,  zone id: 8
+      279102 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 53498/1618 = 33.0643
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	ambient
+	lip_rim
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_jet_100_120\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -61.977898
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           151.75286
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet         0.037488399
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet         -0.10325658
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_jet_60_80\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      270192 cells,     1 cell zone  ...
+         270192 hexahedral cells,  zone id: 2
+      819232 faces,     6 face zones ...
+            752 quadrilateral velocity-inlet faces,  zone id: 3
+         801920 quadrilateral interior faces,  zone id: 4
+           1584 quadrilateral pressure-outlet faces,  zone id: 5
+           6144 quadrilateral wall faces,  zone id: 6
+            196 quadrilateral wall faces,  zone id: 7
+           8636 quadrilateral pressure-outlet faces,  zone id: 8
+      279102 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 53498/1618 = 33.0643
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	ambient
+	lip_rim
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_jet_60_80\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -71.234889
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           169.70795
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.03980297
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet         -0.10933523
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_jet_50_70\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      270192 cells,     1 cell zone  ...
+         270192 hexahedral cells,  zone id: 2
+      819232 faces,     6 face zones ...
+            752 quadrilateral velocity-inlet faces,  zone id: 3
+         801920 quadrilateral interior faces,  zone id: 4
+           1584 quadrilateral pressure-outlet faces,  zone id: 5
+           6144 quadrilateral wall faces,  zone id: 6
+            196 quadrilateral wall faces,  zone id: 7
+           8636 quadrilateral pressure-outlet faces,  zone id: 8
+      279102 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 53498/1618 = 33.0643
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	ambient
+	lip_rim
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_jet_50_70\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -73.913205
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           174.93228
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.04045033
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet          -0.1110391
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_adapter_fine\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      680656 cells,     1 cell zone  ...
+         680656 hexahedral cells,  zone id: 2
+     2065792 faces,     9 face zones ...
+           4680 quadrilateral pressure-inlet faces,  zone id: 3
+        2013632 quadrilateral interior faces,  zone id: 4
+          38456 quadrilateral wall faces,  zone id: 5
+           1504 quadrilateral jump faces,  zone id: 6
+           1504 quadrilateral pressure-outlet faces,  zone id: 7
+           1504 quadrilateral jump faces,  zone id: 8
+           1504 quadrilateral pressure-outlet faces,  zone id: 9
+           1504 quadrilateral jump faces,  zone id: 10
+           1504 quadrilateral pressure-outlet faces,  zone id: 11
+      704986 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 91076/1941 = 46.9222
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	outlet_1
+	outlet_0
+	housing
+	interior
+	inlet
+	load_0
+	load_1
+	load_2
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_adapter_fine\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           296.15685
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet                 400
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.11355778
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0        -0.037433898
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.038689986
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.037433882
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_jet_fine\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      830112 cells,     1 cell zone  ...
+         830112 hexahedral cells,  zone id: 2
+     2508868 faces,     6 face zones ...
+           1504 quadrilateral velocity-inlet faces,  zone id: 3
+        2471804 quadrilateral interior faces,  zone id: 4
+           3000 quadrilateral pressure-outlet faces,  zone id: 5
+          13464 quadrilateral wall faces,  zone id: 6
+            288 quadrilateral wall faces,  zone id: 7
+          18808 quadrilateral pressure-outlet faces,  zone id: 8
+      849042 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 162374/3404 = 47.7009
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	ambient
+	lip_rim
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\final_jet_fine\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -49.072605
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           163.21218
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet         0.037433882
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet         -0.14987657
+
+Posting ANSYS Product Improvement Program performance data 
+Done.
+Shutting down Server...
+Services Shutdown...Done.
+Server Shutdown...Done.
+Queue Cleared...Done.
+Shutdown Complete.
+Auto-Transcript Stop Time:  21:50:21, 14 Nov 2026 台北標準時間 
+Total Transcript Time: 3 Minute 44 Second.

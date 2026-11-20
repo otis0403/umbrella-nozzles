@@ -1,0 +1,18 @@
+{
+  "jobs": [
+    {
+      "kind": "nozzle",
+      "name": "open_L120_W150_P22",
+      "gap": 16,
+      "q": 1.8170393240860634,
+      "length": 120,
+      "shoulder": 150,
+      "plenum": 22,
+      "external": true,
+      "batches": 9,
+      "warm": "open_L120_W150_P20",
+      "reuse_verified": true
+    }
+  ],
+  "final": false
+}

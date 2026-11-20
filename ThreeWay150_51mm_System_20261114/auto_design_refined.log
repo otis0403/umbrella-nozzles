@@ -1,0 +1,4 @@
+SHAPE_SELECTED {"case": "open_L120_W150_P22", "length_mm": 120, "shoulder_mm": 150, "plenum_mm": 22, "maximum_CV_pct": 9.184696808626654, "uniformity_target_pass": true, "reference_flow_m3_min": 1.8170393240861218, "CFD_required_total_pressure_Pa": 143.2026191110783, "estimated_system_branch_flow_m3_min": [1.8732533215292502, 1.9317020380594205, 1.8732534568989525], "estimated_worst_patch_score_Pa": 70.29848398676754, "estimate_only_not_final_coupled_CFD": true, "ambient_open_verified": true}
+COORDINATOR_STAGE_DONE 46 ['curve_selected_P22_q1', 'curve_selected_P22_q2.5']
+COORDINATOR_STAGE_DONE 47 ['curve_selected_P22_q1']
+COORDINATOR_STAGE_DONE 48 ['final_adapter_100_120', 'final_adapter_60_80', 'final_adapter_50_70', 'final_pressure200', 'final_friction_low', 'final_friction_high', 'final_short_pipe_more_bends', 'final_one_side_extra_bend', 'reference_final_old_layout']

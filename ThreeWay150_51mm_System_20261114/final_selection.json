@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-14",
+  "adapter_height_mm": 110.0,
+  "neck_mm": 46.0,
+  "nozzle_gap_mm": 16,
+  "nozzle_span_mm": 150,
+  "nozzle_length_mm": 120,
+  "nozzle_shoulder_mm": 150,
+  "nozzle_plenum_mm": 22,
+  "pipe_cases": {
+    "100_120": "final_adapter_100_120",
+    "60_80": "final_adapter_60_80",
+    "50_70": "final_adapter_50_70"
+  },
+  "jet_cases": {
+    "100_120": "final_jet_100_120",
+    "60_80": "final_jet_60_80",
+    "50_70": "final_jet_50_70"
+  },
+  "fine_adapter_case": "final_adapter_fine",
+  "fine_jet_case": "final_jet_fine",
+  "reference_case": "reference_final_old_layout",
+  "sensitivity_cases": [
+    "final_pressure200",
+    "final_friction_low",
+    "final_friction_high",
+    "final_short_pipe_more_bends",
+    "final_one_side_extra_bend"
+  ],
+  "validation_cases": [
+    "curve_selected_P22_q1",
+    "curve_selected_P22_q2.5",
+    "final_adapter_100_120",
+    "final_adapter_60_80",
+    "final_adapter_50_70",
+    "final_pressure200",
+    "final_friction_low",
+    "final_friction_high",
+    "final_short_pipe_more_bends",
+    "final_one_side_extra_bend",
+    "reference_final_old_layout",
+    "final_jet_100_120",
+    "final_jet_60_80",
+    "final_jet_50_70",
+    "final_adapter_fine"
+  ],
+  "diagnostic_cases": [
+    "final_jet_fine"
+  ],
+  "fine_nozzle_converged": false,
+  "nozzle_uniformity_target_met": false,
+  "maximum_nozzle_CV_pct": 10.119040563213824,
+  "actual_fan_curve_used": false,
+  "hypothetical_reference_total_pressure_Pa": 400,
+  "physical_testing_complete": false,
+  "physical_pipe_lengths_include_25mm_insertion_each_end": true,
+  "fine_nozzle_numerical_method": "Coupled native continuation",
+  "delivery_scope": "user_selected_printable_prototype_and_report"
+}

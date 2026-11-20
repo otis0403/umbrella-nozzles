@@ -1,0 +1,4 @@
+COORDINATOR_STAGE_DONE 41 ['open_L120_W150', 'open_L120_W170']
+COORDINATOR_STAGE_DONE 42 ['open_L120_W150']
+COORDINATOR_STAGE_DONE 43 ['open_L120_W150_P20', 'open_L120_W150_P30']
+SHAPE_SELECTED {"case": "open_L120_W150_P30", "length_mm": 120, "shoulder_mm": 150, "plenum_mm": 30, "maximum_CV_pct": 9.39999673610561, "uniformity_target_pass": true, "reference_flow_m3_min": 1.8170393240861218, "CFD_required_total_pressure_Pa": 144.9447810238688, "estimated_system_branch_flow_m3_min": [1.8688210365390316, 1.926850957505613, 1.8688211709540539], "estimated_worst_patch_score_Pa": 63.32350767076811, "estimate_only_not_final_coupled_CFD": true, "ambient_open_verified": true}

@@ -1,0 +1,397 @@
+Auto-Transcript Start Time:  14:47:53, 14 Nov 2026 台北標準時間 
+Current Directory: "C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114"
+
+              Welcome to ANSYS Fluent 2026 R1
+
+              Copyright 2026 Synopsys, Inc. and ANSYS, Inc. All rights reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Feb  2 2026 16:32:00 EST  Build Id: 10262  
+ 
+Connected License Server List:	<Non FlexNet Publisher License Server (FNPLS)>
+
+     --------------------------------------------------------------
+     This is a student version of ANSYS FLUENT. Usage of this product
+     license is limited to the terms and conditions specified in your ANSYS
+     license form, additional terms section.
+     --------------------------------------------------------------
+Host spawning Node 0 on machine "Otis" (win64).
+Host waiting for connection from Node 0 at 127.0.0.1:60247 
+
+Node 0 connecting to the Host ... connection established.
+
+-------------------------------------------------------------------------------
+ID    Hostname  Core  O.S.         PID    CPU Model Name                    
+-------------------------------------------------------------------------------
+n3    Otis      4/10  Windows-x64  28316  Intel(R) Core(TM) Ultra 5 115U    
+n2    Otis      3/10  Windows-x64  5444   Intel(R) Core(TM) Ultra 5 115U    
+n1    Otis      2/10  Windows-x64  17736  Intel(R) Core(TM) Ultra 5 115U    
+n0*   Otis      1/10  Windows-x64  23968  Intel(R) Core(TM) Ultra 5 115U    
+host  Otis            Windows-x64  14372  Intel(R) Core(TM) Ultra 5 115U    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cleanup script file is C:\\Users\\otiso\\umbrella\\case\\ThreeWay150_51mm_System_20261114\\cleanup-fluent-Otis-14372.bat
+
+Otis is already loaded (43.5204).                       Process affinity not being set.
+
+Graphics driver currently in use: null
+
+
+ +------------------------------------------------------------------+
+ |                    ANSYS Product Improvement                     |
+ |                                                                  |
+ |   ANSYS Product Improvement Program helps improve ANSYS          |
+ |   products. Participating in this program is like filling out a  |
+ |   survey. Without interrupting your work, the software reports   |
+ |   anonymous usage information such as errors, machine and        |
+ |   solver statistics, features used, etc. to ANSYS. We never      |
+ |   use the data to identify or contact you.                       |
+ |   The data does NOT contain:                                     |
+ |   - Any personally identifiable information including names,     |
+ |     IP addresses, file names, part names, etc.                   |
+ |   - Any information about your geometry or design specific       |
+ |     inputs.                                                      |
+ |   You can stop participation at any time. To change your         |
+ |   selection go to Help >> ANSYS Product Improvement Program      |
+ |   in the GUI.                                                    |
+ |   For more information about the ANSYS Privacy Policy, please    |
+ |   check: http://www.ansys.com/privacy                            |
+ |                                                                  |
+ +------------------------------------------------------------------+
+
+Posting ANSYS Product Improvement Program startup data
+Done.
+Information: The server has started and is running.
+(set-session-idle-timeout 3)countdown-start-timer
+
+> 
+Reading "C:\Users\otiso\umbrella\case\ThreeWay150_51mm_System_20261114\cfd\curve_g4_q1\nozzle.msh"...
+
+Buffering for file scan...
+
+   76145 nodes.
+   72192 hexahedral cells, zone  2.
+     752 quadrilateral velocity-inlet faces, zone  3.
+  212752 quadrilateral interior faces, zone  4.
+     752 quadrilateral pressure-outlet faces, zone  5.
+    6144 quadrilateral wall faces, zone  6.
+
+Building...
+     mesh
+	auto partitioning mesh by Metis (fast),
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 14599/646 = 22.5991
+Info: The mesh contains elements that are invalid or of poor quality.
+
+      A different numerical scheme will be applied to these elements,
+      which may affect the quality of the solution. It is recommended
+      that you consider removing the invalid and poor quality elements
+      in the mesh.
+
+      For more information on the invalid and poor quality elements,
+      please use the following TUI commands:
+
+      /mesh/check
+      /mesh/repair-improve/report-poor-elements.
+WARNING: 72192 cells with non-positive volume detected.
+     materials,
+     interface,
+     domains,
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.300000e-02, max (m) = 2.300000e-02
+   y-coordinate: min (m) = -7.500000e-02, max (m) = 7.500000e-02
+   z-coordinate: min (m) = 0.000000e+00, max (m) = 1.880000e-01
+ Volume statistics:
+WARNING: 72192 cells with non-positive volume detected.
+   minimum volume (m3): -2.287892e-08
+   maximum volume (m3): -2.013646e-11
+     total volume (m3): -2.847874e-04
+ Face area statistics:
+   minimum face area (m2): 1.006823e-08
+   maximum face area (m2): 2.390068e-05
+ Checking mesh.............
+WARNING: left-handed faces detected on zone   4:     0 right-handed, 54726 left-handed.
+WARNING: left-handed faces detected on zone   6:     0 right-handed,  1397 left-handed..
+WARNING: 108210 face(s) on cell zone   2 with wrong node order (on 0)...
+WARNING: Detected degenerate 72192 cells.........................
+ Done.
+
+WARNING: Mesh check failed.
+
+WARNING: left-handed faces detected on zone   4:     0 right-handed, 53437 left-handed.
+WARNING: left-handed faces detected on zone   5:     0 right-handed,   752 left-handed.
+WARNING: left-handed faces detected on zone   6:     0 right-handed,  1561 left-handed.
+WARNING: 107892 face(s) on cell zone   2 with wrong node order (on 1)
+WARNING: left-handed faces detected on zone   4:     0 right-handed, 54795 left-handed.
+WARNING: left-handed faces detected on zone   6:     0 right-handed,  1674 left-handed.
+WARNING: 108522 face(s) on cell zone   2 with wrong node order (on 2)
+WARNING: left-handed faces detected on zone   3:     0 right-handed,   752 left-handed.
+WARNING: left-handed faces detected on zone   4:     0 right-handed, 53831 left-handed.
+WARNING: left-handed faces detected on zone   6:     0 right-handed,  1512 left-handed.
+WARNING: 108528 face(s) on cell zone   2 with wrong node order (on 3)
+To get more detailed information about the mesh check failure
+increase the mesh check verbosity via the text command:
+/mesh/check-verbosity
+
+Fluent can also try to fix the mesh check problems via the text command:
+/mesh/repair-improve/repair
+
+Mesh Quality:
+
+Minimum Orthogonal Quality =  0.00000e+00 cell 18087 on zone 2 (ID: 60978 on partition: 3) at location (-8.20675e-03, -1.09387e-02,  4.90047e-02)
+Warning: minimum Orthogonal Quality below 0.01.
+
+
+Maximum Aspect Ratio =  5.91464e+02 cell 12817 on zone 2 (ID: 71707 on partition: 1) at location (-1.07107e-03, -3.99172e-02,  1.81000e-01)
+
+Fluent can try to improve the mesh quality via the TUI command
+/mesh/repair-improve/improve-quality
+Initialize using the hybrid initialization method.
+
+Checking case topology... 
+-This case has both inlets & outlets 
+-Pressure information is not available at the boundaries.
+ Case will be initialized with constant pressure
+
+Warning: Fluent host process 3 is out of memory (storage\\src\\mem.c:3110 -1534190112 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 -1534190112 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1380388576 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 -1465170688 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1414898304 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 707449152 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 353724576 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 176862272 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 -1456327552 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1419319872 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 709659936 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 354829952 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 177414976 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 88707488 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 44353728 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 -1454109888 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1420428704 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 710214336 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 355107168 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 177553568 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 88776768 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 44388384 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 22194176 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 11097088 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 -1453555008 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1420706144 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 710353056 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 355176512 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 177588256 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 88794112 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 44397056 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 22198528 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 11099264 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 5549632 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 2774816 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1387392 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 -1453485664 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1420740800 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 710370400 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 355185184 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 177592576 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 88796288 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 44398144 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 22199072 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 11099520 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 5549760 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 2774880 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1387424 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 693696 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 -1453450976 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1420758144 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 710379072 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 355189536 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 177594752 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 88797376 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 44398688 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 22199328 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 11099648 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 5549824 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 2774912 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1387456 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 693728 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 -1453416288 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1420775488 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 710387744 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 355193856 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 177596928 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 88798464 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 44399232 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 22199616 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 11099808 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 5549888 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 2774944 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1387456 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 693728 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 346848 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 -1453398944 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1420784160 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 710392064 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 355196032 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 177598016 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 88799008 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 44399488 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 22199744 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 11099872 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 5549920 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 2774944 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1387456 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 693728 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 -1453364256 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1420801504 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 710400736 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 355200352 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 177600160 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 88800064 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 44400032 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 22200000 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 11100000 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 5549984 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 2774976 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1387488 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 -1453294880 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 1420836192 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 710418080 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 355209024 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 177604512 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 88802240 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 44401120 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 22200544 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 11100256 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 5550112 bytes).
+
+Warning: Fluent host process 1 is out of memory (storage\\src\\mem.c:3110 2775040 bytes).
+

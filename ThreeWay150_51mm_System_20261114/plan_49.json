@@ -1,0 +1,49 @@
+{
+  "jobs": [
+    {
+      "kind": "adapter",
+      "name": "final_adapter_50_70",
+      "height": 110.0,
+      "neck": 46.0,
+      "gap": 16,
+      "center": 0.45,
+      "side": 0.6499999999999999,
+      "physical_center": 0.5,
+      "physical_side": 0.7,
+      "batches": 10,
+      "warm": "final_adapter_50_70",
+      "reuse_verified": false
+    },
+    {
+      "kind": "adapter",
+      "name": "final_friction_low",
+      "height": 110.0,
+      "neck": 46.0,
+      "gap": 16,
+      "center": 0.95,
+      "side": 1.15,
+      "physical_center": 1.0,
+      "physical_side": 1.2,
+      "batches": 10,
+      "warm": "final_friction_low",
+      "friction": 0.02,
+      "reuse_verified": false
+    },
+    {
+      "kind": "adapter",
+      "name": "reference_final_old_layout",
+      "height": 155.0,
+      "neck": 46.0,
+      "gap": 16,
+      "center": 0.95,
+      "side": 1.15,
+      "physical_center": 1.0,
+      "physical_side": 1.2,
+      "batches": 10,
+      "warm": "reference_final_old_layout",
+      "reference": true,
+      "reuse_verified": false
+    }
+  ],
+  "final": false
+}

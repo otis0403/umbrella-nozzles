@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "kind": "adapter",
+      "name": "adapter_H110_g16_100_120",
+      "height": 110,
+      "neck": 46,
+      "gap": 16,
+      "center": 1.0,
+      "side": 1.2,
+      "warm": "adapter_H120_g16_100_120",
+      "batches": 7
+    },
+    {
+      "kind": "adapter",
+      "name": "reference_old_layout_g16_100_120",
+      "height": 155,
+      "neck": 46,
+      "gap": 16,
+      "center": 1.0,
+      "side": 1.2,
+      "reference": true,
+      "batches": 7
+    },
+    {
+      "kind": "nozzle",
+      "name": "jet_g16_L120_long_pipe",
+      "gap": 16,
+      "q": 1.8170393240860634,
+      "length": 120,
+      "external": true,
+      "batches": 9,
+      "warm": "curve_g16_q2.5"
+    },
+    {
+      "kind": "nozzle",
+      "name": "curve_g16_L80_q1",
+      "gap": 16,
+      "q": 1.0,
+      "length": 80,
+      "batches": 7,
+      "warm": "curve_g16_q1"
+    },
+    {
+      "kind": "nozzle",
+      "name": "curve_g16_L80_q2.5",
+      "gap": 16,
+      "q": 2.5,
+      "length": 80,
+      "batches": 7,
+      "warm": "curve_g16_L80_q1"
+    }
+  ],
+  "final": false
+}

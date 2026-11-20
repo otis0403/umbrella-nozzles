@@ -1,0 +1,33 @@
+{
+  "all_original_files_unchanged": true,
+  "file_count": 27,
+  "files": {
+    ".DS_Store": "992da6235841b44e246c05dd04a6979cd6883748d45d63f8ba6f1141da712d37",
+    "01_內流道剖面_新舊比較.png": "d5c06ccec5aeb31039807ec0ede5f7733c3fdb9122313e3d4def26288297fd7d",
+    "02_單側組裝_內流道平順版.blend": "aae5dccb479a28e06ec56de88d1f1ba8182b10ca1044246499c8f60eec8d2a89",
+    "02_平順接頭_完整外觀.png": "8c4b0b8d3b2a66d0df7ab77ca27e1415b95f9b57dfb38a4ecf450fd9b50408a2",
+    "03_內部剖開_薄前緣.png": "0dd4b8e4e6692defb3f5b50973c481c5733dfd4d9114d3783704c65f53ef2fb2",
+    "03_共用分流接頭_內流道平順版.blend": "87db924b2e66f6211fc7179ec92bd63f28626e947e1795f5864a697603a57ac8",
+    "04_小型集風罩_共用款.blend": "19ad988d97a449dfabb92142c35f48614825ce25c3560ff4d41cca80fd0e2ed9",
+    "04_小型集風罩_共用款.blend1": "d429bbb639407a843b595cee33ae10e6f1aa7655fadae812df289dbe6542f530",
+    "04_鼻端與矩形根部_近看.png": "d598b7cd522ddef9bd8a965e566d85253eaee0b08ae9f28cfb5db01d78169864",
+    "05_整機_平順接頭配置.png": "eed4dbb180eeef2528d2e0d6c45a6d65c08a7a2289aaafbf224ce1e77957eb9a",
+    "build_smooth_splitter.py": "fbd7d3cdc336b0b9e501f3f3ed5ec6b84771833b5921c97afdbca509ba1bbff0",
+    "draw_section_comparison.py": "2563f2700df81fb2d0dc6de40ee5cb31150a6856d209d3c285b380a830ab88f8",
+    "finish_delivery.py": "204e631da39ca2421f42ce1b4e1a6a2091476261f63b0cb9e97df8754a3a578f",
+    "render_smooth_previews.py": "f597fb34bb56b881d5b5a82a34d928265c40d98fde554c67454130f22248e267",
+    "STL_內流道平順版.zip": "3351be1c42921ee6b40b89e9cc31461889221dc09afddb4a01ccce2d730c78d2",
+    "STL_重讀檢查.json": "bc64334ac43a314b09ae0db31857da8090142ad20069e7ea1bd562346cb7f8f9",
+    "update_assemblies.py": "e69aa205d631b3fb0c36ab5c5d9b97df3811a9d8152f6fa0b8e359df3010f890",
+    "verify_interfaces.py": "34927ca1801b4c465f528e2f68d38328ad869a2d44bd2d6d2fc1c4fe2e7edaf8",
+    "verify_stl_files.py": "d1d9db8a5bd6d43fbbe513afe2208c0c0b66febe4ec0679948a72b0ee5007b41",
+    "使用與列印說明.md": "0d27890932ec7758367d41c714d9b0824473b04b0d022fb0aa0c80383c486110",
+    "完整模型.blend1": "9f273615a2c9e8ee092c3925dc3a8203788ed6d1da90c553c69c6c95fc42b981",
+    "新接頭三角面.json": "908070cd10bee640e2663af5e71f8b7121be695600951a93667ace8050f41ad2",
+    "流道幾何檢查.json": "c20852dd6c7548b5d78dce04b75014a250624361f8c47661e598b08d34fc7ff5",
+    "舊接頭三角面.json": "e8c4ea310dd7dfdf402f21c309f99fdc1c39c0bb5a5e1a0c778fae4db1cbc089",
+    "STL_毫米\\分流接頭_左右共用_內流道平順_mm.stl": "ab2c41f37422b59a18ebe10f0324bd3bfb010683308b3552a86a277dd0128de7",
+    "STL_毫米\\小型集風罩_共用款_斜放45度_mm.stl": "16434efa22c9657151ae394db3271a59fb6f7da1aeddab2d12e71331295cc0bb",
+    "STL_毫米\\小型集風罩_共用款_直立_mm.stl": "221b312fd8e7147cad53efa08534085ab7262cdf56ddc8f242347a2adcb17df3"
+  }
+}

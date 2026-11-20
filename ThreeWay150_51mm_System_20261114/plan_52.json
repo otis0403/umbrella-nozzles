@@ -1,0 +1,19 @@
+{
+  "jobs": [
+    {
+      "kind": "nozzle",
+      "name": "final_jet_fine",
+      "gap": 16,
+      "q": 1.871694094853568,
+      "length": 120,
+      "shoulder": 150,
+      "plenum": 22,
+      "external": true,
+      "fine": true,
+      "batches": 10,
+      "warm": "final_jet_100_120",
+      "reuse_verified": true
+    }
+  ],
+  "final": false
+}

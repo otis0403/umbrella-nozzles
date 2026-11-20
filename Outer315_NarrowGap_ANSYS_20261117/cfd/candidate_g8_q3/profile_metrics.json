@@ -1,0 +1,14 @@
+{
+  "case": "candidate_g8_q3",
+  "width_mm": 315,
+  "gap_mm": 8.0,
+  "flow_m3_min": 3.02399999999783,
+  "inlet_total_pressure_Pa": 445.5225658057672,
+  "total_pressure_loss_Pa": 189.1221297399029,
+  "slot_area_mean_velocity_m_s": 20.005043029785156,
+  "core_line_CV_pct": 7.011874431783939,
+  "core_line_mean_velocity_m_s": 21.006825480269324,
+  "full_slot_area_CV_pct": 15.114341735839844,
+  "body_reverse_volume_pct": 8.473755199946234,
+  "engineering_convergence_pass": false
+}

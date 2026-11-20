@@ -1,0 +1,48 @@
+{
+  "jobs": [
+    {
+      "kind": "nozzle",
+      "name": "curve_g16_L80_q2.5",
+      "gap": 16,
+      "q": 2.5,
+      "length": 80,
+      "shoulder": 150,
+      "batches": 7,
+      "warm": "curve_g16_L80_q1"
+    },
+    {
+      "kind": "nozzle",
+      "name": "jet_g16_L150_W150_screen",
+      "gap": 16,
+      "q": 1.8170393240860634,
+      "length": 150,
+      "shoulder": 150,
+      "external": true,
+      "batches": 8,
+      "warm": "jet_g16_L120_long_pipe"
+    },
+    {
+      "kind": "nozzle",
+      "name": "jet_g16_L80_W150_screen",
+      "gap": 16,
+      "q": 1.8170393240860634,
+      "length": 80,
+      "shoulder": 150,
+      "external": true,
+      "batches": 8,
+      "warm": "jet_g16_L120_long_pipe"
+    },
+    {
+      "kind": "nozzle",
+      "name": "jet_g16_L120_W170_screen",
+      "gap": 16,
+      "q": 1.8170393240860634,
+      "length": 120,
+      "shoulder": 170,
+      "external": true,
+      "batches": 8,
+      "warm": "jet_g16_L120_long_pipe"
+    }
+  ],
+  "final": false
+}

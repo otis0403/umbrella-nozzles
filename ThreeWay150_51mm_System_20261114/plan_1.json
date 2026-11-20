@@ -1,0 +1,69 @@
+{
+  "jobs": [
+    {
+      "kind": "nozzle",
+      "name": "curve_g4_q1",
+      "gap": 4,
+      "q": 1.0,
+      "batches": 6,
+      "warm": null
+    },
+    {
+      "kind": "nozzle",
+      "name": "curve_g4_q1.8",
+      "gap": 4,
+      "q": 1.8,
+      "batches": 6,
+      "warm": "curve_g4_q1"
+    },
+    {
+      "kind": "nozzle",
+      "name": "curve_g6_q1",
+      "gap": 6,
+      "q": 1.0,
+      "batches": 6,
+      "warm": "curve_g4_q1.8"
+    },
+    {
+      "kind": "nozzle",
+      "name": "curve_g6_q1.8",
+      "gap": 6,
+      "q": 1.8,
+      "batches": 6,
+      "warm": "curve_g6_q1"
+    },
+    {
+      "kind": "nozzle",
+      "name": "curve_g8_q1",
+      "gap": 8,
+      "q": 1.0,
+      "batches": 6,
+      "warm": "curve_g6_q1.8"
+    },
+    {
+      "kind": "nozzle",
+      "name": "curve_g8_q1.8",
+      "gap": 8,
+      "q": 1.8,
+      "batches": 6,
+      "warm": "curve_g8_q1"
+    },
+    {
+      "kind": "nozzle",
+      "name": "curve_g12_q1",
+      "gap": 12,
+      "q": 1.0,
+      "batches": 6,
+      "warm": "curve_g8_q1.8"
+    },
+    {
+      "kind": "nozzle",
+      "name": "curve_g12_q1.8",
+      "gap": 12,
+      "q": 1.8,
+      "batches": 6,
+      "warm": "curve_g12_q1"
+    }
+  ],
+  "final": false
+}

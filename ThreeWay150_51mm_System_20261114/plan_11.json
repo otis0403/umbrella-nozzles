@@ -1,0 +1,38 @@
+{
+  "jobs": [
+    {
+      "kind": "adapter",
+      "name": "adapter_H120_g16_100_120",
+      "gap": 16,
+      "height": 120,
+      "neck": 46,
+      "center": 1.0,
+      "side": 1.2,
+      "batches": 8,
+      "warm": null
+    },
+    {
+      "kind": "adapter",
+      "name": "adapter_H120_g16_60_80",
+      "gap": 16,
+      "height": 120,
+      "neck": 46,
+      "center": 0.6,
+      "side": 0.8,
+      "batches": 8,
+      "warm": "adapter_H120_g16_100_120"
+    },
+    {
+      "kind": "adapter",
+      "name": "adapter_H120_g16_50_70",
+      "gap": 16,
+      "height": 120,
+      "neck": 46,
+      "center": 0.5,
+      "side": 0.7,
+      "batches": 8,
+      "warm": "adapter_H120_g16_60_80"
+    }
+  ],
+  "final": false
+}

@@ -1,0 +1,16 @@
+{
+  "signature": {
+    "name": "control_g16_q3",
+    "width": 315,
+    "length": 320,
+    "gap": 16,
+    "profile_kind": "ramp",
+    "guided": true,
+    "q": 3.024
+  },
+  "result_sha256": "699c959f32101e2cc274c3aca3f8d1e0f00aa6cfed975f21b0371c4d3b3947a8",
+  "native_sizes": {
+    "solution.cas.h5": 8376845,
+    "solution.dat.h5": 60518273
+  }
+}

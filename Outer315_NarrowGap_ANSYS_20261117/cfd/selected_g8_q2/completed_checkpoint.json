@@ -1,0 +1,16 @@
+{
+  "signature": {
+    "name": "selected_g8_q2",
+    "width": 315,
+    "length": 320,
+    "gap": 8,
+    "profile_kind": "ramp",
+    "guided": true,
+    "q": 2
+  },
+  "result_sha256": "99c0139e8ef8ad47291bf680ebb0d6478784a8da511915019a1980e29b44a701",
+  "native_sizes": {
+    "solution.cas.h5": 8375708,
+    "solution.dat.h5": 60454767
+  }
+}

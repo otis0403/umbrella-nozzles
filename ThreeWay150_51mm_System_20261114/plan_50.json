@@ -1,0 +1,47 @@
+{
+  "jobs": [
+    {
+      "kind": "nozzle",
+      "name": "final_jet_100_120",
+      "gap": 16,
+      "q": 1.8744199611128662,
+      "length": 120,
+      "shoulder": 150,
+      "plenum": 22,
+      "external": true,
+      "fine": false,
+      "batches": 9,
+      "warm": "open_L120_W150_P22",
+      "reuse_verified": true
+    },
+    {
+      "kind": "nozzle",
+      "name": "final_jet_60_80",
+      "gap": 16,
+      "q": 1.990148507153327,
+      "length": 120,
+      "shoulder": 150,
+      "plenum": 22,
+      "external": true,
+      "fine": false,
+      "batches": 9,
+      "warm": "final_jet_100_120",
+      "reuse_verified": true
+    },
+    {
+      "kind": "nozzle",
+      "name": "final_jet_50_70",
+      "gap": 16,
+      "q": 2.022516511471267,
+      "length": 120,
+      "shoulder": 150,
+      "plenum": 22,
+      "external": true,
+      "fine": false,
+      "batches": 9,
+      "warm": "final_jet_60_80",
+      "reuse_verified": true
+    }
+  ],
+  "final": false
+}

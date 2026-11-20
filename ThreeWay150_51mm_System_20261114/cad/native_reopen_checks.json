@@ -1,0 +1,18 @@
+{
+  "native_blend_reopened": true,
+  "scale_length": 0.001,
+  "parts": [
+    {
+      "part": "splitter_H110_neck46",
+      "STL_dimensions_match_native_model": true
+    },
+    {
+      "part": "nozzle_150x16_H188_W150_P22",
+      "STL_dimensions_match_native_model": true
+    },
+    {
+      "part": "fit_sample_OD50_ID46",
+      "STL_dimensions_match_native_model": true
+    }
+  ]
+}

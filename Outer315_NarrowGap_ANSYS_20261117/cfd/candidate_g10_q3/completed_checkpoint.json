@@ -1,0 +1,16 @@
+{
+  "signature": {
+    "name": "candidate_g10_q3",
+    "width": 315,
+    "length": 320,
+    "gap": 10,
+    "profile_kind": "ramp",
+    "guided": true,
+    "q": 3.024
+  },
+  "result_sha256": "35e1b43965601b9d8a4610a3261163606a22619ed5bfd6945aa327ec42ca3ce0",
+  "native_sizes": {
+    "solution.cas.h5": 8375994,
+    "solution.dat.h5": 60505552
+  }
+}

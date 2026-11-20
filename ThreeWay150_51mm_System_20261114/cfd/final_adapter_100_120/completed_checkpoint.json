@@ -1,0 +1,40 @@
+{
+  "signature": {
+    "kind": "adapter",
+    "name": "final_adapter_100_120",
+    "height": 110.0,
+    "neck": 46.0,
+    "gap": 16,
+    "center": 0.95,
+    "side": 1.15,
+    "physical_center": 1.0,
+    "physical_side": 1.2,
+    "nozzle_curve": {
+      "a_Pa_per_Q2": 38.37308982845615,
+      "b_Pa_per_Q": 9.515969706156282,
+      "points": [
+        [
+          1.0000000000000315,
+          47.88905953461515
+        ],
+        [
+          2.500000000000079,
+          263.6217356932576
+        ]
+      ],
+      "geometry_length_mm": 120,
+      "geometry_shoulder_mm": 150,
+      "geometry_plenum_mm": 22,
+      "source_cases": [
+        "curve_selected_P22_q1",
+        "curve_selected_P22_q2.5"
+      ],
+      "max_fit_error_pct": 2.220446049250313e-14
+    }
+  },
+  "result_sha256": "ac6b56a384a9532ee02c8f0ace8288b6af0b2bc55202d191a3d184f357e73ca7",
+  "native_sizes": {
+    "solution.cas.h5": 2679423,
+    "solution.dat.h5": 7726722
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "iteration": 920,
+  "residuals": {
+    "continuity": 1.1453e-05,
+    "Ux": 1.5265e-08,
+    "Uy": 1.4628e-08,
+    "Uz": 2.9971e-08,
+    "k": 1.2345e-06,
+    "omega": 9.9206e-06
+  },
+  "last_flow_change_pct": 3.556687055983332e-05,
+  "last_pressure_change_pct": 8.446238797255035e-06,
+  "mass_imbalance_pct": 1.596092566043034e-06,
+  "engineering_convergence_pass": true,
+  "strict_all_residuals_under_1e_minus_5": false
+}

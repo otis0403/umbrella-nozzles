@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "kind": "adapter",
+    "action": "resume_nozzle",
+    "name": "curve_selected_P22_q1"
+  },
+  "result_sha256": "d3f21048bc923e17f15157775697d02b0a8080cab3b060bb7f4ffabf8ef19270",
+  "native_sizes": {
+    "solution.cas.h5": 2596021,
+    "solution.dat.h5": 7616519
+  }
+}

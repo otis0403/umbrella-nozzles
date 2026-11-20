@@ -1,0 +1,18 @@
+{
+  "signature": {
+    "kind": "nozzle",
+    "name": "curve_selected_P22_q2.5",
+    "gap": 16,
+    "q": 2.5,
+    "length": 120,
+    "shoulder": 150,
+    "plenum": 22,
+    "external": false,
+    "fine": false
+  },
+  "result_sha256": "349fa50def7dbaf5b2625afbeda215774ebd46a7c23db5c28b03730a2458d079",
+  "native_sizes": {
+    "solution.cas.h5": 2595303,
+    "solution.dat.h5": 7700681
+  }
+}

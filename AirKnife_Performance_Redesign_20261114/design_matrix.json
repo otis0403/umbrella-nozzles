@@ -1,0 +1,68 @@
+{
+  "ref216": {
+    "kind": "legacy",
+    "height": 260,
+    "body": 200,
+    "span": 216,
+    "gap": 16,
+    "mouth": 20,
+    "power": 1,
+    "land": 0,
+    "body_wall": 2.4
+  },
+  "ref252": {
+    "kind": "legacy",
+    "height": 320,
+    "body": 200,
+    "span": 252,
+    "gap": 16,
+    "mouth": 20,
+    "power": 1,
+    "land": 0,
+    "body_wall": 2.4
+  },
+  "retro80": {
+    "kind": "retrofit",
+    "height": 280,
+    "body": 200,
+    "span": 252,
+    "gap": 16,
+    "mouth": 20,
+    "power": 1,
+    "land": 6,
+    "body_wall": 2.4
+  },
+  "area200d22": {
+    "kind": "area",
+    "height": 260,
+    "body": 200,
+    "span": 252,
+    "gap": 16,
+    "mouth": 22,
+    "power": 2,
+    "land": 6,
+    "body_wall": 3.0
+  },
+  "area220d22": {
+    "kind": "area",
+    "height": 280,
+    "body": 220,
+    "span": 252,
+    "gap": 16,
+    "mouth": 22,
+    "power": 2,
+    "land": 6,
+    "body_wall": 3.0
+  },
+  "area200d24": {
+    "kind": "area",
+    "height": 260,
+    "body": 200,
+    "span": 252,
+    "gap": 16,
+    "mouth": 24,
+    "power": 2,
+    "land": 6,
+    "body_wall": 3.0
+  }
+}

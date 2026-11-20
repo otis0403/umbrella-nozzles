@@ -1,0 +1,212 @@
+[
+  {
+    "file": "print\\STL\\body_A_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\body_B_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\lip_08mm_front_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\lip_08mm_back_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\lip_12mm_front_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\lip_12mm_back_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\lip_16mm_front_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\lip_16mm_back_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\alignment_pin_2p6x6_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\alignment_pin_2p8x6_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\alignment_pin_3p0x6_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\fit_coupon_3p1_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\fit_coupon_3p2_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\STL\\fit_coupon_3p3_mm.stl",
+    "closed_single_solid": true,
+    "matches_CAD_hash": true
+  },
+  {
+    "file": "print\\3MF\\alignment_pin_2p6x6.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\alignment_pin_2p8x6.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\alignment_pin_3p0x6.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\body_A.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\body_B.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\fit_coupon_3p1.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\fit_coupon_3p2.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\fit_coupon_3p3.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\lip_08mm_back.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\lip_08mm_front.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\lip_12mm_back.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\lip_12mm_front.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\lip_16mm_back.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\3MF\\lip_16mm_front.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\00_fit_test_and_16_pins.3mf",
+    "model_count": 19,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\01_body_A.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\02_body_B.3mf",
+    "model_count": 1,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\03_lip_08mm_pair.3mf",
+    "model_count": 2,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\03_lip_12mm_pair.3mf",
+    "model_count": 2,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  },
+  {
+    "file": "print\\plates\\03_lip_16mm_pair.3mf",
+    "model_count": 2,
+    "roundtrip_volume_and_dimensions_match_STL": true,
+    "closed_single_solids": true,
+    "within_K1C_allowing_5mm_brim": true
+  }
+]

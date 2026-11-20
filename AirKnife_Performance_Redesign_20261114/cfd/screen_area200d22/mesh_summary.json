@@ -1,0 +1,34 @@
+{
+  "name": "screen_area200d22",
+  "height_mm": 260,
+  "gap_mm": 16,
+  "profile_config": {
+    "kind": "area",
+    "height": 260,
+    "body": 200,
+    "span": 252,
+    "gap": 16,
+    "mouth": 22,
+    "power": 2,
+    "land": 6,
+    "body_wall": 3.0
+  },
+  "span_mm": 252,
+  "body_height_mm": 200,
+  "lip_length_mm": 60,
+  "external": false,
+  "cells": 190080,
+  "nodes": 203350,
+  "inlet_area_m2": 0.007208274333882308,
+  "outlet_slot_area_m2": 0.004032,
+  "volume_m3": 0.0016104030885218939,
+  "min_tetra_volume_m3": 1.0671813117483079e-13,
+  "vane_count": 0,
+  "external_bounds_mm": null,
+  "zones": {
+    "interior": 557208,
+    "inlet": 1152,
+    "outlet": 1152,
+    "housing": 23760
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "design": "retro80",
+    "loss_Pa": 10.889529791031393,
+    "inlet_static_Pa": 82.30801233489689,
+    "outlet_span_CV_pct": 3.885179042816162,
+    "internal_reverse_volume_pct": 0.0046403180152271625
+  },
+  {
+    "design": "area200d22",
+    "loss_Pa": 7.270405029516212,
+    "inlet_static_Pa": 76.28671520068853,
+    "outlet_span_CV_pct": 3.474287986755371,
+    "internal_reverse_volume_pct": 0.003443451386684485
+  },
+  {
+    "design": "area220d22",
+    "loss_Pa": 7.407742413288389,
+    "inlet_static_Pa": 76.4200226511448,
+    "outlet_span_CV_pct": 3.483861207962036,
+    "internal_reverse_volume_pct": 0.002096346426575915
+  },
+  {
+    "design": "area200d24",
+    "loss_Pa": 6.765324327745617,
+    "inlet_static_Pa": 75.61297968588076,
+    "outlet_span_CV_pct": 3.397810459136963,
+    "internal_reverse_volume_pct": 0.008531259762929157
+  }
+]

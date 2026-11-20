@@ -1,0 +1,32 @@
+{
+  "name": "legacy_Q3",
+  "conditions": {
+    "prescribed_Q_m3_min": 3.0,
+    "hypothetical_inlet_total_pressure_Pa": null,
+    "actual_fan_curve_used": false,
+    "height_mm": 200,
+    "gap_mm": 12,
+    "vane_count": 2,
+    "external_free_jet": false
+  },
+  "reports": {
+    "batch": 5,
+    "elapsed_s": 132.88144445419312,
+    "pin": 234.6713003055649,
+    "ptin": 264.6540939549336,
+    "ptout": 237.1760212709418,
+    "min": 0.06000000000000014,
+    "mout": -0.06000000000600499
+  },
+  "required_static_pressure_Pa": 234.6713003055649,
+  "pressure_loss_to_domain_outlet_Pa": 27.478072683991826,
+  "nozzle_flow_m3_min": 3.0000000000000067,
+  "mass_imbalance_pct": 1.0008093890660278e-08,
+  "outlet_mean_axial_velocity_m_s": 19.28933334350586,
+  "outlet_full_area_CV": 0.14516036212444305,
+  "negative_uz_volume_fraction": 9.216640401365226e-06,
+  "min_uz_m_s": -0.6277379812205124,
+  "last_pressure_change_pct": 6.652690459213608e-06,
+  "solver": "Fluent 2026 R1, 3D double, SST k-omega; steady incompressible; smooth walls",
+  "outlet_gap_averaged_long_CV": 0.020704904571175575
+}

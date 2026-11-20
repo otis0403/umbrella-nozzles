@@ -1,0 +1,36 @@
+{
+  "native_blend_reopened": true,
+  "millimetre_units": true,
+  "saved_in_assembled_state": true,
+  "default_gap_mm": 16,
+  "collections": [
+    {
+      "collection": "body",
+      "mesh_objects": [
+        "body_onepiece"
+      ],
+      "hidden_by_default": false
+    },
+    {
+      "collection": "lip_8",
+      "mesh_objects": [
+        "lip_08mm_onepiece_no_ribs"
+      ],
+      "hidden_by_default": true
+    },
+    {
+      "collection": "lip_12",
+      "mesh_objects": [
+        "lip_12mm_onepiece_no_ribs"
+      ],
+      "hidden_by_default": true
+    },
+    {
+      "collection": "lip_16",
+      "mesh_objects": [
+        "lip_16mm_onepiece_no_ribs"
+      ],
+      "hidden_by_default": false
+    }
+  ]
+}

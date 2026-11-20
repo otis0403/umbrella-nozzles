@@ -1,0 +1,36 @@
+{
+  "name": "jet_short216_fine_p400",
+  "conditions": {
+    "prescribed_Q_m3_min": null,
+    "hypothetical_inlet_total_pressure_Pa": 400,
+    "actual_fan_curve_used": false,
+    "height_mm": 220,
+    "gap_mm": 16,
+    "span_mm": 216,
+    "body_height_mm": 200,
+    "lip_length_mm": 20,
+    "warm_start_source": "jet_short216_p400",
+    "vane_count": 0,
+    "external_free_jet": true
+  },
+  "reports": {
+    "batch": 5,
+    "elapsed_s": 707.0457513332367,
+    "pin": 314.9235237354715,
+    "ptin": 399.9999999999993,
+    "ptout": 46.78972567004583,
+    "min": 0.1028356833760997,
+    "mout": -0.3163547002223759,
+    "mambient": 0.213518859389957
+  },
+  "required_static_pressure_Pa": 314.9235237354715,
+  "pressure_loss_to_domain_outlet_Pa": 353.2102743299535,
+  "nozzle_flow_m3_min": 5.1417841688049855,
+  "mass_imbalance_pct": 0.0001531144773956088,
+  "outlet_mean_axial_velocity_m_s": 3.292994976043701,
+  "outlet_full_area_CV": 1.216255784034729,
+  "negative_uz_volume_fraction": 0.05303223516071449,
+  "min_uz_m_s": -0.2146450266274657,
+  "last_pressure_change_pct": 0.0011004584847586043,
+  "solver": "Fluent 2026 R1, 3D double, SST k-omega; steady incompressible; smooth walls"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "jet_ref216_fine_p400",
+  "height_mm": 260,
+  "gap_mm": 16,
+  "profile_config": {
+    "height": 260,
+    "body": 200,
+    "span": 216,
+    "gap": 16,
+    "land": 0,
+    "rim": 2.4,
+    "wall": 2.4
+  },
+  "span_mm": 216,
+  "body_height_mm": 200,
+  "lip_length_mm": 60,
+  "external": true,
+  "cells": 924320,
+  "nodes": 964825,
+  "inlet_area_m2": 0.007208274333882308,
+  "outlet_slot_area_m2": 0.003456,
+  "volume_m3": 0.03341219312589897,
+  "min_tetra_volume_m3": 2.63830591239246e-13,
+  "vane_count": 0,
+  "external_bounds_mm": [
+    -100,
+    100,
+    -200,
+    200,
+    260,
+    660
+  ],
+  "zones": {
+    "interior": 2732940,
+    "inlet": 1152,
+    "outlet": 3700,
+    "housing": 23040,
+    "lip_rim": 468,
+    "ambient": 51680
+  }
+}

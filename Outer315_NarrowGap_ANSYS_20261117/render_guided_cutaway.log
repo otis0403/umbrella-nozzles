@@ -1,0 +1,10 @@
+C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\render_guided_cutaway.py:23: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('cutaway_teal');mat.use_nodes=True
+C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\render_guided_cutaway.py:29: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Studio');world.use_nodes=True
+00:22.750  render           | Saved: 'C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\images\CAD_315_guide_cutaway.png'
+ACTUAL_STL_GUIDE_CUTAWAY_RENDERED
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+Timer 'STL Import' took 123.35 ms
+
+Blender quit

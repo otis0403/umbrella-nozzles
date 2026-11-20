@@ -1,0 +1,13 @@
+{
+  "case": "ramp_w315_L320",
+  "width_mm": 315,
+  "flow_m3_min": 3.0239999999939062,
+  "inlet_total_pressure_Pa": 250.3746532709311,
+  "total_pressure_loss_Pa": 142.2340123086071,
+  "slot_area_mean_velocity_m_s": 9.998912811279297,
+  "core_line_CV_pct": 42.33465257212212,
+  "core_line_mean_velocity_m_s": 10.83244149431576,
+  "full_slot_area_CV_pct": 48.115577697753906,
+  "body_reverse_volume_pct": 17.204852643748655,
+  "engineering_convergence_pass": false
+}

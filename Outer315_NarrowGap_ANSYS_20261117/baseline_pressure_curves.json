@@ -1,0 +1,101 @@
+{
+  "180": {
+    "a": 30.381728528398178,
+    "b": 9.838779454833508,
+    "units": "Pa; Q in m3/min",
+    "fit": "P_total = a Q^2 + b Q",
+    "points": [
+      {
+        "case": "curve_w180_q1p2",
+        "Q_m3_min": 1.1999999999975806,
+        "required_total_Pa": 55.65070920966802,
+        "late_iteration_pressure_range_pct": 0.039468848021673976
+      },
+      {
+        "case": "ramp_w180_L180",
+        "Q_m3_min": 1.727999999996515,
+        "required_total_Pa": 107.2030087003287,
+        "late_iteration_pressure_range_pct": 0.07714083925596016
+      },
+      {
+        "case": "curve_w180_q2p4",
+        "Q_m3_min": 2.3999999999951607,
+        "required_total_Pa": 199.3816877769327,
+        "late_iteration_pressure_range_pct": 0.08486109080034805
+      },
+      {
+        "case": "curve_w180_q4p0",
+        "Q_m3_min": 3.999999999991935,
+        "required_total_Pa": 525.1016215398372,
+        "late_iteration_pressure_range_pct": 0.13902314624095613
+      }
+    ],
+    "maximum_fit_error_pct": 0.48296916443011373,
+    "includes_feed_elbow_R90": true,
+    "inlet_ID_mm": 51,
+    "gap_mm": 16,
+    "actual_fan_operating_point_verified": false
+  },
+  "225": {
+    "a": 24.049246298662492,
+    "b": 12.676132050541172,
+    "units": "Pa; Q in m3/min",
+    "fit": "P_total = a Q^2 + b Q",
+    "points": [
+      {
+        "case": "curve_w225_q1p3",
+        "Q_m3_min": 1.2999999999973795,
+        "required_total_Pa": 56.96655580940085,
+        "late_iteration_pressure_range_pct": 1.1868547016254263
+      },
+      {
+        "case": "ramp_w225_L220",
+        "Q_m3_min": 2.159999999995647,
+        "required_total_Pa": 140.4197872918646,
+        "late_iteration_pressure_range_pct": 0.09487323356206233
+      },
+      {
+        "case": "curve_w225_q4p0",
+        "Q_m3_min": 3.99999999999194,
+        "required_total_Pa": 434.1194716912217,
+        "late_iteration_pressure_range_pct": 0.13093928990244055
+      }
+    ],
+    "maximum_fit_error_pct": 0.5947726800264896,
+    "includes_feed_elbow_R90": true,
+    "inlet_ID_mm": 51,
+    "gap_mm": 16,
+    "actual_fan_operating_point_verified": false
+  },
+  "315": {
+    "a": 25.526250821183694,
+    "b": 9.189212016230215,
+    "units": "Pa; Q in m3/min",
+    "fit": "P_total = a Q^2 + b Q",
+    "points": [
+      {
+        "case": "guide_w315_q1p5",
+        "Q_m3_min": 1.4999999999989237,
+        "required_total_Pa": 71.44932111967806,
+        "late_iteration_pressure_range_pct": 0.0007550885005183282
+      },
+      {
+        "case": "guide_w315_L320",
+        "Q_m3_min": 3.02399999999783,
+        "required_total_Pa": 258.1684912940526,
+        "late_iteration_pressure_range_pct": 0.26567696045454614
+      },
+      {
+        "case": "guide_w315_q4p5",
+        "Q_m3_min": 4.499999999996771,
+        "required_total_Pa": 563.2074496070749,
+        "late_iteration_pressure_range_pct": 1.0418192933470558
+      }
+    ],
+    "maximum_fit_error_pct": 1.1800148255038057,
+    "includes_feed_elbow_R90": true,
+    "inlet_ID_mm": 51,
+    "gap_mm": 16,
+    "actual_fan_operating_point_verified": false
+  }
+}

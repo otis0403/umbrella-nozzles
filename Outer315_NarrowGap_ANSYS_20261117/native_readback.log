@@ -1,0 +1,610 @@
+Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v261\fluent\fluent26.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\candidate_g10_q3\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      242672 cells,     1 cell zone  ...
+         242672 hexahedral cells,  zone id: 2
+      741892 faces,     4 face zones ...
+           1040 quadrilateral velocity-inlet faces,  zone id: 3
+         714140 quadrilateral interior faces,  zone id: 4
+           1040 quadrilateral pressure-outlet faces,  zone id: 5
+          25672 quadrilateral wall faces,  zone id: 6
+      257058 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 57035/727 = 78.4525
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+Since node values are off, changing the colormap type to "Banded".
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\candidate_g10_q3\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -1.575000e-01, max (m) = 1.575000e-01
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 3.880000e-01
+ Volume statistics:
+   minimum volume (m3): 6.483582e-12
+   maximum volume (m3): 4.894240e-08
+     total volume (m3): 1.976142e-03
+ Face area statistics:
+   minimum face area (m2): 5.034590e-09
+   maximum face area (m2): 3.404111e-05
+ Checking mesh.........................................
+ Done.
+The following solver settings object method could also be used to execute the above command:
+<solver_session>.settings.mesh.check()
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -18.260553
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           352.22019
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           167.30575
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet             0.06048
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.060480076
+NEW_NATIVE_VERIFIED candidate_g10_q3
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\candidate_g8_q3\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      242672 cells,     1 cell zone  ...
+         242672 hexahedral cells,  zone id: 2
+      741892 faces,     4 face zones ...
+           1040 quadrilateral velocity-inlet faces,  zone id: 3
+         714140 quadrilateral interior faces,  zone id: 4
+           1040 quadrilateral pressure-outlet faces,  zone id: 5
+          25672 quadrilateral wall faces,  zone id: 6
+      257058 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 57035/727 = 78.4525
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\candidate_g8_q3\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -1.575000e-01, max (m) = 1.575000e-01
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 3.880000e-01
+ Volume statistics:
+   minimum volume (m3): 6.483582e-12
+   maximum volume (m3): 4.894240e-08
+     total volume (m3): 1.960079e-03
+ Face area statistics:
+   minimum face area (m2): 5.034590e-09
+   maximum face area (m2): 3.460784e-05
+ Checking mesh.........................................
+ Done.
+The following solver settings object method could also be used to execute the above command:
+<solver_session>.settings.mesh.check()
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           75.041885
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           445.52257
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           256.40044
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet             0.06048
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.060480472
+NEW_NATIVE_VERIFIED candidate_g8_q3
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\control_g16_q3\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      242672 cells,     1 cell zone  ...
+         242672 hexahedral cells,  zone id: 2
+      741892 faces,     4 face zones ...
+           1040 quadrilateral velocity-inlet faces,  zone id: 3
+         714140 quadrilateral interior faces,  zone id: 4
+           1040 quadrilateral pressure-outlet faces,  zone id: 5
+          25672 quadrilateral wall faces,  zone id: 6
+      257058 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 57035/727 = 78.4525
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\control_g16_q3\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -1.575000e-01, max (m) = 1.575000e-01
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 3.880000e-01
+ Volume statistics:
+   minimum volume (m3): 6.483582e-12
+   maximum volume (m3): 4.894240e-08
+     total volume (m3): 2.024333e-03
+ Face area statistics:
+   minimum face area (m2): 5.034590e-09
+   maximum face area (m2): 3.283284e-05
+ Checking mesh.........................................
+ Done.
+The following solver settings object method could also be used to execute the above command:
+<solver_session>.settings.mesh.check()
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet          -110.76229
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet            259.7184
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           77.656116
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet             0.06048
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.060479436
+NEW_NATIVE_VERIFIED control_g16_q3
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\network_narrow_Ps460_hose50\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       68064 cells,     1 cell zone  ...
+          68064 hexahedral cells,  zone id: 2
+      213268 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         194252 quadrilateral interior faces,  zone id: 4
+          16328 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral interior faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral interior faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral interior faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       77425 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1795/357 = 5.02801
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	load_2
+	outlet_1
+	load_1
+	outlet_0
+	load_0
+	housing
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\network_narrow_Ps460_hose50\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -8.422603e-02, max (m) = 8.422603e-02
+   y-coordinate: min (m) = -4.400000e-02, max (m) = 4.400000e-02
+   z-coordinate: min (m) = 0.000000e+00, max (m) = 1.280000e-01
+ Volume statistics:
+   minimum volume (m3): 1.439469e-12
+   maximum volume (m3): 4.762072e-08
+     total volume (m3): 6.995802e-04
+ Face area statistics:
+   minimum face area (m2): 1.263970e-09
+   maximum face area (m2): 2.849015e-05
+ Checking mesh.........................................
+ Done.
+The following solver settings object method could also be used to execute the above command:
+<solver_session>.settings.mesh.check()
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           461.62929
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           711.52348
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.17564519
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0        -0.061674294
+
+                 pt0
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_0           677.13515
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.059509518
+
+                 pt1
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_1           679.39381
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2        -0.054461328
+
+                 pt2
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_2           684.61102
+NEW_NATIVE_VERIFIED network_narrow_Ps460_hose50
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\network_narrow_Ps460_hose60\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       68064 cells,     1 cell zone  ...
+          68064 hexahedral cells,  zone id: 2
+      213268 faces,     9 face zones ...
+            960 quadrilateral pressure-inlet faces,  zone id: 3
+         194252 quadrilateral interior faces,  zone id: 4
+          16328 quadrilateral wall faces,  zone id: 5
+            288 quadrilateral interior faces,  zone id: 6
+            288 quadrilateral pressure-outlet faces,  zone id: 7
+            288 quadrilateral interior faces,  zone id: 8
+            288 quadrilateral pressure-outlet faces,  zone id: 9
+            288 quadrilateral interior faces,  zone id: 10
+            288 quadrilateral pressure-outlet faces,  zone id: 11
+       77425 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 1795/357 = 5.02801
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet_2
+	load_2
+	outlet_1
+	load_1
+	outlet_0
+	load_0
+	housing
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\network_narrow_Ps460_hose60\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -8.422603e-02, max (m) = 8.422603e-02
+   y-coordinate: min (m) = -4.400000e-02, max (m) = 4.400000e-02
+   z-coordinate: min (m) = 0.000000e+00, max (m) = 1.280000e-01
+ Volume statistics:
+   minimum volume (m3): 1.439469e-12
+   maximum volume (m3): 4.762072e-08
+     total volume (m3): 6.995802e-04
+ Face area statistics:
+   minimum face area (m2): 1.263970e-09
+   maximum face area (m2): 2.849015e-05
+ Checking mesh.........................................
+ Done.
+The following solver settings object method could also be used to execute the above command:
+<solver_session>.settings.mesh.check()
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           462.97921
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           698.70335
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet          0.17062374
+
+                  m0
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_0        -0.059803273
+
+                 pt0
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_0            666.1395
+
+                  m1
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_1        -0.057788631
+
+                 pt1
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_1           668.22217
+
+                  m2
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                        outlet_2         -0.05303177
+
+                 pt2
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          load_2           673.00579
+NEW_NATIVE_VERIFIED network_narrow_Ps460_hose60
+
+       Clearing partially read grid.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\selected_g8_q2\solution.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      242672 cells,     1 cell zone  ...
+         242672 hexahedral cells,  zone id: 2
+      741892 faces,     4 face zones ...
+           1040 quadrilateral velocity-inlet faces,  zone id: 3
+         714140 quadrilateral interior faces,  zone id: 4
+           1040 quadrilateral pressure-outlet faces,  zone id: 5
+          25672 quadrilateral wall faces,  zone id: 6
+      257058 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 57035/727 = 78.4525
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	housing
+	outlet
+	interior
+	inlet
+	fluid
+     parallel,
+Done.
+
+Reading from Otis:"C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\cfd\selected_g8_q2\solution.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.550000e-02, max (m) = 1.000000e-01
+   y-coordinate: min (m) = -1.575000e-01, max (m) = 1.575000e-01
+   z-coordinate: min (m) = -1.205000e-01, max (m) = 3.880000e-01
+ Volume statistics:
+   minimum volume (m3): 6.483582e-12
+   maximum volume (m3): 4.894240e-08
+     total volume (m3): 1.960079e-03
+ Face area statistics:
+   minimum face area (m2): 5.034590e-09
+   maximum face area (m2): 3.460784e-05
+ Checking mesh.........................................
+ Done.
+The following solver settings object method could also be used to execute the above command:
+<solver_session>.settings.mesh.check()
+
+                 pin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet            42.09555
+
+                ptin
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                           inlet           204.13391
+
+               ptout
+ -------------------
+           Mass-Weighted Average                [Pa]
+-------------------------------- -------------------
+                          outlet           113.62191
+
+                 min
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                           inlet                0.04
+
+                mout
+ -------------------
+                  Mass Flow Rate              [kg/s]
+-------------------------------- -------------------
+                          outlet        -0.039999863
+NEW_NATIVE_VERIFIED selected_g8_q2
+NEW_NATIVE_READBACK_FINISHED

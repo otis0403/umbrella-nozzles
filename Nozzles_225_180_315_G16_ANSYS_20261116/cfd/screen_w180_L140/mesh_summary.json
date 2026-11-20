@@ -1,0 +1,32 @@
+{
+  "name": "screen_w180_L140",
+  "height_mm": 208.0,
+  "width_mm": 180,
+  "span_mm": 180,
+  "transition_length_mm": 140,
+  "gap_mm": 16,
+  "external": false,
+  "fine": false,
+  "feed_elbow_R_mm": 90,
+  "inlet_area_m2": 0.00203508357664503,
+  "outlet_slot_area_m2": 0.0028794506192982975,
+  "reach_mm": 0,
+  "inlet_normal": [
+    -1,
+    0,
+    0
+  ],
+  "body_height_mm": 25,
+  "lip_length_mm": 183.0,
+  "cells": 154208,
+  "nodes": 161703,
+  "minimum_tetra_volume_m3": 1.9504251936472092e-13,
+  "volume_m3": 0.0009307623592087459,
+  "zones": {
+    "inlet": 976,
+    "interior": 455328,
+    "outlet": 976,
+    "housing": 12640
+  },
+  "geometry_revision": "20261114_open_ambient_v1"
+}

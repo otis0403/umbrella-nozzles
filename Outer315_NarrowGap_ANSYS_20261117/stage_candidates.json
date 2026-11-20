@@ -1,0 +1,8 @@
+{
+  "log":"candidate_fluent.log",
+  "jobs":[
+    {"name":"control_g16_q3","width":315,"length":320,"gap":16,"profile_kind":"ramp","guided":true,"q":3.024,"warm":"guide_w315_L320","batches":25},
+    {"name":"candidate_g10_q3","width":315,"length":320,"gap":10,"profile_kind":"ramp","guided":true,"q":3.024,"warm":"control_g16_q3","batches":25},
+    {"name":"candidate_g8_q3","width":315,"length":320,"gap":8,"profile_kind":"ramp","guided":true,"q":3.024,"warm":"candidate_g10_q3","batches":25}
+  ]
+}

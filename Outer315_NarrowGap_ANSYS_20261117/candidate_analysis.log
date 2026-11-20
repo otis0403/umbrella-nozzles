@@ -1,0 +1,46 @@
+C:\Users\otiso\umbrella\case\Outer315_NarrowGap_ANSYS_20261117\analyze_cases.py:81: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax.legend(fontsize=8)
+[
+  {
+    "case": "candidate_g10_q3",
+    "width_mm": 315,
+    "gap_mm": 10.0,
+    "flow_m3_min": 3.02399999999783,
+    "inlet_total_pressure_Pa": 352.2201864559103,
+    "total_pressure_loss_Pa": 184.91443839473644,
+    "slot_area_mean_velocity_m_s": 16.00277328491211,
+    "core_line_CV_pct": 10.986432322936656,
+    "core_line_mean_velocity_m_s": 16.830488387314535,
+    "full_slot_area_CV_pct": 17.143930435180664,
+    "body_reverse_volume_pct": 8.394804917550452,
+    "engineering_convergence_pass": false
+  },
+  {
+    "case": "candidate_g8_q3",
+    "width_mm": 315,
+    "gap_mm": 8.0,
+    "flow_m3_min": 3.02399999999783,
+    "inlet_total_pressure_Pa": 445.5225658057672,
+    "total_pressure_loss_Pa": 189.1221297399029,
+    "slot_area_mean_velocity_m_s": 20.005043029785156,
+    "core_line_CV_pct": 7.011874431783939,
+    "core_line_mean_velocity_m_s": 21.006825480269324,
+    "full_slot_area_CV_pct": 15.114341735839844,
+    "body_reverse_volume_pct": 8.473755199946234,
+    "engineering_convergence_pass": false
+  },
+  {
+    "case": "control_g16_q3",
+    "width_mm": 315,
+    "gap_mm": 16.0,
+    "flow_m3_min": 3.02399999999783,
+    "inlet_total_pressure_Pa": 259.7183978202792,
+    "total_pressure_loss_Pa": 182.06228184009115,
+    "slot_area_mean_velocity_m_s": 10.000768661499023,
+    "core_line_CV_pct": 26.363840004906358,
+    "core_line_mean_velocity_m_s": 10.421911020898673,
+    "full_slot_area_CV_pct": 30.722415924072266,
+    "body_reverse_volume_pct": 7.8437493463365495,
+    "engineering_convergence_pass": false
+  }
+]

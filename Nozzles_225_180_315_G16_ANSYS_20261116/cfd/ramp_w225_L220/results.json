@@ -1,0 +1,39 @@
+{
+  "name": "ramp_w225_L220",
+  "conditions": {
+    "prescribed_Q_m3_min": 2.16,
+    "hypothetical_inlet_total_pressure_Pa": null,
+    "actual_fan_curve_used": false,
+    "height_mm": 288.0,
+    "gap_mm": 16,
+    "span_mm": 225,
+    "body_height_mm": 25,
+    "lip_length_mm": 263.0,
+    "warm_start_source": "screen_w225_L180",
+    "profile_kind": "ramp",
+    "feed_elbow_R_mm": 90,
+    "vane_count": 0,
+    "external_free_jet": false,
+    "ambient_boundary_type": null
+  },
+  "reports": {
+    "batch": 40,
+    "elapsed_s": 418.95638704299927,
+    "pin": -47.25365293947904,
+    "ptin": 140.4197872918646,
+    "ptout": 75.26122083829952,
+    "min": 0.04319999999991294,
+    "mout": -0.0431998742693384
+  },
+  "required_static_pressure_Pa": -47.25365293947904,
+  "pressure_loss_to_domain_outlet_Pa": 65.15856645356507,
+  "nozzle_flow_m3_min": 2.159999999995647,
+  "mass_imbalance_pct": 0.00029104299662549425,
+  "outlet_mean_axial_velocity_m_s": 9.999648094177246,
+  "outlet_full_area_CV": 0.2770930528640747,
+  "negative_uz_volume_fraction": 0.05805119313407253,
+  "min_uz_m_s": -3.9666102007482205,
+  "last_pressure_change_pct": 0.027089128753615906,
+  "solver": "Fluent 2026 R1, 3D double, SST k-omega; steady incompressible; smooth walls",
+  "nozzle_body_reverse_axial_volume_pct": 7.962300550622305
+}

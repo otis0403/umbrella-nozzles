@@ -1,0 +1,13 @@
+{
+  "case": "screen_w225_L220",
+  "width_mm": 225,
+  "flow_m3_min": 2.159999999995647,
+  "inlet_total_pressure_Pa": 149.440005979807,
+  "total_pressure_loss_Pa": 64.99039849500261,
+  "slot_area_mean_velocity_m_s": 9.998133659362793,
+  "core_line_CV_pct": 22.834885084302993,
+  "core_line_mean_velocity_m_s": 11.040457641546707,
+  "full_slot_area_CV_pct": 34.045310974121094,
+  "body_reverse_volume_pct": 12.732741147884214,
+  "engineering_convergence_pass": false
+}

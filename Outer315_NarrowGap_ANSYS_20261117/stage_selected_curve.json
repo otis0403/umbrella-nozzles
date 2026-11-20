@@ -1,0 +1,16 @@
+{
+  "log": "selected_curve_fluent.log",
+  "jobs": [
+    {
+      "name": "selected_g8_q2",
+      "width": 315,
+      "length": 320,
+      "gap": 8,
+      "profile_kind": "ramp",
+      "guided": true,
+      "q": 2,
+      "warm": "candidate_g8_q3",
+      "batches": 25
+    }
+  ]
+}

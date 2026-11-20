@@ -1,0 +1,6 @@
+{
+  "jobs":[
+    {"name":"network_narrow_Ps460_hose60","static_pressure":460,"lengths":[0.6,0.6,0.6]},
+    {"name":"network_narrow_Ps460_hose50","static_pressure":460,"lengths":[0.5,0.5,0.5],"warm":"network_narrow_Ps460_hose60"}
+  ]
+}

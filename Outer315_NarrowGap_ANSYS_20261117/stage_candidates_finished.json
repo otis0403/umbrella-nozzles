@@ -1,0 +1,9 @@
+{
+  "completed": [
+    "control_g16_q3",
+    "candidate_g10_q3",
+    "candidate_g8_q3"
+  ],
+  "plan": "stage_candidates.json",
+  "owned_solver_closed": true
+}

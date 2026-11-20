@@ -1,0 +1,13 @@
+{
+  "case": "screen_w180_L140",
+  "width_mm": 180,
+  "flow_m3_min": 1.727999999996515,
+  "inlet_total_pressure_Pa": 115.9922722537464,
+  "total_pressure_loss_Pa": 40.532809233722745,
+  "slot_area_mean_velocity_m_s": 9.999350547790527,
+  "core_line_CV_pct": 13.57413766805378,
+  "core_line_mean_velocity_m_s": 11.121676974309146,
+  "full_slot_area_CV_pct": 27.34377670288086,
+  "body_reverse_volume_pct": 9.825897953587093,
+  "engineering_convergence_pass": false
+}

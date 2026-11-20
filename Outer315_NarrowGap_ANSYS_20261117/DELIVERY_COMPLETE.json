@@ -1,0 +1,14 @@
+{
+    "delivery":  "C:\\Users\\otiso\\umbrella\\case\\集風罩\\三尺寸吹嘴_外側收窄_225x16_180x16_315x8_20261117",
+    "gap_mm":  8,
+    "model_zip":  "C:\\Users\\otiso\\umbrella\\case\\集風罩\\三尺寸吹嘴_外側收窄_225x16_180x16_315x8_20261117\\三尺寸完整吹嘴_外側收窄_模型與報告.zip",
+    "native_zip":  "C:\\Users\\otiso\\umbrella\\case\\集風罩\\三尺寸吹嘴_外側收窄_225x16_180x16_315x8_20261117\\ANSYS主要案例_case_data.zip",
+    "baseline_outer_speed_m_s":  10.058753627678248,
+    "new_outer_speed_m_s":  17.53696092603731,
+    "gain_pct":  74.34526756656604,
+    "prototype_limitations_disclosed":  true,
+    "actual_fan_point_verified":  false,
+    "file_count":  76,
+    "visual_review_passed":  true,
+    "owned_solver_processes_closed":  true
+}

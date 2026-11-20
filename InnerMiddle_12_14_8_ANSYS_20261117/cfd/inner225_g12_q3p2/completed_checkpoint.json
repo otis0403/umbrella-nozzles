@@ -1,0 +1,15 @@
+{
+  "signature": {
+    "name": "inner225_g12_q3p2",
+    "width": 225,
+    "length": 220,
+    "gap": 12,
+    "profile_kind": "ramp",
+    "q": 3.2
+  },
+  "result_sha256": "51b7e533611c0fd804d3bec92c04a7b564b60834ec85e9f336e0c1c30733636a",
+  "native_sizes": {
+    "solution.cas.h5": 5908687,
+    "solution.dat.h5": 45648063
+  }
+}

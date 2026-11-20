@@ -1,0 +1,15 @@
+{
+  "signature": {
+    "name": "center180_g14_q1p728",
+    "width": 180,
+    "length": 180,
+    "gap": 14,
+    "profile_kind": "ramp",
+    "q": 1.728
+  },
+  "result_sha256": "a51c2e0722558630f2984ba63e937fae2bafb430eaa9bb3df342ff825dea793d",
+  "native_sizes": {
+    "solution.cas.h5": 5446583,
+    "solution.dat.h5": 41883230
+  }
+}

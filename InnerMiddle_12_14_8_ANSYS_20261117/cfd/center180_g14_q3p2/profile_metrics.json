@@ -1,0 +1,14 @@
+{
+  "case": "center180_g14_q3p2",
+  "width_mm": 180,
+  "gap_mm": 14.0,
+  "flow_m3_min": 3.1999999999935533,
+  "inlet_total_pressure_Pa": 407.5456633409398,
+  "total_pressure_loss_Pa": 117.36581169399022,
+  "slot_area_mean_velocity_m_s": 21.1693115234375,
+  "core_line_CV_pct": 3.213220968780104,
+  "core_line_mean_velocity_m_s": 22.29270254405858,
+  "full_slot_area_CV_pct": 16.079500198364258,
+  "body_reverse_volume_pct": 2.3533722529327914,
+  "engineering_convergence_pass": false
+}

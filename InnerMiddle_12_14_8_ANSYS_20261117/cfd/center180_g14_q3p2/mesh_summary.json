@@ -1,0 +1,33 @@
+{
+  "name": "center180_g14_q3p2",
+  "height_mm": 248.0,
+  "width_mm": 180,
+  "span_mm": 180,
+  "transition_length_mm": 180,
+  "profile_kind": "ramp",
+  "gap_mm": 14.0,
+  "external": false,
+  "fine": false,
+  "feed_elbow_R_mm": 90,
+  "inlet_area_m2": 0.00203508357664503,
+  "outlet_slot_area_m2": 0.0025194506192982974,
+  "reach_mm": 0,
+  "inlet_normal": [
+    -1,
+    0,
+    0
+  ],
+  "body_height_mm": 25,
+  "lip_length_mm": 223.0,
+  "cells": 169824,
+  "nodes": 177975,
+  "minimum_tetra_volume_m3": 1.922020936704635e-12,
+  "volume_m3": 0.0010413249892534272,
+  "zones": {
+    "inlet": 976,
+    "interior": 501536,
+    "outlet": 976,
+    "housing": 13920
+  },
+  "geometry_revision": "20261114_open_ambient_v1"
+}

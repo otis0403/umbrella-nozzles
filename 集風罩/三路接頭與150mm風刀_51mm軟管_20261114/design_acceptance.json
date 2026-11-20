@@ -1,0 +1,15 @@
+{
+  "outlet_clear_span_mm": 150,
+  "outlet_clear_gap_mm": 16,
+  "baseline_maximum_branch_balance_error_pct": 2.3896049707150313,
+  "baseline_under_5pct": true,
+  "sensitivity_maximum_branch_balance_error_pct": 6.421425847399275,
+  "sensitivity_under_10pct": true,
+  "maximum_nozzle_line_CV_pct": 10.119040563213824,
+  "nozzle_line_CV_under_10pct": false,
+  "fine_nozzle_converged": false,
+  "nozzle_uniformity_is_a_design_target_not_a_physical_test": true,
+  "physical_drying_test_complete": false,
+  "all_nozzle_mesh_sensitivity_targets_met": false,
+  "release_status": "printable_prototype_with_reported_numerical_limits"
+}

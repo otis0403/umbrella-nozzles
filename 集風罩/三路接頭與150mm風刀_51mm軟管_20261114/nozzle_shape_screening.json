@@ -1,0 +1,128 @@
+[
+  {
+    "case": "open_L120_W150",
+    "length_mm": 120,
+    "shoulder_mm": 150,
+    "plenum_mm": null,
+    "maximum_CV_pct": 14.492918938606932,
+    "uniformity_target_pass": false,
+    "reference_flow_m3_min": 1.8170393240861218,
+    "CFD_required_total_pressure_Pa": 161.284219895248,
+    "estimated_system_branch_flow_m3_min": [
+      1.8285874899465533,
+      1.8829123014974616,
+      1.828587615907673
+    ],
+    "estimated_worst_patch_score_Pa": 78.30629092738931,
+    "estimate_only_not_final_coupled_CFD": true,
+    "ambient_open_verified": true
+  },
+  {
+    "case": "open_L120_W170",
+    "length_mm": 120,
+    "shoulder_mm": 170,
+    "plenum_mm": null,
+    "maximum_CV_pct": 20.1544023374921,
+    "uniformity_target_pass": false,
+    "reference_flow_m3_min": 1.8170393240861218,
+    "CFD_required_total_pressure_Pa": 178.0205051948409,
+    "estimated_system_branch_flow_m3_min": [
+      1.7897161031675755,
+      1.8406228620386897,
+      1.7897162213171207
+    ],
+    "estimated_worst_patch_score_Pa": 76.61247075471393,
+    "estimate_only_not_final_coupled_CFD": true,
+    "ambient_open_verified": true
+  },
+  {
+    "case": "open_L80_W150",
+    "length_mm": 80,
+    "shoulder_mm": 150,
+    "plenum_mm": null,
+    "maximum_CV_pct": 20.853833680505204,
+    "uniformity_target_pass": false,
+    "reference_flow_m3_min": 1.8170393240861222,
+    "CFD_required_total_pressure_Pa": 171.0410525725533,
+    "estimated_system_branch_flow_m3_min": [
+      1.8056529661603635,
+      1.8579421855937968,
+      1.805653087470849
+    ],
+    "estimated_worst_patch_score_Pa": 78.71860475195783,
+    "estimate_only_not_final_coupled_CFD": true,
+    "ambient_open_verified": true
+  },
+  {
+    "case": "open_L150_W150",
+    "length_mm": 150,
+    "shoulder_mm": 150,
+    "plenum_mm": null,
+    "maximum_CV_pct": 14.694582981506754,
+    "uniformity_target_pass": false,
+    "reference_flow_m3_min": 1.8170393240861222,
+    "CFD_required_total_pressure_Pa": 164.0567903553924,
+    "estimated_system_branch_flow_m3_min": [
+      1.8219903939212962,
+      1.8757240486982099,
+      1.8219905185322707
+    ],
+    "estimated_worst_patch_score_Pa": 78.46465225367172,
+    "estimate_only_not_final_coupled_CFD": true,
+    "ambient_open_verified": true
+  },
+  {
+    "case": "open_L120_W150_P20",
+    "length_mm": 120,
+    "shoulder_mm": 150,
+    "plenum_mm": 20,
+    "maximum_CV_pct": 10.060869366241546,
+    "uniformity_target_pass": false,
+    "reference_flow_m3_min": 1.8170393240861218,
+    "CFD_required_total_pressure_Pa": 144.2634081534481,
+    "estimated_system_branch_flow_m3_min": [
+      1.870551156278567,
+      1.9287442983574228,
+      1.8705512910656872
+    ],
+    "estimated_worst_patch_score_Pa": 73.54229217809129,
+    "estimate_only_not_final_coupled_CFD": true,
+    "ambient_open_verified": true
+  },
+  {
+    "case": "open_L120_W150_P30",
+    "length_mm": 120,
+    "shoulder_mm": 150,
+    "plenum_mm": 30,
+    "maximum_CV_pct": 9.39999673610561,
+    "uniformity_target_pass": true,
+    "reference_flow_m3_min": 1.8170393240861218,
+    "CFD_required_total_pressure_Pa": 144.9447810238688,
+    "estimated_system_branch_flow_m3_min": [
+      1.8688210365390316,
+      1.926850957505613,
+      1.8688211709540539
+    ],
+    "estimated_worst_patch_score_Pa": 63.32350767076811,
+    "estimate_only_not_final_coupled_CFD": true,
+    "ambient_open_verified": true
+  },
+  {
+    "case": "open_L120_W150_P22",
+    "length_mm": 120,
+    "shoulder_mm": 150,
+    "plenum_mm": 22,
+    "maximum_CV_pct": 9.184696808626654,
+    "uniformity_target_pass": true,
+    "reference_flow_m3_min": 1.8170393240861218,
+    "CFD_required_total_pressure_Pa": 143.2026191110783,
+    "estimated_system_branch_flow_m3_min": [
+      1.8732533215292502,
+      1.9317020380594205,
+      1.8732534568989525
+    ],
+    "estimated_worst_patch_score_Pa": 70.29848398676754,
+    "estimate_only_not_final_coupled_CFD": true,
+    "ambient_open_verified": true
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "case": "curve_selected_P22_q1",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "mout": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "curve_selected_P22_q2.5",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "mout": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_adapter_100_120",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "m2": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_adapter_60_80",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "m2": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_adapter_50_70",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "m2": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_pressure200",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "m2": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_friction_low",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "m2": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_friction_high",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "m2": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_short_pipe_more_bends",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "m2": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_one_side_extra_bend",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "m2": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "reference_final_old_layout",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "m2": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_jet_100_120",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "mout": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_jet_60_80",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "mout": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_jet_50_70",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "mout": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_adapter_fine",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "m2": 0.0
+    },
+    "engineering_convergence_pass": true,
+    "diagnostic_only": false
+  },
+  {
+    "case": "final_jet_fine",
+    "native_case_data_reopened": true,
+    "maximum_relative_error": 0.0,
+    "relative_errors": {
+      "pin": 0.0,
+      "ptin": 0.0,
+      "min": 0.0,
+      "mout": 0.0
+    },
+    "engineering_convergence_pass": false,
+    "diagnostic_only": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "adapter": {
+    "total_flow_change_pct": -0.06468205852192543,
+    "maximum_share_change_percentage_points": 0.05329637884118199,
+    "method": "Finer O-grid with changed topology; not GCI"
+  },
+  "nozzle": {
+    "30mm_normalized_dynamic_pressure_change_pct": 3.521385245719477,
+    "50mm_normalized_dynamic_pressure_change_pct": 3.5206676090427935,
+    "80mm_normalized_dynamic_pressure_change_pct": 2.1757316893319834,
+    "required_total_pressure_normalized_change_pct": 7.864798307616416,
+    "dynamic_pressure_target_under_5pct": true,
+    "required_total_pressure_target_under_5pct": false,
+    "fine_case_engineering_converged": false,
+    "evaluation_status": "diagnostic_only_fine_case_not_converged",
+    "all_5pct_targets_met": false,
+    "method": "Finer O-grid plus downstream open-domain length 250 to 400 mm; combined sensitivity, not GCI"
+  }
+}

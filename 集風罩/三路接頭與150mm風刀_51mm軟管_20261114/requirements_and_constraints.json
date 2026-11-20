@@ -1,0 +1,49 @@
+{
+  "duct_ID_mm": 51,
+  "spigot_OD_mm": 50,
+  "spigot_ID_mm": 46,
+  "insertion_mm": 25,
+  "nozzle_span_mm": 150,
+  "gap_candidates_mm": [
+    16
+  ],
+  "nozzle_transition_lengths_mm": [
+    80,
+    120,
+    150
+  ],
+  "pipe_lengths_center_and_sides_m": [
+    [
+      0.5,
+      0.7
+    ],
+    [
+      0.6,
+      0.8
+    ],
+    [
+      1.0,
+      1.2
+    ]
+  ],
+  "balance_priority": true,
+  "printer": "K1C",
+  "original_files_unchanged": true,
+  "outlet_gap_mm": 16,
+  "user_fixed_16mm": true,
+  "pipe_length_definition": "physical hose cut lengths; subtract 25 mm insertion at each end for the clear ID51 segment",
+  "effective_ID51_lengths_center_sides_m": [
+    [
+      0.45,
+      0.65
+    ],
+    [
+      0.55,
+      0.75
+    ],
+    [
+      0.95,
+      1.15
+    ]
+  ]
+}
